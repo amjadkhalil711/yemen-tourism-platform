@@ -1,0 +1,1011 @@
+/* ===== الخطوط ===== */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap');
+
+/* ===== المتغيرات ===== */
+:root {
+    --primary-color: #1e5f74;
+    --secondary-color: #133b5c;
+    --accent-color: #fcdab7;
+    --text-color: #333;
+    --light-color: #f5f5f5;
+    --dark-color: #1d1d1d;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+/* ===== إعادة تعيين ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    color: var(--text-color);
+    background-color: #f9f9f9;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* ===== الحاويات ===== */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ===== الشريط الجانبي ===== */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px 0;
+    z-index: 1000;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: var(--accent-color);
+}
+
+.logo h3 {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+nav {
+    flex: 1;
+    padding: 20px 0;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    margin: 5px 0;
+    transition: var(--transition);
+}
+
+nav ul li:hover, nav ul li.active {
+    background-color: var(--primary-color);
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a i {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-links a {
+    margin: 0 10px;
+    font-size: 20px;
+    opacity: 0.8;
+    transition: var(--transition);
+}
+
+.social-links a:hover {
+    opacity: 1;
+    color: var(--accent-color);
+}
+
+/* ===== المحتوى الرئيسي ===== */
+main {
+    margin-right: 250px;
+    min-height: 100vh;
+}
+
+/* ===== الهيدر البطل ===== */
+.hero {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/yemen-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* ===== الأزرار ===== */
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    transition: var(--transition);
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.btn-small {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+/* ===== المقدمة ===== */
+.intro {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.intro h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.intro p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+/* ===== المدن المميزة ===== */
+.featured-cities {
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+
+.featured-cities h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.cities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.city-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.city-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.city-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#sanaa {
+    background-image: url('../images/sanaa.jpg');
+}
+
+#shibam {
+    background-image: url('../images/shibam.jpg');
+}
+
+#socotra {
+    background-image: url('../images/socotra.jpg');
+}
+
+#aden {
+    background-image: url('../images/aden.jpg');
+}
+
+.city-card h3 {
+    font-size: 20px;
+    margin: 15px 15px 5px;
+}
+
+.city-card p {
+    font-size: 14px;
+    margin: 0 15px 15px;
+    color: #666;
+}
+
+.city-card .btn-small {
+    margin: 0 15px 15px;
+}
+
+/* ===== أنواع السياحة ===== */
+.tourism-types {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.tourism-types h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.types-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.type-card {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.type-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.type-card i {
+    font-size: 40px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.type-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.type-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* ===== قسم الدعوة للعمل ===== */
+.cta {
+    padding: 80px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/yemen-cta.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===== الفوتر ===== */
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* ===== هيدر الصفحة ===== */
+.page-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 36px;
+}
+
+/* ===== صفحة حول الموقع ===== */
+.about-content {
+    padding: 60px 0;
+}
+
+.about-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: var(--box-shadow);
+}
+
+.about-card h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.about-card p {
+    margin-bottom: 15px;
+}
+
+.features-list {
+    margin: 20px 0;
+}
+
+.features-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.features-list li i {
+    color: var(--primary-color);
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+/* ===== صفحة تواصل معنا ===== */
+.contact-content {
+    padding: 60px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contact-info, .contact-form {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 30px;
+    box-shadow: var(--box-shadow);
+}
+
+.contact-info h2, .contact-form h2 {
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.info-card {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.info-details h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+}
+
+.map-section {
+    padding: 60px 0;
+}
+
+.map-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.map-container {
+    height: 400px;
+    background-color: #f5f5f5;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.map-placeholder {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+
+.map-placeholder i {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+/* ===== صفحة المدن ===== */
+.cities-filter {
+    padding: 40px 0;
+    background-color: white;
+}
+
+.cities-filter h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.filter-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 14px;
+    transition: var(--transition);
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.cities-list {
+    padding: 40px 0;
+}
+
+.city-box {
+    background-color: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 30px;
+    display: flex;
+    transition: var(--transition);
+}
+
+.city-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.city-box .city-image {
+    width: 300px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.city-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.city-info h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.city-info p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* ===== قسم المعالم ===== */
+.landmarks-section {
+    padding: 40px 0;
+    display: none;
+}
+
+.landmarks-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.landmarks-header h2 {
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+.btn-back {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 16px;
+    transition: var(--transition);
+}
+
+.btn-back i {
+    margin-left: 5px;
+}
+
+.btn-back:hover {
+    color: var(--secondary-color);
+}
+
+.landmarks-filter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.landmark-filter-btn {
+    padding: 8px 16px;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 14px;
+    transition: var(--transition);
+}
+
+.landmark-filter-btn:hover, .landmark-filter-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.landmarks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.landmark-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+
+.landmark-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.landmark-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.landmark-info {
+    padding: 20px;
+}
+
+.landmark-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.landmark-info p {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+.landmark-category {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.category-tourism {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+.category-historical {
+    background-color: #fff8e1;
+    color: #ff8f00;
+}
+
+.category-natural {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+/* ===== النوافذ المنبثقة ===== */
+.landmark-modal, .map-modal, .guides-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2000;
+    overflow-y: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    transition: var(--transition);
+}
+
+.close-modal:hover {
+    color: var(--primary-color);
+}
+
+.modal-header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.modal-header h2 {
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-image-slider {
+    position: relative;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.slider-container {
+    height: 100%;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.slider-image.active {
+    display: block;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.slider-btn:hover {
+    background-color: white;
+}
+
+.slider-btn.prev {
+    right: 10px;
+}
+
+.slider-btn.next {
+    left: 10px;
+}
+
+.modal-description {
+    margin-bottom: 20px;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-modal {
+    flex: 1;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.btn-modal i {
+    margin-left: 5px;
+}
+
+.btn-modal:hover {
+    background-color: var(--secondary-color);
+}
+
+#landmark-map {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.directions-info {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: var(--border-radius);
+}
+
+.directions-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.guides-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.guide-card {
+    background-color: #f5f5f5;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    text-align: center;
+}
+
+.guide-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0 auto 15px;
+}
+
+.guide-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.guide-contact {
+    font-size: 14px;
+    color: #666;
+}
+
+/* ===== التجاوب ===== */
+@media (max-width: 992px) {
+    .sidebar {
+        width: 200px;
+    }
+    
+    main {
+        margin-right: 200px;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .city-box {
+        flex-direction: column;
+    }
+    
+    .city-box .city-image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 10px 0;
+    }
+    
+    .logo {
+        padding: 10px;
+    }
+    
+    nav {
+        padding: 10px 0;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li {
+        padding: 5px 10px;
+        margin: 5px;
+    }
+    
+    .social-links {
+        padding: 10px;
+    }
+    
+    main {
+        margin-right: 0;
+    }
+    
+    .hero {
+        height: 60vh;
+    }
+    
+    .hero-content h1 {
+        font-size: 36px;
+    }
+    
+    .hero-content p {
+        font-size: 18px;
+    }
+    
+    .intro, .featured-cities, .tourism-types, .cta {
+        padding: 40px 0;
+    }
+    
+    .intro h2, .featured-cities h2, .tourism-types h2, .cta h2 {
+        font-size: 28px;
+    }
+    
+    .modal-content {
+        margin: 20px auto;
+        width: 95%;
+    }
+    
+    .modal-image-slider {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 28px;
+    }
+    
+    .hero-content p {
+        font-size: 16px;
+    }
+    
+    .intro h2, .featured-cities h2, .tourism-types h2, .cta h2 {
+        font-size: 24px;
+    }
+    
+    .modal-image-slider {
+        height: 200px;
+    }
+    
+    .modal-actions {
+        flex-direction: column;
+    }
+}

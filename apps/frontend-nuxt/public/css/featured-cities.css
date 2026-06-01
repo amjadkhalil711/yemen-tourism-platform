@@ -1,0 +1,188 @@
+/* تحديثات CSS للمدن المميزة */
+.featured-cities {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+    position: relative;
+    overflow: hidden;
+}
+
+.featured-cities::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/patterns/pattern1.png');
+    opacity: 0.05;
+    z-index: 0;
+}
+
+.featured-cities .container {
+    position: relative;
+    z-index: 1;
+}
+
+.featured-cities h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.featured-cities h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #2c3e50, #4ca1af);
+    margin: 15px auto 0;
+    border-radius: 2px;
+}
+
+.cities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.city-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.city-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.city-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.city-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+}
+
+.city-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    z-index: 2;
+}
+
+.city-card h3 {
+    padding: 20px 20px 10px;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.city-card p {
+    padding: 0 20px;
+    margin: 0 0 20px;
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.city-card .btn-small {
+    display: inline-block;
+    margin: 0 20px 20px;
+    padding: 8px 20px;
+    background-color: #2c3e50;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.city-card .btn-small:hover {
+    background-color: #4ca1af;
+    transform: scale(1.05);
+}
+
+.city-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    z-index: 3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* صور المدن المميزة */
+#sanaa {
+    background-image: url('../images/backgrounds/sanaa_city.jpg');
+}
+
+#taiz {
+    background-image: url('../images/backgrounds/taiz_city.jpg');
+}
+
+#ibb {
+    background-image: url('../images/backgrounds/ibb_city.jpg');
+}
+
+#shibam {
+    background-image: url('../images/backgrounds/shibam_city.jpg');
+}
+
+#socotra {
+    background-image: url('../images/backgrounds/socotra_island.jpg');
+}
+
+#aden {
+    background-image: url('../images/backgrounds/aden_city.jpg');
+}
+
+/* تأثيرات الظهور */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* تحسينات للأجهزة المحمولة */
+@media (max-width: 768px) {
+    .cities-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .city-card {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

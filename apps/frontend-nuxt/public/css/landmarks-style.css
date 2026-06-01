@@ -1,0 +1,783 @@
+/* ===== تحسينات عرض المعالم ===== */
+
+/* تنسيق حاوية المعالم */
+.landmarks-container {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.landmarks-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.landmarks-header h2 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin: 0;
+    position: relative;
+}
+
+.landmarks-header h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 80px;
+    height: 3px;
+    background-color: #e74c3c;
+}
+
+.btn-back {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-back:hover {
+    background-color: #2980b9;
+    transform: translateX(5px);
+}
+
+.btn-back-to-cities {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-back-to-cities:hover {
+    background-color: #2980b9;
+    transform: translateX(5px);
+}
+
+/* تنسيق تصفية المعالم */
+.landmarks-filter {
+    margin-bottom: 30px;
+}
+
+.landmarks-filter h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.landmark-filter-btn {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border: none;
+    padding: 8px 15px;
+    margin: 0 5px 10px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.landmark-filter-btn:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.landmark-filter-btn.active {
+    background-color: #3498db;
+    color: white;
+}
+
+/* تنسيق شبكة المعالم */
+.landmarks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* تنسيق بطاقة المعلم */
+.landmark-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.landmark-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.landmark-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.landmark-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.landmark-info {
+    padding: 20px;
+}
+
+.landmark-info h3 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+.landmark-info p {
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.landmark-category {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.category-historical {
+    background-color: #e74c3c;
+}
+
+.category-architectural {
+    background-color: #9b59b6;
+}
+
+.category-religious {
+    background-color: #3498db;
+}
+
+.category-natural {
+    background-color: #2ecc71;
+}
+
+.category-coastal {
+    background-color: #1abc9c;
+}
+
+.category-cultural {
+    background-color: #f39c12;
+}
+
+.category-recreational {
+    background-color: #d35400;
+}
+
+.category-mountain {
+    background-color: #8e44ad;
+}
+
+.category-desert {
+    background-color: #f1c40f;
+}
+
+.landmark-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.landmark-actions .btn-small {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+}
+
+/* تنسيق النافذة المنبثقة */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 1.8rem;
+    color: #7f8c8d;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.close-modal:hover {
+    color: #e74c3c;
+}
+
+.modal-content h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+/* تنسيق شريط الصور */
+.modal-slider-container {
+    position: relative;
+    height: 400px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-slider {
+    height: 100%;
+    position: relative;
+}
+
+.slider-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slider-image.active {
+    opacity: 1;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.slider-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-btn.prev {
+    right: 15px;
+}
+
+.slider-btn.next {
+    left: 15px;
+}
+
+/* تنسيق معلومات المعلم */
+.modal-info {
+    padding: 20px 0;
+}
+
+.modal-info p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #34495e;
+    margin-bottom: 30px;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 15px;
+}
+
+.modal-actions .btn-small {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* تنسيق الخريطة */
+.map-container {
+    height: 400px;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.directions-info {
+    margin-top: 20px;
+}
+
+.directions-info h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.directions-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+/* تنسيق قائمة المرشدين */
+.guides-list {
+    margin-top: 20px;
+}
+
+.guide-card {
+    display: flex;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.guide-image {
+    width: 120px;
+    background-size: cover;
+    background-position: center;
+}
+
+.guide-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.guide-info h3 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.guide-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+/* تنسيق القائمة المنسدلة في الشريط الجانبي */
+.submenu {
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+.submenu li {
+    margin-bottom: 8px;
+}
+
+.submenu a {
+    font-size: 0.9rem;
+    color: #ecf0f1;
+    transition: all 0.3s ease;
+}
+
+.submenu a:hover {
+    color: #3498db;
+}
+
+/* تنسيق رسالة عدم وجود معالم */
+.no-landmarks {
+    text-align: center;
+    padding: 50px 0;
+    color: #7f8c8d;
+}
+
+.no-landmarks i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #e74c3c;
+}
+
+.no-landmarks p {
+    font-size: 1.2rem;
+}
+
+/* تجاوب مع الشاشات المختلفة */
+@media (max-width: 768px) {
+    .landmarks-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .modal-content {
+        width: 95%;
+        padding: 20px;
+    }
+    
+    .modal-slider-container {
+        height: 300px;
+    }
+    
+    .guide-card {
+        flex-direction: column;
+    }
+    
+    .guide-image {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .landmarks-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .landmarks-filter .filter-options {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .landmark-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .landmark-actions .btn-small {
+        width: 100%;
+    }
+    
+    .modal-actions {
+        flex-direction: column;
+    }
+    
+    .modal-slider-container {
+        height: 250px;
+    }
+}
+
+/* ========================================================
+   PREMIUM LANDMARK MODAL STYLING (REDESIGN)
+======================================================== */
+
+.premium-landmark-modal {
+    background-color: rgba(15, 23, 42, 0.85); /* Deep slate backdrop */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: none;
+    padding: 20px;
+    z-index: 10000;
+}
+
+.premium-modal-backdrop {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    cursor: pointer;
+}
+
+.premium-modal-content {
+    background: #ffffff;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 850px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    margin: 8vh auto; /* Centers the modal */
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+    animation: premiumModalSlideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes premiumModalSlideUp {
+    from { opacity: 0; transform: translateY(40px) scale(0.96); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.premium-close-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 1.2rem;
+    z-index: 10;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.premium-close-btn:hover {
+    background: white;
+    color: #e3342f;
+    transform: rotate(90deg);
+}
+
+.premium-modal-hero {
+    position: relative;
+    height: 400px; /* slightly smaller to fit laptop screens better */
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.premium-modal-hero .modal-slider-container {
+    height: 100%;
+    margin-bottom: 0;
+    border-radius: 0; /* Override old border radius */
+}
+
+.slider-gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0) 100%);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.premium-hero-content {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    left: 40px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.premium-badge {
+    background: linear-gradient(135deg, #3b82f6, #2dd4bf);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(45, 212, 191, 0.4);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.premium-title {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin: 0;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    line-height: 1.2;
+}
+
+/* Redesigning slider buttons */
+.premium-modal-hero .slider-btn {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 48px;
+    height: 48px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 5;
+}
+.premium-modal-hero .slider-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: #0f172a;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.premium-info-section {
+    padding: 40px;
+    background: #f8fafc; /* Very light slate */
+    border-radius: 0 0 24px 24px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.premium-description-card {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.premium-quote-icon {
+    position: absolute;
+    top: -15px;
+    right: 30px;
+    background: #10b981;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
+}
+
+.premium-description-text {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #334155;
+    margin: 0;
+    text-align: justify;
+}
+
+.premium-action-cards {
+    display: none; /* مخفي حاليا بناء على طلب المستخدم */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.action-card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    position: relative;
+    overflow: hidden;
+}
+
+.action-card::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; width: 4px; height: 100%;
+    background: #3b82f6;
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+    transform-origin: bottom;
+}
+
+.action-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px -5px rgba(59, 130, 246, 0.15);
+    border-color: #bfdbfe;
+}
+
+.action-card:hover::before {
+    transform: scaleY(1);
+}
+
+.action-card#show-directions::before { background: #3b82f6; }
+.action-card#show-guides::before { background: #f59e0b; }
+
+.action-card#show-directions .action-icon {
+    background: #eff6ff; color: #3b82f6;
+}
+
+.action-card#show-guides .action-icon {
+    background: #fffbeb; color: #f59e0b;
+}
+
+.action-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.action-text h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+.action-text p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+.action-arrow {
+    margin-right: auto;
+    color: #cbd5e1;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.action-card:hover .action-arrow {
+    transform: translateX(-5px);
+    color: #3b82f6;
+}
+
+@media (max-width: 768px) {
+    .premium-modal-hero { height: 300px; }
+    .premium-title { font-size: 2rem; }
+    .premium-hero-content { right: 20px; left: 20px; bottom: 20px; }
+    .premium-action-cards { grid-template-columns: 1fr; }
+    .premium-info-section { padding: 20px; }
+}

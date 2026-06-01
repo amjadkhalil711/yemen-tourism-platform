@@ -1,0 +1,965 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Marhey:wght@500;700&family=Tajawal:wght@500;700;800;900&display=swap');
+
+:root {
+    --lg-bg-1: #f4fbff;
+    --lg-bg-2: #eef6ff;
+    --lg-bg-3: #fff6ec;
+    --lg-surface: rgba(255, 255, 255, 0.66);
+    --lg-surface-strong: rgba(255, 255, 255, 0.82);
+    --lg-border: rgba(120, 163, 198, 0.26);
+    --lg-border-strong: rgba(255, 255, 255, 0.52);
+    --lg-text: #19354d;
+    --lg-text-soft: #547086;
+    --lg-accent: #4ca8d8;
+    --lg-accent-2: #7fd7c4;
+    --lg-accent-3: #f1b778;
+    --lg-gold-border: rgba(212, 175, 55, 0.44);
+    --lg-gold-border-strong: rgba(212, 175, 55, 0.66);
+    --lg-gold-glow: rgba(212, 175, 55, 0.14);
+    --lg-shadow: 0 28px 60px rgba(48, 89, 123, 0.18);
+    --lg-shadow-strong: 0 38px 90px rgba(44, 85, 120, 0.24);
+}
+
+body.legacy-light {
+    font-family: 'Cairo', 'Tajawal', sans-serif;
+    background:
+        radial-gradient(circle at top left, rgba(76, 168, 216, 0.16), transparent 28%),
+        radial-gradient(circle at 85% 15%, rgba(127, 215, 196, 0.16), transparent 24%),
+        linear-gradient(135deg, var(--lg-bg-1), var(--lg-bg-2) 48%, var(--lg-bg-3));
+    color: var(--lg-text);
+    line-height: 1.82;
+    min-height: 100vh;
+    position: relative;
+}
+
+body.legacy-light::before,
+body.legacy-light::after {
+    content: '';
+    position: fixed;
+    inset: auto;
+    width: 26rem;
+    height: 26rem;
+    border-radius: 50%;
+    filter: blur(24px);
+    z-index: -1;
+    opacity: 0.45;
+    pointer-events: none;
+}
+
+body.legacy-light::before {
+    top: -8rem;
+    left: -8rem;
+    background: radial-gradient(circle, rgba(127, 215, 196, 0.42), rgba(127, 215, 196, 0));
+}
+
+body.legacy-light::after {
+    right: -10rem;
+    bottom: -8rem;
+    background: radial-gradient(circle, rgba(241, 183, 120, 0.36), rgba(241, 183, 120, 0));
+}
+
+body.legacy-light main {
+    margin-right: 300px !important;
+    position: relative;
+}
+
+body.legacy-light .sidebar.collapsed + main {
+    margin-right: 0 !important;
+}
+
+body.legacy-light .sidebar {
+    width: 300px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(246, 252, 255, 0.62));
+    color: var(--lg-text);
+    border-left: 1px solid var(--lg-border-strong);
+    box-shadow: -18px 0 48px rgba(36, 75, 106, 0.14);
+    backdrop-filter: blur(28px);
+    -webkit-backdrop-filter: blur(28px);
+}
+
+body.legacy-light .wave-effect,
+body.legacy-light .moving-bar {
+    opacity: 0.28;
+}
+
+body.legacy-light .logo {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(236, 247, 255, 0.62));
+    box-shadow: 0 16px 32px rgba(66, 110, 145, 0.08);
+    border-bottom: 1px solid rgba(120, 163, 198, 0.16);
+}
+
+body.legacy-light .logo h2,
+body.legacy-light .logo h3,
+body.legacy-light .nav-section-title,
+body.legacy-light nav ul li a {
+    color: var(--lg-text);
+}
+
+body.legacy-light .logo h2 {
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-size: 1.95rem;
+    font-weight: 900;
+    letter-spacing: 0;
+}
+
+body.legacy-light .logo h3 {
+    color: var(--lg-text-soft);
+}
+
+body.legacy-light .nav-section {
+    margin-bottom: 0.9rem;
+}
+
+body.legacy-light .nav-section::after {
+    background: linear-gradient(90deg, transparent, rgba(76, 168, 216, 0.14), transparent);
+}
+
+body.legacy-light .nav-section-title {
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-weight: 800;
+    border-right-color: transparent;
+}
+
+body.legacy-light .nav-section-title:hover,
+body.legacy-light nav ul li:hover,
+body.legacy-light nav ul li.active {
+    background: linear-gradient(90deg, rgba(76, 168, 216, 0.1), rgba(127, 215, 196, 0.14));
+    border-right-color: rgba(76, 168, 216, 0.48);
+}
+
+body.legacy-light .nav-section-content {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+body.legacy-light nav ul li a {
+    font-weight: 700;
+}
+
+body.legacy-light .social-links {
+    border-top: 1px solid rgba(120, 163, 198, 0.18);
+}
+
+body.legacy-light .social-links a {
+    color: var(--lg-text-soft);
+}
+
+body.legacy-light .social-links a:hover {
+    color: var(--lg-accent);
+}
+
+body.legacy-light .sidebar-toggle,
+body.legacy-light .admin-login-btn {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(237, 247, 255, 0.76));
+    color: var(--lg-text);
+    border: 1px solid rgba(255, 255, 255, 0.62);
+    box-shadow: 0 18px 38px rgba(39, 74, 104, 0.18);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+
+body.legacy-light .admin-login-btn:hover,
+body.legacy-light .sidebar-toggle:hover {
+    color: var(--lg-accent);
+    border-color: rgba(76, 168, 216, 0.32);
+    box-shadow: 0 24px 44px rgba(39, 74, 104, 0.24);
+}
+
+body.legacy-light .page-header,
+body.legacy-light .intro,
+body.legacy-light .featured-cities,
+body.legacy-light .tourism-types,
+body.legacy-light .cities-filter,
+body.legacy-light .cities-list,
+body.legacy-light .about-content,
+body.legacy-light .contact-content,
+body.legacy-light .map-section,
+body.legacy-light #landmarks-container,
+body.legacy-light .cta,
+body.legacy-light footer {
+    background: transparent !important;
+    position: relative;
+}
+
+body.legacy-light .page-header .container,
+body.legacy-light .intro .container,
+body.legacy-light .featured-cities .container,
+body.legacy-light .tourism-types .container,
+body.legacy-light .cities-filter .container,
+body.legacy-light .cities-list .container,
+body.legacy-light .about-content .container,
+body.legacy-light .contact-content .container,
+body.legacy-light .map-section .container,
+body.legacy-light #landmarks-container .container,
+body.legacy-light .cta .container,
+body.legacy-light footer .container {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(244, 250, 255, 0.54));
+    border: 1px solid var(--lg-border-strong);
+    border-radius: 34px;
+    box-shadow: var(--lg-shadow);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    position: relative;
+    overflow: hidden;
+}
+
+body.legacy-light .page-header .container::before,
+body.legacy-light .intro .container::before,
+body.legacy-light .featured-cities .container::before,
+body.legacy-light .tourism-types .container::before,
+body.legacy-light .cities-filter .container::before,
+body.legacy-light .cities-list .container::before,
+body.legacy-light .about-content .container::before,
+body.legacy-light .contact-content .container::before,
+body.legacy-light .map-section .container::before,
+body.legacy-light #landmarks-container .container::before,
+body.legacy-light .cta .container::before,
+body.legacy-light footer .container::before {
+    content: '';
+    position: absolute;
+    inset: 1px;
+    border-radius: 33px;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.06));
+    pointer-events: none;
+}
+
+body.legacy-light .intro .container,
+body.legacy-light .featured-cities .container,
+body.legacy-light .tourism-types .container,
+body.legacy-light .cities-filter .container,
+body.legacy-light .cities-list .container,
+body.legacy-light .about-content .container,
+body.legacy-light .contact-content .container,
+body.legacy-light .map-section .container,
+body.legacy-light #landmarks-container .container,
+body.legacy-light .cta .container {
+    padding: clamp(1.5rem, 3vw, 2.4rem);
+}
+
+body.legacy-light .page-header {
+    padding: 7rem 1.5rem 2rem;
+}
+
+body.legacy-light .page-header .container {
+    padding: 2.3rem clamp(1.5rem, 4vw, 3rem);
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+body.legacy-light .page-header h1,
+body.legacy-light .intro h2,
+body.legacy-light .featured-cities h2,
+body.legacy-light .tourism-types h2,
+body.legacy-light .cta h2,
+body.legacy-light .landmarks-header h2 {
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    color: var(--lg-text);
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+body.legacy-light .page-lead {
+    order: 2;
+    margin-top: 0.85rem;
+    color: var(--lg-text-soft);
+    font-size: 1.05rem;
+    max-width: 44rem;
+    font-weight: 700;
+}
+
+body.legacy-light .page-badges,
+body.legacy-light .hero-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1.3rem;
+}
+
+body.legacy-light .page-header h1 {
+    order: 1;
+}
+
+body.legacy-light .page-header .page-badges {
+    order: 3;
+}
+
+body.legacy-light .page-badges span,
+body.legacy-light .hero-highlights span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.7rem 1rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.58);
+    border: 1px solid var(--lg-gold-border);
+    box-shadow: 0 16px 28px rgba(62, 109, 145, 0.14);
+    color: var(--lg-text);
+    font-weight: 800;
+    font-size: 0.92rem;
+}
+
+body.legacy-light .page-badges i,
+body.legacy-light .hero-highlights i,
+body.legacy-light .auth-benefit-card i,
+body.legacy-light .auth-trust-note i {
+    background: none;
+    -webkit-text-fill-color: currentColor;
+}
+
+/* ===== Cities page header: white text over dark image overlay ===== */
+
+/* 1. Restore background image (overrides the global transparent !important) */
+body.legacy-cities .page-header {
+    background-image: url('/images/header_bg.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/* 2. Make the container fully transparent so the image shows through */
+body.legacy-cities .page-header .container {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+/* Hide the white glass ::before overlay on the container */
+body.legacy-cities .page-header .container::before {
+    display: none !important;
+}
+
+/* 3. White text */
+body.legacy-cities .page-header h1 {
+    color: #ffffff !important;
+    text-shadow: 0 3px 16px rgba(0, 0, 0, 0.55);
+}
+
+body.legacy-cities .page-lead {
+    color: rgba(240, 248, 255, 0.92) !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+body.legacy-cities .page-header .page-badges span {
+    background: rgba(255, 255, 255, 0.18) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.35) !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+
+
+body.legacy-home .hero {
+    padding: 2rem clamp(1rem, 2vw, 2rem);
+}
+
+body.legacy-home .hero::before {
+    background:
+        linear-gradient(135deg, rgba(18, 41, 63, 0.42), rgba(26, 49, 70, 0.18) 40%, rgba(17, 40, 64, 0.44)),
+        radial-gradient(circle at center, rgba(255, 255, 255, 0.14), transparent 45%);
+}
+
+body.legacy-home .hero::after {
+    display: none;
+}
+
+body.legacy-home .hero-content {
+    max-width: 980px;
+    padding: clamp(2rem, 4vw, 3.2rem);
+    border-radius: 36px;
+    /* شفاف تماماً — يظهر فيديو الخلفية بالكامل */
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    animation: legacyHeroEntrance 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+body.legacy-home .hero-content::before {
+    /* أزجلنا الطبقة الزجاجية الداخلية ليظهر الفيديو بوضوح */
+    display: none;
+}
+
+body.legacy-home .hero-content h1 {
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-size: clamp(2.6rem, 5vw, 4.5rem);
+    color: #ffffff;
+    background: none;
+    -webkit-text-fill-color: #ffffff;
+    text-shadow: 0 8px 24px rgba(6, 24, 42, 0.48), 0 2px 8px rgba(6, 24, 42, 0.32);
+    font-weight: 900;
+    line-height: 1.15;
+}
+
+body.legacy-home .hero-content p {
+    color: rgba(250, 252, 255, 0.98);
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    max-width: 44rem;
+    order: 2;
+    font-weight: 700;
+    text-shadow: 0 5px 18px rgba(6, 24, 42, 0.28);
+}
+
+body.legacy-home .hero-highlights {
+    order: 3;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+
+body.legacy-home .hero-highlights span {
+    background: rgba(255, 255, 255, 0.14);
+    color: #ffffff;
+    border-color: var(--lg-gold-border);
+    box-shadow: 0 16px 38px rgba(3, 18, 33, 0.18);
+}
+
+body.legacy-light .btn,
+body.legacy-light .btn-small,
+body.legacy-light .landmark-filter-btn,
+body.legacy-light .filter-btn {
+    background: linear-gradient(135deg, #78c9ef, #4ca8d8 55%, #76d8c2) !important;
+    color: #ffffff !important;
+    border: 1px solid var(--lg-gold-border);
+    box-shadow: 0 18px 34px rgba(76, 168, 216, 0.24), 0 0 0 1px var(--lg-gold-glow);
+    border-radius: 999px;
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+body.legacy-home .hero-content > .btn {
+    order: 4;
+}
+
+body.legacy-home .hero-content > .scroll-indicator {
+    order: 5;
+}
+
+body.legacy-light .btn:hover,
+body.legacy-light .btn-small:hover,
+body.legacy-light .landmark-filter-btn:hover,
+body.legacy-light .filter-btn:hover,
+body.legacy-light .filter-btn.active,
+body.legacy-light .landmark-filter-btn.active {
+    background: linear-gradient(135deg, #4ca8d8, #77d8c3 62%, #f1b778) !important;
+    box-shadow: 0 24px 44px rgba(76, 168, 216, 0.3), 0 0 0 1px rgba(212, 175, 55, 0.22);
+    border-color: var(--lg-gold-border-strong) !important;
+    transform: translateY(-4px);
+}
+
+body.legacy-light .city-card,
+body.legacy-light .type-card,
+body.legacy-light .city-box,
+body.legacy-light .landmark-card,
+body.legacy-light .about-card,
+body.legacy-light .contact-info,
+body.legacy-light .contact-form,
+body.legacy-light .info-card,
+body.legacy-light .map-placeholder {
+    background: linear-gradient(160deg, rgba(255, 255, 255, 0.74), rgba(245, 251, 255, 0.56)) !important;
+    border: 1px solid var(--lg-gold-border) !important;
+    box-shadow: 0 24px 48px rgba(52, 94, 129, 0.14) !important, 0 0 0 1px var(--lg-gold-glow);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    transform-style: preserve-3d;
+    overflow: hidden;
+}
+
+body.legacy-light .city-card::before,
+body.legacy-light .type-card::before,
+body.legacy-light .city-box::before,
+body.legacy-light .landmark-card::before,
+body.legacy-light .about-card::before,
+body.legacy-light .contact-info::before,
+body.legacy-light .contact-form::before,
+body.legacy-light .info-card::before,
+body.legacy-light .map-placeholder::before {
+    content: '';
+    position: absolute;
+    inset: -35% auto auto -20%;
+    width: 10rem;
+    height: 10rem;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+body.legacy-light .city-card:hover,
+body.legacy-light .type-card:hover,
+body.legacy-light .city-box:hover,
+body.legacy-light .landmark-card:hover,
+body.legacy-light .about-card:hover,
+body.legacy-light .info-card:hover,
+body.legacy-light .map-placeholder:hover {
+    transform: translateY(-14px) rotateX(6deg) rotateY(-4deg);
+    box-shadow: var(--lg-shadow-strong) !important;
+    border-color: var(--lg-gold-border-strong) !important;
+}
+
+body.legacy-light .city-card h3,
+body.legacy-light .type-card h3,
+body.legacy-light .city-box-content h3,
+body.legacy-light .landmark-info h3,
+body.legacy-light .about-card h2,
+body.legacy-light .contact-content h2,
+body.legacy-light .map-section h2,
+body.legacy-light .info-details h3 {
+    color: var(--lg-text);
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-weight: 800;
+}
+
+body.legacy-light .city-card p,
+body.legacy-light .type-card p,
+body.legacy-light .city-box-content p,
+body.legacy-light .landmark-info p,
+body.legacy-light .intro p,
+body.legacy-light .cta p,
+body.legacy-light .about-card p,
+body.legacy-light .features-list span,
+body.legacy-light .contact-content p,
+body.legacy-light .contact-content a,
+body.legacy-light .map-placeholder p {
+    color: var(--lg-text-soft);
+    font-weight: 600;
+}
+
+body.legacy-light .about-content .container,
+body.legacy-light .contact-content .container,
+body.legacy-light .map-section .container {
+    position: relative;
+}
+
+body.legacy-light .contact-content .container {
+    display: grid;
+    grid-template-columns: 0.88fr 1.12fr;
+    gap: 1.2rem;
+}
+
+body.legacy-light .about-card,
+body.legacy-light .contact-info,
+body.legacy-light .contact-form,
+body.legacy-light .map-placeholder {
+    border-radius: 28px;
+    padding: 1.35rem;
+    position: relative;
+    overflow: hidden;
+}
+
+body.legacy-light .info-card {
+    border-radius: 22px;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+body.legacy-light .features-list li,
+body.legacy-light .info-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
+}
+
+body.legacy-light .info-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.72);
+    box-shadow: 0 14px 24px rgba(52, 94, 129, 0.12);
+}
+
+body.legacy-light .contact-form form {
+    display: grid;
+    gap: 1rem;
+}
+
+body.legacy-light .contact-form input,
+body.legacy-light .contact-form textarea {
+    width: 100%;
+    padding: 0.95rem 1rem;
+    border-radius: 18px;
+    border: 1px solid rgba(120, 163, 198, 0.28);
+    background: rgba(255, 255, 255, 0.82);
+    color: var(--lg-text);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72), 0 18px 28px rgba(52, 94, 129, 0.08);
+}
+
+body.legacy-light .contact-form input:focus,
+body.legacy-light .contact-form textarea:focus {
+    outline: none;
+    border-color: rgba(76, 168, 216, 0.42);
+    box-shadow: 0 0 0 6px rgba(76, 168, 216, 0.11), 0 22px 34px rgba(52, 94, 129, 0.1);
+}
+
+body.legacy-light .city-image,
+body.legacy-light .city-box-image,
+body.legacy-light .landmark-image {
+    border-radius: 22px;
+    margin: 0.9rem;
+    overflow: hidden;
+    box-shadow: inset 0 -120px 100px rgba(16, 37, 58, 0.22);
+}
+
+body.legacy-light .city-box-image {
+    height: 230px;
+}
+
+body.legacy-light .landmark-image {
+    height: 230px;
+    margin-bottom: 0;
+}
+
+body.legacy-light .city-box-content,
+body.legacy-light .landmark-info {
+    padding-top: 0;
+}
+
+body.legacy-light .city-box-footer,
+body.legacy-light .landmark-actions,
+body.legacy-light .modal-actions {
+    gap: 0.85rem;
+}
+
+body.legacy-light .city-category,
+body.legacy-light .city-badge,
+body.legacy-light .landmark-category {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.88), rgba(233, 247, 255, 0.8));
+    color: var(--lg-text);
+    border: 1px solid rgba(120, 163, 198, 0.18);
+    box-shadow: 0 12px 26px rgba(52, 94, 129, 0.14);
+}
+
+body.legacy-light .cities-filter .container h2,
+body.legacy-light .landmarks-filter h3 {
+    color: var(--lg-text);
+    font-family: 'Marhey', 'Cairo', sans-serif;
+}
+
+body.legacy-light .filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+body.legacy-light #city-search-input,
+body.legacy-light #landmark-search-input {
+    background: rgba(255, 255, 255, 0.72) !important;
+    border: 1px solid rgba(120, 163, 198, 0.28) !important;
+    border-radius: 18px !important;
+    color: var(--lg-text);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 18px 32px rgba(52, 94, 129, 0.1);
+}
+
+body.legacy-light #city-search-input:focus,
+body.legacy-light #landmark-search-input:focus {
+    outline: none;
+    border-color: rgba(76, 168, 216, 0.46) !important;
+    box-shadow: 0 0 0 6px rgba(76, 168, 216, 0.11), 0 24px 36px rgba(52, 94, 129, 0.12);
+}
+
+body.legacy-light .modal {
+    background: linear-gradient(135deg, rgba(16, 39, 60, 0.28), rgba(24, 49, 73, 0.56));
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+body.legacy-light .modal-content,
+body.legacy-light .auth-modal-box {
+    background: linear-gradient(150deg, rgba(255, 255, 255, 0.78), rgba(244, 251, 255, 0.7));
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    border-radius: 30px;
+    box-shadow: var(--lg-shadow-strong);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+}
+
+body.legacy-light .modal-content {
+    padding: clamp(1.5rem, 3vw, 2.4rem);
+}
+
+body.legacy-light .modal-content h2,
+body.legacy-light .modal-header h2,
+body.legacy-light .auth-header h3 {
+    color: var(--lg-text);
+    font-family: 'Marhey', 'Cairo', sans-serif;
+}
+
+body.legacy-light .modal-description,
+body.legacy-light .directions-info p,
+body.legacy-light .guide-info p,
+body.legacy-light .auth-header p {
+    color: var(--lg-text-soft);
+}
+
+body.legacy-light .close-modal,
+body.legacy-light .auth-close,
+body.legacy-light .slider-btn {
+    background: rgba(255, 255, 255, 0.72);
+    color: var(--lg-text);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 18px 30px rgba(52, 94, 129, 0.16);
+}
+
+body.legacy-light .close-modal,
+body.legacy-light .auth-close {
+    width: 2.6rem;
+    height: 2.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+body.legacy-light .slider-btn:hover,
+body.legacy-light .close-modal:hover,
+body.legacy-light .auth-close:hover {
+    background: rgba(255, 255, 255, 0.92);
+    color: var(--lg-accent);
+}
+
+body.legacy-light .map-container,
+body.legacy-light .modal-slider-container {
+    border-radius: 24px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.74);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.42), 0 26px 40px rgba(52, 94, 129, 0.12);
+}
+
+body.legacy-light .directions-info,
+body.legacy-light .guide-card {
+    background: rgba(255, 255, 255, 0.62);
+    border: 1px solid rgba(255, 255, 255, 0.76);
+    border-radius: 24px;
+    box-shadow: 0 18px 32px rgba(52, 94, 129, 0.12);
+}
+
+body.legacy-light .guide-card {
+    overflow: hidden;
+}
+
+body.legacy-light .guide-info h3,
+body.legacy-light .directions-info h3 {
+    color: var(--lg-text);
+}
+
+body.legacy-light .auth-modal-wrapper {
+    background: linear-gradient(135deg, rgba(16, 39, 60, 0.28), rgba(24, 49, 73, 0.52));
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+body.legacy-light .auth-modal-box {
+    max-width: 560px;
+    width: min(92vw, 560px);
+    overflow: hidden;
+}
+
+body.legacy-light .auth-header {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(238, 248, 255, 0.58));
+    color: var(--lg-text);
+    padding: 2rem 2rem 1.4rem;
+    border-bottom: 1px solid rgba(120, 163, 198, 0.16);
+}
+
+body.legacy-light .auth-header::after {
+    display: none;
+}
+
+body.legacy-light .auth-body {
+    padding: 1.6rem 2rem 2rem;
+}
+
+body.legacy-light .auth-benefits {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.8rem;
+    margin-bottom: 1.2rem;
+}
+
+body.legacy-light .auth-benefit-card {
+    padding: 0.95rem 0.8rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.62);
+    border: 1px solid rgba(255, 255, 255, 0.84);
+    box-shadow: 0 16px 28px rgba(52, 94, 129, 0.08);
+    text-align: center;
+}
+
+body.legacy-light .auth-benefit-card i {
+    font-size: 1.15rem;
+    margin-bottom: 0.55rem;
+    color: var(--lg-accent);
+}
+
+body.legacy-light .auth-benefit-card span {
+    display: block;
+    color: var(--lg-text);
+    font-size: 0.88rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+body.legacy-light .auth-form-group input {
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(120, 163, 198, 0.24);
+    color: var(--lg-text);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.66), 0 18px 28px rgba(52, 94, 129, 0.08);
+}
+
+body.legacy-light .auth-form-group input:focus {
+    border-color: rgba(76, 168, 216, 0.42);
+    box-shadow: 0 0 0 6px rgba(76, 168, 216, 0.11), 0 22px 34px rgba(52, 94, 129, 0.1);
+}
+
+body.legacy-light .auth-form-group i {
+    color: var(--lg-text-soft);
+}
+
+body.legacy-light .auth-trust-note {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--lg-text-soft);
+    font-size: 0.92rem;
+}
+
+body.legacy-light .auth-trust-note i {
+    color: var(--lg-accent);
+    margin-left: 0.35rem;
+}
+
+body.legacy-light .city-magic-overlay {
+    background-blend-mode: overlay;
+    text-shadow: none;
+}
+
+body.legacy-light .city-magic-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(12, 34, 54, 0.68));
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+}
+
+body.legacy-light .magic-title,
+body.legacy-light .magic-subtitle {
+    position: relative;
+    z-index: 1;
+}
+
+body.legacy-light .magic-title {
+    font-family: 'Marhey', 'Cairo', sans-serif;
+    font-size: clamp(2.3rem, 5vw, 4rem);
+}
+
+body.legacy-light .magic-subtitle {
+    color: rgba(255, 255, 255, 0.86);
+}
+
+body.legacy-light footer .container {
+    padding: 1.2rem 1.6rem;
+}
+
+body.legacy-light footer p {
+    color: var(--lg-text-soft);
+    text-align: center;
+}
+
+@keyframes legacyHeroEntrance {
+    from {
+        opacity: 0;
+        transform: translateY(52px) rotateX(18deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) rotateX(0deg);
+    }
+}
+
+@media (max-width: 1024px) {
+    body.legacy-light main {
+        margin-right: 0 !important;
+    }
+
+    body.legacy-light .sidebar {
+        transform: translateX(300px);
+    }
+
+    body.legacy-light .sidebar.active {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 768px) {
+    body.legacy-light .page-header {
+        padding-top: 6rem;
+    }
+
+    body.legacy-light .contact-content .container {
+        grid-template-columns: 1fr;
+    }
+
+    body.legacy-home .hero {
+        padding-inline: 0.8rem;
+    }
+
+    body.legacy-light .page-badges,
+    body.legacy-light .hero-highlights,
+    body.legacy-light .auth-benefits,
+    body.legacy-light .modal-actions,
+    body.legacy-light .landmark-actions {
+        grid-template-columns: 1fr;
+        justify-content: stretch;
+    }
+
+    body.legacy-light .auth-benefits {
+        display: grid;
+    }
+
+    body.legacy-light .page-badges span,
+    body.legacy-light .hero-highlights span {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 560px) {
+    body.legacy-light .page-header .container,
+    body.legacy-light .intro .container,
+    body.legacy-light .featured-cities .container,
+    body.legacy-light .tourism-types .container,
+    body.legacy-light .cities-filter .container,
+    body.legacy-light .cities-list .container,
+    body.legacy-light .about-content .container,
+    body.legacy-light .contact-content .container,
+    body.legacy-light .map-section .container,
+    body.legacy-light #landmarks-container .container,
+    body.legacy-light .cta .container,
+    body.legacy-light footer .container {
+        border-radius: 24px;
+    }
+
+    body.legacy-light .auth-body,
+    body.legacy-light .auth-header,
+    body.legacy-light .modal-content {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+
+    body.legacy-light .auth-benefits {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,540 @@
+/* =========================================================================
+   PREMIUM TOURISM THEME - YEMEN TOURISM 20X ENHANCEMENT
+   ========================================================================= */
+:root {
+    /* Color Palette - Bright, Cheerful, Tourism-Themed */
+    --pt-primary: #0077b6; /* Ocean Blue */
+    --pt-primary-light: #00b4d8; /* Bright Sky Blue */
+    --pt-secondary: #008f39; /* Lush Green */
+    --pt-accent: #f4a261; /* Sandy Orange */
+    --pt-warning: #e76f51; /* Warm Coral */
+    --pt-light: #f8f9fa;
+    --pt-white: #ffffff;
+    --pt-dark: #2b2d42;
+    --pt-text-main: #333333;
+    --pt-text-muted: #6c757d;
+    
+    /* Gradients */
+    --pt-grad-primary: linear-gradient(135deg, #0077b6, #00b4d8);
+    --pt-grad-accent: linear-gradient(135deg, #f4a261, #e76f51);
+    --pt-grad-glass: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
+    
+    /* Shadows */
+    --pt-shadow-sm: 0 4px 6px rgba(0,0,0,0.05);
+    --pt-shadow-md: 0 10px 20px rgba(0,0,0,0.08);
+    --pt-shadow-lg: 0 15px 35px rgba(0,0,0,0.12);
+    --pt-shadow-glow: 0 0 20px rgba(0, 180, 216, 0.4);
+    
+    /* Border Radius */
+    --pt-radius-sm: 8px;
+    --pt-radius-md: 16px;
+    --pt-radius-lg: 24px;
+    --pt-radius-pill: 50px;
+}
+
+/* Base Enhancements */
+body {
+    background-color: #fdfdfd;
+    background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
+    background-size: 20px 20px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* Glassmorphism Elements */
+.glass-panel {
+    background: var(--pt-grad-glass);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: var(--pt-radius-md);
+    box-shadow: var(--pt-shadow-md);
+}
+
+/* Enhanced Buttons */
+.btn, .btn-small, .landmark-filter-btn {
+    background: var(--pt-grad-primary);
+    color: white !important;
+    border: none;
+    border-radius: var(--pt-radius-pill);
+    padding: 10px 24px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 119, 182, 0.3);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn:hover, .btn-small:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: var(--pt-shadow-glow);
+    background: linear-gradient(135deg, #00b4d8, #0077b6);
+}
+
+.btn-accent {
+    background: var(--pt-grad-accent);
+    box-shadow: 0 4px 15px rgba(244, 162, 97, 0.3);
+}
+.btn-accent:hover {
+    box-shadow: 0 0 20px rgba(244, 162, 97, 0.5);
+}
+
+/* Cards Enhancement */
+.city-card, .type-card, .city-box, .landmark-card {
+    border-radius: var(--pt-radius-lg);
+    overflow: hidden;
+    background: var(--pt-white);
+    box-shadow: var(--pt-shadow-sm);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(0,0,0,0.03);
+    position: relative;
+    z-index: 1;
+}
+
+.city-card:hover, .type-card:hover, .city-box:hover, .landmark-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--pt-shadow-lg);
+    border-color: rgba(0, 180, 216, 0.3);
+}
+
+/* Floating Admin Button */
+.admin-login-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px; /* Arabic layout (rtl), left is visually right if you want it opposite to sidebar, but let's keep it visible Top Left */
+    background: rgba(43, 45, 66, 0.9);
+    color: white;
+    padding: 8px 20px;
+    border-radius: var(--pt-radius-pill);
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+    box-shadow: var(--pt-shadow-md);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.admin-login-btn:hover {
+    background: var(--pt-dark);
+    transform: scale(1.05);
+    color: var(--pt-accent);
+}
+
+/* Professional Auth Modal */
+.auth-modal-wrapper {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+
+.auth-modal-wrapper.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.auth-modal-box {
+    background: var(--pt-white);
+    width: 90%;
+    max-width: 450px;
+    border-radius: var(--pt-radius-lg);
+    box-shadow: var(--pt-shadow-lg);
+    overflow: hidden;
+    transform: translateY(30px);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.auth-modal-wrapper.active .auth-modal-box {
+    transform: translateY(0);
+}
+
+.auth-header {
+    background: var(--pt-grad-primary);
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.auth-header::after {
+    content: '';
+    position: absolute;
+    bottom: -15px; left: 0; right: 0; height: 30px;
+    background: var(--pt-white);
+    border-radius: 50% 50% 0 0;
+}
+
+.auth-header h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.auth-header p {
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.auth-body {
+    padding: 30px;
+}
+
+.auth-form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.auth-form-group input {
+    width: 100%;
+    padding: 15px 15px 15px 45px;
+    border: 2px solid #eee;
+    border-radius: var(--pt-radius-md);
+    font-size: 1rem;
+    font-family: inherit;
+    transition: all 0.3s;
+    background: #f9f9f9;
+}
+
+.auth-form-group input:focus {
+    border-color: var(--pt-primary-light);
+    background: #fff;
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 180, 216, 0.1);
+}
+
+.auth-form-group i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: var(--pt-text-muted);
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.auth-form-group input:focus + i {
+    color: var(--pt-primary);
+}
+
+.auth-submit-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: var(--pt-radius-md);
+    margin-top: 10px;
+}
+
+.auth-close {
+    position: absolute;
+    top: 15px;
+    left: 15px; /* RTL */
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 10;
+    transition: transform 0.3s;
+}
+.auth-close:hover {
+    transform: rotate(90deg);
+}
+
+/* Toast Notifications */
+.pt-toast {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: var(--pt-dark);
+    color: white;
+    padding: 15px 25px;
+    border-radius: var(--pt-radius-sm);
+    box-shadow: var(--pt-shadow-md);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 99999;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.pt-toast.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.pt-toast.success { border-right: 5px solid #2ecc71; }
+.pt-toast.error { border-right: 5px solid #e74c3c; }
+
+/* Enhanced Landmarks Map Overlay */
+.map-overlay-lock {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(255,255,255,0.8);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: var(--pt-radius-md);
+}
+
+.map-overlay-lock i {
+    font-size: 4rem;
+    color: var(--pt-primary);
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+}
+
+.map-overlay-lock h3 {
+    color: var(--pt-dark);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-20px);}
+    60% {transform: translateY(-10px);}
+}
+
+/* Beautifying existing elements via overrides */
+.page-header {
+    background: var(--pt-grad-primary) !important;
+    position: relative;
+    overflow: hidden;
+}
+.page-header::after {
+    content: '';
+    position: absolute;
+    top: -50%; right: -50%; width: 200%; height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate { 100% { transform: rotate(360deg); } }
+
+.cities-filter .filter-btn.active {
+    background: var(--pt-grad-primary) !important;
+    box-shadow: var(--pt-shadow-glow);
+}
+
+.city-box-image::after {
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent) !important;
+}
+
+#map-modal .modal-content {
+    border-radius: var(--pt-radius-lg);
+    overflow: hidden;
+}
+
+/* --- City Entrance Magic Transition Effect --- */
+.city-magic-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 1000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 5px 20px rgba(0,0,0,0.8);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.city-magic-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+    animation: cityZoomInOut 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+@keyframes cityZoomInOut {
+    0% { transform: scale(1.1); opacity: 0; }
+    15% { transform: scale(1); opacity: 1; backdrop-filter: blur(10px); }
+    85% { transform: scale(1.05); opacity: 1; backdrop-filter: blur(10px); }
+    100% { transform: scale(1.1); opacity: 0; backdrop-filter: blur(0px); }
+}
+
+.magic-title {
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    animation: slideUp 0.8s ease forwards;
+}
+.magic-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    animation: slideUp 1s ease forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+
+/* Base styles for the themes */
+.magic-theme-historical { 
+    background: radial-gradient(circle at center, rgba(160, 114, 15, 0.8), rgba(0,0,0,0.95)); 
+    box-shadow: inset 0 0 100px rgba(218, 165, 32, 0.5);
+}
+.magic-theme-coastal { 
+    background: radial-gradient(circle at center, rgba(0, 119, 182, 0.8), rgba(0,0,0,0.95)); 
+    box-shadow: inset 0 0 100px rgba(0, 180, 216, 0.5);
+}
+.magic-theme-mountain { 
+    background: radial-gradient(circle at center, rgba(39, 174, 96, 0.8), rgba(0,0,0,0.95)); 
+    box-shadow: inset 0 0 100px rgba(46, 204, 113, 0.5);
+}
+.magic-theme-island { 
+    background: radial-gradient(circle at center, rgba(0, 150, 199, 0.8), rgba(0,0,0,0.95)); 
+    box-shadow: inset 0 0 100px rgba(72, 202, 228, 0.5);
+}
+.magic-theme-desert { 
+    background: radial-gradient(circle at center, rgba(230, 126, 34, 0.8), rgba(0,0,0,0.95)); 
+    box-shadow: inset 0 0 100px rgba(243, 156, 18, 0.5);
+}
+.magic-theme-default { 
+    background: radial-gradient(circle at center, rgba(142, 68, 173, 0.8), rgba(0,0,0,0.95)); 
+    box-shadow: inset 0 0 100px rgba(155, 89, 182, 0.5);
+}
+
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* Add some glittering particles using simple CSS */
+.magic-particles {
+    position: absolute; width: 100%; height: 100%;
+    background-image: radial-gradient(white 1.5px, transparent 1.5px), radial-gradient(white 1.5px, transparent 1.5px);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    opacity: 0.2;
+    animation: floatParticles 15s linear infinite;
+    z-index: -1;
+}
+@keyframes floatParticles {
+    0% { background-position: 0 0, 30px 30px; }
+    100% { background-position: 600px 600px, 630px 630px; }
+}
+
+/* =========================================================
+   ULTRA PREMIUM HOMEPAGE & CITIES STYLES (MAJESTIC LEVEL 20X)
+   ========================================================= */
+
+/* Golden Glint on Type Cards */
+.type-card, .city-card {
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.85) !important;
+    border: 1px solid rgba(255,255,255,0.4) !important;
+}
+
+.type-card::after, .city-card::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%; width: 50%; height: 100%;
+    background: linear-gradient(to right, transparent, rgba(255,255,255,0.8), transparent);
+    transform: skewX(-20deg);
+    transition: 0.7s;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.type-card:hover::after, .city-card:hover::after {
+    left: 200%;
+}
+
+.type-card:hover, .city-card:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2), 0 0 20px rgba(218, 165, 32, 0.3) !important;
+    border-color: rgba(218, 165, 32, 0.8) !important;
+}
+
+/* Premium Icon Styles */
+.type-card i, .nav-section ul li i, .social-links a i, .city-card i {
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) !important;
+    filter: drop-shadow(0 2px 5px rgba(0,0,0,0.2));
+}
+
+.type-card:hover i {
+    transform: scale(1.3) translateY(-10px) rotate(15deg) !important;
+    background: linear-gradient(135deg, #d4af37, #f39c12);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 10px 15px rgba(212, 175, 55, 0.6));
+}
+
+/* Make icons naturally look more "majestic" */
+i.fas, i.fab {
+    background: linear-gradient(135deg, var(--pt-primary), var(--pt-secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+/* Except inside buttons and headers where color should be white/inherit */
+.btn i, .btn-small i, .admin-login-btn i, .nav-section-title i, .sidebar-toggle i, .auth-close, .close-modal {
+    background: none;
+    -webkit-text-fill-color: inherit;
+    color: inherit;
+}
+
+/* City Box 3D Depth (cities.html) */
+.city-box {
+    border-radius: 20px !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+.city-box:hover .city-box-image {
+    transform: scale(1.1) translateZ(20px);
+}
+.city-box-image {
+    transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+.city-box::before {
+    content: '';
+    position: absolute;
+    top: -2px; left: -2px; right: -2px; bottom: -2px;
+    background: linear-gradient(45deg, #d4af37, transparent, #00b4d8);
+    z-index: -1;
+    border-radius: 22px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+.city-box:hover::before {
+    opacity: 1;
+    animation: rotateGlow 3s linear infinite;
+}
+@keyframes rotateGlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Intro and Typography magic */
+h2, .hero-content h1 {
+    letter-spacing: 1px;
+}

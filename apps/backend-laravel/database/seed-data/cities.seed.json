@@ -1,0 +1,127 @@
+[
+  {
+    "slug": "sanaa",
+    "name": "صنعاء",
+    "status": "published"
+  },
+  {
+    "slug": "aden",
+    "name": "عدن",
+    "status": "published"
+  },
+  {
+    "slug": "taiz",
+    "name": "تعز",
+    "status": "published"
+  },
+  {
+    "slug": "hodeidah",
+    "name": "الحديدة",
+    "status": "published"
+  },
+  {
+    "slug": "mukalla",
+    "name": "المكلا",
+    "status": "published"
+  },
+  {
+    "slug": "ibb",
+    "name": "إب",
+    "status": "published"
+  },
+  {
+    "slug": "shibam",
+    "name": "شبام",
+    "status": "published"
+  },
+  {
+    "slug": "socotra",
+    "name": "سقطرى",
+    "status": "published"
+  },
+  {
+    "slug": "marib",
+    "name": "مأرب",
+    "status": "published"
+  },
+  {
+    "slug": "thamar",
+    "name": "ذمار",
+    "status": "published"
+  },
+  {
+    "slug": "saada",
+    "name": "صعدة",
+    "status": "published"
+  },
+  {
+    "slug": "seiyun",
+    "name": "سيئون",
+    "status": "published"
+  },
+  {
+    "slug": "shihr",
+    "name": "الشحر",
+    "status": "published"
+  },
+  {
+    "slug": "abean",
+    "name": "أبين",
+    "status": "published"
+  },
+  {
+    "slug": "hajjah",
+    "name": "حجة",
+    "status": "published"
+  },
+  {
+    "slug": "mahwit",
+    "name": "المحويت",
+    "status": "published"
+  },
+  {
+    "slug": "bayda",
+    "name": "البيضاء",
+    "status": "published"
+  },
+  {
+    "slug": "amran",
+    "name": "عمران",
+    "status": "published"
+  },
+  {
+    "slug": "dhale",
+    "name": "الضالع",
+    "status": "published"
+  },
+  {
+    "slug": "aljawf",
+    "name": "الجوف",
+    "status": "published"
+  },
+  {
+    "slug": "lahij",
+    "name": "لحج",
+    "status": "published"
+  },
+  {
+    "slug": "shabwah",
+    "name": "شبوة",
+    "status": "published"
+  },
+  {
+    "slug": "mahrah",
+    "name": "المهرة",
+    "status": "published"
+  },
+  {
+    "slug": "hadibo",
+    "name": "حديبو",
+    "status": "published"
+  },
+  {
+    "slug": "shabwa",
+    "name": "شبوة",
+    "status": "published"
+  }
+]

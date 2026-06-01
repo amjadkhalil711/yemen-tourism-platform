@@ -1,0 +1,6 @@
+{
+  // Nuxt 3 standard tsconfig — extends auto-generated .nuxt/tsconfig.json
+  // The VS Code yellow warning is a false positive from the JSON schema validator;
+  // it does not affect TypeScript compilation or type checking.
+  "extends": "./.nuxt/tsconfig.json"
+}

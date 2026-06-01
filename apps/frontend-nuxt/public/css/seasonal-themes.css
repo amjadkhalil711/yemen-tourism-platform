@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Marhey:wght@500;700&family=Tajawal:wght@500;700;800;900&display=swap');
+
+body {
+    transition: background 0.8s ease, color 0.4s ease;
+}
+
+body.season-spring {
+    --season-page-gradient: linear-gradient(135deg, #f3fff2, #fafff5 34%, #e8fff4 66%, #fff8ed);
+    --season-surface: linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(244, 255, 247, 0.68));
+    --season-surface-strong: linear-gradient(145deg, rgba(255, 255, 255, 0.84), rgba(236, 255, 241, 0.72));
+    --season-border: rgba(118, 195, 138, 0.32);
+    --season-text: #1d4b2b;
+    --season-text-soft: #557765;
+    --season-accent: #58ba77;
+    --season-accent-2: #8ee0aa;
+    --season-accent-3: #ffd29d;
+    --season-button: linear-gradient(135deg, #73ca8d, #58ba77 55%, #9ad7a9);
+    --season-button-hover: linear-gradient(135deg, #58ba77, #9ad7a9 60%, #ffd29d);
+    --season-shadow: 0 32px 72px rgba(68, 145, 85, 0.18);
+    --season-overlay: linear-gradient(135deg, rgba(30, 72, 40, 0.36), rgba(255, 255, 255, 0.04), rgba(73, 149, 99, 0.34));
+    --season-glow: radial-gradient(circle at top right, rgba(129, 222, 155, 0.34), transparent 38%), radial-gradient(circle at 20% 80%, rgba(255, 210, 157, 0.3), transparent 34%);
+    --season-cloud: rgba(255, 255, 255, 0.72);
+}
+
+body.season-winter {
+    --season-page-gradient: linear-gradient(135deg, #eef8ff, #f7fbff 40%, #edf4ff 72%, #fdfefe);
+    --season-surface: linear-gradient(145deg, rgba(255, 255, 255, 0.84), rgba(244, 250, 255, 0.72));
+    --season-surface-strong: linear-gradient(145deg, rgba(255, 255, 255, 0.88), rgba(238, 246, 255, 0.76));
+    --season-border: rgba(145, 182, 217, 0.34);
+    --season-text: #1f4568;
+    --season-text-soft: #637f98;
+    --season-accent: #78aee8;
+    --season-accent-2: #c8e6ff;
+    --season-accent-3: #a7c9ff;
+    --season-button: linear-gradient(135deg, #92c1f1, #78aee8 56%, #c8e6ff);
+    --season-button-hover: linear-gradient(135deg, #78aee8, #c8e6ff 62%, #a7c9ff);
+    --season-shadow: 0 32px 74px rgba(76, 124, 167, 0.18);
+    --season-overlay: linear-gradient(135deg, rgba(28, 58, 88, 0.32), rgba(255, 255, 255, 0.05), rgba(122, 174, 232, 0.28));
+    --season-glow: radial-gradient(circle at top left, rgba(200, 230, 255, 0.42), transparent 40%), radial-gradient(circle at 85% 20%, rgba(167, 201, 255, 0.28), transparent 35%);
+    --season-cloud: rgba(255, 255, 255, 0.88);
+}
+
+body.season-autumn {
+    --season-page-gradient: linear-gradient(135deg, #fff8f0, #fff2e8 35%, #fff8f1 58%, #fff4d9);
+    --season-surface: linear-gradient(145deg, rgba(255, 251, 246, 0.84), rgba(255, 244, 231, 0.72));
+    --season-surface-strong: linear-gradient(145deg, rgba(255, 252, 247, 0.88), rgba(255, 238, 220, 0.78));
+    --season-border: rgba(214, 150, 102, 0.32);
+    --season-text: #6b3f1f;
+    --season-text-soft: #8e684a;
+    --season-accent: #cb7a3b;
+    --season-accent-2: #f5b25d;
+    --season-accent-3: #a94c2f;
+    --season-button: linear-gradient(135deg, #de8d4a, #cb7a3b 56%, #f5b25d);
+    --season-button-hover: linear-gradient(135deg, #cb7a3b, #f5b25d 60%, #a94c2f);
+    --season-shadow: 0 32px 72px rgba(146, 87, 45, 0.18);
+    --season-overlay: linear-gradient(135deg, rgba(91, 46, 18, 0.38), rgba(255, 255, 255, 0.05), rgba(203, 122, 59, 0.3));
+    --season-glow: radial-gradient(circle at top right, rgba(245, 178, 93, 0.32), transparent 40%), radial-gradient(circle at 10% 75%, rgba(203, 122, 59, 0.22), transparent 34%);
+    --season-cloud: rgba(255, 247, 235, 0.72);
+}
+
+body.season-summer {
+    --season-page-gradient: linear-gradient(135deg, #eff9ff, #f7fcff 34%, #ecf8ff 68%, #edf4ff);
+    --season-surface: linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(239, 248, 255, 0.7));
+    --season-surface-strong: linear-gradient(145deg, rgba(255, 255, 255, 0.86), rgba(234, 247, 255, 0.74));
+    --season-border: rgba(110, 167, 214, 0.32);
+    --season-text: #1d4f73;
+    --season-text-soft: #5f7e94;
+    --season-accent: #389bcf;
+    --season-accent-2: #7ecbf2;
+    --season-accent-3: #94d7c0;
+    --season-button: linear-gradient(135deg, #55b0df, #389bcf 56%, #94d7c0);
+    --season-button-hover: linear-gradient(135deg, #389bcf, #94d7c0 60%, #7ecbf2);
+    --season-shadow: 0 32px 74px rgba(60, 117, 160, 0.18);
+    --season-overlay: linear-gradient(135deg, rgba(22, 64, 92, 0.32), rgba(255, 255, 255, 0.05), rgba(56, 155, 207, 0.34));
+    --season-glow: radial-gradient(circle at top left, rgba(126, 203, 242, 0.26), transparent 36%), radial-gradient(circle at 80% 12%, rgba(148, 215, 192, 0.2), transparent 32%);
+    --season-cloud: rgba(255, 255, 255, 0.9);
+}
+
+body[class*="season-"] {
+    --season-gold: #d4af37;
+    --season-gold-border: rgba(212, 175, 55, 0.46);
+    --season-gold-border-strong: rgba(212, 175, 55, 0.68);
+    --season-gold-glow: rgba(212, 175, 55, 0.16);
+    background: var(--season-page-gradient) !important;
+    color: var(--season-text);
+    line-height: 1.8;
+}
+
+body[class*="season-"] .season-theme-layer {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+
+body[class*="season-"] .season-theme-layer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--season-glow);
+    opacity: 1;
+}
+
+body[class*="season-"] .season-weather,
+body[class*="season-"] .season-cloud-bank {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
+
+body[class*="season-"] .seasonal-particle {
+    position: absolute;
+    top: -14%;
+    left: var(--left, 50%);
+    opacity: var(--opacity, 0.9);
+    will-change: transform, opacity;
+    animation-delay: var(--delay, 0s);
+}
+
+body[class*="season-"] .season-cloud {
+    position: absolute;
+    top: var(--top, 10%);
+    left: -22%;
+    width: var(--width, 16rem);
+    height: calc(var(--width, 16rem) * 0.36);
+    border-radius: 999px;
+    background: var(--season-cloud);
+    box-shadow: 0 24px 50px rgba(31, 69, 104, 0.1);
+    opacity: var(--opacity, 0.72);
+    filter: blur(0.2px);
+    animation: seasonCloudDrift var(--duration, 36s) linear infinite;
+    animation-delay: var(--delay, 0s);
+}
+
+body[class*="season-"] .season-cloud::before,
+body[class*="season-"] .season-cloud::after {
+    content: '';
+    position: absolute;
+    bottom: 20%;
+    border-radius: 50%;
+    background: inherit;
+}
+
+body[class*="season-"] .season-cloud::before {
+    width: 42%;
+    height: 130%;
+    left: 16%;
+}
+
+body[class*="season-"] .season-cloud::after {
+    width: 38%;
+    height: 110%;
+    right: 18%;
+}
+
+body[class*="season-"] .season-theme-switcher {
+    position: relative;
+    width: fit-content;
+    max-width: min(18rem, calc(100vw - 2rem));
+    z-index: 9500;
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+}
+
+body[class*="season-"] .season-theme-switcher--topbar,
+body[class*="season-"] .season-theme-switcher--page-header,
+body[class*="season-"] .season-theme-switcher--hero,
+body[class*="season-"] .season-theme-switcher--login {
+    align-self: flex-start;
+}
+
+body[class*="season-"] .season-theme-switcher--page-header,
+body[class*="season-"] .season-theme-switcher--hero,
+body[class*="season-"] .season-theme-switcher--login {
+    margin-bottom: 0.9rem;
+}
+
+body[class*="season-"] .season-theme-switcher--floating {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+
+body[class*="season-"] .season-theme-handle {
+    width: auto;
+    min-width: 9.25rem;
+    border: 1px solid var(--season-gold-border);
+    border-radius: 999px;
+    background: var(--season-surface-strong);
+    box-shadow: 0 14px 28px rgba(36, 77, 109, 0.14), 0 0 0 1px var(--season-gold-glow);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    padding: 0.5rem 0.78rem;
+    color: var(--season-text);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.55rem;
+    font-weight: 800;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+body[class*="season-"] .season-theme-handle > span:first-child {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+body[class*="season-"] .season-theme-handle > span:first-child::before {
+    content: '\f53f';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 0.82rem;
+    color: var(--season-gold);
+}
+
+body[class*="season-"] .season-theme-handle > span:last-child {
+    padding: 0.2rem 0.5rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid rgba(212, 175, 55, 0.22);
+    color: var(--season-text);
+    font-size: 0.82rem;
+    line-height: 1;
+}
+
+body[class*="season-"] .season-theme-handle small {
+    display: none;
+    color: var(--season-text-soft);
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+body[class*="season-"] .season-theme-handle strong {
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+body[class*="season-"] .season-theme-switcher.open .season-theme-handle,
+body[class*="season-"] .season-theme-handle:hover {
+    transform: translateY(-1px);
+    border-color: var(--season-gold-border-strong);
+    box-shadow: 0 18px 32px rgba(36, 77, 109, 0.16), 0 0 0 1px rgba(212, 175, 55, 0.18);
+}
+
+body[class*="season-"] .season-theme-panel {
+    position: absolute;
+    top: calc(100% + 0.55rem);
+    right: 0;
+    width: min(18rem, calc(100vw - 2rem));
+    padding: 0.7rem;
+    border: 1px solid var(--season-gold-border);
+    border-radius: 22px;
+    background: var(--season-surface-strong);
+    box-shadow: 0 24px 40px rgba(36, 77, 109, 0.16);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    display: grid;
+    gap: 0.55rem;
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+body[class*="season-"] .season-theme-switcher.open .season-theme-panel {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+}
+
+body[class*="season-"] .season-theme-head {
+    padding: 0.1rem 0.3rem 0.3rem;
+}
+
+body[class*="season-"] .season-theme-head strong {
+    display: block;
+    color: var(--season-text);
+    font-size: 0.92rem;
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-weight: 800;
+}
+
+body[class*="season-"] .season-theme-head span {
+    color: var(--season-text-soft);
+    font-size: 0.78rem;
+    line-height: 1.6;
+}
+
+body[class*="season-"] .season-theme-option {
+    border: 1px solid rgba(212, 175, 55, 0.18);
+    background: rgba(255, 255, 255, 0.48);
+    color: var(--season-text);
+    border-radius: 16px;
+    padding: 0.7rem 0.78rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 0.65rem;
+    text-align: right;
+    transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+body[class*="season-"] .season-theme-option:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 28px rgba(36, 77, 109, 0.12);
+    border-color: var(--season-gold-border);
+}
+
+body[class*="season-"] .season-theme-option.active {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.58));
+    border-color: var(--season-gold-border-strong);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--season-gold) 12%, transparent), 0 20px 34px rgba(36, 77, 109, 0.12);
+}
+
+body[class*="season-"] .season-theme-emoji {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+body[class*="season-"] .season-theme-copy strong {
+    display: block;
+    font-size: 0.88rem;
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-weight: 800;
+}
+
+body[class*="season-"] .season-theme-copy span {
+    display: block;
+    color: var(--season-text-soft);
+    font-size: 0.76rem;
+    margin-top: 0.15rem;
+}
+
+body[class*="season-"] .season-theme-check {
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.72);
+    color: var(--season-gold);
+    font-weight: 800;
+    opacity: 0;
+    transform: scale(0.7);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+body[class*="season-"] .season-theme-option.active .season-theme-check {
+    opacity: 1;
+    transform: scale(1);
+}
+
+body[class*="season-"] .sidebar,
+body[class*="season-"] .admin-sidebar,
+body[class*="season-"] .page-header .container,
+body[class*="season-"] .intro .container,
+body[class*="season-"] .featured-cities .container,
+body[class*="season-"] .tourism-types .container,
+body[class*="season-"] .cities-filter .container,
+body[class*="season-"] .cities-list .container,
+body[class*="season-"] #landmarks-container .container,
+body[class*="season-"] .cta .container,
+body[class*="season-"] footer .container,
+body[class*="season-"] .auth-modal-box,
+body[class*="season-"] .modal-content,
+body[class*="season-"] .login-glass-container,
+body[class*="season-"] .login-copy-panel,
+body[class*="season-"] .admin-topbar,
+body[class*="season-"] .admin-panel,
+body[class*="season-"] .chart-box,
+body[class*="season-"] .stat-card,
+body[class*="season-"] .dashboard-hero,
+body[class*="season-"] #landmark-form,
+body[class*="season-"] .about-card,
+body[class*="season-"] .contact-content .container,
+body[class*="season-"] .contact-form,
+body[class*="season-"] .contact-info,
+body[class*="season-"] .info-card,
+body[class*="season-"] .map-section .container,
+body[class*="season-"] .map-placeholder,
+body[class*="season-"] .meta-pill,
+body[class*="season-"] .hero-metric,
+body[class*="season-"] .hero-note-card,
+body[class*="season-"] .insight-chip,
+body[class*="season-"] .setting-card,
+body[class*="season-"] .toggle-row,
+body[class*="season-"] .panel-shell,
+body[class*="season-"] .feature-pill,
+body[class*="season-"] .security-card {
+    background: var(--season-surface-strong) !important;
+    border-color: color-mix(in srgb, var(--season-gold) 42%, var(--season-border)) !important;
+    box-shadow: var(--season-shadow), 0 0 0 1px var(--season-gold-glow) !important;
+}
+
+
+body[class*="season-"] .city-card,
+body[class*="season-"] .type-card,
+body[class*="season-"] .city-box,
+body[class*="season-"] .landmark-card,
+body[class*="season-"] .guide-card,
+body[class*="season-"] .auth-benefit-card,
+body[class*="season-"] .directions-info {
+    background: var(--season-surface) !important;
+    border-color: var(--season-gold-border) !important;
+    box-shadow: 0 22px 38px rgba(36, 77, 109, 0.1), 0 0 0 1px var(--season-gold-glow) !important;
+}
+
+body[class*="season-"] .btn,
+body[class*="season-"] .btn-small,
+body[class*="season-"] .filter-btn,
+body[class*="season-"] .landmark-filter-btn,
+body[class*="season-"] .season-theme-handle:hover {
+    background: var(--season-button) !important;
+    color: #ffffff !important;
+    border: 1px solid var(--season-gold-border) !important;
+    box-shadow: 0 18px 34px rgba(36, 77, 109, 0.14), 0 0 0 1px var(--season-gold-glow) !important;
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-weight: 800;
+}
+
+body[class*="season-"] .btn:hover,
+body[class*="season-"] .btn-small:hover,
+body[class*="season-"] .filter-btn:hover,
+body[class*="season-"] .landmark-filter-btn:hover,
+body[class*="season-"] .filter-btn.active,
+body[class*="season-"] .landmark-filter-btn.active {
+    background: var(--season-button-hover) !important;
+    border-color: var(--season-gold-border-strong) !important;
+}
+
+body[class*="season-"] .logo h2,
+body[class*="season-"] .logo h3,
+body[class*="season-"] .nav-section-title,
+body[class*="season-"] nav ul li a,
+body[class*="season-"] .page-header h1,
+body[class*="season-"] .intro h2,
+body[class*="season-"] .featured-cities h2,
+body[class*="season-"] .tourism-types h2,
+body[class*="season-"] .cta h2,
+body[class*="season-"] .landmarks-header h2,
+body[class*="season-"] .about-card h2,
+body[class*="season-"] .contact-content h2,
+body[class*="season-"] .map-section h2,
+body[class*="season-"] .admin-topbar,
+body[class*="season-"] .panel-header h2,
+body[class*="season-"] .panel-header h3,
+body[class*="season-"] .dashboard-hero-main h3,
+body[class*="season-"] .hero-note-card h4,
+body[class*="season-"] .login-copy-panel h1,
+body[class*="season-"] .login-header h2 {
+    color: var(--season-text) !important;
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+body[class*="season-"] p,
+body[class*="season-"] span,
+body[class*="season-"] li,
+body[class*="season-"] .page-lead,
+body[class*="season-"] .page-badges span,
+body[class*="season-"] .hero-highlights span,
+body[class*="season-"] .contact-content a,
+body[class*="season-"] .auth-header p,
+body[class*="season-"] .topbar-caption,
+body[class*="season-"] .panel-subtitle,
+body[class*="season-"] .setting-helper,
+body[class*="season-"] .toggle-subtext,
+body[class*="season-"] .feature-pill span,
+body[class*="season-"] .security-card span {
+    color: var(--season-text-soft);
+    font-weight: 600;
+}
+
+body[class*="season-"] .hero::before,
+body[class*="season-"] .glass-background {
+    background: var(--season-overlay) !important;
+}
+
+body[class*="season-"] .page-badges span,
+body[class*="season-"] .hero-highlights span,
+body[class*="season-"] .city-category,
+body[class*="season-"] .city-badge,
+body[class*="season-"] .landmark-category,
+body[class*="season-"] .status-dot,
+body[class*="season-"] .toggle-badge {
+    box-shadow: 0 18px 30px color-mix(in srgb, var(--season-accent) 20%, transparent);
+}
+
+body[class*="season-"] .status-dot {
+    background: var(--season-accent);
+    box-shadow: 0 0 0 8px color-mix(in srgb, var(--season-accent) 16%, transparent);
+}
+
+body[class*="season-"] .toggle-badge {
+    background: color-mix(in srgb, var(--season-accent-2) 44%, white);
+    color: var(--season-text);
+}
+
+body[class*="season-"] .hero-content {
+    /* شفاف تماماً حتى مع الثيمات الموسمية — يظهر فيديو الخلفية */
+    background: transparent !important;
+    box-shadow: none !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    position: relative;
+}
+
+body[class*="season-"] .hero-content h1 {
+    color: #ffffff !important;
+    background: none !important;
+    -webkit-text-fill-color: #ffffff !important;
+    text-shadow: 0 8px 24px rgba(8, 22, 36, 0.42), 0 2px 6px rgba(8, 22, 36, 0.3);
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    font-weight: 900;
+    line-height: 1.18;
+}
+
+body[class*="season-"] .hero-content p {
+    color: rgba(255, 255, 255, 0.96) !important;
+    font-weight: 700;
+    text-shadow: 0 5px 18px rgba(8, 22, 36, 0.32);
+}
+
+body[class*="season-"] .hero-highlights span {
+    color: #ffffff !important;
+    font-weight: 800;
+    border-color: var(--season-gold-border) !important;
+}
+
+body[class*="season-"] .info-card .info-icon,
+body[class*="season-"] .auth-benefit-card i,
+body[class*="season-"] .season-theme-check {
+    color: var(--season-accent);
+}
+
+body[class*="season-"] .info-card,
+body[class*="season-"] .about-card,
+body[class*="season-"] .contact-form,
+body[class*="season-"] .contact-info,
+body[class*="season-"] .map-placeholder {
+    border-radius: 28px;
+    border: 1px solid var(--season-gold-border);
+}
+
+body[class*="season-"] .about-content .container,
+body[class*="season-"] .contact-content .container,
+body[class*="season-"] .map-section .container {
+    padding: clamp(1.4rem, 3vw, 2.3rem);
+    border-radius: 34px;
+}
+
+body[class*="season-"] .contact-content .container {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 1.2rem;
+}
+
+body[class*="season-"] .contact-form form {
+    display: grid;
+    gap: 1rem;
+}
+
+body[class*="season-"] .contact-form input,
+body[class*="season-"] .contact-form textarea {
+    width: 100%;
+    border: 1px solid var(--season-border);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.82);
+    padding: 0.95rem 1rem;
+    color: var(--season-text);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.74), 0 16px 26px rgba(36, 77, 109, 0.08);
+}
+
+body[class*="season-"] .contact-form input:focus,
+body[class*="season-"] .contact-form textarea:focus {
+    outline: none;
+    border-color: var(--season-accent);
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--season-accent) 12%, transparent), 0 16px 28px rgba(36, 77, 109, 0.08);
+}
+
+body[class*="season-"] .contact-content h2,
+body[class*="season-"] .map-section h2,
+body[class*="season-"] .about-card h2 {
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+}
+
+body[class*="season-"] .page-header .container,
+body[class*="season-"] .about-content .container,
+body[class*="season-"] .contact-content .container,
+body[class*="season-"] .map-section .container {
+    position: relative;
+    overflow: hidden;
+}
+
+body[class*="season-"] .page-header .container,
+body[class*="season-"] .hero-content,
+body[class*="season-"] .admin-topbar,
+body[class*="season-"] .login-form-panel {
+    overflow: visible;
+}
+
+body[class*="season-"] .page-header .container::after,
+body[class*="season-"] .about-content .container::after,
+body[class*="season-"] .contact-content .container::after,
+body[class*="season-"] .map-section .container::after {
+    content: '';
+    position: absolute;
+    inset: 1px;
+    border-radius: inherit;
+    background: linear-gradient(155deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    pointer-events: none;
+}
+
+body.season-spring .seasonal-particle.spring-leaf,
+body.season-spring .seasonal-particle.spring-petal,
+body.season-autumn .seasonal-particle.autumn-leaf {
+    width: var(--size, 18px);
+    height: calc(var(--size, 18px) * 1.35);
+    border-radius: 18% 78% 22% 74%;
+    transform-origin: center;
+}
+
+body.season-spring .seasonal-particle.spring-leaf {
+    background: linear-gradient(145deg, #74cf89, #b0f2b6);
+    box-shadow: inset -3px -4px 6px rgba(39, 120, 54, 0.18);
+    animation: seasonLeafFall var(--duration, 16s) linear infinite;
+}
+
+body.season-spring .seasonal-particle.spring-petal {
+    background: linear-gradient(145deg, #ffd3e8, #ffeef7 70%, #ffced4);
+    border-radius: 50% 50% 50% 0;
+    animation: seasonPetalFall var(--duration, 18s) linear infinite;
+}
+
+body.season-spring .seasonal-particle.spring-bud {
+    width: var(--size, 22px);
+    height: var(--size, 22px);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 215, 229, 0.95), rgba(142, 224, 170, 0.2));
+    filter: blur(0.2px);
+    animation: seasonBudFloat var(--duration, 10s) ease-in-out infinite;
+}
+
+body.season-winter .seasonal-particle.winter-flake {
+    width: var(--size, 10px);
+    height: var(--size, 10px);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.98), rgba(195, 226, 255, 0.72));
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+    animation: seasonSnowFall var(--duration, 14s) linear infinite;
+}
+
+body.season-winter .seasonal-particle.winter-flake::before,
+body.season-winter .seasonal-particle.winter-flake::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    transform: translate(-50%, -50%);
+    border-radius: 999px;
+}
+
+body.season-winter .seasonal-particle.winter-flake::before {
+    width: 2px;
+    height: 160%;
+}
+
+body.season-winter .seasonal-particle.winter-flake::after {
+    width: 160%;
+    height: 2px;
+}
+
+body.season-autumn .seasonal-particle.autumn-leaf {
+    background: linear-gradient(145deg, #e27d39, #f2b151 58%, #b74a2b);
+    box-shadow: inset -3px -4px 6px rgba(118, 50, 20, 0.16);
+    animation: seasonAutumnFall var(--duration, 15s) linear infinite;
+}
+
+body.season-summer .seasonal-particle.summer-drop {
+    width: 3px;
+    height: var(--size, 82px);
+    border-radius: 999px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(126, 203, 242, 0.92));
+    animation: seasonRainFall var(--duration, 1.6s) linear infinite;
+}
+
+body.season-summer .season-cloud-bank {
+    opacity: 1;
+}
+
+@keyframes seasonLeafFall {
+    0% {
+        transform: translate3d(0, -12vh, 0) rotate(0deg) scale(0.92);
+        opacity: 0;
+    }
+    12% {
+        opacity: var(--opacity, 0.88);
+    }
+    100% {
+        transform: translate3d(var(--drift-x, 12vw), 120vh, 0) rotate(360deg) scale(1.08);
+        opacity: 0;
+    }
+}
+
+@keyframes seasonPetalFall {
+    0% {
+        transform: translate3d(0, -12vh, 0) rotate(0deg) scale(0.84);
+        opacity: 0;
+    }
+    10% {
+        opacity: var(--opacity, 0.88);
+    }
+    100% {
+        transform: translate3d(var(--drift-x, -14vw), 120vh, 0) rotate(300deg) scale(1.05);
+        opacity: 0;
+    }
+}
+
+@keyframes seasonBudFloat {
+    0%, 100% {
+        transform: translate3d(0, 0, 0) scale(0.9);
+        opacity: 0.4;
+    }
+    50% {
+        transform: translate3d(var(--drift-x, 2vw), -24px, 0) scale(1.05);
+        opacity: 0.9;
+    }
+}
+
+@keyframes seasonSnowFall {
+    0% {
+        transform: translate3d(0, -8vh, 0);
+        opacity: 0;
+    }
+    10% {
+        opacity: var(--opacity, 0.9);
+    }
+    100% {
+        transform: translate3d(var(--drift-x, 6vw), 118vh, 0);
+        opacity: 0;
+    }
+}
+
+@keyframes seasonAutumnFall {
+    0% {
+        transform: translate3d(0, -10vh, 0) rotate(0deg);
+        opacity: 0;
+    }
+    8% {
+        opacity: var(--opacity, 0.92);
+    }
+    100% {
+        transform: translate3d(var(--drift-x, -10vw), 120vh, 0) rotate(390deg);
+        opacity: 0;
+    }
+}
+
+@keyframes seasonRainFall {
+    0% {
+        transform: translate3d(0, -16vh, 0);
+        opacity: 0;
+    }
+    12% {
+        opacity: var(--opacity, 0.76);
+    }
+    100% {
+        transform: translate3d(var(--drift-x, -3vw), 118vh, 0);
+        opacity: 0;
+    }
+}
+
+@keyframes seasonCloudDrift {
+    0% {
+        transform: translateX(-10vw);
+    }
+    100% {
+        transform: translateX(135vw);
+    }
+}
+
+@media (max-width: 980px) {
+    body[class*="season-"] .contact-content .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    body[class*="season-"] .season-theme-switcher--floating {
+        left: 0.75rem;
+        right: 0.75rem;
+        width: auto;
+    }
+
+    body[class*="season-"] .season-theme-panel {
+        width: min(16rem, calc(100vw - 1.5rem));
+    }
+
+    body[class*="season-"] .season-theme-option {
+        grid-template-columns: auto 1fr;
+    }
+
+    body[class*="season-"] .season-theme-check {
+        display: none;
+    }
+}

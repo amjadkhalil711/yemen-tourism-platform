@@ -1,0 +1,42 @@
+# ==========================================
+# Robots.txt for Yemen Tourism Website (SEO/GEO/AEO optimized)
+# ==========================================
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# ==========================================
+# Explicitly authorize AI search & chat crawlers for GEO/AEO optimization
+# ==========================================
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /admin/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /admin/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin/
+
+User-agent: Applebot
+Allow: /
+Disallow: /admin/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+
+# Sitemaps
+Sitemap: http://localhost:3000/sitemap.xml

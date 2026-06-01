@@ -1,0 +1,6045 @@
+// بيانات المعالم السياحية المحدثة لجميع المدن اليمنية مع الصور
+module.exports = {
+    "sanaa": {
+        "name": "صنعاء",
+        "landmarks": [
+            {
+                "id": "sanaa-old-city",
+                "name": "مدينة صنعاء القديمة",
+                "description": "تعتبر مدينة صنعاء القديمة واحدة من أقدم المدن المأهولة في العالم، وهي مدرجة ضمن قائمة التراث العالمي لليونسكو. تتميز بمبانيها الفريدة المبنية من الطين والآجر والمزينة بزخارف جصية رائعة، وأزقتها الضيقة المتعرجة، وأسواقها التقليدية النابضة بالحياة.",
+                "categories": ["historical", "architectural", "cultural"],
+                "categoryNames": ["تاريخي", "معماري", "ثقافي"],
+                "coordinates": {"lat": 15.355927641380582, "lng": 44.212920809568104},
+                "googleMapsUrl": "https://maps.app.goo.gl/cZ4QmWNDdpNgFQnc8",
+                "images": ["images/landmarks/sanaa/sanaa_old_city1.jpg", "images/landmarks/sanaa/sanaa_old_city2.jpg"]
+            },
+            {
+                "id": "sanaa-great-mosque",
+                "name": "الجامع الكبير بصنعاء",
+                "description": "من أقدم المساجد الإسلامية، بني في السنة السادسة للهجرة في عهد الرسول محمد، وتم توسعته في العهد الأموي. يضم مكتبة تحتوي على مخطوطات نادرة وقديمة.",
+                "categories": ["religious", "historical", "architectural"],
+                "categoryNames": ["ديني", "تاريخي", "معماري"],
+                "coordinates": {"lat": 15.353389930057727,  "lng": 44.21488145830829},
+                "images": ["images/landmarks/sanaa/sanaa_great_mosque1.jpg", "images/landmarks/sanaa/sanaa_great_mosque2.jpg"]
+            },
+            {
+                "id": "sanaa-national-museum",
+                "name": "المتحف الوطني",
+                "description": "متحف تاريخي يرجع تأسيسه إلى عام 1971، يضم أكثر من 30,000 قطعة أثرية يمنية تعكس تاريخ وحضارة اليمن عبر العصور.",
+                "categories": ["cultural", "historical", "educational"],
+                "categoryNames": ["ثقافي", "تاريخي", "تعليمي"],
+                "coordinates": {"lat": 15.356056047041434,  "lng": 44.206750649509345},
+                "images": ["images/landmarks/sanaa/sanaa_national_museum1.jpg", "images/landmarks/sanaa/sanaa_national_museum2.jpg"]
+            },
+
+{
+    "id": "sanaa-souq-al-milh",
+    "name": "سوق الملح",
+    "description": "هو القلب التجاري النابض لصنعاء القديمة، وهو ليس سوقاً للملح فقط بل مجمع لأسواق متخصصة متعددة. يمكنك أن تجد فيه كل شيء من التوابل والبن والجنابي (الخناجر اليمنية) والفضيات والمنسوجات والحرف اليدوية. التجول في أزقته المتفرعة يعتبر رحلة عبر الزمن.",
+    "categories": ["market", "historical", "cultural"],
+    "categoryNames": ["سوق", "تاريخي", "ثقافي"],
+    "coordinates": {"lat": 15.354481619406556,  "lng": 44.21674500067981},
+    "images": [
+        "https://www.al-monitor.com/sites/default/files/styles/social_media_share/public/2022-04/GettyImages-1239893190.jpg?h=a783615a&itok=Y9-mX9w-",
+        "https://www.alkhaleej.ae/sites/default/files/styles/d08_standard/public/2023-04/45555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555.jpg?itok=g5Y6qg_b"
+    ]
+},
+
+{
+    "id": "sanaa-dar-al-hajar",
+    "name": "دار الحجر",
+    "description": "قصر صخري فريد يقع في وادي ظهر شمال غرب صنعاء. بني على قمة صخرة جرانيتية ويعتبر أيقونة للعمارة اليمنية. كان في الأصل حصناً قديماً قبل أن يعيد بناءه الإمام يحيى حميد الدين في ثلاثينيات القرن العشرين ليكون قصره الصيفي. يتميز بتصميمه متعدد الطوابق ونوافذه المزخرفة وإطلالاته الساحرة.",
+    "categories": ["architectural", "historical", "palace"],
+    "categoryNames": ["معماري", "تاريخي", "قصر"],
+    "coordinates": {"lat": 15.44121185365286, "lng": 44.125730319177 },
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Dar_al-Hajar.jpg/1200px-Dar_al-Hajar.jpg",
+        "https://www.middleeasteye.net/sites/default/files/styles/article_page/public/images-story/dar-al-hajar-yemen-1.jpg?itok=y1t_1oXb"
+    ]
+},
+
+{
+    "id": "sanaa-bab-al-yaman",
+    "name": "باب اليمن",
+    "description": "هو البوابة الرئيسية المتبقية لسور صنعاء القديم، ويعتبر المدخل الجنوبي للمدينة التاريخية. يعود تاريخه إلى أكثر من ألف عام، ويتميز بتصميمه المهيب الذي يعكس تاريخ صنعاء العريق. يؤدي مباشرة إلى سوق الملح والساحة المقابلة له التي تعج بالنشاط والحياة.",
+    "categories": ["historical", "architectural", "gate"],
+    "categoryNames": ["تاريخي", "معماري", "بوابة"],
+    "coordinates": {"lat": 15.351404514839814,  "lng": 44.21628992274959},
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Bab_al-Yaman_in_the_evening.jpg/1200px-Bab_al-Yaman_in_the_evening.jpg",
+        "https://www.aljazeera.net/wp-content/uploads/2018/01/c8b0179a-115b-4e0e-948f-30811232822a.jpeg"
+    ]
+},
+
+{
+    "id": "sanaa-al-saleh-mosque",
+    "name": "جامع الصالح",
+    "description": "أكبر مسجد حديث في اليمن، وهو تحفة معمارية مذهلة تمزج بين الطراز المعماري اليمني التقليدي والفن الإسلامي الحديث. يتميز بقبابه المتعددة ومآذنه الشاهقة وزخارفه الداخلية الدقيقة من الخشب والجبس والنحاس. يتسع لعشرات الآلاف من المصلين ويضم كلية لعلوم القرآن.",
+    "categories": ["religious", "architectural", "modern"],
+    "categoryNames": ["ديني", "معماري", "حديث"],
+    "coordinates": {"lat":15.326585661723685,  "lng": 44.20809024061287},
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Al-Saleh_Mosque_in_Sana%27a%2C_Yemen.jpg/1200px-Al-Saleh_Mosque_in_Sana%27a%2C_Yemen.jpg",
+        "https://www.aljazeera.net/wp-content/uploads/2017/12/2a4804a8-a37a-442a-8071-08111680514e.jpeg"
+    ]
+},
+
+{
+    "id": "sanaa-haddah-village",
+    "name": "قرية حدة",
+    "description": "منطقة تاريخية تقع جنوب صنعاء، كانت في الماضي قرية منفصلة وتشتهر ببساتينها ومزارع العنب. لا تزال تحتفظ ببعض من طابعها الريفي وتضم بيوتاً وقصوراً قديمة. تشتهر المنطقة حالياً بكونها حياً راقياً يضم العديد من المطاعم والمقاهي الحديثة.",
+    "categories": ["historical", "recreational", "district"],
+    "categoryNames": ["تاريخي", "ترفيهي", "حي"],
+    "coordinates": {"lat": 15.29044001839199,  "lng": 44.163023325139136},
+    "images": [
+        "https://mapio.net/images-p/114357888.jpg",
+        "https://pbs.twimg.com/media/B_7b_9oU8AA5y-o.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-nuqum-mountain",
+    "name": "جبل نقم",
+    "description": "الجبل الشرقي الذي يطل على مدينة صنعاء ويوفر إطلالة بانورامية رائعة على المدينة القديمة وأحيائها الحديثة. كان موقعاً استراتيجياً عبر التاريخ وتوجد على قمته بقايا قلعة قديمة. يعتبر متنفساً طبيعياً ومقصداً للسكان لمشاهدة منظر الغروب فوق المدينة.",
+    "categories": ["natural", "viewpoint", "historical"],
+    "categoryNames": ["طبيعي", "مطل", "تاريخي"],
+    "coordinates": {"lat": 15.363721175855073, "lng": 44.24060302089495 },
+    "images": [
+        "https://www.aljazeera.net/wp-content/uploads/2015/05/1151.jpg",
+        "https://www.sabanew.net/upload/thumbs/159239822119992555.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-old-sailah",
+    "name": "السائلة القديمة",
+    "description": "مجرى مائي موسمي يخترق مدينة صنعاء ويفصل بين شطري المدينة القديمة. تم تحويل أجزاء كبيرة منه إلى طريق حديث، لكن لا يزال مجراه القديم مرئياً بوضوح، وتحيط به المباني التاريخية والجسور القديمة. في موسم الأمطار، تتحول السائلة إلى نهر يضفي جمالاً خاصاً على المدينة.",
+    "categories": ["historical", "natural", "urban"],
+    "categoryNames": ["تاريخي", "طبيعي", "حضري"],
+    "coordinates": {"lat": 15.351025430029893, "lng": 44.21145066947948},
+    "images": [
+        "https://www.saba.ye/ar/upload/posts/1659877981-0.jpg",
+        "https://yemen-nic.info/contents/gallery/sanaa_city/2.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-al-mahdi-dome",
+    "name": "قبة المهدي",
+    "description": "مسجد وقبة تاريخية تقع في الجانب الغربي من صنعاء القديمة، بناه الإمام المهدي عباس عام 1750م. يتميز المسجد بتصميمه العثماني المتأثر بالعمارة المحلية، وقبته الكبيرة المزخرفة ومئذنته الشاهقة. يعد من أجمل مساجد صنعاء وأحد معالمها المعمارية البارزة.",
+    "categories": ["religious", "architectural", "historical"],
+    "categoryNames": ["ديني", "معماري", "تاريخي"],
+    "coordinates": {"lat": 15.353010004430137, "lng": 44.21023362766182 },
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Al-Mahdi_Mosque%2C_Sana%27a.jpg/1200px-Al-Mahdi_Mosque%2C_Sana%27a.jpg",
+        "https://live.staticflickr.com/3238/2945281537_48152599c9_b.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-wadi-dhar-park",
+    "name": "منتزه وادي ظهر الطبيعي",
+    "description": "يعتبر المنتزه الطبيعي الأول لسكان العاصمة صنعاء. يقع في وادٍ خصب شمال غرب المدينة، ويشتهر ببساتينه الغناء ومزارع الفاكهة التي يمكن للزوار التجول بينها وشراء المنتجات الطازجة. وجود دار الحجر في قلبه يجعله وجهة مثالية تجمع بين التنزه في الطبيعة والاستمتاع بالتاريخ المعماري.",
+    "categories": ["park", "natural", "tourism", "family"],
+    "categoryNames": ["منتزه", "طبيعي", "سياحي", "عائلي"],
+    "coordinates": {"lat": 15.438874943466974,  "lng": 44.14762534901663},
+    "images": [
+        "https://www.sanaacenter.org/wp-content/uploads/2021/03/Wadi-Dhahr-Yemen-Dar-al-Hajar-scaled.jpg",
+        "https://www.yemen-nic.info/contents/gallery/sanaa_city/1.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-sabeen-park",
+    "name": "حديقة ومنتزه السبعين",
+    "description": "أكبر منتزه عام في صنعاء، وهو الرئة الخضراء للمدينة. يوفر مساحات واسعة للنزهات العائلية والاسترخاء على العشب. يضم بحيرة صناعية للقوارب، ومدينة ألعاب متكاملة، وحديقة حيوانات، مما يجعله وجهة ترفيهية شاملة ومكاناً مثالياً لقضاء يوم كامل من المرح.",
+    "categories": ["park", "recreational", "family", "urban"],
+    "categoryNames": ["منتزه", "ترفيهي", "عائلي", "حضري"],
+    "coordinates": {"lat":15.322245569560474, "lng":44.20156642290395},
+    "images": [
+        "https://www.sabanew.net/upload/thumbs/168804423016448658.jpg",
+        "https://www.al-shareroad.com/thumb/1200x675/uploads/images/2020/01/23/5e2970729402e.jpeg"
+    ]
+},
+
+{
+    "id": "sanaa-nuqum-mountain-park",
+    "name": "منتزه جبل نقم",
+    "description": "منتزه طبيعي مفتوح يقع على سفوح جبل نقم، ويوفر إطلالات بانورامية هي الأجمل على الإطلاق لمدينة صنعاء. يقصده السكان والزوار للاستمتاع بالمنظر، خاصة عند الغروب، وللتنزه في الهواء الطلق بعيداً عن صخب المدينة. توجد به بعض الاستراحات والمقاهي البسيطة.",
+    "categories": ["park", "natural", "viewpoint", "recreational"],
+    "categoryNames": ["منتزه", "طبيعي", "مطل", "ترفيهي"],
+    "coordinates": {"lat": 15.36279292613934, "lng": 44.237711205554184 },
+    "images": [
+        "https://www.aljazeera.net/wp-content/uploads/2015/05/1151.jpg",
+        "https://www.sabanew.net/upload/thumbs/159239822119992555.jpg"
+    ]
+},
+    {
+        "id": "bani-matar-waterfalls",
+        "name": "شلالات بني مطر",
+        "description": "منطقة طبيعية خلابة تقع في ضواحي صنعاء، وتعتبر وجهة شهيرة للرحلات والاستمتاع بالطبيعة والمناظر المائية. [2]",
+        "categories": ["natural", "waterfall", "recreational"],
+        "categoryNames": ["طبيعي", "شلال", "ترفيهي"],
+        "coordinates": {"lat":15.204078962303639, "lng": 43.99554283704879},
+        "images": []
+    },
+    {
+        "id": "haraz-mountains",
+        "name": " (الحطيب)منطقة حراز",
+        "description": "منطقة جبلية ساحرة تشتهر بمدرجاتها الزراعية الخضراء وقراها التاريخية المعلقة على قمم الجبال، وتوفر تجربة فريدة للزوار. [2]",
+        "categories": ["natural", "mountain", "historical"],
+        "categoryNames": ["طبيعي", "جبلي", "تاريخي"],
+        "coordinates": {"lat":15.041782805378764, "lng": 43.75295377019346},
+        "images": []
+    },
+
+{
+    "id": "sanaa-al-thawra-park",
+    "name": "حديقة الثورة",
+    "description": "واحدة من أقدم الحدائق العامة في صنعاء، وتقع بالقرب من الملعب الرياضي. تتميز بأشجارها الكثيفة ومساحاتها الخضراء التي توفر ظلاً وافراً، مما يجعلها مكاناً مفضلاً للنزهات الهادئة. تضم أيضاً بعض الألعاب البسيطة للأطفال.",
+    "categories": ["park", "recreational", "urban", "family"],
+    "categoryNames": ["منتزه", "ترفيهي", "حضري", "عائلي"],
+    "coordinates": {"lat": 15.38735701213097, "lng": 44.211138564934664},
+    "images": [
+        "https://www.sabanew.net/upload/thumbs/168804423016448658.jpg",
+        "https://www.al-shareroad.com/thumb/1200x675/uploads/images/2020/01/23/5e2970729402e.jpeg"
+    ]
+},
+
+{
+    "id": "sanaa-bayt-baws-parks",
+    "name": "منتزهات بيت بوس",
+    "description": "منطقة تقع جنوب صنعاء وتتميز بطبيعتها الصخرية المرتفعة. تنتشر فيها عدة منتزهات واستراحات خاصة توفر إطلالات جميلة على جنوب العاصمة. يقصدها الناس للاستمتاع بالهدوء وتناول الطعام في الهواء الطلق، بالإضافة إلى استكشاف قرية بيت بوس التاريخية القريبة.",
+    "categories": ["park", "natural", "viewpoint", "recreational"],
+    "categoryNames": ["منتزه", "طبيعي", "مطل", "ترفيهي"],
+    "coordinates": {"lat": 15.285627597303666,  "lng": 44.21837107919288},
+    "images": [
+        "https://pbs.twimg.com/media/E9p6q-oXMAI5s_W.jpg",
+        "https://pbs.twimg.com/media/D-2q2X_XoAA2h-M.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-fun-city-park",
+    "name": "حديقة فن سيتي",
+    "description": "أكبر مدينة ألعاب ترفيهية مغلقة ومفتوحة في صنعاء. بالإضافة إلى الألعاب الكهربائية والإلكترونية المتنوعة، يضم المنتزه مساحات خضراء وبحيرة صغيرة ومطاعم، مما يجعله وجهة متكاملة للترفيه العائلي، خاصة للأطفال والشباب.",
+    "categories": ["park", "recreational", "amusement_park", "family"],
+    "categoryNames": ["منتزه", "ترفيهي", "مدينة ألعاب", "عائلي"],
+    "coordinates": {"lat":15.320100651795196, "lng": 44.201436378859796},
+    "images": [
+        "https://www.yemen-nic.info/contents/gallery/sanaa_city/10.jpg",
+        "https://mapio.net/images-p/114357888.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-sailah-rainy-park",
+    "name": "متنزه السائلة الموسمي",
+    "description": "تتحول ضفاف السائلة خلال موسم الأمطار إلى منتزه طبيعي فريد ومؤقت. يتجمع الناس على حوافها لمشاهدة تدفق المياه بين المباني التاريخية، ويصبح المكان أشبه بكرنفال شعبي، حيث تنتشر الباعة المتجولون وتعم أجواء الفرح والبهجة.",
+    "categories": ["park", "natural", "seasonal", "recreational"],
+    "categoryNames": ["منتزه", "طبيعي", "موسمي", "ترفيهي"],
+    "coordinates": {"lat": 15.345887905852948,  "lng": 44.216886734093805},
+    "images": [
+        "https://www.saba.ye/ar/upload/posts/1659877981-0.jpg",
+        "https://yemen-nic.info/contents/gallery/sanaa_city/2.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-berlin-park",
+    "name": "منتزه حديقة برلين",
+    "description": "حديقة عامة تقع في حي حدة، تم إنشاؤها كرمز للصداقة اليمنية الألمانية. تتميز بتصميمها الجميل ومساحاتها الخضراء المنسقة، وتضم قطعة أصلية من جدار برلين. تعتبر منتزهاً هادئاً ومثالياً للنزهات العائلية القصيرة والاسترخاء.",
+    "categories": ["park", "urban", "recreational", "family"],
+    "categoryNames": ["منتزه", "حضري", "ترفيهي", "عائلي"],
+    "coordinates": {"lat":15.356507371998493, "lng": 44.228331844941856 },
+    "images": [
+        "https://pbs.twimg.com/media/E9qJ-XgX0AQs-4l.jpg",
+        "https://pbs.twimg.com/media/D-2q2X-WwAA2h-M.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-airport-road-parks",
+    "name": "منتزهات طريق المطار",
+    "description": "تنتشر على طول طريق المطار العديد من الاستراحات والمنتزهات الخاصة التي تضم مسابح ومساحات خضراء وملاعب للأطفال. تعتبر هذه المنتزهات وجهة مفضلة للعائلات والشباب في عطلات نهاية الأسبوع لقضاء وقت ممتع وممارسة السباحة والأنشطة الترفيهية المختلفة.",
+    "categories": ["park", "recreational", "swimming_pool", "family"],
+    "categoryNames": ["منتزه", "ترفيهي", "مسبح", "عائلي"],
+    "coordinates": {"lat": 15.457437774293732,"lng":  44.22455395658436},
+    "images": [
+        "https://pbs.twimg.com/media/FvT-T3_aYAAf-eW.jpg",
+        "https://pbs.twimg.com/media/E9qJ-XgX0AQs-4l.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-sayan-park",
+    "name": "سد سيان (سنحان)",
+    "description": "يقع في منطقة سيان بمديرية سنحان جنوب شرق صنعاء. وهو منتزه طبيعي يتميز بأرضه المنبسطة وأشجاره المتناثرة، ويقصده الناس للرحلات الخلوية والنزهات، خاصة في فصل الربيع بعد هطول الأمطار حيث تكتسي الأرض بالخضرة. يوفر جواً ريفياً هادئاً بعيداً عن المدينة.",
+    "categories": ["park", "natural", "rural", "recreational"],
+    "categoryNames": ["منتزه", "طبيعي", "ريفي", "ترفيهي"],
+    "coordinates": {"lat": 15.186675626262021,  "lng": 44.33871932891697},
+    "images": [
+        "https://www.sabanew.net/upload/thumbs/1659877981-0.jpg",
+        "https.yemen-nic.info/contents/gallery/sanaa_city/2.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-ghumdan-palace-ruins",
+    "name": "قصر غمدان (أطلال)",
+    "description": "يُعتقد أنه من أقدم القصور الشاهقة في العالم وأول ناطحة سحاب في التاريخ. يقع في قلب صنعاء القديمة شرق الجامع الكبير. لم يتبق من القصر الأصلي الذي تغنى به المؤرخون سوى أطلال وقواعد، لكن موقعه لا يزال يحمل عبق تاريخ أسطوري يعود إلى عصر مملكة سبأ وحمير.",
+    "categories": ["archaeological", "ruins", "historical"],
+    "categoryNames": ["أثري", "أطلال", "تاريخي"],
+    "coordinates": {"lat": 15.354682390668486, "lng": 44.219930854832015 },
+    "images": [
+        "https://www.yemen-nic.info/contents/gallery/sanaa_city/10.jpg",
+        "https://pbs.twimg.com/media/E9p6q-oXMAI5s_W.jpg"
+    ]
+},
+
+
+{
+    "id": "sanaa-dhi-marmar-fortress",
+    "name": "حصن ذي مرمر",
+    "description": "حصن تاريخي منيع يقع على قمة جبل شمال صنعاء. يعود تاريخه إلى العصر الحميري، وقد استخدم كحصن عسكري ومقر حكم عبر العصور. يتميز الحصن بأبراجه وأسواره الضخمة المبنية من الحجر، ويحتوي على صهاريج مياه منحوتة في الصخر ونقوش قديمة.",
+    "categories": ["archaeological", "historical", "military"],
+    "categoryNames": ["أثري", "تاريخي", "عسكري"],
+    "coordinates": {"lat": 15.545044797560227,  "lng":44.3608044704779},
+    "images": [
+        "https://www.sabanew.net/upload/thumbs/159239822119992555.jpg",
+        "https://www.aljazeera.net/wp-content/uploads/2015/05/1151.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-rock-tombs",
+    "name": "المقابر الصخرية (خولان وسنحان)",
+    "description": "تنتشر في المناطق المحيطة بصنعاء، خاصة في مناطق خولان وسنحان، العديد من المقابر القديمة المنحوتة في سفوح الجبال. تعود هذه المقابر إلى عصور ما قبل الإسلام، وتدل على طرق الدفن القديمة والمعتقدات الجنائزية لدى اليمنيين القدماء. وهي مواقع أثرية هامة لدراسة تلك الفترة.",
+    "categories": ["archaeological", "pre-islamic", "tomb"],
+    "categoryNames": ["أثري", "ما قبل الإسلام", "مقبرة"],
+    "coordinates": {"lat": 15.2000, "lng": 44.4000},
+    "images": [
+        "https://www.sabanew.net/upload/thumbs/162635483565554977.jpg",
+        "https://www.almotamar.net/photo/10-07-2006-938194741.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-shahik-dam",
+    "name": "سد شاحك (خولان)",
+    "description": "أحد السدود الحميرية القديمة التي تم إعادة تأهيلها. يقع في منطقة خولان الطيال، ويتميز ببنائه الحجري الضخم الذي يشهد على براعة الهندسة اليمنية القديمة. يشكل السد بحيرة جميلة وسط الجبال، ويعتبر مصدراً مهماً للري وتغذية المياه الجوفية، بالإضافة إلى كونه معلماً تاريخياً وطبيعياً.",
+    "categories": ["dam", "lake", "archaeological", "water"],
+    "categoryNames": ["سد", "بحيرة", "أثري", "مائي"],
+    "coordinates": {"lat": 15.39006138225468, "lng": 44.42925710501448},
+    "images": [
+        "https://www.sabanew.net/upload/thumbs/167940388299881359.jpg",
+        "https://pbs.twimg.com/media/FvT-T3_aYAAf-eW.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-al-haymatayn-valley",
+    "name": "بيت السفياني (الحيمة الخارجية)",
+    "description": "وادٍ جبلي ساحر يقع في مديرية الحيمة الخارجية، ويشتهر بمناظره الطبيعية الخلابة ومدرجاته الزراعية الخضراء التي تزرع فيها أجود أنواع الاشجار. تتدفق فيه المياه بعد الأمطار مكونة جداول وشلالات صغيرة، مما يجعله وجهة ممتازة لمحبي الطبيعة الريفية والهدوء.",
+    "categories": ["valley", "natural", "agricultural", "water"],
+    "categoryNames": ["وادي", "طبيعي", "زراعي", "مائي"],
+    "coordinates": {"lat": 14.989298818828479, "lng": 43.90600036909462 },
+    "images": [
+        "https://pbs.twimg.com/media/E9qJ-XgX0AQs-4l.jpg",
+        "https://pbs.twimg.com/media/D-2q2X-WwAA2h-M.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-habab-ghayl",
+    "name": "جبل الجودي سفينه نوح (نهم)",
+    "description": "جبل الجود يالذي رست عليه سفينة النبي نوح عليه السلام حيث يتمتع يالمناظر الخلابة والاجواء الساحرة، كما يعد وجهة للتنزه  في بيئة طبيعية هادئة وجميلة.",
+    "categories": ["spring", "natural_pool", "natural", "water"],
+    "categoryNames": ["مرتفعات", "جبال", "طبيعي", "ديني"],
+    "coordinates": {"lat": 15.598726289176104, "lng": 44.41077743374896},
+    "images": [
+        "https://www.voice-yemen.com/user_images/news/28-04-20-992298587.jpg",
+        "https://pbs.twimg.com/media/EaY-w2oWoAAG1gS.jpg"
+    ]
+},
+
+{
+    "id": "sanaa-sultan-hammam",
+    "name": "حمام السلطان (سوق الملح)",
+    "description": "أحد أقدم وأشهر الحمامات البخارية التقليدية في صنعاء القديمة. يعود تاريخه إلى العصر العثماني، ولا يزال يعمل حتى اليوم بنفس الطريقة التقليدية. يقصده الناس للاستحمام بالبخار والتدليك (التكييس)، ويُعتقد أن له فوائد في تنظيف الجسم وإزالة السموم واسترخاء العضلات.",
+    "categories": ["therapeutic", "traditional_medicine", "hammam"],
+    "categoryNames": ["علاجي", "طب تقليدي", "حمام بخاري"],
+    "coordinates": {"lat": 15.352691820827875, "lng": 44.20730567606212},
+    "images": [
+        "https://www.al-monitor.com/sites/default/files/styles/social_media_share/public/2022-04/GettyImages-1239893190.jpg?h=a783615a&itok=Y9-mX9w-",
+        "https://www.alkhaleej.ae/sites/default/files/styles/d08_standard/public/2023-04/4555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555.jpg?itok=g5Y6qg_b"
+    ]
+},
+
+
+{
+    "id": "sanaa-shukr-hammam",
+    "name": "حمام شكر (صنعاء القديمة)",
+    "description": "أحد الحمامات البخارية التاريخية الأخرى في صنعاء القديمة، ويتميز بتصميمه المعماري التقليدي. يوفر الحمام تجربة استشفائية متكاملة من خلال غرف البخار متفاوتة الحرارة، والماء الساخن والبارد، وخدمات التدليك التي تساعد على الاسترخاء وتجديد النشاط.",
+    "categories": ["therapeutic", "traditional_medicine", "hammam"],
+    "categoryNames": ["علاجي", "طب تقليدي", "حمام بخاري"],
+    "coordinates": {"lat": 15.35370311188256, "lng": 44.209776033734805},
+    "images": [
+        "https://www.sabanew.net/upload/thumbs/168804423016448658.jpg",
+        "https://www.al-shareroad.com/thumb/1200x675/uploads/images/2020/01/23/5e2970729402e.jpeg"
+    ]
+},
+
+
+    {
+        "id": "bayt-al-kabsh-waterfall-otmah",
+        "name": "شلال بيت الكبش (عتمة)",
+        "description": "شلال جميل ومشهور يقع في محمية عتمة، وينحدر من أعالي الجبال ليشكل منظراً طبيعياً جذاباً. [1, 2] يعتبر مقصداً للزوار والسكان المحليين للاستمتاع بجمال تدفق المياه والمناظر الخضراء المحيطة به، وهو أحد المعالم المائية البارزة في المديرية.",
+        "categories": ["waterfall", "nature", "scenic", "recreation", "nature-reserve"],
+        "categoryNames": ["شلال", "طبيعي", "مناظر خلابة", "ترفيهي", "محمية طبيعية"],
+        "coordinates": {"lat":15.25569069916566, "lng": 43.94062060490036},
+        "images": ["images/waterfalls/dhamar/bayt_al_kabsh_waterfall1.jpg", "images/waterfalls/dhamar/bayt_al_kabsh_waterfall2.jpg"]
+    },
+
+        {
+        "id": "zoo-park",
+        "name": "حديقة الحيوان",
+        "description": "افتتحت عام 1999 وتعتبر متنفسًا سياحيًا مهمًا في أمانة العاصمة، حيث تضم العديد من الحيوانات البرية والزواحف والطيور. [3, 10]",
+        "categories": ["zoo", "recreational", "educational"],
+        "categoryNames": ["حديقة حيوان", "ترفيهي", "تعليمي"],
+        "coordinates": {"lat":15.287556718456077, "lng":44.24501724722698},
+        "images": []
+    },
+    {
+        "id": "al-nahdain-park",
+        "name": "حديقة السبعين الجديدة (حديقة النهدين)",
+        "description": "تقع بالقرب من ميدان السبعين، وتعد خيارًا ممتازًا للنزهات العائلية لما توفره من مناطق خضراء ومساحات للعب الأطفال. [9]",
+        "categories": ["park", "family"],
+        "categoryNames": ["حديقة", "عائلي"],
+        "coordinates": {"lat":15.2874774685383, "lng":  44.212072912572474},
+        "images": []
+    },
+    {
+        "id": "dar-salm-park",
+        "name": "(حديقة عشيه)منتزه دار سلم",
+        "description": "يضم مساحات خضراء كبيرة ومرافق رياضية ومناطق للجلوس، وهو مكان مثالي للنزهات العائلية والأنشطة الخارجية. [3, 9]",
+        "categories": ["park", "recreational", "family"],
+        "categoryNames": ["منتزه", "ترفيهي", "عائلي"],
+        "coordinates": {"lat":15.276676973919905,  "lng": 44.24837095274026},
+        "images": []
+    },
+    {
+        "id": "al-rawda-park",
+        "name": "حديقة الروضة",
+        "description": "تتميز بأجوائها الهادئة المناسبة للقراءة والاسترخاء، وتقع بالقرب من أحياء سكنية. [3, 5]",
+        "categories": ["park", "quiet"],
+        "categoryNames": ["حديقة", "هادئ"],
+        "coordinates": {"lat":15.432188030038997,  "lng": 44.22426897420635},
+        "images": []
+    },
+
+        {
+        "id": "al-salam-park",
+        "name": "حديقة السلام",
+        "description": "حديقة جميلة ومنظمة تقع في حي الأصبحي، وتعتبر خيارًا جيدًا للباحثين عن الهدوء على الرغم من أنها ليست معروفة على نطاق واسع. [1]",
+        "categories": ["park", "quiet", "family"],
+        "categoryNames": ["حديقة", "هادئ", "عائلي"],
+        "coordinates": {"lat":15.30300580865949, "lng": 44.23771980489946 },
+        "images": []
+    },
+    {
+        "id": "al-wahda-park",
+        "name": "حديقة الوحدة",
+        "description": "تقع في نهاية شارع الجزائر، وتتميز بكثافة أشجارها مما يجعلها مكانًا مناسبًا للنزهات العائلية. [1]",
+        "categories": ["park", "family"],
+        "categoryNames": ["حديقة", "عائلي"],
+        "coordinates": {"lat":15.335637368487603,  "lng": 44.177595862571486},
+        "images": []
+    },
+    {
+        "id": "al-shaab-park-sanaa",
+        "name": "حديقة الشعب",
+        "description": "توفر هذه الحديقة جلسات مفتوحة ومسارات مخصصة للركض وركوب الدراجات الهوائية. [1]",
+        "categories": ["park", "recreational", "sports"],
+        "categoryNames": ["حديقة", "ترفيهي", "رياضي"],
+        "coordinates": {"lat":15.385725283247696, "lng": 44.15868102024305},
+        "images": []
+    },
+    {
+        "id": "al-nahda-park",
+        "name": "حديقة النهضة",
+        "description": "مكان صغير وهادئ يقع بالقرب من وسط المدينة، ويعتبر مناسبًا للعائلات التي تفضل الأماكن غير المزدحمة. [1]",
+        "categories": ["park", "quiet", "family"],
+        "categoryNames": ["حديقة", "هادئ", "عائلي"],
+        "coordinates": {"lat":15.393980182276618,"lng":  44.19102320042287},
+        "images": []
+    }, 
+    {
+        "id": "jamaan-park",
+        "name": "حديقة جمعان (حديقة الورود)",
+        "description": "حديقة جميلة تم ترشيحها كأحد الأماكن المميزة للنزهات في صنعاء. [1]",
+        "categories": ["park", "family"],
+        "categoryNames": ["حديقة", "عائلي"],
+        "coordinates": {"lat":15.281812169777021,  "lng": 44.23994820371882},
+        "images": []
+    },
+    {
+        "id": "14-october-park",
+        "name": "حديقة 14 أكتوبر",
+        "description": "تقع بالقرب من \"ريماس بلازا\"، وتعد متنفسًا إضافيًا للسكان في تلك المنطقة. [1]",
+        "categories": ["park"],
+        "categoryNames": ["حديقة"],
+        "coordinates": {"lat":15.30111206465846, "lng": 44.199677054899475 },
+        "images": []
+    }
+
+
+        ]
+    },
+    "aden": {
+        "name": "عدن",
+        "landmarks": [
+            {
+                "id": "aden-cisterns",
+                "name": "صهاريج عدن (صهاريج الطويلة)",
+                "description": "نظام مائي قديم وهندسة معمارية مذهلة، عبارة عن سلسلة من الخزانات المنحوتة في الصخور البركانية لجمع وتخزين مياه الأمطار. يعود تاريخها إلى عصور ما قبل الإسلام، وتعتبر من أهم المعالم الأثرية في عدن.",
+                "categories": ["historical", "architectural", "water"],
+                "categoryNames": ["تاريخي", "معماري", "مائي"],
+                "coordinates": {"lat": 12.774401397142102,  "lng": 45.02926779484015},
+                "images": ["images/landmarks/aden/aden_cisterns1.jpg", "images/landmarks/aden/aden_cisterns2.jpg"]
+            },
+
+            {
+        "id": "sira-fortress",
+        "name": "قلعة صيرة",
+        "description": "حصن تاريخي يقع على جزيرة صيرة البركانية، ويطل على ميناء عدن القديم. [2] لعبت القلعة دورًا دفاعيًا هامًا على مر العصور وتوفر إطلالات بانورامية رائعة على المدينة والبحر. [3]",
+        "categories": ["historical", "military", "viewpoint"],
+        "categoryNames": ["تاريخي", "عسكري", "إطلالة"],
+        "coordinates": {"lat":12.779093494754703, "lng": 45.04967573623844},
+        "images": ["images/landmarks/aden/sira_fortress1.jpg", "images/landmarks/aden/sira_fortress2.jpg"]
+    },
+    {
+        "id": "aden-minaret",
+        "name": "منارة عدن",
+        "description": "تعتبر أقدم مئذنة مسجد في شبه الجزيرة العربية، وتقع في منطقة كريتر. [4] تتميز بتصميمها المعماري الفريد الذي يعكس التأثيرات الإسلامية القديمة، وهي كل ما تبقى من مسجد قديم كان قائمًا في نفس الموقع.",
+        "categories": ["historical", "religious", "architectural"],
+        "categoryNames": ["تاريخي", "ديني", "معماري"],
+        "coordinates": {"lat":12.778403934256465,  "lng": 45.04018752780667},
+        "images": ["images/landmarks/aden/aden_minaret1.jpg", "images/landmarks/aden/aden_minaret2.jpg"]
+    },
+    {
+        "id": "little-aden-beach",
+        "name": "شاطئ الغدير (عدن الصغرى)",
+        "description": "أحد أجمل الشواطئ في عدن، يقع في منطقة البريقة ويتميز برماله الذهبية ومياهه الصافية. [5] يعتبر مكانًا مثاليًا للسباحة والاسترخاء والأنشطة الشاطئية المختلفة.",
+        "categories": ["nature", "beach", "recreation"],
+        "categoryNames": ["طبيعي", "شاطئ", "ترفيهي"],
+        "coordinates": {"lat":12.73524483655137, "lng": 44.88464220507145},
+        "images": ["images/landmarks/aden/little_aden_beach1.jpg", "images/landmarks/aden/little_aden_beach2.jpg"]
+    },
+    {
+        "id": "aden-military-museum",
+        "name": "المتحف الحربي بعدن",
+        "description": "يقع في حي كريتر، ويعرض تاريخ اليمن العسكري عبر مختلف الحقب الزمنية. [6] يضم المتحف مجموعة واسعة من الأسلحة والمعدات والوثائق والصور التي توثق نضالات اليمنيين.",
+        "categories": ["museum", "historical", "military"],
+        "categoryNames": ["متحف", "تاريخي", "عسكري"],
+        "coordinates": {"lat": 12.779271686052462, "lng": 45.03661720691917},
+        "images": ["images/landmarks/aden/aden_military_museum1.jpg", "images/landmarks/aden/aden_military_museum2.jpg"]
+    },
+    {
+        "id": "jabal-hadid",
+        "name": "جبل حديد",
+        "description": "جبل بركاني يطل على مدينة عدن ويوفر نقاط مشاهدة بانورامية للمدينة والميناء. [7] تنتشر على قمته التحصينات العسكرية القديمة التي تعود لفترة الاحتلال البريطاني.",
+        "categories": ["nature", "viewpoint", "historical"],
+        "categoryNames": ["طبيعي", "إطلالة", "تاريخي"],
+        "coordinates": {"lat":12.797216840232947, "lng": 45.026350086398054},
+        "images": ["images/landmarks/aden/jabal_hadid1.jpg", "images/landmarks/aden/jabal_hadid2.jpg"]
+    },
+    {
+        "id": "al-aidaroos-mosque",
+        "name": "مسجد العيدروس",
+        "description": "أحد أقدم وأشهر المساجد في عدن، يقع في قلب كريتر. [8] يتميز بقبابه البيضاء ومئذنته الشاهقة، ويُنسب إلى الإمام أبي بكر بن عبد الله العيدروس، وهو مركز ديني وثقافي مهم في المدينة.",
+        "categories": ["religious", "historical", "architectural"],
+        "categoryNames": ["ديني", "تاريخي", "معماري"],
+        "coordinates": {"lat": 12.772429164706633,  "lng": 45.03672309712275},
+        "images": ["images/landmarks/aden/al_aidaroos_mosque1.jpg", "images/landmarks/aden/al_aidaroos_mosque2.jpg"]
+    },
+   
+    {
+        "id": "gold-mohur-beach",
+        "name": "شاطئ جولد مور",
+        "description": "يقع في منطقة التواهي، وهو شاطئ شهير يشتهر بوجود فندق جولد مور التاريخي. [11] يوفر الشاطئ أجواء هادئة ومناظر خلابة لغروب الشمس، ويعتبر مكانًا مفضلاً للسياح والسكان المحليين على حد سواء.",
+        "categories": ["beach", "recreation", "viewpoint"],
+        "categoryNames": ["شاطئ", "ترفيهي", "إطلالة"],
+        "coordinates": {"lat":12.77191687216074,  "lng": 44.98934667256115},
+        "images": ["images/landmarks/aden/gold_mohur_beach1.jpg", "images/landmarks/aden/gold_mohur_beach2.jpg"]
+    },
+
+    {
+        "id": "elephant-bay-beach",
+        "name": "شاطئ خليج الفيل",
+        "description": "شاطئ هادئ وجميل يقع بالقرب من منطقة جولد مور، ويتميز بتكويناته الصخرية الفريدة التي تشبه شكل الفيل. [3] يوفر بيئة طبيعية بكر ومياهاً صافية مناسبة للغطس والسباحة.",
+        "categories": ["nature", "beach", "geological"],
+        "categoryNames": ["طبيعي", "شاطئ", "جيولوجي"],
+        "coordinates": {"lat":12.769998343021562,  "lng": 44.98641746368501},
+        "images": ["images/parks/aden/elephant_bay1.jpg", "images/parks/aden/elephant_bay2.jpg"]
+    },
+    {
+        "id": "abu-hisham-beach",
+        "name": "شاطئ ساحل أبين",
+        "description": "يمتد على طول ساحل أبين في خور مكسر، وهو الشاطئ الأطول والأكثر ارتيادًا في عدن. [4] يعتبر متنفسًا رئيسيًا للسكان، حيث تقام فيه العديد من الأنشطة الترفيهية والرياضية والمهرجانات الموسمية.",
+        "categories": ["beach", "recreation", "public-space"],
+        "categoryNames": ["شاطئ", "ترفيهي", "مساحة عامة"],
+        "coordinates": {"lat": 12.854460026839458,"lng":  45.05508096033789 },
+        "images": ["images/parks/aden/abu_hisham_beach1.jpg", "images/parks/aden/abu_hisham_beach2.jpg"]
+    },
+
+    {
+        "id": "fun-city-park",
+        "name": "حديقة فن سيتي",
+        "description": "متنزه ترفيهي يقع في صيرة ويجمع بين المساحات الخضراء ومجموعة من الألعاب الترفيهية للأطفال والكبار. [6] يعتبر وجهة عائلية متكاملة لقضاء وقت ممتع في الهواء الطلق.",
+        "categories": ["amusement-park", "family", "recreation"],
+        "categoryNames": ["مدينة ملاهي", "عائلي", "ترفيهي"],
+        "coordinates": {"lat":12.777644731705106,  "lng": 45.045779459846294},
+        "images": ["images/parks/aden/fun_city_park1.jpg", "images/parks/aden/fun_city_park2.jpg"]
+    },
+
+    {
+        "id": "sira-island-park",
+        "name": " فن لاند متنزه جزيرة صيرة",
+        "description": "فن لاند المنطقة المحيطة بقلعة صيرة التاريخية، وهي عبارة عن منتزه  متصلة بالبر الرئيسي. [8] توفر مزيجًا فريدًا من الطبيعة الساحلية والتاريخ، وهي مكان جيد للتنزه واستكشاف المنطقة.",
+        "categories": ["nature", "historical", "coastal"],
+        "categoryNames": ["طبيعي", "تاريخي", "ساحلي"],
+        "coordinates": {"lat":12.780602389514652,  "lng": 45.04784990672327},
+        "images": ["images/parks/aden/sira_island1.jpg", "images/parks/aden/sira_island2.jpg"]
+    },
+
+    {
+        "id": "ras-amran-beach",
+        "name": "شاطئ رأس عمران",
+        "description": "يقع غرب عدن، وهو شاطئ بري واسع يشتهر بأنه موقع لتعشيش السلاحف البحرية. [10] يعتبر وجهة مثالية لمحبي الطبيعة البكر والتخييم، ويوفر تجربة ساحلية مختلفة عن شواطئ المدينة المزدحمة.",
+        "categories": ["nature", "beach", "wildlife", "camping"],
+        "categoryNames": ["طبيعي", "شاطئ", "حياة برية", "تخييم"],
+        "coordinates": {"lat": 12.764379685625551, "lng": 44.729507667086324 },
+        "images": ["images/parks/aden/ras_amran_beach1.jpg", "images/parks/aden/ras_amran_beach2.jpg"]
+    },
+
+    {
+        "id": "gate-of-aden",
+        "name": "باب عدن (العقبة)",
+        "description": "بوابة تاريخية محفورة في الجبل، كانت تمثل المدخل البري الوحيد لمدينة عدن القديمة (كريتر). [1] يعتبر هذا المعبر جزءاً من التحصينات الدفاعية القديمة للمدينة، ويشكل منظراً مهيباً عند مدخل كريتر.",
+        "categories": ["historical", "architectural", "military"],
+        "categoryNames": ["تاريخي", "معماري", "عسكري"],
+        "coordinates": {"lat": 12.788343241622076, "lng":  45.026583191452545},
+        "images": ["images/archaeological/aden/gate_of_aden1.jpg", "images/archaeological/aden/gate_of_aden2.jpg"]
+    },
+    {
+        "id": "zoroastrian-temple",
+        "name": "معبد النار الزرادشتي (معبد الصمت)",
+        "description": "بقايا معبد قديم للطائفة الزرادشتية التي كانت تقطن عدن. [2] يقع على تلة في كريتر، وكان يستخدم لإقامة طقوس الدفن الخاصة بهم والمعروفة باسم \"أبراج الصمت\".",
+        "categories": ["archaeological", "historical", "religious"],
+        "categoryNames": ["أثري", "تاريخي", "ديني"],
+        "coordinates": {"lat": 12.77275771790365, "lng": 45.0310482761073},
+        "images": ["images/archaeological/aden/zoroastrian_temple1.jpg", "images/archaeological/aden/zoroastrian_temple2.jpg"]
+    },
+    {
+        "id": "church-of-st-francis",
+        "name": "كنيسة القديس فرنسيس الأسيزي (كنيسة التواهي)",
+        "description": "كنيسة كاثوليكية تاريخية بنيت في أواخر القرن التاسع عشر خلال فترة الاستعمار البريطاني. [3] تقع في منطقة التواهي وتتميز بتصميمها المعماري القوطي، وتعتبر من أقدم الكنائس في شبه الجزيرة العربية.",
+        "categories": ["historical", "religious", "architectural"],
+        "categoryNames": ["تاريخي", "ديني", "معماري"],
+        "coordinates": {"lat":12.788806734284512, "lng": 44.97977847479042},
+        "images": ["images/archaeological/aden/st_francis_church1.jpg", "images/archaeological/aden/st_francis_church2.jpg"]
+    },
+    {
+        "id": "national-museum-aden",
+        "name": "اقصر السلطان العبدلي (قصر 14 أكتوبر)",
+        "description": "كان في الأصل قصر السلطان العبدلي، وتحول لاحقًا إلى متحف وطني يعرض كنوزًا أثرية من مختلف العصور اليمنية القديمة. [4] يقع في كريتر ويتميز بطرازه المعماري الفريد.",
+        "categories": ["museum", "archaeological", "historical", "palace"],
+        "categoryNames": ["متحف", "أثري", "تاريخي", "قصر"],
+        "coordinates": {"lat": 12.779167759967137, "lng": 45.0430159509798},
+        "images": ["images/archaeological/aden/national_museum1.jpg", "images/archaeological/aden/national_museum2.jpg"]
+    },
+
+    {
+        "id": "clock-tower-little-aden",
+        "name": "برج الساعة (بيغ بن)",
+        "description": "برج ساعة تاريخي يقع بالقرب من مصفاة عدن في البريقة (عدن الصغرى). [7] تم بناؤه في فترة الخمسينيات من القرن الماضي كجزء من تطوير المنطقة السكنية لعمال المصفاة، ويعتبر معلماً بارزاً في المنطقة.",
+        "categories": ["historical", "architectural", "landmark"],
+        "categoryNames": ["تاريخي", "معماري", "معلم"],
+        "coordinates": {"lat": 12.790125989603958, "lng": 44.98164393563418},
+        "images": ["images/archaeological/aden/little_aden_clocktower1.jpg", "images/archaeological/aden/little_aden_clocktower2.jpg"]
+    },
+
+
+    {
+        "id": "al-kumsari-park",
+        "name": "حديقة وملاهي الكمسري",
+        "description": "تعتبر من أعرق وأجمل المتنزهات في عدن، تأسست عام 1952. [4, 7] تقع في مديرية دار سعد (أو الشيخ عثمان حسب مصادر أخرى)، وتتميز بمساحاتها الخضراء الواسعة وأشجارها الكثيفة، وتضم مجموعة متنوعة من الألعاب وركوب الخيل، مما يجعلها وجهة عائلية رئيسية. [4, 9]",
+        "categories": ["park", "amusement-park", "family", "historical"],
+        "categoryNames": ["حديقة", "ملاهي", "عائلي", "تاريخي"],
+        "coordinates": {"lat": 12.881030105127778, "lng":  44.98429533141421},
+        "images": []
+    },
+    {
+        "id": "aden-new-park",
+        "name": "حديقة عدن نيو",
+        "description": "واحدة من أبرز الوجهات السياحية العائلية الحديثة في عدن، تقع في مديرية خور مكسر. [5] تتميز باتساعها وتوفر مساحات خضراء وممرات للمشي وألعاب متنوعة، بالإضافة إلى قربها من مطاعم ومقاهي. [5, 12, 14]",
+        "categories": ["park", "recreational", "family", "modern"],
+        "categoryNames": ["حديقة", "ترفيهي", "عائلي", "حديث"],
+        "coordinates": {"lat": 12.788132465495918, "lng": 45.04067070494346 },
+        "images": []
+    },
+
+    {
+        "id": "al-ghadeer-beach",
+        "name": "الساحل الذهبي",
+        "description": "الساحل الذهبي ساحل جميل جدا ويشتهر بكونه وجهة للعائلات التي تبحث عن الهدوء النسبي. [6] يتميز بوجود شاليهات ومنتجعات سياحية توفر خيارات متنوعة للزوار. [6]",
+        "categories": ["beach", "resort", "family", "quiet"],
+        "categoryNames": ["شاطئ", "منتجع", "عائلي", "هادئ"],
+        "coordinates": {"lat": 12.766332550633791,  "lng":44.994690239837674},
+        "images": []
+    }
+
+
+        ]
+    },
+    "taiz": {
+        "name": "تعز",
+        "landmarks": [
+            {
+                "id": "taiz-cairo-castle",
+                "name": "قلعة القاهرة",
+                "description": "قلعة تاريخية تقع على قمة جبل صبر المطل على مدينة تعز. بنيت في العصر الأيوبي وتوسعت في العصر الرسولي. تتميز بموقعها الاستراتيجي الذي يوفر إطلالة بانورامية رائعة على المدينة والمناطق المحيطة بها.",
+                "categories": ["historical", "architectural", "military"],
+                "categoryNames": ["تاريخي", "معماري", "عسكري"],
+                "coordinates": {"lat":13.567161019862708, "lng": 44.013481697512695},
+                "images": ["images/landmarks/taiz/taiz_cairo_castle1.jpg", "images/landmarks/taiz/taiz_cairo_castle2.jpg"]
+            },
+{
+    "id": "taiz-muzaffariya-school",
+    "name": "المدرسة المظفرية",
+    "description": "تعد من أقدم المدارس المعلقة في اليمن، أسسها السلطان المظفر يوسف بن عمر في العصر الرسولي. تتميز بقبابها البيضاء المتعددة وتصميمها المعماري الذي يجمع بين وظيفتي المسجد والمدرسة، وتعتبر نموذجاً للعمارة الرسولية. خضعت للعديد من الإضافات والترميمات عبر العصور، مما جعلها سجلاً حافلاً بالفن الإسلامي.",
+    "categories": ["historical", "religious", "architectural"],
+    "categoryNames": ["تاريخي", "ديني", "معماري"],
+    "coordinates": {"lat": 13.5716, "lng": 44.0105},
+    "images": ["images/landmarks/taiz/1.jpg", "images/landmarks/taiz/taiz_cairo_castle2.jpg"
+    ]
+},
+
+{
+    "id": "taiz-ashrafiya-school",
+    "name": "المدرسة الأشرفية",
+    "description": "تحفة معمارية من العصر الرسولي، أمر ببنائها السلطان الأشرف الثاني إسماعيل. تشتهر بجمال زخارفها ونقوشها الملونة التي تزين قبابها وجدرانها، وتضم مسجداً ومدرسة وقبوراً للسلطان وأبنائه. لها مئذنتان متطابقتان تضيفان إلى روعتها وتعتبر من أهم المعالم الإسلامية في اليمن.",
+    "categories": ["historical", "religious", "architectural"],
+    "categoryNames": ["تاريخي", "ديني", "معماري"],
+    "coordinates": {"lat": 13.5731, "lng": 44.0125},
+    "images": [
+        "https://www.al-bayan.com/polopoly_fs/1.3736783.1577543999!/image/image.jpg",
+        "https://i.ytimg.com/vi/e9_L_v4Y-8o/maxresdefault.jpg"
+    ]
+},
+
+{
+    "id": "taiz-national-museum",
+    "name": "المتحف الوطني",
+    "description": "كان في الأصل قصراً للإمام أحمد حميد الدين، وقد تم بناؤه في العهد العثماني كمستشفى عسكري. بعد عام 1967، تم تحويله إلى متحف يعرض مقتنيات الإمام وأسرته، بالإضافة إلى قطع أثرية وأسلحة قديمة وصور توثق تاريخ اليمن في تلك الفترة. تعرض لأضرار كبيرة ولكنه لا يزال شاهداً على حقبة مهمة من تاريخ تعز.",
+    "categories": ["historical", "museum", "cultural"],
+    "categoryNames": ["تاريخي", "متحف", "ثقافي"],
+    "coordinates": {"lat": 13.5755, "lng": 44.0226},
+    "images": [
+        "https://mapio.net/images-p/114357888.jpg",
+        "https://i.ytimg.com/vi/95Ea-2a2gqA/maxresdefault.jpg"
+    ]
+},
+
+{
+    "id": "taiz-saber-mountain",
+    "name": "جبل صبر",
+    "description": "أحد أعلى الجبال في اليمن والجزيرة العربية، يبلغ ارتفاعه حوالي 3070 متراً عن سطح البحر. يحتضن مدينة تعز ويوفر إطلالات خلابة ومناظر طبيعية ساحرة، ويعتبر متنفساً طبيعياً رئيسياً لسكان المدينة وزوارها. يشتهر بمدرجاته الزراعية الخضراء وقراه المعلقة التي تعكس قدرة الإنسان اليمني على تطويع الطبيعة.",
+    "categories": ["natural", "tourism", "recreational"],
+    "categoryNames": ["طبيعي", "سياحي", "ترفيهي"],
+    "coordinates": {"lat": 13.5167, "lng": 44.0333},
+    "images": [
+        "https://www.aa.com.tr/uploads/userfiles/a9298453-9574-43cb-84ef-518f48348a2f/2021/1506/20210615_2_48689591_65538576.jpg",
+        "https://yemen-monitor.com/user_images/news/14-04-2024-90531675.jpg"
+    ]
+},
+
+{
+    "id": "taiz-bab-musa",
+    "name": "باب موسى",
+    "description": "أحد الأبواب التاريخية المتبقية لسور مدينة تعز القديمة. سُمي نسبة إلى الشيخ موسى بن أحمد، وكان في الأصل باباً صغيراً قبل أن يوسعه الوالي العثماني محمود باشا. يعتبر مدخلاً رئيسياً للمدينة القديمة ويؤدي إلى أسواقها التاريخية مثل سوق الشنيني.",
+    "categories": ["historical", "architectural", "gate"],
+    "categoryNames": ["تاريخي", "معماري", "بوابة"],
+    "coordinates": {"lat": 13.5758, "lng": 44.0139},
+    "images": [
+        "https://www.al-shareroad.com/thumb/1200x675/uploads/images/2020/01/23/5e2970729402e.jpeg",
+        "https://almahriah.net/media/img/1645362953.jpg"
+    ]
+},
+
+{
+    "id": "taiz-bab-al-kabeer",
+    "name": "الباب الكبير",
+    "description": "هو المدخل الرئيسي والتجاري لمدينة تعز القديمة، ويُعرف أيضاً بـ \"عمدة الأسواق\". يعد مع باب موسى من أبرز الأبواب التي لا تزال قائمة من سور المدينة التاريخي. يؤدي إلى أسواق شعبية وتراثية حافظت على طابعها عبر الزمن.",
+    "categories": ["historical", "architectural", "gate"],
+    "categoryNames": ["تاريخي", "معماري", "بوابة"],
+    "coordinates": {"lat": 13.5744, "lng": 44.0158},
+    "images": [
+        "https://i.ytimg.com/vi/4_a9l9Y-1_E/maxresdefault.jpg",
+        "https://i.ytimg.com/vi/q_7z7o7z7_k/maxresdefault.jpg"
+    ]
+},
+
+{
+    "id": "taiz-shanini-market",
+    "name": "سوق الشنيني",
+    "description": "من أقدم وأهم الأسواق الشعبية في تعز، يقع بين باب موسى والباب الكبير. اشتهر تاريخياً بكونه مركزاً للمنتجات الشعبية والحرف اليدوية مثل البن والجبن البلدي والأواني الفخارية والأدوات الزراعية. يحتفظ السوق بطابعه التاريخي ويعتبر وجهة للمتسوقين والباحثين عن المنتجات التراثية.",
+    "categories": ["historical", "market", "cultural"],
+    "categoryNames": ["تاريخي", "سوق", "ثقافي"],
+    "coordinates": {"lat": 13.5751, "lng": 44.0148},
+    "images": [
+        "https://www.alayyam.info/Upload/Photo/2019/5/7509c261-2358-4033-b108-1546738592-9999.jpg",
+        "https://www.al-bayan.com/polopoly_fs/1.3567084.1558371363!/image/image.jpg"
+    ]
+},
+
+
+    {
+        "id": "dream-land-park",
+        "name": "حديقة دريم لاند",
+        "description": "يقع في منطقة الحوبان ويعتبر من الوجهات الترفيهية الهامة في تعز. [3] يضم المنتزه مسابح وألعابًا متنوعة ويستقطب عددًا كبيرًا من الزوار، خاصة فئة الشباب والعائلات. [3]",
+        "categories": ["amusement-park", "recreational", "family", "swimming"],
+        "categoryNames": ["ملاهي", "ترفيهي", "عائلي", "سباحة"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-taawon-park",
+        "name": " (21 سبتمبر)حديقة التعاون السياحي",
+        "description": "يقع في مفرق ماوية بالحوبان، وهو أحد المشاريع السياحية التي توفر متنفسًا للسكان. [4] يضم مساحات خضراء ومرافق ترفيهية متنوعة ويعتبر وجهة للعائلات في المنطقة. [4, 5]",
+        "categories": ["park", "recreational", "family"],
+        "categoryNames": ["منتزه", "ترفيهي", "عائلي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "jabal-saber-park",
+        "name": "منتزه جبل صبر",
+        "description": "منتزه طبيعي يقع على جبل صبر المطل على مدينة تعز. [6] يشتهر بمدرجاته الزراعية الخضراء وأجوائه المعتدلة ومناظره الطبيعية الخلابة، مما يجعله وجهة مفضلة للرحلات والنزهات الطبيعية. [6, 7]",
+        "categories": ["natural-park", "mountain", "recreational"],
+        "categoryNames": ["منتزه طبيعي", "جبلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-janad-park",
+        "name": "حديقة الجند",
+        "description": "تقع بالقرب من جامع الجند التاريخي، وتعتبر متنفسًا لسكان المنطقة، على الرغم من أنها قد عانت من الإهمال في فترات معينة. [8]",
+        "categories": ["park", "historical-vicinity"],
+        "categoryNames": ["حديقة", "جوار تاريخي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "fun-city-taiz",
+        "name": "فن سيتي تعز",
+        "description": "مدينة ملاهي تقع في منطقة الحوبان، وتوفر مجموعة من الألعاب الترفيهية التي تجذب الأطفال والعائلات بشكل كبير. [9]",
+        "categories": ["amusement-park", "family", "recreational"],
+        "categoryNames": ["ملاهي", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+
+{
+    "id": "taiz-husayniyah-dome",
+    "name": "قبة الحسينية",
+    "description": "قبة أثرية بنيت في العصر العثماني عام 1581م لتضم ضريح الوالي العثماني حسين بن حسن باشا. تتميز بنمطها المعماري الفريد الذي يجمع بين الفن اليمني والتركي. تقع بالقرب من باب موسى وتعتبر من المعالم العثمانية البارزة في المدينة، على الرغم من تعرضها للإهمال وحاجتها للترميم.",
+    "categories": ["historical", "religious", "architectural"],
+    "categoryNames": ["تاريخي", "ديني", "معماري"],
+    "coordinates": {"lat": 13.5763, "lng": 44.0136},
+    "images": [
+        "https://www.hespress.com/wp-content/uploads/2014/03/Taiz_650231487.jpg",
+        "https://i.ytimg.com/vi/j5f5j5f5j5s/maxresdefault.jpg"
+    ]
+},
+
+{
+    "id": "taiz-sheikh-zayed-park",
+    "name": "منتزه الشيخ زايد",
+    "description": "يقع في أعلى قمة جبل صبر، ويعد من أهم المعالم السياحية والجمالية في تعز. تم بناؤه بتمويل من الشيخ زايد بن سلطان آل نهيان، رحمه الله، ويوفر إطلالة رائعة على المدينة. يعتبر مقصداً رئيسياً للأسر والعائلات للتنزه والاستمتاع بالطبيعة، رغم تأثره بالأحداث الأخيرة.",
+    "categories": ["recreational", "tourism", "park"],
+    "categoryNames": ["ترفيهي", "سياحي", "منتزه"],
+    "coordinates": {"lat": 13.5298, "lng": 44.0251},
+    "images": [
+        "https://al-ain.com/images/2018/7/16/123-144200-zayed-park-recreation-taiz-houth.jpeg",
+        "https://www.albayan.ae/polopoly_fs/1.3270035.1527014269!/image/image.jpg"
+    ]
+},
+
+{
+    "id": "taiz-aljanad-mosque",
+    "name": "جامع ومدرسة الجند",
+    "description": "يعتبر من أقدم المساجد في الإسلام، حيث بناه الصحابي معاذ بن جبل في السنة السادسة للهجرة بأمر من النبي محمد (ص). يقع في منطقة الجند شمال شرق تعز، وسمي نسبة إلى \"سوق الجند\" الذي كان من أسواق العرب الشهيرة قبل الإسلام. يمثل قيمة تاريخية ودينية عظيمة، ويعد مركزاً للعلم والعبادة منذ فجر الإسلام.",
+    "categories": ["historical", "religious", "islamic"],
+    "categoryNames": ["تاريخي", "ديني", "إسلامي"],
+    "coordinates": {"lat": 13.7183, "lng": 44.1611},
+    "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Al-Janad_Mosque.jpg/1200px-Al-Janad_Mosque.jpg",
+        "https://yemen-nic.info/contents/gallery/Taiz/2.jpg"
+    ]
+},
+
+{
+    "id": "taiz-bani-omar-waterfalls",
+    "name": "شلالات بني عمر (وادي الضباب)",
+    "description": "تعتبر من أشهر الشلالات في اليمن، تقع في وادي الضباب غرب مدينة تعز. تتدفق المياه من أعالي الجبال مكونة منظراً طبيعياً ساحراً، خاصة خلال موسم الأمطار. المنطقة المحيطة بالشلالات خضراء وتجذب الزوار للاستمتاع بجمال الطبيعة والسباحة في البرك المتكونة.",
+    "categories": ["natural", "waterfall", "tourism"],
+    "categoryNames": ["طبيعي", "شلال", "سياحي"],
+    "coordinates": {"lat": 13.5581, "lng": 43.9253},
+    "images": [
+        "https://www.alyemenialyoum.com/user_images/news/03-08-2020-562177570.jpg",
+        "https://yemen-press.net/photos/1659280302.jpeg"
+    ]
+},
+
+{
+    "id": "taiz-aden-valley",
+    "name": "وادي عدن",
+    "description": "وادٍ زراعي خصب يقع في مديرية شرعب السلام، يشتهر بجماله الطبيعي ومياهه الجارية على مدار العام. يعد الوادي مصدراً رئيسياً للمنتجات الزراعية المتنوعة مثل الموز والمانجو والبن. يتميز بمناظره الخلابة التي تجمع بين الجبال الشاهقة والمساحات الخضراء الواسعة.",
+    "categories": ["natural", "valley", "agricultural"],
+    "categoryNames": ["طبيعي", "وادي", "زراعي"],
+    "coordinates": {"lat": 13.7667, "lng": 43.8500},
+    "images": [
+        "https://pbs.twimg.com/media/E9p6q-oXMAI5s_W.jpg",
+        "https://pbs.twimg.com/media/D-2q2X_XoAA2h-M.jpg"
+    ]
+},
+
+{
+    "id": "taiz-saber-mountain-baths",
+    "name": "حمامات جبل صبر الطبيعية",
+    "description": "مجموعة من الينابيع والبرك المائية الطبيعية المتناثرة في قرى جبل صبر. تتكون هذه الحمامات من تجمع مياه الأمطار والينابيع في تجاويف صخرية، وتوفر أماكن منعشة للسباحة والاستجمام للسكان المحليين والزوار، خاصة في فصل الصيف.",
+    "categories": ["natural", "spring", "recreational"],
+    "categoryNames": ["طبيعي", "ينبوع", "ترفيهي"],
+    "coordinates": {"lat": 13.5250, "lng": 44.0300},
+    "images": [
+        "https://www.voice-yemen.com/user_images/news/28-04-20-992298587.jpg",
+        "https://pbs.twimg.com/media/EaY-w2oWoAAG1gS.jpg"
+    ]
+},
+
+{
+    "id": "taiz-alburkani-valley",
+    "name": "وادي البركاني",
+    "description": "يقع في مديرية المواسط، وهو وادٍ ساحر يتميز بتدفق المياه فيه معظم أيام السنة، مما يجعله وجهة مفضلة للرحلات والنزهات. تحيط بالوادي مدرجات زراعية خضراء وجبال شاهقة، مما يخلق لوحة فنية طبيعية متكاملة.",
+    "categories": ["natural", "valley", "tourism"],
+    "categoryNames": ["طبيعي", "وادي", "سياحي"],
+    "coordinates": {"lat": 13.4167, "lng": 44.1667},
+    "images": [
+        "https://pbs.twimg.com/media/E9qJ-XgX0AQs-4l.jpg",
+        "https://pbs.twimg.com/media/D-2q2X-WwAA2h-M.jpg"
+    ]
+},
+
+{
+    "id": "taiz-zoo",
+    "name": "حديقة الحيوانات بتعز",
+    "description": "تعتبر من أقدم حدائق الحيوان في اليمن، وتقع عند سفح قلعة القاهرة. تضم مجموعة متنوعة من الحيوانات البرية والمفترسة، بما في ذلك الأسود والنمور العربية النادرة. على الرغم من التحديات التي واجهتها، لا تزال الحديقة معلماً ترفيهياً مهماً ومتنفساً للعائلات في المدينة.",
+    "categories": ["recreational", "park", "zoo"],
+    "categoryNames": ["ترفيهي", "حديقة", "حديقة حيوان"],
+    "coordinates": {"lat": 13.5780, "lng": 44.0200},
+    "images": [
+        "https://www.dw.com/image/19043188_303.jpg",
+        "https://www.aljazeera.net/wp-content/uploads/2016/02/a43a34f1-1576-496a-a28a-79878233e53c.jpeg"
+    ]
+},
+
+{
+    "id": "taiz-habashi-mountain",
+    "name": "جبل حبشي",
+    "description": "سلسلة جبلية تقع غرب تعز، وتشتهر بجمالها الطبيعي الأخاذ ومدرجاتها الزراعية التي تزرع فيها أجود أنواع البن اليمني. تتميز المنطقة بأجوائها المعتدلة ومناظرها البانورامية، وتضم العديد من القرى المعلقة التي تحافظ على طابعها المعماري التقليدي.",
+    "categories": ["natural", "mountain", "agricultural"],
+    "categoryNames": ["طبيعي", "جبل", "زراعي"],
+    "coordinates": {"lat": 13.6000, "lng": 43.8333},
+    "images": [
+        "https://pbs.twimg.com/media/FvT-T3_aYAAf-eW.jpg",
+        "https://pbs.twimg.com/media/E9qJ-XgX0AQs-4l.jpg"
+    ]
+},
+
+{
+    "id": "taiz-rasyan-valley",
+    "name": "وادي رسيان",
+    "description": "يقع في مديرية مقبنة، وهو من الأودية الجميلة التي تتميز بجريان المياه والغابات الكثيفة. يعد الوادي موطناً لتنوع بيولوجي غني، وتنتشر على ضفافه أشجار النخيل والعديد من النباتات البرية، مما يجعله مكاناً مثالياً لمحبي الطبيعة والمغامرات.",
+    "categories": ["natural", "valley", "forest"],
+    "categoryNames": ["طبيعي", "وادي", "غابة"],
+    "coordinates": {"lat": 13.6500, "lng": 43.7500},
+    "images": [
+        "https://pbs.twimg.com/media/E9p6q-oXMAI5s_W.jpg",
+        "https://pbs.twimg.com/media/D-2q2X_XoAA2h-M.jpg"
+    ]
+},
+
+    {
+        "id": "al-salam-park-turba",
+        "name": "منتزه السلام",
+        "description": "أحد أبرز وأقدم المنتزهات في مدينة التربة، ويقع على قمة تل يوفر إطلالة بانورامية على المدينة والمناطق المحيطة بها. [1, 2] يضم المنتزه مساحات خضراء، ومطعمًا، وألعابًا للأطفال، ويعتبر وجهة رئيسية للعائلات والزوار. [1, 2]",
+        "categories": ["park", "viewpoint", "family", "recreational"],
+        "categoryNames": ["منتزه", "مطل", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-sokoon-park-turba",
+        "name": "منتزه السكون",
+        "description": "منتزه يقع في مدينة التربة ويتميز بأجوائه الهادئة وتصميمه الذي يوفر خصوصية للعائلات. [3, 4] يحتوي على شاليهات ومجلس للرجال وآخر للنساء، بالإضافة إلى مساحات خضراء وألعاب للأطفال، مما يجعله مناسبًا للمناسبات والتجمعات العائلية. [3, 4]",
+        "categories": ["park", "family", "chalets", "quiet"],
+        "categoryNames": ["منتزه", "عائلي", "شاليهات", "هادئ"],
+        "coordinates": {},
+        "images": []
+    },
+
+{
+    "id": "taiz-munif-fortress",
+    "name": "حصن جبل منيف (الصلو)",
+    "description": "يقع على قمة جبل منيف في مديرية الصلو، وهو حصن تاريخي يمتزج بالطبيعة المحيطة به. يوفر الموقع إطلالات بانورامية مذهلة على الوديان والجبال المجاورة. المنطقة المحيطة بالحصن تتميز بجمالها الطبيعي وتعتبر وجهة للمشي لمسافات طويلة واستكشاف الطبيعة.",
+    "categories": ["natural", "historical", "mountain"],
+    "categoryNames": ["طبيعي", "تاريخي", "جبل"],
+    "coordinates": {"lat": 13.3833, "lng": 44.2667},
+    "images": [
+        "https://pbs.twimg.com/media/FvT-T3_aYAAf-eW.jpg",
+        "https://pbs.twimg.com/media/E9qJ-XgX0AQs-4l.jpg"
+    ]
+},
+
+{
+    "id": "taiz-aqroudh-ghayl",
+    "name": "غيل الأقروض (المواسط)",
+    "description": "منطقة طبيعية ساحرة في مديرية المواسط، تشتهر بينابيعها المائية (الغيول) التي تتدفق بين الصخور وتصب في برك طبيعية. تعد المنطقة متنفساً طبيعياً يقصده الناس للسباحة والاستمتاع بجمال الطبيعة البكر، خاصة في مواسم الأمطار.",
+    "categories": ["natural", "spring", "recreational"],
+    "categoryNames": ["طبيعي", "ينبوع", "ترفيهي"],
+    "coordinates": {"lat": 13.4333, "lng": 44.1500},
+    "images": [
+        "https://pbs.twimg.com/media/EaY-w2oWoAAG1gS.jpg",
+        "https://www.voice-yemen.com/user_images/news/28-04-20-992298587.jpg"
+    ]
+},
+
+{
+    "id": "taiz-aroos-heights",
+    "name": "مرتفعات العروس (جبل صبر)",
+    "description": "أعلى قمة في جبل صبر، وتعرف بـ \"جبل العروس\". توفر هذه المرتفعات إطلالة لا مثيل لها على مدينة تعز والمناطق المحيطة بها، حيث يمكن رؤية السحب وهي تعانق قمم الجبال. تعتبر وجهة رئيسية للسياح ومتسلقي الجبال الباحثين عن المناظر الطبيعية الخلابة والهواء النقي.",
+    "categories": ["natural", "mountain", "viewpoint"],
+    "categoryNames": ["طبيعي", "جبل", "مطل"],
+    "coordinates": {"lat": 13.5290, "lng": 44.0255},
+    "images": [
+        "https://www.alyemenialyoum.com/user_images/news/03-08-2020-562177570.jpg",
+        "https://yemen-press.net/photos/1659280302.jpeg"
+    ]
+},
+
+{
+    "id": "taiz-aljanad-archaeological-city",
+    "name": "مدينة الجند الأثرية",
+    "description": "تعتبر من أهم المواقع الأثرية الإسلامية المبكرة. تأسست كمركز عسكري وإداري في عهد الخليفة عمر بن الخطاب. تضم الموقع بقايا جامع الجند التاريخي الذي بناه معاذ بن جبل، بالإضافة إلى بقايا أسوار ومبانٍ قديمة تعود إلى فترات مختلفة، مما يجعلها شاهداً على الأدوار المتعاقبة التي لعبتها المنطقة منذ فجر الإسلام.",
+    "categories": ["archaeological", "historical", "islamic"],
+    "categoryNames": ["أثري", "تاريخي", "إسلامي"],
+    "coordinates": {"lat": 13.7183, "lng": 44.1611},
+    "images": [
+        "https://www.sabanew.net/upload/thumbs/162635483565554977.jpg",
+        "https://www.almotamar.net/photo/10-07-2006-938194741.jpg"
+    ]
+},
+
+{
+    "id": "taiz-thabat-archaeological-city",
+    "name": "مدينة ثعبات الأثرية",
+    "description": "مدينة أثرية تقع شرق تعز، كانت عاصمة للدولة الصليحية في فترة من الفترات. تشتهر بقصورها ومساجدها التي بنيت على قمم الجبال، ومن أبرز معالمها بقايا قصر \"دار العز\" ومسجد الملكة أروى. الموقع يكشف عن نظام هندسي ومعماري متقدم يعكس قوة الدولة الصليحية وازدهارها.",
+    "categories": ["archaeological", "historical", "ruins"],
+    "categoryNames": ["أثري", "تاريخي", "أطلال"],
+    "coordinates": {"lat": 13.5833, "lng": 44.0667},
+    "images": [
+        "https://al-mawqeapost.net/uploads/2021/08/16/611a5b8a5319a.jpeg",
+        "https://pbs.twimg.com/media/E9p6q-oXMAI5s_W.jpg"
+    ]
+},
+
+{
+    "id": "taiz-damlouah-fortress",
+    "name": "حصن الدملؤة",
+    "description": "حصن تاريخي منيع يقع في مديرية الصلو، ويعتبر من أقدم الحصون في اليمن. يعود تاريخه إلى فترات ما قبل الإسلام، وتعاقبت عليه العديد من الدول مثل الصليحيين والأيوبيين والرسوليين. اشتهر الحصن بأنه كان خزنة للدولة الصليحية، ويتميز بتصميمه المحكم فوق قمة جبل شاهق، مما جعله صعب المنال.",
+    "categories": ["archaeological", "historical", "military"],
+    "categoryNames": ["أثري", "تاريخي", "عسكري"],
+    "coordinates": {"lat": 13.4019, "lng": 44.3053},
+    "images": [
+        "https://yemen-nic.info/contents/gallery/Taiz/1.jpg",
+        "https://www.bawabatii.net/user_images/news/28-06-20-675211536.jpg"
+    ]
+},
+
+    {
+        "id": "wadi-al-qadhi-alsalu",
+        "name": "وادي موقعة (الصلو)",
+        "description": "أحد أشهر الأودية في ريف تعز الجنوبي، ويمر عبر مديرية الصلو. [1, 2] يشتهر الوادي بجماله الطبيعي الخلاب، وينابيعه المائية العذبة، ومساحاته الخضراء، ويعتبر وجهة رئيسية للسياحة الداخلية والنزهات لسكان الصلو والمناطق المجاورة. [1, 2]",
+        "categories": ["valley", "natural-park", "recreational", "springs"],
+        "categoryNames": ["وادي", "منتزه طبيعي", "ترفيهي", "ينابيع"],
+        "coordinates": {},
+        "images": []
+    },
+
+{
+    "id": "taiz-dar-alhajar-alwasit",
+    "name": "دار الحجر (المواسط)",
+    "description": "ليس دار الحجر الشهير في صنعاء، بل هو موقع أثري في مديرية المواسط بتعز. يعتقد أنه يعود إلى فترة ما قبل الإسلام، ويحتوي على نقوش صخرية وكتابات بخط المسند. الموقع بحاجة إلى المزيد من التنقيب والدراسة للكشف عن أسراره وتاريخه الكامل.",
+    "categories": ["archaeological", "historical", "rock_art"],
+    "categoryNames": ["أثري", "تاريخي", "فن صخري"],
+    "coordinates": {"lat": 13.4167, "lng": 44.1667},
+    "images": [
+        "https://pbs.twimg.com/media/FvT-T3_aYAAf-eW.jpg",
+        "https://pbs.twimg.com/media/E9qJ-XgX0AQs-4l.jpg"
+    ]
+},
+
+{
+    "id": "taiz-jewish-cemetery-saber",
+    "name": "مقبرة اليهود (صبر)",
+    "description": "موقع أثري يقع في جبل صبر، وهو عبارة عن مقبرة قديمة للطائفة اليهودية التي كانت تعيش في المنطقة. تضم المقبرة شواهد قبور تحمل نقوشاً وكتابات باللغة العبرية، وتعتبر دليلاً على التاريخ الطويل للتعايش الديني في تعز، وشاهداً على الوجود اليهودي في اليمن.",
+    "categories": ["archaeological", "historical", "cemetery"],
+    "categoryNames": ["أثري", "تاريخي", "مقبرة"],
+    "coordinates": {"lat": 13.5300, "lng": 44.0280},
+    "images": [
+        "https://www.alayyam.info/Upload/Photo/2019/5/7509c261-2358-4033-b108-1546738592-9999.jpg",
+        "https://www.al-bayan.com/polopoly_fs/1.3567084.1558371363!/image/image.jpg"
+    ]
+},
+
+{
+    "id": "taiz-ahl-alkahf-mosque",
+    "name": "مسجد أهل الكهف",
+    "description": "يقع في قرية المعقاب بمديرية صبر الموادم، وهو موقع يعتقد السكان المحليون أنه مرتبط بقصة أهل الكهف. يضم الموقع مسجداً قديماً وكهفاً صغيراً. على الرغم من أن ارتباطه بالقصة القرآنية غير مثبت علمياً، إلا أنه يمثل معلماً أثرياً ودينياً ذا أهمية محلية كبيرة.",
+    "categories": ["archaeological", "religious", "mythological"],
+    "categoryNames": ["أثري", "ديني", "أسطوري"],
+    "coordinates": {"lat": 13.5000, "lng": 44.0500},
+    "images": [
+        "https://i.ytimg.com/vi/qY_U_b-i0qY/maxresdefault.jpg",
+        "https://www.al-bayan.com/polopoly_fs/1.3745711.1578512398!/image/image.jpg"
+    ]
+},
+
+{
+    "id": "taiz-old-city-wall",
+    "name": "سور تعز القديم",
+    "description": "سور تاريخي كان يحيط بمدينة تعز القديمة، بني في عهد الدولة الرسولية وتم توسيعه في العهد العثماني. كان للسور عدة أبواب لم يتبق منها سوى الباب الكبير وباب موسى. لا تزال أجزاء من السور قائمة حتى اليوم، شاهدة على تاريخ المدينة العريق ودورها كعاصمة محصنة.",
+    "categories": ["archaeological", "historical", "architectural"],
+    "categoryNames": ["أثري", "تاريخي", "معماري"],
+    "coordinates": {"lat": 13.5740, "lng": 44.0150},
+    "images": [
+        "https://www.al-shareroad.com/thumb/1200x675/uploads/images/2020/01/23/5e2970729402e.jpeg",
+        "https://almahriah.net/media/img/1645362953.jpg"
+    ]
+},
+
+{
+    "id": "taiz-maqatirah-castle",
+    "name": "قلعة المقاطرة",
+    "description": "حصن تاريخي يقع في مديرية المقاطرة، جنوب تعز. يعود تاريخه إلى فترات قديمة، ولعب دوراً عسكرياً مهماً في تأمين الطرق التجارية بين تعز والمناطق الجنوبية. يتميز الحصن بموقعه الاستراتيجي على قمة جبلية، وتصميمه الدفاعي الذي يضم أبراجاً وأسواراً متينة.",
+    "categories": ["archaeological", "historical", "military"],
+    "categoryNames": ["أثري", "تاريخي", "عسكري"],
+    "coordinates": {"lat": 13.2500, "lng": 44.3333},
+    "images": [
+        "https://pbs.twimg.com/media/FvT-T3_aYAAf-eW.jpg",
+        "https://pbs.twimg.com/media/E9qJ-XgX0AQs-4l.jpg"
+    ]
+},
+
+{
+    "id": "taiz-alsawa-archaeological-site",
+    "name": "موقع السواء الأثري",
+    "description": "يقع في مديرية السواء، وهو موقع أثري يعود إلى عصور ما قبل الإسلام. عُثر فيه على بقايا مستوطنات قديمة ونقوش بخط المسند، مما يدل على أنه كان مركزاً حضارياً مهماً في جنوب شبه الجزيرة العربية. الموقع بحاجة ماسة للحماية والتنقيب للكشف عن كنوزه التاريخية.",
+    "categories": ["archaeological", "pre-islamic", "ruins"],
+    "categoryNames": ["أثري", "ما قبل الإسلام", "أطلال"],
+    "coordinates": {"lat": 13.4667, "lng": 44.4167},
+    "images": [
+        "https://www.sabanew.net/upload/thumbs/162635483565554977.jpg",
+        "https://www.almotamar.net/photo/10-07-2006-938194741.jpg"
+    ]
+},
+
+{
+    "id": "taiz-mutabiyah-dome",
+    "name": "قبة المعتبية",
+    "description": "ضريح ومسجد تاريخي يعود إلى العصر الرسولي، بني للأميرة \"جهة الطواشي معتب\" زوجة السلطان المظفر. تتميز القبة بزخارفها الجصية الرائعة وكتاباتها الكوفية التي تزين جدرانها، وتعتبر نموذجاً فريداً للعمارة الجنائزية في تلك الفترة. تقع في حارة المسبح بتعز القديمة.",
+    "categories": ["archaeological", "historical", "architectural"],
+    "categoryNames": ["أثري", "تاريخي", "معماري"],
+    "coordinates": {"lat": 13.5725, "lng": 44.0118},
+    "images": [
+        "https://i.ytimg.com/vi/e9_L_v4Y-8o/maxresdefault.jpg",
+        "https://www.al-bayan.com/polopoly_fs/1.3736783.1577543999!/image/image.jpg"
+    ]
+},
+
+{
+"id": "taiz-alhisami-dam",
+"name": "سد الحصامي (شرعب السلام)",
+"description": "سد مائي يقع في منطقة الحصامي بمديرية شرعب السلام، تم بناؤه لحجز مياه الأمطار والاستفادة منها في الزراعة وتغذية المياه الجوفية. يشكل السد بحيرة صناعية جميلة وسط الجبال، مما يجعله منظراً طبيعياً جذاباً ومكاناً مناسباً للنزهات.",
+"categories": ["dam", "lake", "agricultural"],
+"categoryNames": ["سد", "بحيرة", "زراعي"],
+"coordinates": {"lat": 13.7500, "lng": 43.8833},
+"images": [
+"https://pbs.twimg.com/media/E9p6q-oXMAI5s_W.jpg",
+"https://pbs.twimg.com/media/D-2q2X_XoAA2h-M.jpg"
+]
+},
+
+{
+"id": "taiz-warazan-valley",
+"name": "وادي ورزان (خدير)",
+"description": "يقع في مديرية خدير، وهو من الأودية الخصبة التي تشتهر بجريان المياه فيها بعد هطول الأمطار. تنتشر على ضفاف الوادي أشجار النخيل والمزارع المتنوعة، ويوفر مناظر طبيعية جميلة وأجواء هادئة للاسترخاء والاستمتاع بالطبيعة.",
+"categories": ["valley", "natural", "agricultural"],
+"categoryNames": ["وادي", "طبيعي", "زراعي"],
+"coordinates": {"lat": 13.4500, "lng": 44.2500},
+"images": [
+"https://i.ytimg.com/vi/qY_U_b-i0qY/maxresdefault.jpg",
+"https://www.al-bayan.com/polopoly_fs/1.3745711.1578512398!/image/image.jpg"
+]
+},
+
+{
+"id": "taiz-saber-springs",
+"name": "حمامات وعيون صبر المائية",
+"description": "مجموعة من الينابيع والبرك المائية الطبيعية المتناثرة في قرى جبل صبر الشاهق. تتكون هذه الحمامات من تجمع مياه الأمطار والعيون الجبلية في تجاويف صخرية، وتوفر أماكن منعشة للسباحة والاستجمام للسكان المحليين والزوار، خاصة في فصل الصيف.",
+"categories": ["spring", "natural_pool", "mountain"],
+"categoryNames": ["ينبوع", "بركة طبيعية", "جبلي"],
+"coordinates": {"lat": 13.5250, "lng": 44.0300},
+"images": [
+"https://www.voice-yemen.com/user_images/news/28-04-20-992298587.jpg",
+"https://pbs.twimg.com/media/EaY-w2oWoAAG1gS.jpg"
+]
+},
+
+{
+"id": "taiz-hanna-valley-waterfalls",
+"name": "شلالات وادي حنا (مقبنة)",
+"description": "مجموعة من الشلالات الموسمية التي تتشكل في وادي حنا بمديرية مقبنة خلال موسم الأمطار. تتميز المنطقة بطبيعتها الصخرية الوعرة التي تخلق مساقط مائية جميلة، وتعتبر وجهة لهواة المغامرة واستكشاف الطبيعة البكر.",
+"categories": ["waterfall", "valley", "natural"],
+"categoryNames": ["شلال", "وادي", "طبيعي"],
+"coordinates": {"lat": 13.6333, "lng": 43.7000},
+"images": [
+"https://www.alyemenialyoum.com/user_images/news/03-08-2020-562177570.jpg",
+"https://yemen-press.net/photos/1659280302.jpeg"
+]
+},
+
+{
+"id": "taiz-mawqah-dam",
+"name": "سد موقعه (جبل حبشي)",
+"description": "سد مائي يقع في منطقة موقعه بمديرية جبل حبشي، أنشئ بهدف تجميع مياه السيول للاستفادة منها في ري المدرجات الزراعية التي تشتهر بزراعة البن. تشكل بحيرة السد منظراً جميلاً يمتزج مع خضرة الجبال المحيطة.",
+"categories": ["dam", "lake", "mountain"],
+"categoryNames": ["سد", "بحيرة", "جبلي"],
+"coordinates": {"lat": 13.5833, "lng": 43.8167},
+"images": [
+"https://pbs.twimg.com/media/E9p6q-oXMAI5s_W.jpg",
+"https://pbs.twimg.com/media/D-2q2X_XoAA2h-M.jpg"
+]
+},
+
+{
+"id": "taiz-dhabab-valley",
+"name": "وادي الضباب",
+"description": "أحد أشهر الأودية في تعز، يشتهر بمناظره الطبيعية الخلابة ومياهه الجارية التي تشكل شلالات بني عمر الشهيرة. يكتنف الوادي الضباب في كثير من الأحيان، مما يضفي عليه جواً ساحراً. يعد الوادي بأكمله وجهة سياحية متكاملة للتمتع بالطبيعة والمياه.",
+"categories": ["valley", "natural", "tourism"],
+"categoryNames": ["وادي", "طبيعي", "سياحي"],
+"coordinates": {"lat": 13.5667, "lng": 43.9333},
+"images": [
+"https://www.aa.com.tr/uploads/userfiles/a9298453-9574-43cb-84ef-518f48348a2f/2021/1506/20210615_2_48689591_65538576.jpg",
+"https://yemen-monitor.com/user_images/news/14-04-2024-90531675.jpg"
+]
+},
+
+{
+"id": "taiz-mokha-port-beaches",
+"name": "ميناء وشواطئ المخا",
+"description": "على الرغم من أن الجزء الأكبر من تعز جبلي، إلا أنها تطل على البحر الأحمر عبر مديرية المخا. تشتهر المخا بمينائها التاريخي الذي كان مركزاً لتصدير البن، وتمتلك شواطئ رملية جميلة توفر فرصة للاستجمام وممارسة الأنشطة البحرية.",
+"categories": ["beach", "sea", "port"],
+"categoryNames": ["شاطئ", "بحر", "ميناء"],
+"coordinates": {"lat": 13.3167, "lng": 43.2500},
+"images": [
+"https://www.dw.com/image/19043188_303.jpg",
+"https://www.aljazeera.net/wp-content/uploads/2016/02/a43a34f1-1576-496a-a28a-79878233e53c.jpeg"
+]
+},
+
+{
+"id": "taiz-rasyan-bath",
+"name": "حمام رسيان (مقبنة)",
+"description": "حمام مائي طبيعي يقع في وادي رسيان بمديرية مقبنة. مياهه دافئة وليست حارة كحمام علي، ويقصدها السكان المحليون للاستحمام والاستشفاء من بعض الأمراض الجلدية وللاسترخاء. يتميز بوجوده وسط طبيعة خضراء وخلابة.",
+"categories": ["therapeutic", "warm_spring", "natural"],
+"categoryNames": ["علاجي", "حمام دافئ", "طبيعي"],
+"coordinates": {"lat": 13.6500, "lng": 43.7500},
+"images": [
+"https://pbs.twimg.com/media/E9p6q-oXMAI5s_W.jpg",
+"https://pbs.twimg.com/media/D-2q2X_XoAA2h-M.jpg"
+]
+},
+
+    {
+        "id": "wadi-al-sahi",
+        "name": "وادي الصهي (بني حماد)",
+        "description": "يقع في منطقة بني حماد القريبة من التربة، وهو وادٍ خصب يشتهر بمياهه الجارية ومناظره الطبيعية. [3] يعتبر وجهة للسكان المحليين للنزهة والاستجمام، خاصة في مواسم الأمطار. [3]",
+        "categories": ["valley", "natural-park", "recreational"],
+        "categoryNames": ["وادي", "منتزه طبيعي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "yefres-area",
+        "name": "منطقة يفرس",
+        "description": "تقع في مديرية جبل حبشي ولكنها قريبة جدًا من التربة، وتشتهر بجمالها الطبيعي وإطلالاتها المرتفعة. [4] المنطقة المحيطة بضريح الشيخ \"أحمد بن علوان\" تعتبر وجهة روحانية وسياحية، وتتميز بأجوائها المعتدلة ومناظرها الخلابة. [4]",
+        "categories": ["natural-area", "mountain-view", "historical"],
+        "categoryNames": ["منطقة طبيعية", "إطلالة جبلية", "تاريخي"],
+        "coordinates": {},
+        "images": []
+    },
+
+        {
+        "id": "al-areef-waterfall",
+        "name": "شلال العريف",
+        "description": "أحد الشلالات الجميلة في مديرية حيفان، ويقع في منطقة العريف. [3] يتدفق الشلال بغزارة خلال مواسم الأمطار، مكونًا منظرًا طبيعيًا ساحرًا يجذب الزوار للاستمتاع بجماله والسباحة في البرك التي يكونها. [3]",
+        "categories": ["waterfall", "natural-park", "swimming"],
+        "categoryNames": ["شلال", "منتزه طبيعي", "سباحة"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-ahkoom-park",
+        "name": "منتزه الأحكوم",
+        "description": "منتزه يقع في منطقة الأحكوم بمديرية حيفان، ويتميز بإطلالاته البانورامية على الأودية والجبال المحيطة. [4] يعتبر مكانًا مناسبًا للنزهات العائلية والاستمتاع بالهواء النقي والمناظر الطبيعية الخلابة التي تشتهر بها المنطقة. [4]",
+        "categories": ["park", "viewpoint", "family", "recreational"],
+        "categoryNames": ["منتزه", "مطل", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "ayn-al-jabal-hayfan",
+        "name": "عين الجبل",
+        "description": "عين مياه عذبة تقع في إحدى مناطق حيفان الجبلية، وتعتبر مصدرًا للمياه ومكانًا للاستراحة والاستجمام. [5] يقصدها السكان المحليون والزوار للاستمتاع ببرودة مياهها وجمال الطبيعة المحيطة بها. [5]",
+        "categories": ["spring", "natural-area", "recreational"],
+        "categoryNames": ["ينبوع", "منطقة طبيعية", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    }
+
+        ]
+    },
+    "hodeidah": {
+        "name": "الحديدة",
+        "landmarks": [
+            {
+                "id": "hodeidah-corniche",
+                "name": "كورنيش الحديدة",
+                "description": "واجهة بحرية جميلة تمتد على طول ساحل البحر الأحمر في مدينة الحديدة. تعتبر متنفساً للسكان والزوار، وتضم العديد من المطاعم والمقاهي والحدائق.",
+                "categories": ["coastal", "recreational", "scenic"],
+                "categoryNames": ["ساحلي", "ترفيهي", "مناظر خلابة"],
+                "coordinates": {"lat": 14.8000, "lng": 42.9500},
+                "images": ["images/landmarks/hodeidah/hodeidah_corniche1.jpg", "images/landmarks/hodeidah/hodeidah_corniche2.jpg"]
+            },
+
+             {
+        "id": "hodeidah-fish-market",
+        "name": "سوق السمك (المحوات)",
+        "description": "أحد أكبر أسواق الأسماك في اليمن، يقع بالقرب من ميناء الحديدة. [2] يعرض السوق مجموعة هائلة ومتنوعة من الأسماك الطازجة والكائنات البحرية التي يتم اصطيادها من البحر الأحمر، ويعتبر تجربة ثقافية واقتصادية فريدة.",
+        "categories": ["market", "cultural", "seafood"],
+        "categoryNames": ["سوق", "ثقافي", "مأكولات بحرية"],
+        "coordinates": {"lat": 14.815, "lng": 42.945},
+        "images": ["images/landmarks/hodeidah/hodeidah_fish_market1.jpg", "images/landmarks/hodeidah/hodeidah_fish_market2.jpg"]
+    },
+    {
+        "id": "al-kadan-beach",
+        "name": "شاطئ الكدن",
+        "description": "شاطئ رملي واسع يقع جنوب مدينة الحديدة، ويتميز برماله الناعمة ومياهه الضحلة. [3] يعتبر وجهة شهيرة للنزهات العائلية والسباحة والاستمتاع بجمال ساحل البحر الأحمر.",
+        "categories": ["beach", "nature", "recreational"],
+        "categoryNames": ["شاطئ", "طبيعي", "ترفيهي"],
+        "coordinates": {"lat": 14.70, "lng": 42.98},
+        "images": ["images/landmarks/hodeidah/al_kadan_beach1.jpg", "images/landmarks/hodeidah/al_kadan_beach2.jpg"]
+    },
+    {
+        "id": "hodeidah-old-city",
+        "name": "مدينة الحديدة القديمة",
+        "description": "المركز التاريخي للمدينة، يضم أزقة ضيقة ومباني قديمة تتميز بطراز معماري فريد متأثر بالحقبة العثمانية. [4] تحتوي على مساجد تاريخية وأسواق شعبية تعكس تاريخ المدينة العريق.",
+        "categories": ["historical", "architectural", "cultural"],
+        "categoryNames": ["تاريخي", "معماري", "ثقافي"],
+        "coordinates": {"lat": 14.805, "lng": 42.948},
+        "images": ["images/landmarks/hodeidah/hodeidah_old_city1.jpg", "images/landmarks/hodeidah/hodeidah_old_city2.jpg"]
+    },
+    {
+        "id": "kamaran-island",
+        "name": "جزيرة كمران",
+        "description": "أكبر الجزر اليمنية في البحر الأحمر، تقع قبالة ساحل الصليف شمال الحديدة. [5] تتميز بشواطئها البكر وغابات المانجروف (الشورى) وتاريخها الغني، وتعتبر وجهة مثالية للغوص والاسترخاء.",
+        "categories": ["island", "nature", "historical", "diving"],
+        "categoryNames": ["جزيرة", "طبيعي", "تاريخي", "غوص"],
+        "coordinates": {"lat": 15.35, "lng": 42.56},
+        "images": ["images/landmarks/hodeidah/kamaran_island1.jpg", "images/landmarks/hodeidah/kamaran_island2.jpg"]
+    },
+    {
+        "id": "hodeidah-port",
+        "name": "ميناء الحديدة",
+        "description": "أحد أهم وأكبر الموانئ في اليمن، ويعتبر شريانًا اقتصاديًا حيويًا للبلاد. [6] على الرغم من طابعه الصناعي، إلا أن مشاهدة حركة السفن الضخمة والنشاط المستمر فيه يمثل معلمًا بارزًا في المدينة.",
+        "categories": ["industrial", "maritime", "economic"],
+        "categoryNames": ["صناعي", "بحري", "اقتصادي"],
+        "coordinates": {"lat": 14.82, "lng": 42.94},
+        "images": ["images/landmarks/hodeidah/hodeidah_port1.jpg", "images/landmarks/hodeidah/hodeidah_port2.jpg"]
+    },
+    {
+        "id": "al-hodeidah-grand-mosque",
+        "name": "الجامع الكبير بالحديدة",
+        "description": "مسجد تاريخي يقع في المدينة القديمة، ويتميز بتصميمه المعماري الذي يجمع بين الطراز المحلي والعثماني. [7] يعتبر مركزًا دينيًا وثقافيًا هامًا في الحديدة.",
+        "categories": ["religious", "historical", "architectural"],
+        "categoryNames": ["ديني", "تاريخي", "معماري"],
+        "coordinates": {"lat": 14.804, "lng": 42.949},
+        "images": ["images/landmarks/hodeidah/grand_mosque1.jpg", "images/landmarks/hodeidah/grand_mosque2.jpg"]
+    },
+    {
+        "id": "hodeidah-sand-dunes",
+        "name": "الكثبان الرملية (الغراب)",
+        "description": "منطقة صحراوية قريبة من المدينة تتميز بكثبانها الرملية الذهبية الشاسعة. [8] تعتبر وجهة شهيرة بين السكان المحليين لممارسة رياضة التزلج على الرمال والتخييم والاستمتاع بالمناظر الطبيعية الصحراوية.",
+        "categories": ["nature", "desert", "recreational", "adventure"],
+        "categoryNames": ["طبيعي", "صحراوي", "ترفيهي", "مغامرات"],
+        "coordinates": {"lat": 14.90, "lng": 43.05},
+        "images": ["images/landmarks/hodeidah/sand_dunes1.jpg", "images/landmarks/hodeidah/sand_dunes2.jpg"]
+    },
+    {
+        "id": "al-salif-port",
+        "name": "ميناء الصليف",
+        "description": "ميناء طبيعي عميق يقع شمال مدينة الحديدة، ويشتهر بتصدير الملح. [9] المنطقة المحيطة به تتميز بجمالها الطبيعي وتكويناتها الملحية الفريدة، وتعتبر نقطة انطلاق للرحلات إلى جزيرة كمران.",
+        "categories": ["maritime", "industrial", "nature"],
+        "categoryNames": ["بحري", "صناعي", "طبيعي"],
+        "coordinates": {"lat": 15.30, "lng": 42.68},
+        "images": ["images/landmarks/hodeidah/al_salif_port1.jpg", "images/landmarks/hodeidah/al_salif_port2.jpg"]
+    },
+    {
+        "id": "hodeidah-public-park",
+        "name": "حديقة الشعب (الحديقة العامة)",
+        "description": "أكبر حديقة عامة في مدينة الحديدة، تقع بالقرب من الكورنيش. [10] توفر مساحات خضراء واسعة وأماكن للجلوس وألعاب للأطفال، وتعتبر متنفسًا عائليًا مهمًا في قلب المدينة.",
+        "categories": ["park", "recreational", "family"],
+        "categoryNames": ["حديقة", "ترفيهي", "عائلي"],
+        "coordinates": {"lat": 14.795, "lng": 42.955},
+        "images": ["images/landmarks/hodeidah/hodeidah_park1.jpg", "images/landmarks/hodeidah/hodeidah_park2.jpg"]
+    },
+
+
+    {
+        "id": "kamaran-island-mangroves",
+        "name": "غابات المانجروف في جزيرة كمران",
+        "description": "تضم جزيرة كمران غابات كثيفة من أشجار المانجروف (الشورى)، والتي تشكل نظامًا بيئيًا فريدًا. [2] تعتبر هذه المنطقة متنزهًا طبيعيًا لمحبي البيئة ومراقبة الطيور واستكشاف الطبيعة الساحلية البكر.",
+        "categories": ["nature", "island", "ecosystem", "bird-watching"],
+        "categoryNames": ["طبيعي", "جزيرة", "نظام بيئي", "مراقبة الطيور"],
+        "coordinates": {"lat": 15.36, "lng": 42.58},
+        "images": ["images/parks/hodeidah/kamaran_mangroves1.jpg", "images/parks/hodeidah/kamaran_mangroves2.jpg"]
+    },
+    {
+        "id": "hodeidah-sand-dunes-park",
+        "name": "متنزه الكثبان الرملية",
+        "description": "منطقة صحراوية تتميز بكثبانها الرملية الذهبية الممتدة. [3] تعد متنزهًا طبيعيًا مفتوحًا لهواة المغامرات، حيث يمكن ممارسة التزلج على الرمال، وقيادة سيارات الدفع الرباعي، والتخييم تحت النجوم.",
+        "categories": ["nature", "desert", "adventure", "recreation"],
+        "categoryNames": ["طبيعي", "صحراوي", "مغامرات", "ترفيهي"],
+        "coordinates": {"lat": 14.90, "lng": 43.05},
+        "images": ["images/parks/hodeidah/sand_dunes_park1.jpg", "images/parks/hodeidah/sand_dunes_park2.jpg"]
+    },
+    {
+        "id": "al-urj-beach",
+        "name": "شاطئ العرج",
+        "description": "يقع شمال الحديدة، وهو شاطئ هادئ يتميز بجماله الطبيعي وبقايا أشجار القرم. [4] يعتبر مكانًا مثاليًا للباحثين عن الهدوء والاسترخاء بعيدًا عن صخب المدينة.",
+        "categories": ["beach", "nature", "recreation", "quiet"],
+        "categoryNames": ["شاطئ", "طبيعي", "ترفيهي", "هادئ"],
+        "coordinates": {"lat": 15.15, "lng": 42.78},
+        "images": ["images/parks/hodeidah/al_urj_beach1.jpg", "images/parks/hodeidah/al_urj_beach2.jpg"]
+    },
+    {
+        "id": "wadi-surdud",
+        "name": "وادي سردد",
+        "description": "أحد الأودية الهامة في منطقة تهامة، يقع شرق الحديدة. [5] بعد هطول الأمطار، يتحول الوادي إلى مساحات خضراء ومجاري مائية، ليصبح متنزهًا طبيعيًا يقصده السكان للنزهات والاستمتاع بالطبيعة الريفية.",
+        "categories": ["wadi", "nature", "recreation", "agriculture"],
+        "categoryNames": ["وادي", "طبيعي", "ترفيهي", "زراعي"],
+        "coordinates": {"lat": 15.25, "lng": 43.20},
+        "images": ["images/parks/hodeidah/wadi_surdud1.jpg", "images/parks/hodeidah/wadi_surdud2.jpg"]
+    },
+    {
+        "id": "al-khawkhah-beach",
+        "name": "شاطئ الخوخة",
+        "description": "يقع في مديرية الخوخة جنوب الحديدة، ويشتهر بنخيله الباسق الذي يمتد حتى الشاطئ. [6] يوفر هذا المزيج الفريد من الشاطئ الرملي وأشجار النخيل منظرًا استوائيًا خلابًا وظلالًا طبيعية للمتنزهين.",
+        "categories": ["beach", "nature", "scenic", "recreation"],
+        "categoryNames": ["شاطئ", "طبيعي", "مناظر خلابة", "ترفيهي"],
+        "coordinates": {"lat": 13.78, "lng": 43.25},
+        "images": ["images/parks/hodeidah/al_khawkhah_beach1.jpg", "images/parks/hodeidah/al_khawkhah_beach2.jpg"]
+    },
+    {
+        "id": "hodeidah-corniche-gardens",
+        "name": "حدائق كورنيش الحديدة",
+        "description": "مجموعة من المساحات الخضراء والحدائق الصغيرة المنتشرة على طول الكورنيش. [7] تعمل هذه الحدائق كمتنزهات حضرية توفر أماكن للجلوس والاستمتاع بنسيم البحر الأحمر وإطلالاته الساحرة.",
+        "categories": ["park", "recreation", "family", "coastal"],
+        "categoryNames": ["حديقة", "ترفيهي", "عائلي", "ساحلي"],
+        "coordinates": {"lat": 14.798, "lng": 42.952},
+        "images": ["images/parks/hodeidah/corniche_gardens1.jpg", "images/parks/hodeidah/corniche_gardens2.jpg"]
+    },
+    {
+        "id": "ras-isa-peninsula",
+        "name": "شبه جزيرة رأس عيسى",
+        "description": "منطقة ساحلية شمال الصليف، تتميز بشواطئها البكر ومياهها الصافية. [8] تعتبر متنزهًا طبيعيًا مفتوحًا ومثاليًا للتخييم، والسباحة، والغوص السطحي (السنوركلينج) في بيئة هادئة.",
+        "categories": ["nature", "beach", "camping", "snorkeling"],
+        "categoryNames": ["طبيعي", "شاطئ", "تخييم", "غطس سطحي"],
+        "coordinates": {"lat": 15.15, "lng": 42.65},
+        "images": ["images/parks/hodeidah/ras_isa1.jpg", "images/parks/hodeidah/ras_isa2.jpg"]
+    },
+    {
+        "id": "wadi-zabid",
+        "name": "وادي زبيد",
+        "description": "وادي تاريخي شهير يقع بالقرب من مدينة زبيد الأثرية. [9] عند جريان المياه فيه، تتحول ضفافه إلى أراضٍ خضراء خصبة، مما يجعله وجهة للتنزه والاستمتاع بالجمع بين الطبيعة والتاريخ.",
+        "categories": ["wadi", "nature", "historical", "recreation"],
+        "categoryNames": ["وادي", "طبيعي", "تاريخي", "ترفيهي"],
+        "coordinates": {"lat": 14.20, "lng": 43.32},
+        "images": ["images/parks/hodeidah/wadi_zabid1.jpg", "images/parks/hodeidah/wadi_zabid2.jpg"]
+    },
+
+
+    {
+        "id": "al-ashaer-mosque-zabid",
+        "name": "جامع الأشاعر في زبيد",
+        "description": "أحد أقدم المساجد في الإسلام، يُقال إنه بني في عهد النبي محمد على يد الصحابي أبي موسى الأشعري. [2] يعتبر خامس مسجد بني في الإسلام، ويحتوي على جامعة تاريخية كانت مركزاً هاماً للعلم.",
+        "categories": ["archaeological", "religious", "historical", "islamic"],
+        "categoryNames": ["أثري", "ديني", "تاريخي", "إسلامي"],
+        "coordinates": {"lat": 14.193, "lng": 43.318},
+        "images": ["images/archaeological/hodeidah/al_ashaer_mosque1.jpg", "images/archaeological/hodeidah/al_ashaer_mosque2.jpg"]
+    },
+    {
+        "id": "beit-al-faqih-town",
+        "name": "مدينة بيت الفقيه",
+        "description": "بلدة تاريخية تشتهر بسوقها الأسبوعي الذي يعتبر من أقدم وأشهر الأسواق الشعبية في تهامة. [3] كانت المدينة مركزاً تجارياً مهماً على طريق القوافل، وتحتفظ بطابعها التقليدي ومبانيها القديمة.",
+        "categories": ["historical", "market", "cultural"],
+        "categoryNames": ["تاريخي", "سوق", "ثقافي"],
+        "coordinates": {"lat": 14.516, "lng": 43.233},
+        "images": ["images/archaeological/hodeidah/beit_al_faqih1.jpg", "images/archaeological/hodeidah/beit_al_faqih2.jpg"]
+    },
+    {
+        "id": "al-faza-coastal-ruins",
+        "name": "أطلال ميناء الفازة",
+        "description": "موقع أثري لمدينة ساحلية قديمة تقع جنوب الحديدة. [4] كانت ميناءً هاماً في العصور الإسلامية المبكرة، ويمكن مشاهدة بقايا أساسات المباني والمنازل القديمة على طول الساحل.",
+        "categories": ["archaeological", "ruins", "historical", "coastal"],
+        "categoryNames": ["أثري", "أطلال", "تاريخي", "ساحلي"],
+        "coordinates": {"lat": 13.90, "lng": 43.15},
+        "images": ["images/archaeological/hodeidah/al_faza_ruins1.jpg", "images/archaeological/hodeidah/al_faza_ruins2.jpg"]
+    },
+    {
+        "id": "hays-city-fortress",
+        "name": "قلعة مدينة حيس",
+        "description": "تقع في مدينة حيس التاريخية، المشهورة بصناعة الفخار. [5] القلعة هي حصن قديم كان يستخدم للدفاع عن المدينة، وتتميز مباني المدينة نفسها بطراز معماري طيني فريد.",
+        "categories": ["historical", "fortress", "architectural"],
+        "categoryNames": ["تاريخي", "قلعة", "معماري"],
+        "coordinates": {"lat": 13.92, "lng": 43.50},
+        "images": ["images/archaeological/hodeidah/hays_fortress1.jpg", "images/archaeological/hodeidah/hays_fortress2.jpg"]
+    },
+    {
+        "id": "al-mahjam-archaeological-site",
+        "name": "موقع المهجم الأثري",
+        "description": "أطلال مدينة إسلامية قديمة كانت مزدهرة في العصور الوسطى، وتقع بالقرب من وادي سردد. [6] الموقع يضم بقايا مسجد كبير، ومنازل، ونظام ري متطور، مما يدل على أهميتها التاريخية.",
+        "categories": ["archaeological", "ruins", "historical", "islamic"],
+        "categoryNames": ["أثري", "أطلال", "تاريخي", "إسلامي"],
+        "coordinates": {"lat": 15.38, "lng": 43.05},
+        "images": ["images/archaeological/hodeidah/al_mahjam_site1.jpg", "images/archaeological/hodeidah/al_mahjam_site2.jpg"]
+    },
+    {
+        "id": "ottoman-buildings-hodeidah",
+        "name": "المباني العثمانية في الحديدة",
+        "description": "مجموعة من المباني الحكومية والثكنات العسكرية التي تعود لفترة الحكم العثماني الثاني في اليمن. [7] تنتشر هذه المباني في المدينة القديمة وتتميز بطرازها المعماري العثماني المميز.",
+        "categories": ["historical", "architectural", "ottoman"],
+        "categoryNames": ["تاريخي", "معماري", "عثماني"],
+        "coordinates": {"lat": 14.806, "lng": 42.947},
+        "images": ["images/archaeological/hodeidah/ottoman_buildings1.jpg", "images/archaeological/hodeidah/ottoman_buildings2.jpg"]
+    },
+    {
+        "id": "al-qanawis-fort",
+        "name": "حصن القناوص",
+        "description": "حصن تاريخي يقع في مديرية القناوص شمال مدينة الحديدة. [8] كان الحصن مركزاً إدارياً وعسكرياً للمنطقة، ويمثل نموذجاً للعمارة الدفاعية التقليدية في منطقة تهامة.",
+        "categories": ["historical", "fortress", "military"],
+        "categoryNames": ["تاريخي", "قلعة", "عسكري"],
+        "coordinates": {"lat": 15.45, "lng": 42.95},
+        "images": ["images/archaeological/hodeidah/al_qanawis_fort1.jpg", "images/archaeological/hodeidah/al_qanawis_fort2.jpg"]
+    },
+    
+    {
+        "id": "zabid-citadel",
+        "name": "قلعة زبيد",
+        "description": "حصن دفاعي ضخم يقع على طرف مدينة زبيد التاريخية. [10] كانت القلعة مقراً للحكام والسلاطين وتضم أسواراً وأبراجاً عالية، وهي جزء لا يتجزأ من النظام الدفاعي للمدينة المصنفة ضمن التراث العالمي.",
+        "categories": ["archaeological", "fortress", "historical", "unesco"],
+        "categoryNames": ["أثري", "قلعة", "تاريخي", "يونسكو"],
+        "coordinates": {"lat": 14.196, "lng": 43.313},
+        "images": ["images/archaeological/hodeidah/zabid_citadel1.jpg", "images/archaeological/hodeidah/zabid_citadel2.jpg"]
+    },
+
+
+    {
+        "id": "wadi-siham",
+        "name": "وادي سهام",
+        "description": "ينبع من المرتفعات الغربية لمحافظة صنعاء ويمر شمال جبال ريمة ليسقي أراضي المراوعة والقطيع. [4] يعتبر من الأودية الهامة في تهامة التي تساهم في دعم الزراعة وتوفير المياه للمناطق التي يمر بها.",
+        "categories": ["wadi", "nature", "water-course", "agriculture"],
+        "categoryNames": ["وادي", "طبيعي", "مجرى مائي", "زراعي"],
+        "coordinates": {"lat": 14.75, "lng": 43.15},
+        "images": ["images/water/hodeidah/wadi_siham1.jpg", "images/water/hodeidah/wadi_siham2.jpg"]
+    },
+    {
+        "id": "wadi-rimaa",
+        "name": "وادي رماع",
+        "description": "وادي كبير ينحدر من مرتفعات آنس ووصاب وريمة، ويشق طريقه بين الجبال ليصب في البحر الأحمر. [4] يلعب دوراً حيوياً في ري الأراضي الزراعية في مديريات الجروبة والحسينية والمناطق المجاورة.",
+        "categories": ["wadi", "nature", "agriculture", "water"],
+        "categoryNames": ["وادي", "طبيعي", "زراعي", "مائي"],
+        "coordinates": {"lat": 14.45, "lng": 43.20},
+        "images": ["images/water/hodeidah/wadi_rimaa1.jpg", "images/water/hodeidah/wadi_rimaa2.jpg"]
+    },
+    {
+        "id": "wadi-mawr-dam",
+        "name": "سد وادي مور",
+        "description": "سد رئيسي أقيم على وادي مور لتنظيم جريان المياه وتوزيعها على الأراضي الزراعية عبر شبكة من القنوات. [24] يعتبر مشروعاً مائياً استراتيجياً يهدف إلى تحقيق الاستفادة القصوى من مياه الوادي.",
+        "categories": ["dam", "water-management", "agriculture", "engineering"],
+        "categoryNames": ["سد", "إدارة مياه", "زراعي", "هندسي"],
+        "coordinates": {"lat": 15.70, "lng": 43.00},
+        "images": ["images/water/hodeidah/wadi_mawr_dam1.jpg", "images/water/hodeidah/wadi_mawr_dam2.jpg"]
+    },
+    {
+        "id": "red-sea-coastline",
+        "name": "ساحل البحر الأحمر",
+        "description": "تمتلك محافظة الحديدة شريطاً ساحلياً طويلاً يمتد لمئات الكيلومترات على البحر الأحمر. [4] يعتبر هذا الساحل مسطحاً مائياً ضخماً ومورداً طبيعياً للأسماك، وتنتشر على طوله الشواطئ الرملية وأشجار النخيل.",
+        "categories": ["sea", "coastal", "nature", "fishing"],
+        "categoryNames": ["بحر", "ساحلي", "طبيعي", "صيد"],
+        "coordinates": {"lat": 14.80, "lng": 42.95},
+        "images": ["images/water/hodeidah/red_sea_coast1.jpg", "images/water/hodeidah/red_sea_coast2.jpg"]
+    },
+  
+    {
+        "id": "al-salif-salt-pans",
+        "name": "ملاحات الصليف",
+        "description": "أحواض مائية واسعة تستخدم في استخراج الملح الصخري عبر تبخير مياه البحر. [9] تشكل هذه الملاحات منظراً طبيعياً-صناعياً فريداً، وتعتبر من أكبر مواقع إنتاج الملح في اليمن.",
+        "categories": ["water", "industrial", "salt-extraction", "scenic"],
+        "categoryNames": ["مائي", "صناعي", "استخراج ملح", "مناظر خلابة"],
+        "coordinates": {"lat": 15.31, "lng": 42.69},
+        "images": ["images/water/hodeidah/al_salif_salt_pans1.jpg", "images/water/hodeidah/al_salif_salt_pans2.jpg"]
+    },
+    {
+        "id": "wadi-nakhla",
+        "name": "وادي نخلة",
+        "description": "وادي ينحدر من المرتفعات الجبلية لمحافظة تعز ويمر بمدينة حيس التاريخية. [4] يروي الأراضي الزراعية في المناطق التي يمر بها قبل أن يصب في البحر الأحمر شمال الخوخة.",
+        "categories": ["wadi", "nature", "water-course"],
+        "categoryNames": ["وادي", "طبيعي", "مجرى مائي"],
+        "coordinates": {"lat": 13.95, "lng": 43.35},
+        "images": ["images/water/hodeidah/wadi_nakhla1.jpg", "images/water/hodeidah/wadi_nakhla2.jpg"]
+    },
+
+     {
+        "id": "hot-sand-therapy",
+        "name": "حمامات الرمال الحارة (الدفن)",
+        "description": "في المناطق ذات الكثبان الرملية الشاسعة، تُمارس عادة \"الدفن في الرمال\" كعلاج تقليدي. [2] يُعتقد أن حرارة الرمال الجافة تساعد على استرخاء العضلات وتخفيف آلام الروماتيزم والتهاب المفاصل.",
+        "categories": ["therapeutic", "natural", "sand-therapy", "rheumatism"],
+        "categoryNames": ["علاجي", "طبيعي", "علاج بالرمل", "روماتيزم"],
+        "coordinates": {"lat": 14.90, "lng": 43.05},
+        "images": ["images/therapeutic/hodeidah/hot_sand_therapy1.jpg", "images/therapeutic/hodeidah/hot_sand_therapy2.jpg"]
+    },
+
+    {
+        "id": "kamaran-island-seaweed",
+        "name": "طحالب جزيرة كمران",
+        "description": "تنمو على سواحل جزيرة كمران أنواع مختلفة من الطحالب البحرية في بيئة نظيفة. [6] يستخدمها السكان المحليون في غذائهم وكعلاج موضعي لبعض الالتهابات الجلدية لاحتوائها على عناصر مغذية ومضادة للالتهاب.",
+        "categories": ["therapeutic", "natural", "seaweed", "skin-care"],
+        "categoryNames": ["علاجي", "طبيعي", "طحالب بحرية", "عناية بالبشرة"],
+        "coordinates": {"lat": 15.36, "lng": 42.58},
+        "images": ["images/therapeutic/hodeidah/kamaran_seaweed1.jpg", "images/therapeutic/hodeidah/kamaran_seaweed2.jpg"]
+    },
+
+    {
+        "id": "al-khawkhah-coconut-oil",
+        "name": "زيت جوز الهند من الخوخة",
+        "description": "تشتهر منطقة الخوخة بأشجار جوز الهند (النارجيل). [7] يُستخرج الزيت من الثمار ويُستخدم تقليدياً كمرطب للبشرة والشعر، ولعلاج حروق الشمس الطفيفة، وكمضاد للالتهابات الجلدية.",
+        "categories": ["therapeutic", "natural", "herbal-medicine", "skin-care"],
+        "categoryNames": ["علاجي", "طبيعي", "طب أعشاب", "عناية بالبشرة"],
+        "coordinates": {"lat": 13.78, "lng": 43.25},
+        "images": ["images/therapeutic/hodeidah/coconut_oil1.jpg", "images/therapeutic/hodeidah/coconut_oil2.jpg"]
+    },
+
+    {
+        "id": "tihama-sidr-honey",
+        "name": "عسل السدر التهامي",
+        "description": "يُنتج النحل عسلاً ذا جودة عالية من رحيق أشجار السدر المنتشرة في أودية تهامة. [8] يُعتبر عسل السدر مضاداً حيوياً طبيعياً ويستخدم في الطب الشعبي لتقوية المناعة وعلاج أمراض الجهاز التنفسي والجروح.",
+        "categories": ["therapeutic", "natural", "honey", "wellness"],
+        "categoryNames": ["علاجي", "طبيعي", "عسل", "صحة"],
+        "coordinates": {"lat": 14.40, "lng": 43.30},
+        "images": ["images/therapeutic/hodeidah/sidr_honey1.jpg", "images/therapeutic/hodeidah/sidr_honey2.jpg"]
+    },
+
+    {
+        "id": "fish-oil-hodeidah",
+        "name": "زيت السمك الطازج",
+        "description": "لكون الحديدة ميناء صيد رئيسي، يتوفر فيها زيت السمك الطازج المستخرج محلياً. [9] يُستخدم هذا الزيت الغني بالأوميجا 3 في التغذية لتقوية الجسم، ويُعتقد أنه يساعد في صحة المفاصل والقلب.",
+        "categories": ["therapeutic", "natural", "nutrition", "wellness"],
+        "categoryNames": ["علاجي", "طبيعي", "تغذية", "صحة"],
+        "coordinates": {"lat": 14.815, "lng": 42.945},
+        "images": ["images/therapeutic/hodeidah/fish_oil1.jpg", "images/therapeutic/hodeidah/fish_oil2.jpg"]
+    },
+
+    {
+        "id": "al-hodeidah-land-park",
+        "name": "منتزه الحديدة لاند",
+        "description": "يقع على شارع الكورنيش، وهو من أبرز الوجهات الترفيهية في المدينة. [3, 4] يضم المنتزه مجموعة متنوعة من الألعاب الحديثة ومساحات خضراء، ويستقطب عددًا كبيرًا من العائلات والشباب. [3, 4]",
+        "categories": ["amusement-park", "recreational", "family"],
+        "categoryNames": ["ملاهي", "ترفيهي", "عائلي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-shaheed-al-sammad-park",
+        "name": "حديقة 7 يوليو  )",
+        "description": "تقع في شارع جمال، وهي إحدى الحدائق الهامة في مدينة الحديدة. [5, 6] تم إعادة تأهيلها وتطويرها لتكون متنفسًا إضافيًا للسكان، وتضم مساحات خضراء ومناطق للجلوس. [5, 6]",
+        "categories": ["park", "recreational", "family"],
+        "categoryNames": ["حديقة", "ترفيهي", "عائلي"],
+        "coordinates": {},
+        "images": []
+    },
+
+    {
+        "id": "al-durayhimi-park",
+        "name": "حديقة الدريهمي",
+        "description": "تقع في مديرية الدريهمي جنوب مدينة الحديدة، وتعتبر متنفسًا رئيسيًا لسكان المديرية. [8] عانت الحديقة من الأضرار ولكن هناك جهود ومناشدات لإعادة تأهيلها لخدمة المجتمع المحلي. [8]",
+        "categories": ["park", "neighborhood"],
+        "categoryNames": ["حديقة", "حي سكني"],
+        "coordinates": {},
+        "images": []
+    }
+
+        ]
+    },
+    "mukalla": {
+        "name": "المكلا",
+        "landmarks": [
+            
+    {
+        "id": "mukalla-khor",
+        "name": "خور المكلا",
+        "description": "لسان بحري طبيعي يتوغل في قلب مدينة المكلا، ويعتبر الواجهة البحرية الأجمل وروح المدينة. [1] تحيط به المباني القديمة والحديثة، وتصطف على جوانبه القوارب التقليدية، وهو مكان مثالي للتنزه والاستمتاع بالمنظر.",
+        "categories": ["coastal", "recreational", "scenic", "landmark"],
+        "categoryNames": ["ساحلي", "ترفيهي", "مناظر خلابة", "معلم"],
+        "coordinates": {"lat": 14.535, "lng": 49.130},
+        "images": ["images/landmarks/mukalla/mukalla_khor1.jpg", "images/landmarks/mukalla/mukalla_khor2.jpg"]
+    },
+
+    {
+        "id": "khor-al-mukalla-park",
+        "name": "متنزه خور المكلا",
+        "description": "الواجهة البحرية والحدائق المحيطة بخور المكلا، والتي أصبحت مقصدًا رئيسيًا للعائلات. [20] يجمع المتنزه بين جمال المنظر البحري للخور والمساحات الخضراء وأماكن الترفيه، مما يجعله متنزهًا حضريًا فريدًا.",
+        "categories": ["park", "recreation", "family", "coastal"],
+        "categoryNames": ["حديقة", "ترفيهي", "عائلي", "ساحلي"],
+        "coordinates": {"lat": 14.535, "lng": 49.130},
+        "images": ["images/parks/mukalla/khor_park1.jpg", "images/parks/mukalla/khor_park2.jpg"]
+    },
+
+    {
+        "id": "al-ghwayzi-fort",
+        "name": "حصن الغويزي",
+        "description": "حصن تاريخي شهير يقع على صخرة ضخمة عند المدخل الشمالي الشرقي لمدينة المكلا. [2] يعود تاريخه إلى القرن الثامن عشر، وكان يستخدم للحماية ومراقبة القادمين إلى المدينة، ويعتبر اليوم رمزاً للمكلا.",
+        "categories": ["historical", "fortress", "architectural", "landmark"],
+        "categoryNames": ["تاريخي", "قلعة", "معماري", "معلم"],
+        "coordinates": {"lat": 14.551, "lng": 49.145},
+        "images": ["images/landmarks/mukalla/al_ghwayzi_fort1.jpg", "images/landmarks/mukalla/al_ghwayzi_fort2.jpg"]
+    },
+    {
+        "id": "al-quaiti-sultan-palace",
+        "name": "قصر السلطان القعيطي",
+        "description": "قصر تاريخي فخم يطل على خور المكلا، كان مقراً لسلاطين الدولة القعيطية. [3] يتميز بتصميمه المعماري الفريد الذي يدمج الطابع الهندي والأوروبي واليمني، ويضم حالياً المتحف الوطني.",
+        "categories": ["historical", "palace", "museum", "architectural"],
+        "categoryNames": ["تاريخي", "قصر", "متحف", "معماري"],
+        "coordinates": {"lat": 14.534, "lng": 49.128},
+        "images": ["images/landmarks/mukalla/al_quaiti_palace1.jpg", "images/landmarks/mukalla/al_quaiti_palace2.jpg"]
+    },
+    {
+        "id": "mukalla-old-city",
+        "name": "المكلا القديمة",
+        "description": "القلب التاريخي للمدينة، تتميز بأزقتها الضيقة ومبانيها البيضاء ذات الطراز الحضرمي الفريد والنوافذ الخشبية المزخرفة (الروشان). [4] التجول فيها يعطي لمحة عن تاريخ المكلا العريق وحياة سكانها.",
+        "categories": ["historical", "cultural", "architectural"],
+        "categoryNames": ["تاريخي", "ثقافي", "معماري"],
+        "coordinates": {"lat": 14.533, "lng": 49.125},
+        "images": ["images/landmarks/mukalla/mukalla_old_city1.jpg", "images/landmarks/mukalla/mukalla_old_city2.jpg"]
+    },
+    {
+        "id": "omar-mosque-mukalla",
+        "name": "مسجد عمر (جامع المكلا)",
+        "description": "أحد أقدم وأكبر المساجد في المكلا، يقع في المدينة القديمة. [5] يتميز بمئذنته الشاهقة وتصميمه البسيط والأنيق، ويعتبر مركزاً دينياً واجتماعياً رئيسياً في المدينة.",
+        "categories": ["religious", "historical", "architectural"],
+        "categoryNames": ["ديني", "تاريخي", "معماري"],
+        "coordinates": {"lat": 14.534, "lng": 49.126},
+        "images": ["images/landmarks/mukalla/omar_mosque1.jpg", "images/landmarks/mukalla/omar_mosque2.jpg"]
+    },
+    {
+        "id": "burum-coastal-village",
+        "name": "ساحل بروم",
+        "description": "منطقة ساحلية وقرية صيد تاريخية تقع غرب المكلا. [6] تشتهر بشواطئها الجميلة ومينائها الطبيعي الذي كان يستخدم في تجارة البخور قديماً، وتعتبر ميناء قنا التاريخي.",
+        "categories": ["coastal", "historical", "village", "beach"],
+        "categoryNames": ["ساحلي", "تاريخي", "قرية", "شاطئ"],
+        "coordinates": {"lat": 14.35, "lng": 48.98},
+        "images": ["images/landmarks/mukalla/burum_coast1.jpg", "images/landmarks/mukalla/burum_coast2.jpg"]
+    },
+    {
+        "id": "jabal-al-qara",
+        "name": "جبل القارة",
+        "description": "سلسلة جبلية تشرف على مدينة المكلا من جهة الشمال، وتوفر إطلالات بانورامية مذهلة على المدينة والبحر. [7] يمكن الوصول إلى أجزاء منها بالسيارة، وهي وجهة مفضلة لمشاهدة المدينة من الأعلى.",
+        "categories": ["nature", "viewpoint", "mountain"],
+        "categoryNames": ["طبيعي", "إطلالة", "جبل"],
+        "coordinates": {"lat": 14.56, "lng": 49.13},
+        "images": ["images/landmarks/mukalla/jabal_al_qara1.jpg", "images/landmarks/mukalla/jabal_al_qara2.jpg"]
+    },
+    {
+        "id": "al-rayyan-beach",
+        "name": "شاطئ الريان",
+        "description": "شاطئ واسع ونظيف يقع بالقرب من مطار الريان الدولي شرق المكلا. [8] يتميز برماله البيضاء ومياهه الصافية، ويعتبر مكاناً مثالياً للسباحة والاسترخاء والنزهات العائلية.",
+        "categories": ["beach", "nature", "recreational", "family"],
+        "categoryNames": ["شاطئ", "طبيعي", "ترفيهي", "عائلي"],
+        "coordinates": {"lat": 14.65, "lng": 49.35},
+        "images": ["images/landmarks/mukalla/al_rayyan_beach1.jpg", "images/landmarks/mukalla/al_rayyan_beach2.jpg"]
+    },
+    {
+        "id": "al-rayyan-beach-park",
+        "name": "متنزه شاطئ الريان",
+        "description": "شاطئ رملي أبيض واسع ومفتوح يقع شرق المكلا. [8] يعد متنزهًا طبيعيًا مثاليًا للسباحة والرياضات الشاطئية والتخييم، ويتميز بهدوئه وبعده عن صخب المدينة.",
+        "categories": ["beach", "nature", "recreation", "camping"],
+        "categoryNames": ["شاطئ", "طبيعي", "ترفيهي", "تخييم"],
+        "coordinates": {"lat": 14.65, "lng": 49.35},
+        "images": ["images/parks/mukalla/al_rayyan_park1.jpg", "images/parks/mukalla/al_rayyan_park2.jpg"]
+    },
+    {
+        "id": "al-salam-park-mukalla",
+        "name": "منتزه السلام",
+        "description": "حديقة عامة ومنتزه ترفيهي يقع في منطقة فوه غرب المكلا. [9] يضم مساحات خضراء وألعاب للأطفال ومرافق ترفيهية، ويعتبر متنفساً هاماً للعائلات وسكان المدينة.",
+        "categories": ["park", "recreational", "family", "entertainment"],
+        "categoryNames": ["حديقة", "ترفيهي", "عائلي", "تسلية"],
+        "coordinates": {"lat": 14.55, "lng": 49.08},
+        "images": ["images/landmarks/mukalla/al_salam_park1.jpg", "images/landmarks/mukalla/al_salam_park2.jpg"]
+    },
+    {
+        "id": "hisn-al-eiddah",
+        "name": "حصن العدة",
+        "description": "حصن تاريخي آخر يقع على تلة تشرف على المكلا القديمة من جهة الغرب. [10] إلى جانب حصن الغويزي، كان يشكل جزءاً من النظام الدفاعي للمدينة، ويوفر إطلالة رائعة على المدينة القديمة والخور.",
+        "categories": ["historical", "fortress", "viewpoint", "ruins"],
+        "categoryNames": ["تاريخي", "قلعة", "إطلالة", "أطلال"],
+        "coordinates": {"lat": 14.538, "lng": 49.122},
+        "images": ["images/landmarks/mukalla/hisn_al_eiddah1.jpg", "images/landmarks/mukalla/hisn_al_eiddah2.jpg"]
+    },
+
+        {
+        "id": "wadi-dawan",
+        "name": "وادي دوعن",
+        "description": "أحد أشهر وأجمل الأودية في حضرموت، يتفرع إلى واديين أيمن وأيسر. [5, 6] يشتهر بقرى الطين المعلقة على سفوح الجبال، ومناحل العسل الدوعني الشهير، وبساتين النخيل الكثيفة، مما يجعله متحفاً طبيعياً وتاريخياً مفتوحاً.",
+        "categories": ["wadi", "nature", "historical", "scenic", "village"],
+        "categoryNames": ["وادي", "طبيعي", "تاريخي", "مناظر خلابة", "قرية"],
+        "coordinates": {"lat": 15.03, "lng": 48.38},
+        "images": ["images/parks/mukalla/wadi_dawan1.jpg", "images/parks/mukalla/wadi_dawan2.jpg"]
+    },
+    {
+        "id": "sharmah-beach-reserve",
+        "name": "محمية شاطئ شرمة",
+        "description": "تقع شرق المكلا، وهي محمية طبيعية ذات أهمية عالمية. [10] تعتبر من أهم مواقع تعشيش السلاحف البحرية الخضراء النادرة، وتتميز بشواطئها البكر ومياهها الصافية وتنوعها البيولوجي البحري. [17]",
+        "categories": ["nature-reserve", "beach", "wildlife", "turtles"],
+        "categoryNames": ["محمية طبيعية", "شاطئ", "حياة برية", "سلاحف"],
+        "coordinates": {"lat": 14.82, "lng": 49.95},
+        "images": ["images/parks/mukalla/sharmah_beach1.jpg", "images/parks/mukalla/sharmah_beach2.jpg"]
+    },
+    {
+        "id": "mukalla-corniche",
+        "name": "كورنيش المحضار وشواطئ خلف",
+        "description": "يمتد على طول منطقة خلف، ويعتبر المتنفس البحري الرئيسي الحديث في المكلا. [26] يرتاده السكان والزوار للنزهات المسائية والاستمتاع بنسيم البحر، وتنتشر على طوله المقاهي والاستراحات.",
+        "categories": ["coastal", "recreation", "family", "park"],
+        "categoryNames": ["ساحلي", "ترفيهي", "عائلي", "متنزه"],
+        "coordinates": {"lat": 14.525, "lng": 49.150},
+        "images": ["images/parks/mukalla/mukalla_corniche1.jpg", "images/parks/mukalla/mukalla_corniche2.jpg"]
+    },
+    {
+        "id": "burum-coast",
+        "name": "متنزه ساحل بروم",
+        "description": "منطقة ساحلية تاريخية غرب المكلا، تتميز بشواطئها الرملية الهادئة وأشجار النخيل. [6] تعتبر مكانًا مثاليًا للرحلات العائلية والسباحة والاسترخاء، مع الاستمتاع بمنظر قرية الصيد التقليدية.",
+        "categories": ["beach", "nature", "recreation", "village"],
+        "categoryNames": ["شاطئ", "طبيعي", "ترفيهي", "قرية"],
+        "coordinates": {"lat": 14.35, "lng": 48.98},
+        "images": ["images/parks/mukalla/burum_coast_park1.jpg", "images/parks/mukalla/burum_coast_park2.jpg"]
+    },
+    {
+        "id": "jabal-al-qara-viewpoint",
+        "name": "متنزه مطل جبل القارة",
+        "description": "يوفر جبل القارة المشرف على المكلا نقاط مشاهدة طبيعية تعتبر بمثابة متنزهات. [7] يقصدها الزوار للاستمتاع بالإطلالات البانورامية الساحرة للمدينة والخور والبحر العربي، خاصة عند شروق وغروب الشمس.",
+        "categories": ["nature", "viewpoint", "mountain", "scenic"],
+        "categoryNames": ["طبيعي", "إطلالة", "جبل", "مناظر خلابة"],
+        "coordinates": {"lat": 14.56, "lng": 49.13},
+        "images": ["images/parks/mukalla/jabal_al_qara_view1.jpg", "images/parks/mukalla/jabal_al_qara_view2.jpg"]
+    },
+    {
+        "id": "ghayl-bawazir-springs",
+        "name": "عيون غيل باوزير",
+        "description": "واحة خضراء تقع شمال شرق المكلا، تشتهر بينابيعها المائية العذبة وكثافة أشجار النخيل. [8] تعتبر متنزهًا ريفيًا طبيعيًا، حيث يقصدها الناس للاستحمام في مياه العيون الجارية والاستمتاع بالظل والهدوء.",
+        "categories": ["oasis", "nature", "water-spring", "recreation"],
+        "categoryNames": ["واحة", "طبيعي", "عين ماء", "ترفيهي"],
+        "coordinates": {"lat": 14.77, "lng": 49.38},
+        "images": ["images/parks/mukalla/ghayl_bawazir1.jpg", "images/parks/mukalla/ghayl_bawazir2.jpg"]
+    },
+
+    {
+        "id": "wadi-al-ain",
+        "name": "وادي العين",
+        "description": "أحد الأودية الخصبة والهامة في حضرموت، يشتهر بمزارعه الخضراء وقراه الطينية الجميلة. يعتبر متنزهًا طبيعيًا ريفيًا يعرض جمال الحياة الزراعية في حضرموت ومناظرها الطبيعية الهادئة.",
+        "categories": ["wadi", "nature", "agriculture", "village"],
+        "categoryNames": ["وادي", "طبيعي", "زراعي", "قرية"],
+        "coordinates": {"lat": 15.25, "lng": 48.75},
+        "images": ["images/parks/mukalla/wadi_al_ain1.jpg", "images/parks/mukalla/wadi_al_ain2.jpg"]
+    },
+    {
+        "id": "yalkh-beach",
+        "name": "شاطئ يلخ",
+        "description": "موقع بحري هادئ وخلاب يقع في مديرية بروم ميفع. [13] يجذب الزوار بفضل جماله الطبيعي وشواطئه النظيفة وتكويناته الصخرية الفريدة، وهو مكان ممتاز للاسترخاء والابتعاد عن الأماكن المزدحمة.",
+        "categories": ["beach", "nature", "scenic", "quiet"],
+        "categoryNames": ["شاطئ", "طبيعي", "مناظر خلابة", "هادئ"],
+        "coordinates": {"lat": 14.40, "lng": 49.02},
+        "images": ["images/parks/mukalla/yalkh_beach1.jpg", "images/parks/mukalla/yalkh_beach2.jpg"]
+    },
+
+    {
+        "id": "mukalla-fun-park",
+        "name": "منتزه المكلا للالعاب (فن بارك)",
+        "description": "مدينة ملاهي تقع في منطقة خلف بالمكلا، وتعتبر وجهة ترفيهية رئيسية للأطفال والعائلات. [4, 5] تضم مجموعة متنوعة من الألعاب الكهربائية والإلكترونية الحديثة. [4, 5]",
+        "categories": ["amusement-park", "family", "recreational"],
+        "categoryNames": ["ملاهي", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "khalf-beach-park",
+        "name": "منتزه شاطئ خلف",
+        "description": "منتزه مفتوح يقع على امتداد شاطئ خلف، وهو أحد أجمل شواطئ المكلا. [6] يوفر مساحات للجلوس والاستمتاع بمنظر البحر، بالإضافة إلى وجود استراحات ومقاهٍ قريبة، ويعتبر مكانًا مثاليًا للاستجمام. [6]",
+        "categories": ["beach", "park", "waterfront", "recreational"],
+        "categoryNames": ["شاطئ", "منتزه", "واجهة بحرية", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    }
+
+            
+        ]
+    },
+    "ibb": {
+        "name": "إب",
+        "landmarks": [
+            {
+                "id": "ibb-palace",
+                "name": "قصر إب التاريخي",
+                "description": "قصر تاريخي يقع في مدينة إب، يتميز بعمارته اليمنية التقليدية الفريدة وزخارفه الجميلة. يعكس تاريخ وثقافة المنطقة ويعتبر من أهم المعالم السياحية فيها.",
+                "categories": ["historical", "architectural", "cultural"],
+                "categoryNames": ["تاريخي", "معماري", "ثقافي"],
+                "coordinates": {"lat": 13.9667, "lng": 44.1833},
+                "images": ["images/landmarks/ibb/ibb_palace1.jpg", "images/landmarks/ibb/ibb_palace2.jpg"]
+            },
+
+                {
+        "id": "ibb-old-city",
+        "name": "مدينة إب القديمة",
+        "description": "القلب التاريخي لمدينة إب، تتميز بأزقتها المرصوفة بالحجارة ومبانيها الشاهقة المبنية من الحجر والمزينة بالزخارف الجصية (القضاض). [1] التجول فيها يأخذك في رحلة عبر الزمن لمشاهدة العمارة اليمنية التقليدية.",
+        "categories": ["historical", "cultural", "architectural", "city"],
+        "categoryNames": ["تاريخي", "ثقافي", "معماري", "مدينة"],
+        "coordinates": {"lat": 13.970, "lng": 44.185},
+        "images": ["images/landmarks/ibb/ibb_old_city1.jpg", "images/landmarks/ibb/ibb_old_city2.jpg"]
+    },
+    {
+        "id": "jibla-historic-city",
+        "name": "مدينة جبلة التاريخية",
+        "description": "عاصمة الدولة الصليحية، وهي مدينة أثرية مدرجة على القائمة التمهيدية لليونسكو. [2] تشتهر بجامع الملكة أروى وشوارعها الضيقة ونظامها المائي القديم، وتعتبر متحفاً مفتوحاً للعمارة الإسلامية.",
+        "categories": ["historical", "archaeological", "unesco", "city"],
+        "categoryNames": ["تاريخي", "أثري", "يونسكو", "مدينة"],
+        "coordinates": {"lat": 13.920, "lng": 44.143},
+        "images": ["images/landmarks/ibb/jibla_city1.jpg", "images/landmarks/ibb/jibla_city2.jpg"]
+    },
+    {
+        "id": "queen-arwa-mosque",
+        "name": "جامع الملكة أروى",
+        "description": "مسجد تاريخي عظيم يقع في قلب مدينة جبلة، بنته الملكة أروى بنت أحمد الصليحي. [3] يتميز بتصميمه المعماري الفريد ومئذنتيه، ويضم ضريح الملكة، ويعتبر من أهم المعالم الإسلامية في اليمن.",
+        "categories": ["religious", "historical", "architectural", "islamic"],
+        "categoryNames": ["ديني", "تاريخي", "معماري", "إسلامي"],
+        "coordinates": {"lat": 13.919, "lng": 44.144},
+        "images": ["images/landmarks/ibb/queen_arwa_mosque1.jpg", "images/landmarks/ibb/queen_arwa_mosque2.jpg"]
+    },
+    {
+        "id": "dhu-jiblah-bridge",
+        "name": "جسر شهارة (جسر جبلة)",
+        "description": "جسر حجري قديم ومقوس يربط بين ضفتي السائلة في مدينة جبلة. [4] يعتبر تحفة هندسية رائعة ومن معالم المدينة البارزة، ويوفر إطلالات جميلة على المدينة والمناطق المحيطة بها.",
+        "categories": ["historical", "architectural", "bridge", "engineering"],
+        "categoryNames": ["تاريخي", "معماري", "جسر", "هندسي"],
+        "coordinates": {"lat": 13.921, "lng": 44.145},
+        "images": ["images/landmarks/ibb/jibla_bridge1.jpg", "images/landmarks/ibb/jibla_bridge2.jpg"]
+    },
+    {
+        "id": "al-jalaliyya-mosque-ibb",
+        "name": "جامع الجلالية",
+        "description": "أحد أبرز المساجد التاريخية في مدينة إب القديمة. [5] يتميز بقبته البيضاء الكبيرة ومئذنته الشاهقة، ويعود تاريخ بنائه إلى العصر العثماني، وهو معلم ديني ومعماري هام.",
+        "categories": ["religious", "historical", "architectural", "ottoman"],
+        "categoryNames": ["ديني", "تاريخي", "معماري", "عثماني"],
+        "coordinates": {"lat": 13.971, "lng": 44.186},
+        "images": ["images/landmarks/ibb/al_jalaliyya_mosque1.jpg", "images/landmarks/ibb/al_jalaliyya_mosque2.jpg"]
+    },
+    {
+        "id": "hisn-taizz-al-ashraf",
+        "name": "حصن تعز الأشرف (حصن الدملؤة)",
+        "description": "قلعة تاريخية منيعة تقع على قمة جبل شاهق في مديرية حزم العدين. [6] تعتبر من أمنع القلاع في اليمن، وتتميز بتحصيناتها القوية وخزانات المياه المنحوتة في الصخر، وتوفر إطلالات بانورامية.",
+        "categories": ["historical", "fortress", "archaeological", "viewpoint"],
+        "categoryNames": ["تاريخي", "قلعة", "أثري", "إطلالة"],
+        "coordinates": {"lat": 13.85, "lng": 43.85},
+        "images": ["images/landmarks/ibb/damlua_fortress1.jpg", "images/landmarks/ibb/damlua_fortress2.jpg"]
+    },
+    {
+        "id": "wadi-bana-ibb",
+        "name": "وادي بنا (إب)",
+        "description": "ينبع وادي بنا الشهير من المرتفعات الخضراء لمحافظة إب. [7] تشكل منابعه ومجراه الأعلى في المحافظة ودياناً خضراء ومدرجات زراعية غاية في الجمال، وتعتبر من أروع المناظر الطبيعية في اليمن.",
+        "categories": ["nature", "wadi", "scenic", "agriculture"],
+        "categoryNames": ["طبيعي", "وادي", "مناظر خلابة", "زراعي"],
+        "coordinates": {"lat": 14.10, "lng": 44.35},
+        "images": ["images/landmarks/ibb/wadi_bana_ibb1.jpg", "images/landmarks/ibb/wadi_bana_ibb2.jpg"]
+    },
+    {
+        "id": "mashwara-park",
+        "name": "منتزه مشورة",
+        "description": "غابة طبيعية كثيفة تقع على أحد الجبال القريبة من مدينة إب. [8] تعتبر من أشهر المتنزهات الطبيعية في المحافظة، حيث يقصدها الزوار للاستمتاع بالطبيعة الخضراء والهواء النقي وأجواء الغابات.",
+        "categories": ["nature", "park", "forest", "recreational"],
+        "categoryNames": ["طبيعي", "حديقة", "غابة", "ترفيهي"],
+        "coordinates": {"lat": 14.01, "lng": 44.15},
+        "images": ["images/landmarks/ibb/mashwara_park1.jpg", "images/landmarks/ibb/mashwara_park2.jpg"]
+    },
+        {
+        "id": "ibb-tourist-park",
+        "name": "منتزه إب السياحي",
+        "description": "يقع على سفح جبل ربي، وهو المنتزه الرسمي والأشهر في مدينة إب. [1, 2] يتميز بإطلالاته الرائعة على المدينة والمناطق المحيطة، ويضم مساحات خضراء ومرافق للزوار، ويعتبر وجهة رئيسية للعائلات. [1, 2]",
+        "categories": ["park", "viewpoint", "family", "recreational"],
+        "categoryNames": ["منتزه", "مطل", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-shaheed-park-ibb",
+        "name": "حديقة منتزه ٢٢ مايو",
+        "description": "إحدى الحدائق العامة الهامة في مدينة إب، وتقع بالقرب من جامعة إب. [3] تعتبر متنفسًا حيويًا للسكان وتضم مساحات خضراء وألعابًا للأطفال، وتشهد إقبالًا كبيرًا خاصة في المناسبات. [3]",
+        "categories": ["park", "recreational", "family"],
+        "categoryNames": ["حديقة", "ترفيهي", "عائلي"],
+        "coordinates": {},
+        "images": []
+    },
+
+    {
+        "id": "al-aadain-waterfalls",
+        "name": "شلالات وادي العدين",
+        "description": "تقع في مديرية العدين، وهي مجموعة من الشلالات التي تتدفق في الوادي مكونة مناظر طبيعية خلابة. [6] تعتبر المنطقة وجهة مثالية لمحبي الطبيعة والمغامرات والباحثين عن الاستمتاع بجمال المياه المتدفقة. [6]",
+        "categories": ["waterfall", "valley", "natural-park"],
+        "categoryNames": ["شلال", "وادي", "منتزه طبيعي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "mashurah-waterfall",
+        "name": "شلال مشورة",
+        "description": "يقع في مديرية ريف إب، ويعتبر من أجمل الشلالات في المحافظة. [7] يتدفق من أعالي الجبال ليشكل منظرًا بديعًا، وهو وجهة شهيرة للنزهات والتقاط الصور التذكارية. [7]",
+        "categories": ["waterfall", "natural-park", "scenic"],
+        "categoryNames": ["شلال", "منتزه طبيعي", "مناظر طبيعية"],
+        "coordinates": {},
+        "images": []
+    },
+
+    {
+        "id": "al-adhari-waterfall",
+        "name": "شلالات العذاري (وادي عنة)",
+        "description": "مجموعة من الشلالات والعيون المائية التي تتدفق في وادي عنة بمديرية السدة. [9] تعتبر من أجمل المناظر المائية في إب، خاصة بعد مواسم الأمطار، حيث تجذب الزوار بجمالها الطبيعي.",
+        "categories": ["nature", "waterfall", "scenic", "water"],
+        "categoryNames": ["طبيعي", "شلال", "مناظر خلابة", "مائي"],
+        "coordinates": {"lat": 14.15, "lng": 44.45},
+        "images": ["images/landmarks/ibb/al_adhari_waterfall1.jpg", "images/landmarks/ibb/al_adhari_waterfall2.jpg"]
+    },
+    {
+        "id": "dar-al-izz-jibla",
+        "name": "دار العز (قصر الملكة أروى)",
+        "description": "بقايا قصر الملكة أروى الذي كان يقع في مدينة جبلة. [10] على الرغم من أن الكثير منه قد تهدم، إلا أن أطلاله لا تزال شاهدة على عظمة الدولة الصليحية، وهو موقع أثري هام بجوار الجامع الكبير.",
+        "categories": ["historical", "archaeological", "ruins", "palace"],
+        "categoryNames": ["تاريخي", "أثري", "أطلال", "قصر"],
+        "coordinates": {"lat": 13.918, "lng": 44.144},
+        "images": ["images/landmarks/ibb/dar_al_izz1.jpg", "images/landmarks/ibb/dar_al_izz2.jpg"]
+    },
+
+        {
+        "id": "dhafar-himyarite-capital",
+        "name": "مدينة ظفار يريم (عاصمة حمير)",
+        "description": "أطلال العاصمة القديمة لمملكة حمير، تقع بالقرب من مدينة يريم. [1] يضم الموقع بقايا قصر ريدان الملكي، ومعابد قديمة، ونقوش مسندية، ويعتبر من أهم المواقع الأثرية في تاريخ اليمن القديم.",
+        "categories": ["archaeological", "historical", "ruins", "ancient-city"],
+        "categoryNames": ["أثري", "تاريخي", "أطلال", "مدينة قديمة"],
+        "coordinates": {"lat": 14.215, "lng": 44.395},
+        "images": ["images/archaeological/ibb/dhafar_city1.jpg", "images/archaeological/ibb/dhafar_city2.jpg"]
+    },
+    {
+        "id": "ibb-castle",
+        "name": "قلعة إب (دار الشرف)",
+        "description": "حصن تاريخي منيع يقع على قمة جبل في قلب مدينة إب القديمة. [2] كان يستخدم كمركز للحكم والدفاع عن المدينة، ويوفر إطلالات بانورامية على المدينة والمناطق المحيطة بها.",
+        "categories": ["historical", "fortress", "architectural", "viewpoint"],
+        "categoryNames": ["تاريخي", "قلعة", "معماري", "إطلالة"],
+        "coordinates": {"lat": 13.972, "lng": 44.184},
+        "images": ["images/archaeological/ibb/ibb_castle1.jpg", "images/archaeological/ibb/ibb_castle2.jpg"]
+    },
+    {
+        "id": "al-saddah-historic-town",
+        "name": "مدينة السدة التاريخية",
+        "description": "بلدة قديمة تقع شرق مدينة إب، وتعتبر مركزاً تاريخياً هاماً. [3] تشتهر بأسوارها القديمة ومساجدها التاريخية، وكانت محطة هامة على طرق التجارة القديمة.",
+        "categories": ["historical", "city", "architectural"],
+        "categoryNames": ["تاريخي", "مدينة", "معماري"],
+        "coordinates": {"lat": 14.16, "lng": 44.43},
+        "images": ["images/archaeological/ibb/al_saddah_town1.jpg", "images/archaeological/ibb/al_saddah_town2.jpg"]
+    },
+    {
+        "id": "hisn-samara",
+        "name": "حصن سمارة",
+        "description": "حصن تاريخي استراتيجي يقع على قمة جبل سمارة، ويشرف على الطريق الرئيسي بين صنعاء وإب. [4] لعب دوراً دفاعياً وتجارياً هاماً عبر العصور، وتنتشر حوله القرى ذات المناظر الخلابة.",
+        "categories": ["historical", "fortress", "military", "ruins"],
+        "categoryNames": ["تاريخي", "قلعة", "عسكري", "أطلال"],
+        "coordinates": {"lat": 14.18, "lng": 44.33},
+        "images": ["images/archaeological/ibb/hisn_samara1.jpg", "images/archaeological/ibb/hisn_samara2.jpg"]
+    },
+    {
+        "id": "al-amiriya-school-radaa",
+        "name": "المدرسة العامرية (رضاع)",
+        "description": "على الرغم من أنها تقع إدارياً في محافظة البيضاء، إلا أنها قريبة جداً من حدود إب وتعتبر معلماً رئيسياً في المنطقة. [5] هي تحفة معمارية من العصر الطاهري، تتميز بزخارفها الجصية الملونة وتصميمها الفريد.",
+        "categories": ["archaeological", "historical", "islamic", "architectural"],
+        "categoryNames": ["أثري", "تاريخي", "إسلامي", "معماري"],
+        "coordinates": {"lat": 14.41, "lng": 44.76},
+        "images": ["images/archaeological/ibb/al_amiriya_school1.jpg", "images/archaeological/ibb/al_amiriya_school2.jpg"]
+    },
+    {
+        "id": "hisn-khawlan",
+        "name": "حصن خولان (بعدان)",
+        "description": "حصن قديم يقع في مديرية بعدان، وهي منطقة تشتهر بقلاعها وحصونها المنيعة. [6] يمثل الحصن نموذجاً للعمارة الدفاعية اليمنية التقليدية، ويقع وسط مناظر طبيعية خضراء ساحرة.",
+        "categories": ["historical", "fortress", "ruins"],
+        "categoryNames": ["تاريخي", "قلعة", "أطلال"],
+        "coordinates": {"lat": 14.02, "lng": 44.28},
+        "images": ["images/archaeological/ibb/hisn_khawlan1.jpg", "images/archaeological/ibb/hisn_khawlan2.jpg"]
+    },
+    {
+        "id": "old-yarim-city",
+        "name": "مدينة يريم القديمة",
+        "description": "المركز التاريخي لمدينة يريم، يضم عدداً من المنازل والمساجد القديمة. [7] كانت يريم مدينة هامة في العصور الإسلامية، وموقعها بالقرب من العاصمة الحميرية ظفار يمنحها أهمية تاريخية إضافية.",
+        "categories": ["historical", "city", "architectural"],
+        "categoryNames": ["تاريخي", "مدينة", "معماري"],
+        "coordinates": {"lat": 14.29, "lng": 44.37},
+        "images": ["images/archaeological/ibb/old_yarim_city1.jpg", "images/archaeological/ibb/old_yarim_city2.jpg"]
+    },
+    {
+        "id": "al-manar-mosque-ibb",
+        "name": "مسجد المنار",
+        "description": "مسجد أثري يقع في مدينة إب القديمة، ويتميز بتصميمه البسيط والقديم. [8] يُعتقد أنه من أقدم مساجد المدينة، وهو جزء لا يتجزأ من النسيج التاريخي والديني للمدينة القديمة.",
+        "categories": ["archaeological", "religious", "historical"],
+        "categoryNames": ["أثري", "ديني", "تاريخي"],
+        "coordinates": {"lat": 13.969, "lng": 44.187},
+        "images": ["images/archaeological/ibb/al_manar_mosque1.jpg", "images/archaeological/ibb/al_manar_mosque2.jpg"]
+    },
+    {
+        "id": "hisn-hab",
+        "name": "حصن حَبّ",
+        "description": "حصن تاريخي يقع في مديرية بعدان، وهو من الحصون التي سُجنت فيها الملكة أروى لفترة من الزمن. [9] يتميز بموقعه المنيع على قمة جبل، ويحتوي على مدافن حبوب وآبار مياه منحوتة في الصخر.",
+        "categories": ["historical", "fortress", "archaeological", "ruins"],
+        "categoryNames": ["تاريخي", "قلعة", "أثري", "أطلال"],
+        "coordinates": {"lat": 13.98, "lng": 44.30},
+        "images": ["images/archaeological/ibb/hisn_hab1.jpg", "images/archaeological/ibb/hisn_hab2.jpg"]
+    },
+    {
+        "id": "ancient-dams-ibb",
+        "name": "السدود الحميرية القديمة",
+        "description": "تنتشر في أرجاء محافظة إب بقايا سدود قديمة تعود إلى العصر الحميري. [10] هذه السدود، مثل سد قتاب وسد الشروم، هي شواهد أثرية على براعة اليمنيين القدماء في هندسة الري وإدارة المياه.",
+        "categories": ["archaeological", "dam", "historical", "engineering"],
+        "categoryNames": ["أثري", "سد", "تاريخي", "هندسي"],
+        "coordinates": {"lat": 14.15, "lng": 44.38},
+        "images": ["images/archaeological/ibb/ancient_dams1.jpg", "images/archaeological/ibb/ancient_dams2.jpg"]
+    },
+
+        {
+        "id": "wadi-anna",
+        "name": "وادي عنة",
+        "description": "أحد أجمل وأخصب الأودية في محافظة إب، يقع في مديرية السدة. [1] يشتهر بمياهه المتدفقة وشلالاته الموسمية (مثل شلالات العذاري) ومدرجاته الزراعية الخضراء التي تزرع فيها مختلف أنواع الحبوب والفواكه.",
+        "categories": ["wadi", "nature", "scenic", "waterfall", "agriculture"],
+        "categoryNames": ["وادي", "طبيعي", "مناظر خلابة", "شلال", "زراعي"],
+        "coordinates": {"lat": 14.15, "lng": 44.45},
+        "images": ["images/water/ibb/wadi_anna1.jpg", "images/water/ibb/wadi_anna2.jpg"]
+    },
+    {
+        "id": "wadi-al-dur",
+        "name": "وادي الدور",
+        "description": "وادي جميل يقع في مديرية الشعر، ويتميز بمناظره الطبيعية الخلابة ومياهه الجارية. [2] يعتبر متنفساً طبيعياً للسكان والزوار، خاصة في مواسم الأمطار حيث تزداد خضرته وجماله.",
+        "categories": ["wadi", "nature", "recreation", "scenic"],
+        "categoryNames": ["وادي", "طبيعي", "ترفيهي", "مناظر خلابة"],
+        "coordinates": {"lat": 14.05, "lng": 44.50},
+        "images": ["images/water/ibb/wadi_al_dur1.jpg", "images/water/ibb/wadi_al_dur2.jpg"]
+    },
+    {
+        "id": "al-sailah-river-jibla",
+        "name": "نهر السائلة في جبلة",
+        "description": "مجرى مائي يخترق مدينة جبلة التاريخية، وتتدفق فيه المياه بعد هطول الأمطار. [3] يشكل مع الجسر الحجري القديم والبيوت المطلة عليه منظراً تاريخياً وطبيعياً فريداً من نوعه.",
+        "categories": ["water-course", "historical", "scenic", "city"],
+        "categoryNames": ["مجرى مائي", "تاريخي", "مناظر خلابة", "مدينة"],
+        "coordinates": {"lat": 13.920, "lng": 44.144},
+        "images": ["images/water/ibb/al_sailah_jibla1.jpg", "images/water/ibb/al_sailah_jibla2.jpg"]
+    },
+    {
+        "id": "al-aadeen-dam",
+        "name": "سد العدين",
+        "description": "سد حديث نسبياً يقع في مديرية العدين، بني بهدف حجز مياه الأمطار وتغذية المياه الجوفية. [4] شكلت بحيرة السد منظراً مائياً جميلاً وسط الجبال، وأصبحت مقصداً للتنزه والاستمتاع بالمنظر.",
+        "categories": ["dam", "lake", "water-management", "recreation"],
+        "categoryNames": ["سد", "بحيرة", "إدارة مياه", "ترفيهي"],
+        "coordinates": {"lat": 13.75, "lng": 43.95},
+        "images": ["images/water/ibb/al_aadeen_dam1.jpg", "images/water/ibb/al_aadeen_dam2.jpg"]
+    },
+    {
+        "id": "manar-waterfalls",
+        "name": "شلالات وادي المنار",
+        "description": "مجموعة من الشلالات الصغيرة والعيون المائية التي تنحدر من الجبال في منطقة المنار بمديرية بعدان. [5] تتميز المنطقة بجمالها الطبيعي الأخاذ وتعتبر وجهة لهواة التنزه والمشي في الطبيعة.",
+        "categories": ["waterfall", "nature", "wadi", "hiking"],
+        "categoryNames": ["شلال", "طبيعي", "وادي", "تنزه جبلي"],
+        "coordinates": {"lat": 13.99, "lng": 44.29},
+        "images": ["images/water/ibb/manar_waterfalls1.jpg", "images/water/ibb/manar_waterfalls2.jpg"]
+    },
+    {
+        "id": "wadi-surah",
+        "name": "وادي سورة",
+        "description": "وادي خصب يقع في مديرية فرع العدين، ويشتهر بمدرجاته الزراعية المعلقة ومياهه الجارية. [6] يوفر الوادي مناظر طبيعية ريفية هادئة وجميلة تعكس جمال الريف اليمني.",
+        "categories": ["wadi", "nature", "agriculture", "scenic"],
+        "categoryNames": ["وادي", "طبيعي", "زراعي", "مناظر خلابة"],
+        "coordinates": {"lat": 13.80, "lng": 43.88},
+        "images": ["images/water/ibb/wadi_surah1.jpg", "images/water/ibb/wadi_surah2.jpg"]
+    },
+    {
+        "id": "borkan-hot-spring",
+        "name": "حمام بركان الطبيعي",
+        "description": "ينبوع مياه كبريتية حارة يقع في مديرية القفر. [7] يقصده الناس للاستشفاء بمياهه التي يُعتقد أن لها خصائص علاجية لأمراض الجلد والمفاصل، ويعتبر من مواقع السياحة العلاجية في المحافظة.",
+        "categories": ["hot-spring", "therapeutic", "natural", "water"],
+        "categoryNames": ["ينبوع حار", "علاجي", "طبيعي", "مائي"],
+        "coordinates": {"lat": 14.25, "lng": 44.15},
+        "images": ["images/water/ibb/borkan_hot_spring1.jpg", "images/water/ibb/borkan_hot_spring2.jpg"]
+    },
+    {
+        "id": "saylat-al-rabadi",
+        "name": "سائلة الربادي",
+        "description": "مجرى مائي يمر عبر مدينة إب، ويتجمع فيه الماء من عدة أودية صغيرة. [8] على الرغم من وقوعه في منطقة حضرية، إلا أنه يضيف لمسة طبيعية للمدينة ويصبح منظراً جميلاً عند جريان المياه فيه.",
+        "categories": ["water-course", "urban", "nature"],
+        "categoryNames": ["مجرى مائي", "حضري", "طبيعي"],
+        "coordinates": {"lat": 13.96, "lng": 44.18},
+        "images": ["images/water/ibb/saylat_al_rabadi1.jpg", "images/water/ibb/saylat_al_rabadi2.jpg"]
+    },
+    {
+        "id": "al-mashannah-dam",
+        "name": "سد المشنة",
+        "description": "سد يقع بالقرب من مدينة إب، تم إنشاؤه لحصاد مياه الأمطار. [9] أدت البحيرة التي تكونت خلف السد إلى خلق بيئة رطبة تجذب الطيور وتوفر منظراً مائياً جميلاً للسكان المحليين.",
+        "categories": ["dam", "lake", "water-management", "bird-watching"],
+        "categoryNames": ["سد", "بحيرة", "إدارة مياه", "مراقبة الطيور"],
+        "coordinates": {"lat": 13.95, "lng": 44.17},
+        "images": ["images/water/ibb/al_mashannah_dam1.jpg", "images/water/ibb/al_mashannah_dam2.jpg"]
+    },
+    {
+        "id": "wadi-al-shorom",
+        "name": "وادي الشروم",
+        "description": "وادي تاريخي يقع بالقرب من مدينة ظفار يريم، ويحتوي على بقايا سد حميري قديم. [10] يجمع الوادي بين الأهمية الأثرية والجمال الطبيعي، حيث تسقي مياهه الأراضي الزراعية المحيطة به.",
+        "categories": ["wadi", "nature", "archaeological", "dam"],
+        "categoryNames": ["وادي", "طبيعي", "أثري", "سد"],
+        "coordinates": {"lat": 14.22, "lng": 44.41},
+        "images": ["images/water/ibb/wadi_al_shorom1.jpg", "images/water/ibb/wadi_al_shorom2.jpg"]
+    },
+
+        {
+        "id": "jabal-baadan",
+        "name": "منتزه جبل بعدان",
+        "description": "جبل شاهق وشهير يقع شرق مدينة إب، وتنتشر على سفوحه العديد من القرى الخضراء والحصون التاريخية. [1] يعتبر الجبل بأكمله منتزهًا طبيعيًا مفتوحًا، ويوفر إطلالات بانورامية رائعة ومسارات للمشي لمسافات طويلة.",
+        "categories": ["mountain", "nature", "park", "viewpoint", "hiking"],
+        "categoryNames": ["جبل", "طبيعي", "منتزه", "إطلالة", "تنزه جبلي"],
+        "coordinates": {"lat": 14.00, "lng": 44.28},
+        "images": ["images/mountains/ibb/jabal_baadan1.jpg", "images/mountains/ibb/jabal_baadan2.jpg"]
+    },
+    {
+        "id": "jabal-samara",
+        "name": "منتزه جبل سمارة",
+        "description": "جبل استراتيجي يقع على الطريق بين صنعاء وإب، ويشتهر بقمته التي تضم حصن سمارة التاريخي. [2] المنطقة المحيطة بالقمة تعتبر منتزهًا جبليًا طبيعيًا يوفر مناظر خلابة للوديان والقرى المجاورة.",
+        "categories": ["mountain", "nature", "historical", "viewpoint"],
+        "categoryNames": ["جبل", "طبيعي", "تاريخي", "إطلالة"],
+        "coordinates": {"lat": 14.18, "lng": 44.33},
+        "images": ["images/mountains/ibb/jabal_samara1.jpg", "images/mountains/ibb/jabal_samara2.jpg"]
+    },
+    {
+        "id": "jabal-al-adeen",
+        "name": "منتزه جبال العدين",
+        "description": "سلسلة جبلية خضراء تقع في مديرية العدين غرب إب. [3] تتميز بمدرجاتها الزراعية التي تغطي السفوح بالكامل، وتعتبر المنطقة وجهة مثالية للقيادة في الطرق الجبلية والاستمتاع بالمناظر الريفية الساحرة.",
+        "categories": ["mountain", "nature", "scenic-drive", "agriculture"],
+        "categoryNames": ["جبل", "طبيعي", "طريق جبلي", "زراعي"],
+        "coordinates": {"lat": 13.77, "lng": 43.92},
+        "images": ["images/mountains/ibb/jabal_al_adeen1.jpg", "images/mountains/ibb/jabal_al_adeen2.jpg"]
+    },
+    {
+        "id": "jabal-rabi",
+        "name": "منتزه جبل ربي",
+        "description": "جبل يقع غرب مدينة إب، ويطل على المدينة من جهة الغرب. [4] يعتبر من المنتزهات الجبلية القريبة من مركز المدينة، ويوفر إطلالات جميلة ومساحات طبيعية للتنزه والرحلات الخلوية.",
+        "categories": ["mountain", "nature", "park", "viewpoint"],
+        "categoryNames": ["جبل", "طبيعي", "منتزه", "إطلالة"],
+        "coordinates": {"lat": 13.96, "lng": 44.15},
+        "images": ["images/mountains/ibb/jabal_rabi1.jpg", "images/mountains/ibb/jabal_rabi2.jpg"]
+    },
+    {
+        "id": "jabal-al-shaer",
+        "name": "منتزه جبال الشعر",
+        "description": "مجموعة من الجبال الخضراء التي تقع في مديرية الشعر، وتشتهر بخصوبتها وجمال طبيعتها. [5] توفر المنطقة العديد من الأماكن الهادئة للتخييم والاستمتاع بالريف اليمني في أبهى صوره.",
+        "categories": ["mountain", "nature", "rural", "camping"],
+        "categoryNames": ["جبل", "طبيعي", "ريفي", "تخييم"],
+        "coordinates": {"lat": 14.06, "lng": 44.55},
+        "images": ["images/mountains/ibb/jabal_al_shaer1.jpg", "images/mountains/ibb/jabal_al_shaer2.jpg"]
+    },
+
+    {
+        "id": "jabal-al-makhadir",
+        "name": "منتزه جبال المخادر",
+        "description": "سلسلة جبلية تقع شمال مدينة إب في مديرية المخادر. [7] تتميز بارتفاعها ومناخها المعتدل، وتوفر إطلالات واسعة على المناطق المحيطة، وتعتبر مكانًا جيدًا للابتعاد عن صخب المدينة.",
+        "categories": ["mountain", "nature", "viewpoint", "recreation"],
+        "categoryNames": ["جبل", "طبيعي", "إطلالة", "ترفيهي"],
+        "coordinates": {"lat": 14.09, "lng": 44.26},
+        "images": ["images/mountains/ibb/jabal_al_makhadir1.jpg", "images/mountains/ibb/jabal_al_makhadir2.jpg"]
+    },
+    {
+        "id": "jabal-al-sayyani",
+        "name": "منتزه جبال السياني",
+        "description": "الجبال المحيطة بمديرية السياني، والتي تشتهر بشلالاتها ومياهها الجارية. [8] السفوح الخضراء لهذه الجبال تشكل منتزهات طبيعية يقصدها الناس للاستمتاع بجمال الشلالات والمناظر الطبيعية.",
+        "categories": ["mountain", "nature", "waterfall", "scenic"],
+        "categoryNames": ["جبل", "طبيعي", "شلال", "مناظر خلابة"],
+        "coordinates": {"lat": 13.87, "lng": 44.23},
+        "images": ["images/mountains/ibb/jabal_al_sayyani1.jpg", "images/mountains/ibb/jabal_al_sayyani2.jpg"]
+    },
+    {
+        "id": "jabal-al-qafar",
+        "name": "منتزه جبال القفر",
+        "description": "جبال تقع في مديرية القفر، وتتميز بطبيعتها الصخرية القاسية وجمالها البري. [9] توفر تجربة مختلفة عن جبال إب الخضراء، وتعتبر وجهة لهواة استكشاف الطبيعة الوعرة.",
+        "categories": ["mountain", "nature", "hiking", "adventure"],
+        "categoryNames": ["جبل", "طبيعي", "تنزه جبلي", "مغامرات"],
+        "coordinates": {"lat": 14.23, "lng": 44.18},
+        "images": ["images/mountains/ibb/jabal_al_qafar1.jpg", "images/mountains/ibb/jabal_al_qafar2.jpg"]
+    },
+    {
+        "id": "jabal-manar",
+        "name": "منتزه جبل المنار",
+        "description": "يقع في مديرية بعدان، وهو الجبل الذي تنبع منه شلالات المنار الشهيرة. [10] المنطقة عبارة عن منتزه جبلي غني بالمياه والخضرة، ويعتبر مثالياً للرحلات الاستكشافية والمشي في الطبيعة البكر.",
+        "categories": ["mountain", "nature", "park", "waterfall"],
+        "categoryNames": ["جبل", "طبيعي", "منتزه", "شلال"],
+        "coordinates": {"lat": 13.998, "lng": 44.30},
+        "images": ["images/mountains/ibb/jabal_manar1.jpg", "images/mountains/ibb/jabal_manar2.jpg"]
+    },
+
+        {
+        "id": "al-sayani-waterfalls",
+        "name": "شلالات السياني (شلالات وادي الجنات)",
+        "description": "تقع في مديرية السياني، وهي عبارة عن مجموعة من الشلالات التي تتشكل في وادي الجنات. [1, 2] تعتبر من أجمل المناظر الطبيعية في المحافظة وتجذب الزوار للاستمتاع بتدفق المياه والمساحات الخضراء المحيطة. [1, 2]",
+        "categories": ["waterfall", "valley", "natural-park", "scenic"],
+        "categoryNames": ["شلال", "وادي", "منتزه طبيعي", "مناظر طبيعية"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "wadi-al-durr-waterfall",
+        "name": "شلال وادي الدُر",
+        "description": "يقع في مديرية العُدين، وهو شلال جميل يتدفق في وادٍ خصب. [3] المنطقة المحيطة بالشلال تعتبر مكانًا مثاليًا للنزهات الخلوية والابتعاد عن صخب المدينة. [3]",
+        "categories": ["waterfall", "valley", "natural-park", "quiet"],
+        "categoryNames": ["شلال", "وادي", "منتزه طبيعي", "هادئ"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "jabal-baadan-area",
+        "name": "منتزهات جبل بعدان الطبيعية",
+        "description": "المنطقة الجبلية الشاسعة في مديرية بعدان، والتي تضم العديد من القرى المعلقة والمدرجات الزراعية الخضراء. [4] تعتبر المنطقة بأكملها منتزهًا طبيعيًا مفتوحًا، حيث يقصد الزوار مناطق مثل \"حب\" و\"العكمة\" للاستمتاع بالمناظر البانورامية. [4]",
+        "categories": ["natural-park", "mountain", "viewpoint", "scenic"],
+        "categoryNames": ["منتزه طبيعي", "جبل", "مطل", "مناظر طبيعية"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-maqbana-waterfall",
+        "name": "شلال المَقْبَنة",
+        "description": "يقع في مديرية حزم العُدين، وهو أحد الشلالات الموسمية التي تظهر بجمال أخاذ بعد هطول الأمطار. [5] يعتبر وجهة للسكان المحليين والمناطق المجاورة للاستمتاع بجمال الطبيعة البكر. [5]",
+        "categories": ["waterfall", "natural-park", "seasonal"],
+        "categoryNames": ["شلال", "منتزه طبيعي", "موسمي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-nahari-park-jeblah",
+        "name": "منتزه النهاري (جبلة)",
+        "description": "منتزه خاص يقع في مدينة جبلة التاريخية، ويوفر إطلالة جميلة على المدينة. [6] يضم المنتزه استراحات عائلية ومطعمًا، ويجمع بين النزهة والاستمتاع بعبق التاريخ. [6]",
+        "categories": ["park", "viewpoint", "family", "historical-vicinity"],
+        "categoryNames": ["منتزه", "مطل", "عائلي", "جوار تاريخي"],
+        "coordinates": {},
+        "images": []
+    }
+
+    
+        ]
+    },
+    "shibam": {
+        "name": "شبام",
+        "landmarks": [
+    {
+        "id": "shibam-old-walled-city",
+        "name": "مدينة شبام القديمة المسورة",
+        "description": "مدينة تاريخية فريدة مدرجة على قائمة اليونسكو للتراث العالمي، تشتهر بمبانيها الطينية الشاهقة التي تعتبر أقدم ناطحات سحاب في العالم. [1] المدينة محاطة بسور دفاعي، وتتميز بتخطيطها الحضري المتقن الذي يعود لقرون.",
+        "categories": ["historical", "archaeological", "unesco", "architectural"],
+        "categoryNames": ["تاريخي", "أثري", "يونسكو", "معماري"],
+        "coordinates": {"lat": 15.926, "lng": 48.626},
+        "images": ["images/landmarks/shibam/shibam_old_city1.jpg", "images/landmarks/shibam/shibam_old_city2.jpg"]
+    },
+    {
+        "id": "shibam-skyscrapers",
+        "name": "ناطحات السحاب الطينية",
+        "description": "الميزة الأبرز لشبام، وهي مجموعة من حوالي 500 مبنى طيني يتراوح ارتفاعها بين 5 إلى 11 طابقاً. [2] تمثل هذه المباني تحفة في الهندسة المعمارية التقليدية وتكيفها مع البيئة، وهي مبنية بالكامل من الطوب اللبن.",
+        "categories": ["architectural", "historical", "landmark", "unesco"],
+        "categoryNames": ["معماري", "تاريخي", "معلم", "يونسكو"],
+        "coordinates": {"lat": 15.927, "lng": 48.627},
+        "images": ["images/landmarks/shibam/shibam_skyscrapers1.jpg", "images/landmarks/shibam/shibam_skyscrapers2.jpg"]
+    },
+    {
+        "id": "al-juma-mosque-shibam",
+        "name": "الجامع الكبير (جامع هارون الرشيد)",
+        "description": "أقدم مسجد في شبام، يقع في قلب المدينة القديمة. [3] يُعتقد أن أساساته تعود إلى عهد الخليفة هارون الرشيد في القرن الثامن الميلادي، ويتميز ببساطة تصميمه ومئذنته الطينية الضخمة.",
+        "categories": ["religious", "historical", "archaeological", "islamic"],
+        "categoryNames": ["ديني", "تاريخي", "أثري", "إسلامي"],
+        "coordinates": {"lat": 15.9265, "lng": 48.6265},
+        "images": ["images/landmarks/shibam/al_juma_mosque1.jpg", "images/landmarks/shibam/al_juma_mosque2.jpg"]
+    },
+    {
+        "id": "shibam-viewpoint",
+        "name": "مطل شبام (جبل الخور)",
+        "description": "أفضل نقطة لمشاهدة المنظر البانورامي الشهير لمدينة شبام. [4] يقع هذا المطل على الضفة المقابلة للوادي، ويوفر إطلالة لا مثيل لها على ناطحات السحاب، خاصة عند شروق الشمس وغروبها.",
+        "categories": ["viewpoint", "scenic", "photography", "nature"],
+        "categoryNames": ["إطلالة", "مناظر خلابة", "تصوير", "طبيعي"],
+        "coordinates": {"lat": 15.923, "lng": 48.624},
+        "images": ["images/landmarks/shibam/shibam_viewpoint1.jpg", "images/landmarks/shibam/shibam_viewpoint2.jpg"]
+    },
+    {
+        "id": "shibam-city-gate",
+        "name": "بوابة شبام الرئيسية",
+        "description": "المدخل الرئيسي والوحيد حالياً إلى المدينة المسورة. [5] المرور عبر هذه البوابة يشبه الدخول إلى عالم آخر، حيث تفضي إلى شبكة من الأزقة الضيقة والمباني الشاهقة التي تحجب السماء.",
+        "categories": ["historical", "architectural", "landmark"],
+        "categoryNames": ["تاريخي", "معماري", "معلم"],
+        "coordinates": {"lat": 15.925, "lng": 48.626},
+        "images": ["images/landmarks/shibam/shibam_gate1.jpg", "images/landmarks/shibam/shibam_gate2.jpg"]
+    },
+    {
+        "id": "wadi-hadhramaut",
+        "name": "وادي حضرموت",
+        "description": "الوادي الشاسع الذي تقع فيه مدينة شبام. [6] يتميز الوادي بواحات النخيل الخضراء التي تتناقض بشكل صارخ مع الجروف الصخرية القاحلة، مما يخلق منظراً طبيعياً فريداً وجميلاً.",
+        "categories": ["wadi", "nature", "scenic", "oasis"],
+        "categoryNames": ["وادي", "طبيعي", "مناظر خلابة", "واحة"],
+        "coordinates": {"lat": 15.93, "lng": 48.63},
+        "images": ["images/landmarks/shibam/wadi_hadhramaut1.jpg", "images/landmarks/shibam/wadi_hadhramaut2.jpg"]
+    },
+    {
+        "id": "al-hajarain-village",
+        "name": "قرية الحجرين",
+        "description": "قرية تاريخية مذهلة تقع في وادي دوعن القريب، وهي مبنية على منحدر صخري شاهق. [7] تشبه شبام في طرازها المعماري ولكنها تتميز بموقعها الدرامي، وتعتبر من أجمل القرى في حضرموت.",
+        "categories": ["historical", "village", "architectural", "scenic"],
+        "categoryNames": ["تاريخي", "قرية", "معماري", "مناظر خلابة"],
+        "coordinates": {"lat": 15.045, "lng": 48.375},
+        "images": ["images/landmarks/shibam/al_hajarain1.jpg", "images/landmarks/shibam/al_hajarain2.jpg"]
+    },
+    {
+        "id": "marib-dam-shibam",
+        "name": "سد شبام (سد الحيط)",
+        "description": "نظام ري قديم يعتمد على تحويل مياه السيول من الوادي لري الأراضي الزراعية المحيطة بشبام. [8] هذا النظام الهندسي التقليدي هو الذي سمح بوجود واحات النخيل والزراعة في هذه البيئة الصحراوية.",
+        "categories": ["historical", "engineering", "agriculture", "water"],
+        "categoryNames": ["تاريخي", "هندسي", "زراعي", "مائي"],
+        "coordinates": {"lat": 15.935, "lng": 48.620},
+        "images": ["images/landmarks/shibam/shibam_dam1.jpg", "images/landmarks/shibam/shibam_dam2.jpg"]
+    },
+    {
+        "id": "shibam-traditional-houses",
+        "name": "البيوت التقليدية في شبام",
+        "description": "زيارة أحد المنازل الطينية من الداخل هي تجربة فريدة. [9] يمكن للزوار مشاهدة التصميم الداخلي، وتقسيم الطوابق حسب الوظيفة (تخزين، معيشة، استقبال)، والاستمتاع بالمنظر من النوافذ العلوية.",
+        "categories": ["cultural", "architectural", "experience"],
+        "categoryNames": ["ثقافي", "معماري", "تجربة"],
+        "coordinates": {"lat": 15.9268, "lng": 48.6272},
+        "images": ["images/landmarks/shibam/shibam_house1.jpg", "images/landmarks/shibam/shibam_house2.jpg"]
+    },
+    {
+        "id": "jahiliyya-palace",
+        "name": "قصر الجاهلية (حصن بن عيذاذة)",
+        "description": "حصن قديم يقع على تلة خارج شبام، وكان مقراً لأحد الحكام المحليين. [10] على الرغم من أنه أطلال الآن، إلا أنه يوفر إطلالة جيدة على المدينة والوادي، ويحكي قصصاً عن تاريخ المنطقة السياسي.",
+        "categories": ["historical", "ruins", "fortress", "viewpoint"],
+        "categoryNames": ["تاريخي", "أطلال", "قلعة", "إطلالة"],
+        "coordinates": {"lat": 15.928, "lng": 48.623},
+        "images": ["images/landmarks/shibam/jahiliyya_palace1.jpg", "images/landmarks/shibam/jahiliyya_palace2.jpg"]
+    }
+
+
+        ]
+    },
+    "socotra": {
+        "name": "سقطرى",
+        "landmarks": [
+    {
+        "id": "socotra-dragon-tree",
+        "name": "شجرة دم الأخوين",
+        "description": "من أشهر الأشجار النادرة في جزيرة سقطرى، تتميز بشكلها الفريد الذي يشبه المظلة وعصارتها الحمراء التي تستخدم في الطب التقليدي. [1] تعتبر رمزاً للتنوع البيولوجي الفريد في الجزيرة.",
+        "categories": ["nature", "botanical", "unique", "iconic"],
+        "categoryNames": ["طبيعي", "نباتي", "فريد", "أيقوني"],
+        "coordinates": {"lat": 12.475, "lng": 54.020},
+        "images": ["images/landmarks/socotra/socotra_dragon_tree1.jpg", "images/landmarks/socotra/socotra_dragon_tree2.jpg"]
+    },
+    {
+        "id": "qulansiyah-beach",
+        "name": "شاطئ قلنسية",
+        "description": "أحد أجمل الشواطئ في العالم، يقع في الجزء الغربي من الجزيرة. [2] يتميز برماله البيضاء الناعمة كالبودرة ومياهه الفيروزية الصافية، وتتناثر على أطرافه التكوينات الصخرية الفريدة.",
+        "categories": ["beach", "nature", "scenic", "recreational"],
+        "categoryNames": ["شاطئ", "طبيعي", "مناظر خلابة", "ترفيهي"],
+        "coordinates": {"lat": 12.665, "lng": 53.485},
+        "images": ["images/landmarks/socotra/qulansiyah_beach1.jpg", "images/landmarks/socotra/qulansiyah_beach2.jpg"]
+    },
+    {
+        "id": "dixam-plateau",
+        "name": "هضبة دكسم",
+        "description": "هضبة واسعة تعتبر الموطن الرئيسي لأشجار دم الأخوين، حيث تشكل غابات صغيرة منها. [3] توفر الهضبة إطلالات مذهلة على وادي درهور العميق، وتعتبر من أهم المناطق لمشاهدة التنوع النباتي للجزيرة.",
+        "categories": ["nature", "plateau", "botanical", "viewpoint"],
+        "categoryNames": ["طبيعي", "هضبة", "نباتي", "إطلالة"],
+        "coordinates": {"lat": 12.48, "lng": 53.98},
+        "images": ["images/landmarks/socotra/dixam_plateau1.jpg", "images/landmarks/socotra/dixam_plateau2.jpg"]
+    },
+    {
+        "id": "shoab-beach",
+        "name": "شاطئ شعُب",
+        "description": "شاطئ منعزل لا يمكن الوصول إليه إلا عن طريق القوارب من قلنسية. [4] الرحلة إليه غالباً ما تصاحبها مشاهدة الدلافين، ويتميز الشاطئ بجماله البكر وهدوئه المطل، مما يجعله تجربة فريدة.",
+        "categories": ["beach", "nature", "secluded", "boating", "wildlife"],
+        "categoryNames": ["شاطئ", "طبيعي", "منعزل", "قوارب", "حياة برية"],
+        "coordinates": {"lat": 12.62, "lng": 53.38},
+        "images": ["images/landmarks/socotra/shoab_beach1.jpg", "images/landmarks/socotra/shoab_beach2.jpg"]
+    },
+
+    {
+        "id": "al-ghurfa-park",
+        "name": "منتزه الغرفة",
+        "description": "يقع في بلدة الغرفة المجاورة لشبام، وهو أحد المنتزهات القليلة المنظمة في المنطقة. [6] يضم المنتزه ألعابًا للأطفال ومساحات للجلوس، ويعتبر وجهة للعائلات من شبام والمناطق المحيطة بها. [6]",
+        "categories": ["park", "family", "recreational"],
+        "categoryNames": ["منتزه", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "shibam-viewpoint",
+        "name": "مطل شبام (نقطة التصوير)",
+        "description": "منطقة مرتفعة تقع قبالة المدينة، وتوفر أفضل إطلالة بانورامية على ناطحات السحاب الطينية. [7] تعتبر هذه النقطة وجهة أساسية للسياح والمصورين، وهي بمثابة منتزه طبيعي للاستمتاع بالمنظر الفريد. [7]",
+        "categories": ["viewpoint", "tourism", "scenic"],
+        "categoryNames": ["مطل", "سياحة", "مناظر طبيعية"],
+        "coordinates": {},
+        "images": []
+    },
+
+    {
+        "id": "hoq-cave",
+        "name": "كهف حوق",
+        "description": "أكبر وأشهر كهوف سقطرى، يمتد لعمق يصل إلى 3 كيلومترات. [5] يتميز بتكويناته الكلسية المذهلة من الصواعد والنوازل، ويحتوي على بحيرة صغيرة ونقوش قديمة، مما يجعله مغامرة استكشافية رائعة.",
+        "categories": ["cave", "nature", "adventure", "geological"],
+        "categoryNames": ["كهف", "طبيعي", "مغامرات", "جيولوجي"],
+        "coordinates": {"lat": 12.60, "lng": 54.35},
+        "images": ["images/landmarks/socotra/hoq_cave1.jpg", "images/landmarks/socotra/hoq_cave2.jpg"]
+    },
+    {
+        "id": "arher-sand-dunes",
+        "name": "كثبان عرهر الرملية",
+        "description": "كثبان رملية بيضاء ضخمة تتكئ على جروف جرانيتية سوداء، وتلتقي بمياه البحر الفيروزية. [6] يتدفق من أسفلها ينبوع مياه عذبة، مما يخلق منظراً طبيعياً استثنائياً لا مثيل له.",
+        "categories": ["nature", "sand-dunes", "beach", "unique", "scenic"],
+        "categoryNames": ["طبيعي", "كثبان رملية", "شاطئ", "فريد", "مناظر خلابة"],
+        "coordinates": {"lat": 12.63, "lng": 54.48},
+        "images": ["images/landmarks/socotra/arher_dunes1.jpg", "images/landmarks/socotra/arher_dunes2.jpg"]
+    },
+    {
+        "id": "homhil-protected-area",
+        "name": "محمية حومهيل",
+        "description": "منطقة محمية تتميز بتنوعها النباتي الفريد، حيث تضم غابات من أشجار دم الأخوين واللبان وشجرة الزجاجة. [7] تحتوي على مسبح طبيعي (infinity pool) يطل على المحيط، مما يوفر منظراً ساحراً.",
+        "categories": ["nature-reserve", "botanical", "viewpoint", "natural-pool"],
+        "categoryNames": ["محمية طبيعية", "نباتي", "إطلالة", "مسبح طبيعي"],
+        "coordinates": {"lat": 12.58, "lng": 54.30},
+        "images": ["images/landmarks/socotra/homhil_reserve1.jpg", "images/landmarks/socotra/homhil_reserve2.jpg"]
+    },
+    {
+        "id": "bottle-tree",
+        "name": "شجرة الزجاجة (شجرة كرش)",
+        "description": "شجرة غريبة الشكل تشبه زجاجة منتفخة، وتعتبر من النباتات المستوطنة في سقطرى. [8] تنتشر في مناطق مختلفة من الجزيرة، وتزهر بأزهار وردية جميلة، وتضيف إلى غرابة المشهد الطبيعي للجزيرة.",
+        "categories": ["nature", "botanical", "unique"],
+        "categoryNames": ["طبيعي", "نباتي", "فريد"],
+        "coordinates": {"lat": 12.55, "lng": 54.10},
+        "images": ["images/landmarks/socotra/bottle_tree1.jpg", "images/landmarks/socotra/bottle_tree2.jpg"]
+    },
+    {
+        "id": "wadi-dirhur-canyon",
+        "name": "وادي درهور",
+        "description": "وادي عميق يشق طريقه عبر هضبة دكسم، ويوفر مناظر درامية ومذهلة. [9] يمكن مشاهدة روعته من حافة الهضبة، وتنمو على جوانبه أشجار النخيل، ويعتبر مكاناً رائعاً للتصوير والتنزه.",
+        "categories": ["wadi", "canyon", "nature", "scenic", "viewpoint"],
+        "categoryNames": ["وادي", "أخدود", "طبيعي", "مناظر خلابة", "إطلالة"],
+        "coordinates": {"lat": 12.46, "lng": 53.99},
+        "images": ["images/landmarks/socotra/wadi_dirhur1.jpg", "images/landmarks/socotra/wadi_dirhur2.jpg"]
+    },
+    {
+        "id": "dihamri-marine-reserve",
+        "name": "محمية دهمري البحرية",
+        "description": "أفضل مكان لممارسة رياضة الغوص السطحي (السنوركلينج) والغوص في سقطرى. [10] تتميز المحمية بتنوع هائل من الشعاب المرجانية والأسماك الملونة، مما يجعلها جنة تحت الماء للمستكشفين.",
+        "categories": ["marine-reserve", "snorkeling", "diving", "coral-reef"],
+        "categoryNames": ["محمية بحرية", "غطس سطحي", "غوص", "شعاب مرجانية"],
+        "coordinates": {"lat": 12.65, "lng": 54.15},
+        "images": ["images/landmarks/socotra/dihamri_reserve1.jpg", "images/landmarks/socotra/dihamri_reserve2.jpg"]
+    },
+
+        {
+        "id": "omak-beach",
+        "name": "شاطئ عمق",
+        "description": "يقع على الساحل الجنوبي للجزيرة المطل على المحيط الهندي. [1] يتميز برماله الذهبية الناعمة وأمواجه القوية، ويعتبر مكانًا مثاليًا للاستمتاع بالمناظر البحرية الشاسعة ومشاهدة الصيادين المحليين.",
+        "categories": ["beach", "nature", "ocean-view", "recreational"],
+        "categoryNames": ["شاطئ", "طبيعي", "إطلالة على المحيط", "ترفيهي"],
+        "coordinates": {"lat": 12.35, "lng": 53.95},
+        "images": ["images/beaches/socotra/omak_beach1.jpg", "images/beaches/socotra/omak_beach2.jpg"]
+    },
+    {
+        "id": "kalysan-canyons-pools",
+        "name": "وادي كليسان (المسابح الطبيعية)",
+        "description": "وادي مذهل يشتهر بمسابحه الطبيعية ذات المياه العذبة الصافية المتكونة بين الصخور الجيرية البيضاء. [2] يعتبر مكانًا رائعًا للسباحة والاسترخاء في بيئة طبيعية فريدة ومختلفة عن الشواطئ.",
+        "categories": ["wadi", "natural-pool", "swimming", "canyon"],
+        "categoryNames": ["وادي", "مسبح طبيعي", "سباحة", "أخدود"],
+        "coordinates": {"lat": 12.45, "lng": 54.10},
+        "images": ["images/beaches/socotra/kalysan_pools1.jpg", "images/beaches/socotra/kalysan_pools2.jpg"]
+    },
+    {
+        "id": "zahek-sand-dunes",
+        "name": "كثبان زاحق الرملية",
+        "description": "تُعرف أيضًا بـ \"الكثبان الرملية الناعمة\"، وهي منطقة واسعة من الرمال البيضاء النقية في جنوب الجزيرة. [3] تلتقي هذه الكثبان بالبحر، مما يخلق منظرًا طبيعيًا خلابًا ومكانًا مثاليًا للتصوير والتخييم.",
+        "categories": ["sand-dunes", "beach", "nature", "scenic"],
+        "categoryNames": ["كثبان رملية", "شاطئ", "طبيعي", "مناظر خلابة"],
+        "coordinates": {"lat": 12.33, "lng": 53.85},
+        "images": ["images/beaches/socotra/zahek_dunes1.jpg", "images/beaches/socotra/zahek_dunes2.jpg"]
+    },
+    {
+        "id": "detwah-lagoon",
+        "name": "بحيرة ديتوا الشاطئية",
+        "description": "بحيرة ساحلية (لاجون) رائعة تقع بالقرب من قلنسية، وهي منطقة محمية. [4] تتميز بمياهها الضحلة الهادئة وتنوعها البيولوجي الغني، حيث يمكن مشاهدة الأخطبوط والأسماك الصغيرة، وتعتبر منظرًا طبيعيًا ساحرًا.",
+        "categories": ["lagoon", "nature-reserve", "beach", "wildlife"],
+        "categoryNames": ["بحيرة شاطئية", "محمية طبيعية", "شاطئ", "حياة برية"],
+        "coordinates": {"lat": 12.68, "lng": 53.50},
+        "images": ["images/beaches/socotra/detwah_lagoon1.jpg", "images/beaches/socotra/detwah_lagoon2.jpg"]
+    },
+    {
+        "id": "ras-irusyl",
+        "name": "رأس إرسل",
+        "description": "أقصى نقطة في شرق جزيرة سقطرى، حيث يلتقي بحر العرب بالمحيط الهندي. [5] المنطقة عبارة عن شاطئ بري يضم قرية صيد صغيرة، وتعتبر موقعًا مهمًا لتعشيش السلاحف.",
+        "categories": ["beach", "coastal", "wildlife", "turtles"],
+        "categoryNames": ["شاطئ", "ساحلي", "حياة برية", "سلاحف"],
+        "coordinates": {"lat": 12.64, "lng": 54.53},
+        "images": ["images/beaches/socotra/ras_irusyl1.jpg", "images/beaches/socotra/ras_irusyl2.jpg"]
+    },
+    {
+        "id": "delisha-beach",
+        "name": "شاطئ ديليشة",
+        "description": "شاطئ جميل يقع بالقرب من العاصمة حديبو، مما يجعله سهل الوصول. [6] يتميز بوجود كثبان رملية صغيرة ومياه هادئة، وهو مكان جيد للاسترخاء والسباحة وقضاء فترة ما بعد الظهيرة.",
+        "categories": ["beach", "recreational", "swimming"],
+        "categoryNames": ["شاطئ", "ترفيهي", "سباحة"],
+        "coordinates": {"lat": 12.66, "lng": 54.08},
+        "images": ["images/beaches/socotra/delisha_beach1.jpg", "images/beaches/socotra/delisha_beach2.jpg"]
+    },
+    {
+        "id": "ayhaft-canyon-pools",
+        "name": "وادي عيهفت",
+        "description": "وادي خصب يعتبر حديقة نباتية طبيعية، ويحتوي على العديد من المسابح الصخرية الصغيرة ذات المياه العذبة. [7] يعتبر مكانًا رائعًا للاستمتاع بالطبيعة ومراقبة الطيور والسباحة في المياه الباردة.",
+        "categories": ["wadi", "natural-pool", "nature", "bird-watching"],
+        "categoryNames": ["وادي", "مسبح طبيعي", "طبيعي", "مراقبة الطيور"],
+        "coordinates": {"lat": 12.62, "lng": 53.98},
+        "images": ["images/beaches/socotra/ayhaft_canyon1.jpg", "images/beaches/socotra/ayhaft_canyon2.jpg"]
+    },
+    {
+        "id": "shuqra-beach",
+        "name": "شاطئ شقرة",
+        "description": "شاطئ طويل ومنعزل يقع في جنوب الجزيرة، ويتميز بتكويناته الصخرية الفريدة ورماله الذهبية. [8] نظرًا لبعده، فإنه يوفر تجربة هادئة وبكر لمحبي الطبيعة والعزلة.",
+        "categories": ["beach", "nature", "secluded", "geological"],
+        "categoryNames": ["شاطئ", "طبيعي", "منعزل", "جيولوجي"],
+        "coordinates": {"lat": 12.32, "lng": 54.15},
+        "images": ["images/beaches/socotra/shuqra_beach1.jpg", "images/beaches/socotra/shuqra_beach2.jpg"]
+    },
+    {
+        "id": "abd-al-kuri-island-beaches",
+        "name": "شواطئ جزيرة عبد الكوري",
+        "description": "ثاني أكبر جزيرة في الأرخبيل، وتتميز بشواطئها البيضاء النقية التي لم تمسها يد الإنسان تقريبًا. [9] زيارتها تتطلب رحلة بحرية خاصة، وتوفر تجربة فريدة من العزلة والجمال الطبيعي الخام.",
+        "categories": ["beach", "island", "secluded", "pristine"],
+        "categoryNames": ["شاطئ", "جزيرة", "منعزل", "بكر"],
+        "coordinates": {"lat": 12.18, "lng": 52.25},
+        "images": ["images/beaches/socotra/abd_al_kuri_beach1.jpg", "images/beaches/socotra/abd_al_kuri_beach2.jpg"]
+    },
+    {
+        "id": "matyaf-waterfall",
+        "name": "شلال متياف",
+        "description": "شلال موسمي مذهل يتدفق مباشرة إلى البحر من أعلى الجروف الساحلية بعد هطول الأمطار الغزيرة. [10] يعتبر منظرًا نادرًا ومدهشًا، ويتطلب الحظ لمشاهدته في كامل قوته.",
+        "categories": ["waterfall", "coastal", "seasonal", "scenic"],
+        "categoryNames": ["شلال", "ساحلي", "موسمي", "مناظر خلابة"],
+        "coordinates": {"lat": 12.40, "lng": 53.55},
+        "images": ["images/beaches/socotra/matyaf_waterfall1.jpg", "images/beaches/socotra/matyaf_waterfall2.jpg"]
+    },
+
+        {
+        "id": "socotra-frankincense-tree",
+        "name": "شجرة اللبان السقطري",
+        "description": "تنمو في سقطرى عدة أنواع من أشجار اللبان النادرة والمستوطنة، والتي تنتج أجود أنواع الصمغ العطري. [4] تنمو هذه الأشجار على المنحدرات الصخرية وتعتبر جزءاً من التراث الاقتصادي والثقافي للجزيرة.",
+        "categories": ["botanical", "endemic", "rare", "cultural"],
+        "categoryNames": ["نباتي", "مستوطن", "نادر", "ثقافي"],
+        "coordinates": {"lat": 12.57, "lng": 54.25},
+        "images": ["images/rare/socotra/frankincense_tree1.jpg", "images/rare/socotra/frankincense_tree2.jpg"]
+    },
+
+    {
+        "id": "homhil-infinity-pool",
+        "name": "المسبح الطبيعي في حومهيل",
+        "description": "أحد أشهر المسابح الطبيعية في الجزيرة، يقع داخل محمية حومهيل. [1] هو عبارة عن بركة مياه عذبة صافية تقع على حافة جرف صخري، وتوفر إطلالة لا نهائية (Infinity Pool) على الساحل الأزرق في الأسفل، مما يجعله مكاناً مثالياً للسباحة والتقاط الصور.",
+        "categories": ["natural", "pool", "scenic", "viewpoint"],
+        "categoryNames": ["طبيعي", "مسبح", "مناظر خلابة", "مطل"],
+        "coordinates": {"lat": 12.58, "lng": 54.3},
+        "images": []
+    },
+    {
+        "id": "kalesan-canyon-pools",
+        "name": "شلالات ومسابح وادي قريحة (كليسان)",
+        "description": "وادي مذهل يشتهر بمسابحه الطبيعية ذات المياه البيضاء الكلسية الصافية التي تتخللها شلالات صغيرة. [2] يتطلب الوصول إليه بعض المشي، لكن جمال البرك المائية المتدرجة بين الصخور البيضاء يجعله تجربة فريدة للسباحة والاسترخاء.",
+        "categories": ["natural", "pool", "waterfall", "canyon"],
+        "categoryNames": ["طبيعي", "مسبح", "شلال", "أخدود"],
+        "coordinates": {"lat": 12.40, "lng": 54.15},
+        "images": []
+    },
+    {
+        "id": "dirhur-canyon-pools",
+        "name": "مسابح وادي درهور",
+        "description": "في قاع أخدود درهور العميق، توجد العديد من البرك والمسابح الطبيعية التي تتكون من المياه الجارية في الوادي. [3] تعتبر هذه المسابح واحة خضراء ومنعشة في قلب الوادي، ومكاناً رائعاً للهروب من الحرارة والاستمتاع بالطبيعة.",
+        "categories": ["natural", "pool", "valley", "oasis"],
+        "categoryNames": ["طبيعي", "مسبح", "وادي", "واحة"],
+        "coordinates": {"lat": 12.45, "lng": 54.0},
+        "images": []
+    },
+    {
+        "id": "dagub-cave-pool",
+        "name": "مسبح كهف دكوب",
+        "description": "كهف ساحلي يقع بالقرب من شاطئ أومق. [4] يتميز هذا الكهف بوجود بركة مياه عذبة في مدخله، حيث يمكن للزوار السباحة في الظل مع الاستمتاع بمنظر الشاطئ والبحر في الخارج، وهي تجربة فريدة من نوعها.",
+        "categories": ["natural", "pool", "cave", "beach"],
+        "categoryNames": ["طبيعي", "مسبح", "كهف", "شاطئ"],
+        "coordinates": {"lat": 12.35, "lng": 53.9},
+        "images": []
+    },
+
+    {
+        "id": "ras-erissel-beach",
+        "name": "شاطئ رأس إيريسيل",
+        "description": "يقع في أقصى الطرف الشرقي للجزيرة، وهو نقطة التقاء بحر العرب بالمحيط الهندي. [8] يتميز الشاطئ بوجود قرى الصيادين التقليدية، وهو مكان رائع لمشاهدة شروق الشمس وتجربة الحياة الساحلية البسيطة.",
+        "categories": ["beach", "natural", "fishing", "sunrise"],
+        "categoryNames": ["شاطئ", "طبيعي", "صيد", "شروق الشمس"],
+        "coordinates": {"lat": 12.63, "lng": 54.52},
+        "images": []
+    },
+    {
+        "id": "steroh-lagoon-beach",
+        "name": "شاطئ بحيرة استيرو الشاطئية",
+        "description": "بحيرة شاطئية (لاجون) تقع على الساحل الجنوبي. [9] تشبه في تكوينها بحيرة ديتوا ولكنها أقل شهرة، وتتميز بمياهها الهادئة والدافئة، وهي مكان رائع لمراقبة الطيور البحرية والاسترخاء في عزلة.",
+        "categories": ["beach", "lagoon", "natural", "quiet"],
+        "categoryNames": ["شاطئ", "بحيرة شاطئية", "طبيعي", "هادئ"],
+        "coordinates": {"lat": 12.33, "lng": 53.55},
+        "images": []
+    }
+    
+        ]
+    },
+    "marib": {  
+        "name": "مأرب",
+        "landmarks": [
+    {
+        "id": "marib-dam",
+        "name": "سد مأرب القديم",
+        "description": "أعجوبة هندسية ومن أشهر السدود في العالم القديم، بني في عهد مملكة سبأ. [1] يعتبر من أهم المعالم الأثرية في اليمن، وتدل بقاياه على عظمة الحضارة التي أدارت المياه ببراعة لري واحات شاسعة.",
+        "categories": ["archaeological", "historical", "engineering", "water"],
+        "categoryNames": ["أثري", "تاريخي", "هندسي", "مائي"],
+        "coordinates": {"lat": 15.404, "lng": 45.336},
+        "images": ["images/landmarks/marib/marib_dam_old1.jpg", "images/landmarks/marib/marib_dam_old2.jpg"]
+    },
+    {
+        "id": "barran-temple",
+        "name": "معبد بران (عرش بلقيس)",
+        "description": "معبد سبئي شهير كان مخصصاً للإله \"المقة\" (إله القمر). [2] يشتهر بأعمدته الخمسة الضخمة وبوابته المهيبة والباحة المقدسة التي كانت تقام فيها الطقوس الدينية، ويعتبر من أهم المعابد في شبه الجزيرة العربية.",
+        "categories": ["archaeological", "historical", "religious", "sabaean"],
+        "categoryNames": ["أثري", "تاريخي", "ديني", "سبئي"],
+        "coordinates": {"lat": 15.403, "lng": 45.346},
+        "images": ["images/landmarks/marib/barran_temple1.jpg", "images/landmarks/marib/barran_temple2.jpg"]
+    },
+    {
+        "id": "awam-temple",
+        "name": "معبد أوام (محرم بلقيس)",
+        "description": "أكبر معبد في اليمن القديم، وكان المعبد الرئيسي لمملكة سبأ. [3] يتميز بسوره البيضاوي الضخم وأعمدته الثمانية الشاهقة عند المدخل، وكان مركزاً دينياً وسياسياً وحجاً هاماً في العصور القديمة.",
+        "categories": ["archaeological", "historical", "religious", "sabaean"],
+        "categoryNames": ["أثري", "تاريخي", "ديني", "سبئي"],
+        "coordinates": {"lat": 15.400, "lng": 45.355},
+        "images": ["images/landmarks/marib/awam_temple1.jpg", "images/landmarks/marib/awam_temple2.jpg"]
+    },
+    {
+        "id": "old-marib-city",
+        "name": "مدينة مأرب القديمة",
+        "description": "أطلال عاصمة مملكة سبأ، تقع على تلة مرتفعة. [4] كانت مدينة محصنة تضم قصوراً ومعابد ومنازل، ولا تزال بقايا أسوارها ومبانيها الحجرية شاهدة على تاريخها العريق وأهميتها كمركز سياسي وتجاري.",
+        "categories": ["archaeological", "historical", "ruins", "ancient-city"],
+        "categoryNames": ["أثري", "تاريخي", "أطلال", "مدينة قديمة"],
+        "coordinates": {"lat": 15.425, "lng": 45.335},
+        "images": ["images/landmarks/marib/old_marib_city1.jpg", "images/landmarks/marib/old_marib_city2.jpg"]
+    },
+        {
+        "id": "marib-public-park",
+        "name": "حديقة مأرب العامة ",
+        "description": "تعتبر الحديقة العامة المنظمة الوحيدة داخل مدينة مأرب. [3, 4] تمثل متنفسًا هامًا للعائلات والأطفال داخل المدينة، وتضم مساحات خضراء وألعابًا ومناطق للجلوس، وتشهد إقبالًا كبيرًا خاصة في المساء. [3, 4]",
+        "categories": ["park", "family", "recreational", "neighborhood"],
+        "categoryNames": ["حديقة", "عائلي", "ترفيهي", "حي سكني"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "marib-land-park",
+        "name": "مأرب لاند",
+        "description": "منتزه ترفيهي خاص يقع في مدينة مأرب، ويعتبر وجهة رئيسية للألعاب والترفيه. [5] يضم مجموعة من الألعاب الكهربائية والإلكترونية، ويستقطب عددًا كبيرًا من الأطفال والعائلات الباحثة عن التسلية. [5]",
+        "categories": ["amusement-park", "family", "recreational"],
+        "categoryNames": ["ملاهي", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "marib-dam-new",
+        "name": "سد مأرب الجديد",
+        "description": "سد حديث بني في الثمانينيات بدعم من دولة الإمارات العربية المتحدة، بالقرب من موقع السد القديم. [5] يعتبر مشروعاً هندسياً ضخماً ساهم في إحياء الزراعة بالمنطقة، وشكل بحيرة كبيرة أضافت منظراً جمالياً للمنطقة.",
+        "categories": ["modern", "engineering", "dam", "water"],
+        "categoryNames": ["حديث", "هندسي", "سد", "مائي"],
+        "coordinates": {"lat": 15.445, "lng": 45.275},
+        "images": ["images/landmarks/marib/marib_dam_new1.jpg", "images/landmarks/marib/marib_dam_new2.jpg"]
+    },
+    {
+        "id": "marib-museum",
+        "name": "متحف مأرب الإقليمي",
+        "description": "يضم المتحف مجموعة قيمة من القطع الأثرية التي تم اكتشافها في مواقع مختلفة بمحافظة مأرب. [6] يعرض المتحف تماثيل ونقوش مسندية وأدوات فخارية ومعدنية تحكي تاريخ مملكة سبأ والممالك اليمنية القديمة.",
+        "categories": ["museum", "archaeological", "historical", "cultural"],
+        "categoryNames": ["متحف", "أثري", "تاريخي", "ثقافي"],
+        "coordinates": {"lat": 15.460, "lng": 45.325},
+        "images": ["images/landmarks/marib/marib_museum1.jpg", "images/landmarks/marib/marib_museum2.jpg"]
+    },
+
+    {
+        "id": "ramlat-al-sabatayn",
+        "name": "رملة السبعتين",
+        "description": "صحراء واسعة من الكثبان الرملية الذهبية تمتد شمال وشمال غرب مأرب. [8] تعتبر منظراً طبيعياً صحراوياً مهيباً، وتجذب هواة المغامرات الصحراوية والتخييم والاستمتاع بجمال الصحراء وصفائها.",
+        "categories": ["nature", "desert", "sand-dunes", "adventure"],
+        "categoryNames": ["طبيعي", "صحراء", "كثبان رملية", "مغامرات"],
+        "coordinates": {"lat": 15.80, "lng": 45.50},
+        "images": ["images/landmarks/marib/ramlat_al_sabatayn1.jpg", "images/landmarks/marib/ramlat_al_sabatayn2.jpg"]
+    },
+    {
+        "id": "wadi-adhana",
+        "name": "وادي أذنة (قنوات الري القديمة)",
+        "description": "الوادي الذي كان يرويه سد مأرب القديم عبر شبكة معقدة من قنوات الري. [9] لا تزال آثار القناتين الرئيسيتين (الجيشان والمبسط) وبقايا القنوات الفرعية شاهدة على العبقرية الهندسية للسبئيين في الزراعة.",
+        "categories": ["archaeological", "historical", "agriculture", "water"],
+        "categoryNames": ["أثري", "تاريخي", "زراعي", "مائي"],
+        "coordinates": {"lat": 15.41, "lng": 45.34},
+        "images": ["images/landmarks/marib/wadi_adhana1.jpg", "images/landmarks/marib/wadi_adhana2.jpg"]
+    },
+    {
+        "id": "jabal-balaq",
+        "name": "سلسلة جبال البلق",
+        "description": "سلسلة جبلية تحيط بمدينة مأرب من جهة الجنوب والغرب، ومنها تم حفر الصخور لبناء السد القديم. [10] توفر هذه الجبال مناظر طبيعية قاسية وجميلة، وتضم نقوشاً صخرية ومواقع أثرية صغيرة.",
+        "categories": ["nature", "mountain", "geological", "historical"],
+        "categoryNames": ["طبيعي", "جبل", "جيولوجي", "تاريخي"],
+        "coordinates": {"lat": 15.38, "lng": 45.25},
+        "images": ["images/landmarks/marib/jabal_balaq1.jpg", "images/landmarks/marib/jabal_balaq2.jpg"]
+    }
+
+
+        ]
+    },
+
+    "thamar": {
+        "name": "ذمار",
+        "landmarks": [
+    {
+        "id": "dhamar-grand-mosque",
+        "name": "الجامع الكبير بذمار",
+        "description": "أحد أقدم المساجد في اليمن، يُقال إن أساساته تعود إلى فترة معاذ بن جبل. [1] يتميز بتصميمه الذي يجمع بين الأصالة والزخارف الإسلامية، وبمكتبته التي تضم مخطوطات نادرة، ويعتبر قلب المدينة الروحي والتاريخي.",
+        "categories": ["religious", "historical", "architectural", "islamic"],
+        "categoryNames": ["ديني", "تاريخي", "معماري", "إسلامي"],
+        "coordinates": {"lat": 14.553, "lng": 44.405},
+        "images": ["images/landmarks/dhamar/dhamar_grand_mosque1.jpg", "images/landmarks/dhamar/dhamar_grand_mosque2.jpg"]
+    },
+        {
+        "id": "dhamar-grand-park",
+        "name": "حديقة ذمار الكبرى ",
+        "description": "تعتبر الحديقة العامة الأكبر والرئيسية في مدينة ذمار، وتقع في منطقة هرّان. [1, 2] تمثل المتنفس الأهم للعائلات داخل المدينة، وتضم مساحات خضراء واسعة، وألعابًا للأطفال، ومرافق للزوار، وتشهد إقبالًا كبيرًا في الأعياد والمناسبات. [1, 2]",
+        "categories": ["park", "recreational", "family"],
+        "categoryNames": ["حديقة", "ترفيهي", "عائلي"],
+        "coordinates": {},
+        "images": []
+    },
+        {
+        "id": "dhamar-zoo",
+        "name": "حديقة حيوانات ذمار",
+        "description": "حديقة حيوانات صغيرة تقع في مدينة ذمار، وتعتبر وجهة ترفيهية وتعليمية للأطفال والعائلات. [8] تضم مجموعة من الحيوانات والطيور، وتعد متنفسًا إضافيًا داخل المدينة. [8]",
+        "categories": ["zoo", "family", "recreational", "educational"],
+        "categoryNames": ["حديقة حيوان", "عائلي", "ترفيهي", "تعليمي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "baynun-archaeological-site",
+        "name": "مدينة بينون الأثرية",
+        "description": "أطلال مدينة حميرية قديمة كانت من أهم المدن في مملكة حمير. [2] تشتهر ببقايا قصر بينون ونفقها الصخري الشهير الذي كان جزءاً من نظام دفاعي وهندسي متطور، وهي شاهد على عظمة الحضارة الحميرية.",
+        "categories": ["archaeological", "historical", "ruins", "himyarite"],
+        "categoryNames": ["أثري", "تاريخي", "أطلال", "حميري"],
+        "coordinates": {"lat": 14.65, "lng": 44.55},
+        "images": ["images/landmarks/dhamar/baynun_site1.jpg", "images/landmarks/dhamar/baynun_site2.jpg"]
+    },
+    {
+        "id": "dhamar-ali-yahbur-ruins",
+        "name": "أطلال ذمار علي يهبر",
+        "description": "موقع أثري يعتقد أنه كان من العواصم القديمة لمملكة سبأ وذي ريدان. [3] يضم الموقع نقوشاً مسندية وبقايا مبانٍ ضخمة، وهو دليل على الأهمية التاريخية لمنطقة ذمار في اليمن القديم.",
+        "categories": ["archaeological", "historical", "ruins", "sabaean"],
+        "categoryNames": ["أثري", "تاريخي", "أطلال", "سبئي"],
+        "coordinates": {"lat": 14.58, "lng": 44.42},
+        "images": ["images/landmarks/dhamar/dhamar_ali_yahbur1.jpg", "images/landmarks/dhamar/dhamar_ali_yahbur2.jpg"]
+    },
+    {
+        "id": "al-amiriya-school-dhamar",
+        "name": "المدرسة الشمسية (العامرية بذمار)",
+        "description": "مدرسة تاريخية تعود إلى العصر الطاهري، بناها السلطان عامر بن عبدالوهاب. [4] تتميز بتصميمها المعماري الإسلامي الفريد وقبابها المتعددة، وكانت مركزاً هاماً للعلم والتعليم في المنطقة.",
+        "categories": ["historical", "islamic", "architectural", "school"],
+        "categoryNames": ["تاريخي", "إسلامي", "معماري", "مدرسة"],
+        "coordinates": {"lat": 14.554, "lng": 44.406},
+        "images": ["images/landmarks/dhamar/al_amiriya_dhamar1.jpg", "images/landmarks/dhamar/al_amiriya_dhamar2.jpg"]
+    },
+    {
+        "id": "dhamar-regional-museum",
+        "name": "متحف ذمار الإقليمي",
+        "description": "يحتوي على مجموعة واسعة من القطع الأثرية التي تمثل مختلف الحقب التاريخية لمحافظة ذمار، من العصور الحجرية إلى العصور الإسلامية. [5] يعتبر نافذة هامة للتعرف على تاريخ المنطقة الغني والمتنوع.",
+        "categories": ["museum", "archaeological", "historical", "cultural"],
+        "categoryNames": ["متحف", "أثري", "تاريخي", "ثقافي"],
+        "coordinates": {"lat": 14.56, "lng": 44.41},
+        "images": ["images/landmarks/dhamar/dhamar_museum1.jpg", "images/landmarks/dhamar/dhamar_museum2.jpg"]
+    },
+    {
+        "id": "hiran-ruins",
+        "name": "أطلال هِجران",
+        "description": "موقع أثري قديم يقع في منطقة آنس، ويحتوي على بقايا مدينة حميرية محصنة. [6] يتميز الموقع بوجود صهاريج مياه منحوتة في الصخر ومقابر صخرية، مما يدل على استيطان قديم ومتقدم.",
+        "categories": ["archaeological", "historical", "ruins", "himyarite"],
+        "categoryNames": ["أثري", "تاريخي", "أطلال", "حميري"],
+        "coordinates": {"lat": 14.75, "lng": 44.25},
+        "images": ["images/landmarks/dhamar/hiran_ruins1.jpg", "images/landmarks/dhamar/hiran_ruins2.jpg"]
+    },
+    {
+        "id": "dhamar-old-city",
+        "name": "مدينة ذمار القديمة",
+        "description": "النسيج الحضري التاريخي للمدينة، الذي يضم أحياء وحارات قديمة. [7] على الرغم من تأثرها بالتوسع الحديث، لا تزال تحتفظ ببعض ملامحها التقليدية من خلال مساجدها القديمة وبعض المنازل ذات الطابع المعماري المميز.",
+        "categories": ["historical", "city", "architectural"],
+        "categoryNames": ["تاريخي", "مدينة", "معماري"],
+        "coordinates": {"lat": 14.55, "lng": 44.40},
+        "images": ["images/landmarks/dhamar/dhamar_old_city1.jpg", "images/landmarks/dhamar/dhamar_old_city2.jpg"]
+    },
+    {
+        "id": "dawr-an-hot-springs",
+        "name": "حمامات ضوران آنس",
+        "description": "مجموعة من الينابيع المعدنية الحارة الطبيعية التي تقع في مديرية ضوران آنس. [8] تعتبر من أشهر مواقع السياحة العلاجية في اليمن، حيث يقصدها الزوار للاستشفاء بمياهها الكبريتية التي يعتقد أنها تعالج أمراض الجلد والمفاصل.",
+        "categories": ["therapeutic", "natural", "hot-spring", "water"],
+        "categoryNames": ["علاجي", "طبيعي", "ينبوع حار", "مائي"],
+        "coordinates": {"lat": 14.85, "lng": 44.15},
+        "images": ["images/landmarks/dhamar/dawran_hot_springs1.jpg", "images/landmarks/dhamar/dawran_hot_springs2.jpg"]
+    },
+    {
+        "id": "yislah-archaeological-site",
+        "name": "موقع يسلح الأثري",
+        "description": "موقع تاريخي يقع على الطريق بين صنعاء وذمار، وكان مركزاً دينياً هاماً في فترة ما قبل الإسلام. [9] يضم بقايا معبد قديم ونقوشاً مسندية، وكان أحد المراكز الهامة على طريق البخور القديم.",
+        "categories": ["archaeological", "historical", "ruins", "religious"],
+        "categoryNames": ["أثري", "تاريخي", "أطلال", "ديني"],
+        "coordinates": {"lat": 15.05, "lng": 44.30},
+        "images": ["images/landmarks/dhamar/yislah_site1.jpg", "images/landmarks/dhamar/yislah_site2.jpg"]
+    },
+    {
+        "id": "jabal-dawran",
+        "name": "جبل ضوران آنس",
+        "description": "جبل بركاني شاهق يطل على منطقة ضوران آنس. [10] يعتبر معلماً طبيعياً بارزاً، وتنتشر على سفوحه القرى الجميلة والمدرجات الزراعية، ويوفر إطلالات بانورامية على المنطقة المحيطة.",
+        "categories": ["nature", "mountain", "viewpoint", "volcanic"],
+        "categoryNames": ["طبيعي", "جبل", "إطلالة", "بركاني"],
+        "coordinates": {"lat": 14.86, "lng": 44.14},
+        "images": ["images/landmarks/dhamar/jabal_dawran1.jpg", "images/landmarks/dhamar/jabal_dawran2.jpg"]
+    },
+
+        {
+        "id": "wadi-rimaa-source",
+        "name": "منابع وادي رماع",
+        "description": "أحد أكبر أودية اليمن، تنبع روافده الرئيسية من مرتفعات آنس ووصاب العالي في محافظة ذمار. [2] تتميز منطقة المنابع بجمالها الطبيعي الأخاذ وتدفق المياه الذي يغذي مساحات زراعية واسعة.",
+        "categories": ["wadi", "nature", "water-source", "agriculture"],
+        "categoryNames": ["وادي", "طبيعي", "منبع مائي", "زراعي"],
+        "coordinates": {"lat": 14.65, "lng": 44.10},
+        "images": ["images/water/dhamar/wadi_rimaa_source1.jpg", "images/water/dhamar/wadi_rimaa_source2.jpg"]
+    },
+    {
+        "id": "dhamar-plain",
+        "name": "قاع جهران (سهل ذمار)",
+        "description": "سهل واسع وخصب يقع شمال مدينة ذمار، ويعتبر من أهم المناطق الزراعية في المرتفعات اليمنية. [3] تتجمع فيه مياه الأمطار والسيول، مما يجعله حوضاً مائياً طبيعياً ضخماً يدعم الزراعة.",
+        "categories": ["plain", "agriculture", "water-basin", "nature"],
+        "categoryNames": ["سهل", "زراعي", "حوض مائي", "طبيعي"],
+        "coordinates": {"lat": 14.70, "lng": 44.35},
+        "images": ["images/water/dhamar/jahran_plain1.jpg", "images/water/dhamar/jahran_plain2.jpg"]
+    },
+ 
+    {
+        "id": "wadi-al-hayat-dam",
+        "name": "سد وادي الحياة",
+        "description": "سد يقع في منطقة وصاب، بني بهدف حصاد مياه الأمطار وتوفير المياه للزراعة. [5] شكل السد بحيرة صغيرة أضافت منظراً جمالياً للمنطقة وساهمت في دعم المزارعين المحليين.",
+        "categories": ["dam", "water-management", "agriculture", "lake"],
+        "categoryNames": ["سد", "إدارة مياه", "زراعي", "بحيرة"],
+        "coordinates": {"lat": 14.45, "lng": 43.85},
+        "images": ["images/water/dhamar/wadi_al_hayat_dam1.jpg", "images/water/dhamar/wadi_al_hayat_dam2.jpg"]
+    },
+    {
+        "id": "otmah-nature-reserve",
+        "name": "محمية عتمة الطبيعية",
+        "description": "منطقة جبلية ذات غطاء نباتي كثيف وتنوع بيولوجي فريد، وتعتبر محمية طبيعية. [6] تتخلل المحمية العديد من الينابيع والشلالات الموسمية الصغيرة، وهي مصدر هام للمياه في المنطقة.",
+        "categories": ["nature-reserve", "forest", "water-spring", "biodiversity"],
+        "categoryNames": ["محمية طبيعية", "غابة", "عين ماء", "تنوع حيوي"],
+        "coordinates": {"lat": 14.40, "lng": 44.05},
+        "images": ["images/water/dhamar/otmah_reserve1.jpg", "images/water/dhamar/otmah_reserve2.jpg"]
+    },
+    {
+        "id": "wadi-kharif",
+        "name": "وادي خارف",
+        "description": "وادي يقع في مديرية جهران، ويتميز بأراضيه الزراعية الخصبة. [7] يعتبر مجرى هاماً للسيول الموسمية التي تغذي الآبار والمياه الجوفية في سهل قاع جهران.",
+        "categories": ["wadi", "nature", "agriculture", "water-course"],
+        "categoryNames": ["وادي", "طبيعي", "زراعي", "مجرى مائي"],
+        "coordinates": {"lat": 14.72, "lng": 44.45},
+        "images": ["images/water/dhamar/wadi_kharif1.jpg", "images/water/dhamar/wadi_kharif2.jpg"]
+    },
+    {
+        "id": "ancient-cisterns-dhamar",
+        "name": "الصهاريج الحميرية القديمة",
+        "description": "تنتشر في العديد من المواقع الأثرية بذمار، مثل هجران وبينون، صهاريج (برك) مياه قديمة منحوتة في الصخر. [8] تمثل هذه الصهاريج نظام إدارة مياه متطور يعود لعصر مملكة حمير.",
+        "categories": ["cistern", "archaeological", "historical", "water"],
+        "categoryNames": ["صهريج", "أثري", "تاريخي", "مائي"],
+        "coordinates": {"lat": 14.75, "lng": 44.25},
+        "images": ["images/water/dhamar/ancient_cisterns1.jpg", "images/water/dhamar/ancient_cisterns2.jpg"]
+    },
+
+    {
+        "id": "dabaa-dam",
+        "name": "سد ضبعة",
+        "description": "سد صغير يقع في مديرية عنس، تم بناؤه لحصاد مياه الأمطار. [10] على الرغم من صغر حجمه، إلا أنه يلعب دوراً في توفير المياه للمزارع المحيطة ويشكل منظراً مائياً هادئاً.",
+        "categories": ["dam", "water-management", "agriculture"],
+        "categoryNames": ["سد", "إدارة مياه", "زراعي"],
+        "coordinates": {"lat": 14.58, "lng": 44.58},
+        "images": ["images/water/dhamar/dabaa_dam1.jpg", "images/water/dhamar/dabaa_dam2.jpg"]
+    },
+
+        {
+        "id": "al-dhil-waterfall-otmah",
+        "name": "شلال الذيل (عتمة)",
+        "description": "أشهر شلالات محمية عتمة، يتدفق بغزارة من جرف صخري مرتفع وسط غطاء نباتي كثيف. [1] يعتبر رمزاً للجمال الطبيعي في المديرية ووجهة رئيسية للزوار ومحبي الطبيعة.",
+        "categories": ["waterfall", "nature", "scenic", "nature-reserve"],
+        "categoryNames": ["شلال", "طبيعي", "مناظر خلابة", "محمية طبيعية"],
+        "coordinates": {"lat": 14.41, "lng": 44.06},
+        "images": ["images/waterfalls/dhamar/al_dhil_waterfall1.jpg", "images/waterfalls/dhamar/al_dhil_waterfall2.jpg"]
+    },
+    {
+        "id": "wadi-al-ahjer-waterfall",
+        "name": "شلال وادي الأحجر (وصاب العالي)",
+        "description": "شلال هادر وقوي يقع في وادي الأحجر، يتميز بارتفاعه وقوة تدفقه خصوصاً في مواسم الأمطار. [2] يصب في بركة مائية كبيرة، مما يجعله مكاناً مثالياً للمغامرة والسباحة.",
+        "categories": ["waterfall", "nature", "powerful", "swimming"],
+        "categoryNames": ["شلال", "طبيعي", "قوي", "سباحة"],
+        "coordinates": {"lat": 14.49, "lng": 43.78},
+        "images": ["images/waterfalls/dhamar/wadi_al_ahjer_waterfall1.jpg", "images/waterfalls/dhamar/wadi_al_ahjer_waterfall2.jpg"]
+    },
+    {
+        "id": "otmah-nature-reserve-springs",
+        "name": "ينابيع ومساقط محمية عتمة",
+        "description": "بالإضافة للشلالات الكبيرة، تزخر محمية عتمة بشبكة من الينابيع العذبة والمساقط المائية الصغيرة التي تتدفق بين الصخور والمدرجات، مما يجعل المحمية بأكملها حديقة مائية طبيعية. [3]",
+        "categories": ["nature-reserve", "water-spring", "forest", "biodiversity"],
+        "categoryNames": ["محمية طبيعية", "عين ماء", "غابة", "تنوع حيوي"],
+        "coordinates": {"lat": 14.40, "lng": 44.05},
+        "images": ["images/water/dhamar/otmah_reserve1.jpg", "images/water/dhamar/otmah_reserve2.jpg"]
+    },
+    {
+        "id": "wusab-general-waterfalls",
+        "name": "شلالات وصابين الموسمية المتعددة",
+        "description": "تتميز جبال وصابين (العالي والسافل) بانحدارها الشديد، مما يؤدي إلى تشكل العشرات من الشلالات المؤقتة بعد هطول الأمطار. [4] تخلق هذه الشلالات لوحات طبيعية مائية بديعة على امتداد السفوح الجبلية.",
+        "categories": ["waterfall", "seasonal", "nature", "scenic"],
+        "categoryNames": ["شلال", "موسمي", "طبيعي", "مناظر خلابة"],
+        "coordinates": {"lat": 14.48, "lng": 43.80},
+        "images": ["images/water/dhamar/wusab_waterfalls1.jpg", "images/water/dhamar/wusab_waterfalls2.jpg"]
+    },
+    {
+        "id": "al-sharab-waterfall-otmah",
+        "name": "شلال الشارب (عتمة)",
+        "description": "شلال جميل في محمية عتمة، سُمي بذلك لشكله الفريد عند تدفقه على الصخور. [5] يوفر بفضل موقعه المنعزل تجربة هادئة للاستمتاع بخرير المياه وجمال الطبيعة البكر.",
+        "categories": ["waterfall", "nature", "scenic", "secluded"],
+        "categoryNames": ["شلال", "طبيعي", "مناظر خلابة", "منعزل"],
+        "coordinates": {"lat": 14.43, "lng": 44.04},
+        "images": ["images/waterfalls/dhamar/al_sharab_waterfall1.jpg", "images/waterfalls/dhamar/al_sharab_waterfall2.jpg"]
+    },
+    {
+        "id": "wadi-zabid-headwaters",
+        "name": "منابع وادي زبيد (وصاب وعتمة)",
+        "description": "تعتبر مرتفعات وصابين وعتمة هي المصدر الرئيسي لمياه وادي زبيد الشهير. [6] تتميز هذه المناطق بأوديتها العميقة الخضراء ومياهها الجارية التي تشكل بداية هذا الوادي الهام.",
+        "categories": ["wadi", "nature", "water-source", "scenic"],
+        "categoryNames": ["وادي", "طبيعي", "منبع مائي", "مناظر خلابة"],
+        "coordinates": {"lat": 14.30, "lng": 43.95},
+        "images": ["images/water/dhamar/wadi_zabid_source1.jpg", "images/water/dhamar/wadi_zabid_source2.jpg"]
+    },
+    {
+        "id": "bani-fakhri-waterfall",
+        "name": "شلال بني فخري (وصاب السافل)",
+        "description": "شلال موسمي بديع يتدفق عبر المدرجات الزراعية الخضراء في منطقة بني فخري، راسماً لوحة فنية تجمع بين إبداع الإنسان وجمال الطبيعة. [7]",
+        "categories": ["waterfall", "nature", "seasonal", "agriculture"],
+        "categoryNames": ["شلال", "طبيعي", "موسمي", "زراعي"],
+        "coordinates": {"lat": 14.35, "lng": 43.75},
+        "images": ["images/waterfalls/dhamar/bani_fakhri_waterfall1.jpg", "images/waterfalls/dhamar/bani_fakhri_waterfall2.jpg"]
+    },
+    {
+        "id": "al-mawhab-waterfall",
+        "name": "شلال الموهب (عتمة)",
+        "description": "شلال بارز في عزلة الموهب بمديرية عتمة، يشتهر بارتفاعه وجمال محيطه الطبيعي، ويعتبر متنفساً هاماً للسكان المحليين والزوار. [8]",
+        "categories": ["waterfall", "nature", "scenic", "recreation"],
+        "categoryNames": ["شلال", "طبيعي", "مناظر خلابة", "ترفيهي"],
+        "coordinates": {"lat": 14.38, "lng": 44.08},
+        "images": ["images/waterfalls/dhamar/al_mawhab_waterfall1.jpg", "images/waterfalls/dhamar/al_mawhab_waterfall2.jpg"]
+    },
+    {
+        "id": "al-jabin-waterfalls",
+        "name": "شلالات ومساقط الجبين (وصاب العالي)",
+        "description": "مجموعة من المساقط المائية المتفرقة التي تظهر في منطقة الجبين بعد الأمطار، محولة المنطقة إلى منظر طبيعي ريفي هادئ تتخلله أصوات المياه. [9]",
+        "categories": ["waterfall", "nature", "rural", "scenic"],
+        "categoryNames": ["شلال", "طبيعي", "ريفي", "مناظر خلابة"],
+        "coordinates": {"lat": 14.51, "lng": 43.82},
+        "images": ["images/waterfalls/dhamar/al_jabin_waterfalls1.jpg", "images/waterfalls/dhamar/al_jabin_waterfalls2.jpg"]
+    },
+    {
+        "id": "al-sada-waterfall-otmah",
+        "name": "شلال السادة (عتمة)",
+        "description": "شلال جميل يقع في وادٍ خصب، ويتطلب الوصول إليه بعض المشي، مما يجعله مكافأة رائعة لمحبي التنزه واستكشاف المسارات الطبيعية البعيدة. [10]",
+        "categories": ["waterfall", "nature", "hiking", "wadi"],
+        "categoryNames": ["شلال", "طبيعي", "تنزه جبلي", "وادي"],
+        "coordinates": {"lat": 14.45, "lng": 44.02},
+        "images": ["images/waterfalls/dhamar/al_sada_waterfall1.jpg", "images/waterfalls/dhamar/al_sada_waterfall2.jpg"]
+    }
+
+
+        ]
+    },
+    "saada": {
+        "name": "صعدة",
+        "landmarks": [
+    {
+        "id": "saada-old-city",
+        "name": "مدينة صعدة القديمة",
+        "description": "مدينة تاريخية فريدة محاطة بسور طيني ضخم، وتعتبر من أقدم المدن المأهولة في اليمن. [1] تتميز بمنازلها الطينية المزخرفة، وأزقتها الضيقة، وأسواقها التقليدية، وتضم العديد من المساجد والمقابر التاريخية.",
+        "categories": ["historical", "city", "architectural", "cultural"],
+        "categoryNames": ["تاريخي", "مدينة", "معماري", "ثقافي"],
+        "coordinates": {"lat": 16.943, "lng": 43.761},
+        "images": ["images/landmarks/saada/saada_old_city1.jpg", "images/landmarks/saada/saada_old_city2.jpg"]
+    },
+    {
+        "id": "al-hadi-mosque",
+        "name": "جامع الإمام الهادي",
+        "description": "أحد أقدم وأهم المساجد التاريخية في اليمن، أسسه الإمام الهادي يحيى بن الحسين في القرن التاسع الميلادي. [2] يعتبر مركزاً دينياً وعلمياً هاماً، ويتميز بقبابه البيضاء ومئذنته الشاهقة، ويضم ضريح الإمام الهادي.",
+        "categories": ["religious", "historical", "islamic", "architectural"],
+        "categoryNames": ["ديني", "تاريخي", "إسلامي", "معماري"],
+        "coordinates": {"lat": 16.944, "lng": 43.762},
+        "images": ["images/landmarks/saada/al_hadi_mosque1.jpg", "images/landmarks/saada/al_hadi_mosque2.jpg"]
+    },
+    {
+        "id": "saada-great-dam",
+        "name": "سد صعدة الكبير (سد الشهيد)",
+        "description": "سد حديث يقع شمال غرب مدينة صعدة، بني لحصاد مياه الأمطار وتغذية المياه الجوفية. [3] شكل السد بحيرة كبيرة أصبحت متنفساً طبيعياً ومنظراً جمالياً للسكان والزوار.",
+        "categories": ["dam", "water", "recreation", "modern"],
+        "categoryNames": ["سد", "مائي", "ترفيهي", "حديث"],
+        "coordinates": {"lat": 16.98, "lng": 43.73},
+        "images": ["images/landmarks/saada/saada_dam1.jpg", "images/landmarks/saada/saada_dam2.jpg"]
+    },
+
+        {
+        "id": "al-sammad-park-saada",
+        "name": "حديقة الشهيد (الحديقة المركزية)",
+        "description": "تعتبر الحديقة العامة الرئيسية والمركزية في مدينة صعدة. [1, 2] تم إعادة تأهيلها وتطويرها لتكون متنفسًا رئيسيًا للعائلات، وتضم مساحات خضراء وألعابًا للأطفال ومرافق للزوار. [1, 2]",
+        "categories": ["park", "recreational", "family"],
+        "categoryNames": ["حديقة", "ترفيهي", "عائلي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "saada-city-park",
+        "name": "حديقة مدينة صعدة",
+        "description": "إحدى الحدائق العامة في مدينة صعدة التي تخدم السكان كمتنفس ترفيهي. [3] تضم الحديقة مناطق للجلوس ومساحات خضراء، وتعتبر وجهة للعائلات والأطفال داخل المدينة. [3]",
+        "categories": ["park", "family", "neighborhood"],
+        "categoryNames": ["حديقة", "عائلي", "حي سكني"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "wadi-alaf",
+        "name": "وادي العبدين (وادي آلاف)",
+        "description": "من أشهر الأودية في محافظة صعدة، ويقع في مديرية سحار. [4, 5] يشتهر الوادي بخصوبته ومياهه الجارية ومزارع الرمان والعنب، ويعتبر منتزهًا طبيعيًا مفتوحًا يقصده السكان للنزهة والاستجمام. [4, 5]",
+        "categories": ["valley", "natural-park", "recreational", "agriculture"],
+        "categoryNames": ["وادي", "منتزه طبيعي", "ترفيهي", "زراعة"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "saada-fortress-al-qishla",
+        "name": "قلعة القشلة",
+        "description": "حصن تاريخي منيع يقع على تلة تشرف على مدينة صعدة القديمة. [4] كان يستخدم كمقر للحكم ومركز عسكري، ويتميز ببنائه الحجري القوي وأبراجه الدفاعية، ويوفر إطلالة بانورامية على المدينة.",
+        "categories": ["historical", "fortress", "military", "viewpoint"],
+        "categoryNames": ["تاريخي", "قلعة", "عسكري", "إطلالة"],
+        "coordinates": {"lat": 16.941, "lng": 43.760},
+        "images": ["images/landmarks/saada/saada_fortress1.jpg", "images/landmarks/saada/saada_fortress2.jpg"]
+    },
+
+    {
+        "id": "tilmis-fortress",
+        "name": "حصن تلمص",
+        "description": "حصن تاريخي منيع يقع على قمة جبل شاهق في مديرية سحار. [7] يعتبر من أهم الحصون الدفاعية في محافظة صعدة، ويتميز بموقعه الاستراتيجي الذي يسيطر على الطرق التجارية القديمة.",
+        "categories": ["historical", "fortress", "mountain", "military"],
+        "categoryNames": ["تاريخي", "قلعة", "جبل", "عسكري"],
+        "coordinates": {"lat": 16.85, "lng": 43.65},
+        "images": ["images/landmarks/saada/tilmis_fortress1.jpg", "images/landmarks/saada/tilmis_fortress2.jpg"]
+    },
+    {
+        "id": "wadi-alaf",
+        "name": "وادي العلف",
+        "description": "أحد الأودية الخصبة في محافظة صعدة، ويشتهر بزراعة أجود أنواع العنب والرمان. [8] يعتبر الوادي متنفساً طبيعياً ومزاراً زراعياً يعكس خصوبة أرض صعدة وقدرة أهلها على الزراعة.",
+        "categories": ["wadi", "nature", "agriculture", "scenic"],
+        "categoryNames": ["وادي", "طبيعي", "زراعي", "مناظر خلابة"],
+        "coordinates": {"lat": 17.05, "lng": 43.60},
+        "images": ["images/landmarks/saada/wadi_alaf1.jpg", "images/landmarks/saada/wadi_alaf2.jpg"]
+    },
+
+    {
+        "id": "jabal-samar-fortress",
+        "name": "حصن جبل سمر",
+        "description": "موقع أثري وحصن قديم يقع في مديرية مجز. [10] يعود تاريخه إلى عصور ما قبل الإسلام، ويحتوي على نقوش صخرية وبقايا مبانٍ قديمة، مما يدل على الأهمية التاريخية للمنطقة منذ القدم.",
+        "categories": ["archaeological", "historical", "fortress", "ruins"],
+        "categoryNames": ["أثري", "تاريخي", "قلعة", "أطلال"],
+        "coordinates": {"lat": 17.15, "lng": 43.50},
+        "images": ["images/landmarks/saada/jabal_samar1.jpg", "images/landmarks/saada/jabal_samar2.jpg"]
+    },
+
+        {
+        "id": "wadi-nashour",
+        "name": "وادي نشور",
+        "description": "من أكبر وأهم الأودية في محافظة صعدة، يقع في مديرية الصفراء. [1] يشتهر بخصوبته العالية وزراعته لمختلف أنواع الفواكه والخضروات، وتتدفق فيه السيول الموسمية بغزارة، مما يجعله شريان حياة للمنطقة.",
+        "categories": ["wadi", "nature", "agriculture", "water-course"],
+        "categoryNames": ["وادي", "طبيعي", "زراعي", "مجرى مائي"],
+        "coordinates": {"lat": 16.80, "lng": 43.85},
+        "images": ["images/water/saada/wadi_nashour1.jpg", "images/water/saada/wadi_nashour2.jpg"]
+    },
+    {
+        "id": "wadi-khaywan",
+        "name": "وادي خيوان",
+        "description": "وادي واسع يقع في الأجزاء الجنوبية من المحافظة، ويمتد إلى محافظة عمران. [2] يعتبر من الأودية الهامة التي تجمع مياه السيول من مناطق واسعة، وتنتشر على ضفافه المزارع والقرى.",
+        "categories": ["wadi", "nature", "agriculture", "scenic"],
+        "categoryNames": ["وادي", "طبيعي", "زراعي", "مناظر خلابة"],
+        "coordinates": {"lat": 16.65, "lng": 43.90},
+        "images": ["images/water/saada/wadi_khaywan1.jpg", "images/water/saada/wadi_khaywan2.jpg"]
+    },
+    {
+        "id": "al-talh-dam",
+        "name": "سد الطلح",
+        "description": "سد يقع بالقرب من منطقة سوق الطلح الشهير، بني لحماية المنطقة من أخطار السيول وتوفير المياه للزراعة. [3] أصبحت بحيرته منظراً مائياً جميلاً يرتاده السكان المحليون.",
+        "categories": ["dam", "water-management", "agriculture", "recreation"],
+        "categoryNames": ["سد", "إدارة مياه", "زراعي", "ترفيهي"],
+        "coordinates": {"lat": 16.93, "lng": 43.74},
+        "images": ["images/water/saada/al_talh_dam1.jpg", "images/water/saada/al_talh_dam2.jpg"]
+    },
+    {
+        "id": "wadi-dhahyan",
+        "name": "وادي ضحيان",
+        "description": "وادي رئيسي يقع في مديرية مجز، ويشتهر بأراضيه الزراعية الخصبة. [4] يعتبر الوادي مصدراً هاماً للمياه السطحية والجوفية في المنطقة، وتنمو فيه محاصيل متنوعة.",
+        "categories": ["wadi", "nature", "agriculture", "water-course"],
+        "categoryNames": ["وادي", "طبيعي", "زراعي", "مجرى مائي"],
+        "coordinates": {"lat": 17.10, "lng": 43.45},
+        "images": ["images/water/saada/wadi_dhahyan1.jpg", "images/water/saada/wadi_dhahyan2.jpg"]
+    },
+    {
+        "id": "wadi-rahban",
+        "name": "وادي رحبان",
+        "description": "وادي جميل يقع في مديرية ساقين، ويتميز بمناظره الطبيعية الخلابة ومدرجاته الزراعية. [5] يعتبر متنفساً طبيعياً للسكان، وتتدفق فيه المياه بعد هطول الأمطار.",
+        "categories": ["wadi", "nature", "scenic", "agriculture"],
+        "categoryNames": ["وادي", "طبيعي", "مناظر خلابة", "زراعي"],
+        "coordinates": {"lat": 16.88, "lng": 43.55},
+        "images": ["images/water/saada/wadi_rahban1.jpg", "images/water/saada/wadi_rahban2.jpg"]
+    },
+    {
+        "id": "saqayn-dam",
+        "name": "سد ساقين",
+        "description": "سد هام يقع في مديرية ساقين، بني بهدف التحكم في مياه السيول وتوفير مصدر مائي مستدام للزراعة في الوادي. [6] يلعب دوراً حيوياً في دعم الاقتصاد المحلي القائم على الزراعة.",
+        "categories": ["dam", "water-management", "agriculture"],
+        "categoryNames": ["سد", "إدارة مياه", "زراعي"],
+        "coordinates": {"lat": 16.89, "lng": 43.58},
+        "images": ["images/water/saada/saqayn_dam1.jpg", "images/water/saada/saqayn_dam2.jpg"]
+    },
+    {
+        "id": "wadi-burkan",
+        "name": "وادي بركان",
+        "description": "وادي يقع في مديرية رازح الحدودية، ويتميز بطبيعته الجبلية الوعرة وجماله الطبيعي. [7] تتدفق فيه المياه بقوة بعد الأمطار، وتنتشر على جوانبه القرى المعلقة بشكل مذهل.",
+        "categories": ["wadi", "nature", "mountain", "scenic"],
+        "categoryNames": ["وادي", "طبيعي", "جبل", "مناظر خلابة"],
+        "coordinates": {"lat": 17.25, "lng": 43.30},
+        "images": ["images/water/saada/wadi_burkan1.jpg", "images/water/saada/wadi_burkan2.jpg"]
+    },
+    {
+        "id": "wadi-aqiq",
+        "name": "وادي عقيك",
+        "description": "أحد الأودية التي تخترق مديرية كتاف في الجزء الشرقي الصحراوي من المحافظة. [8] على الرغم من طبيعته الصحراوية، إلا أنه يشكل مجرى سيول هام وتنمو فيه بعض النباتات الصحراوية.",
+        "categories": ["wadi", "desert", "water-course", "nature"],
+        "categoryNames": ["وادي", "صحراء", "مجرى مائي", "طبيعي"],
+        "coordinates": {"lat": 16.90, "lng": 44.20},
+        "images": ["images/water/saada/wadi_aqiq1.jpg", "images/water/saada/wadi_aqiq2.jpg"]
+    }
+
+        ]
+    },
+    "seiyun": {
+        "name": "سيئون",
+        "landmarks": [
+    {
+        "id": "seiyun-alkathiri-palace",
+        "name": "قصر سيئون (قصر السلطان الكثيري)",
+        "description": "أكبر مبنى طيني في العالم وأبرز معلم في وادي حضرموت. [1] كان القصر مقراً للسلطنة الكثيرية، ويتميز بتصميمه الفريد ولونه الأبيض، ويضم حالياً متحفاً للآثار. صورته مطبوعة على فئة الألف ريال يمني.",
+        "categories": ["historical", "palace", "architectural", "museum", "landmark"],
+        "categoryNames": ["تاريخي", "قصر", "معماري", "متحف", "معلم"],
+        "coordinates": {"lat": 15.966, "lng": 48.778},
+        "images": ["images/landmarks/seiyun/alkathiri_palace1.jpg", "images/landmarks/seiyun/alkathiri_palace2.jpg"]
+    },
+    {
+        "id": "al-hawtah-palace-complex",
+        "name": "مجمع قصور حوطة السلطان",
+        "description": "مجموعة من القصور والمباني الطينية الفاخرة التي كانت مقراً صيفياً للسلاطين الكثيريين. [2] تقع في منطقة الحوطة بالقرب من سيئون، وتتميز بزخارفها الجصية ونوافذها الخشبية المنحوتة بشكل فني رائع.",
+        "categories": ["historical", "palace", "architectural", "complex"],
+        "categoryNames": ["تاريخي", "قصر", "معماري", "مجمع"],
+        "coordinates": {"lat": 15.945, "lng": 48.760},
+        "images": ["images/landmarks/seiyun/al_hawtah_palace1.jpg", "images/landmarks/seiyun/al_hawtah_palace2.jpg"]
+    },
+        {
+        "id": "seiyun-olympic-park",
+        "name": "الحديقة الأولمبية بسيئون",
+        "description": "تعتبر الحديقة العامة الرئيسية والوجهة الترفيهية الأبرز للعائلات في مدينة سيئون. [1, 2] تقع بالقرب من الملعب الأولمبي، وتضم مساحات خضراء، وألعابًا متنوعة للأطفال، ومرافق للزوار، وتشهد إقبالًا كبيرًا خاصة في الأعياد والمناسبات. [1, 2]",
+        "categories": ["park", "family", "recreational", "amusement-park"],
+        "categoryNames": ["حديقة", "عائلي", "ترفيهي", "ملاهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "seiyun-grand-mosque",
+        "name": "جامع سيئون",
+        "description": "مسجد تاريخي يقع في قلب مدينة سيئون، ويتميز بمئذنته الطينية البيضاء التي تتناغم مع عمارة قصر الكثيري. [3] يعتبر مركزاً دينياً واجتماعياً هاماً في المدينة.",
+        "categories": ["religious", "historical", "islamic", "architectural"],
+        "categoryNames": ["ديني", "تاريخي", "إسلامي", "معماري"],
+        "coordinates": {"lat": 15.965, "lng": 48.777},
+        "images": ["images/landmarks/seiyun/seiyun_mosque1.jpg", "images/landmarks/seiyun/seiyun_mosque2.jpg"]
+    },
+    {
+        "id": "seiyun-old-souq",
+        "name": "سوق سيئون القديم",
+        "description": "سوق تقليدي نابض بالحياة يقع بالقرب من قصر سيئون. [4] يعرض السوق المنتجات المحلية من التوابل والتمور والعسل الحضرمي الشهير، بالإضافة إلى المصنوعات الحرفية والفضيات التقليدية.",
+        "categories": ["market", "cultural", "traditional", "handicrafts"],
+        "categoryNames": ["سوق", "ثقافي", "تقليدي", "حرف يدوية"],
+        "coordinates": {"lat": 15.967, "lng": 48.779},
+        "images": ["images/landmarks/seiyun/seiyun_souq1.jpg", "images/landmarks/seiyun/seiyun_souq2.jpg"]
+    },
+    {
+        "id": "qabr-nabi-allah-hud",
+        "name": "قبر نبي الله هود",
+        "description": "موقع ديني يقع شرق سيئون، ويُعتقد أنه يضم قبر النبي هود عليه السلام. [5] يعتبر مزاراً دينياً هاماً وتقام فيه زيارة سنوية حاشدة في شهر شعبان، ويقصده الزوار من مختلف أنحاء العالم الإسلامي.",
+        "categories": ["religious", "pilgrimage", "historical", "islamic"],
+        "categoryNames": ["ديني", "مزار", "تاريخي", "إسلامي"],
+        "coordinates": {"lat": 16.083, "lng": 49.341},
+        "images": ["images/landmarks/seiyun/qabr_hud1.jpg", "images/landmarks/seiyun/qabr_hud2.jpg"]
+    },
+    {
+        "id": "husn-al-falas",
+        "name": "حصن الفلس",
+        "description": "حصن تاريخي يقع على تلة مرتفعة في مدخل مدينة سيئون. [6] كان يستخدم كنقطة مراقبة وحماية للمدينة، ويوفر إطلالة بانورامية رائعة على المدينة وواحات النخيل المحيطة بها.",
+        "categories": ["historical", "fortress", "viewpoint", "military"],
+        "categoryNames": ["تاريخي", "قلعة", "إطلالة", "عسكري"],
+        "coordinates": {"lat": 15.958, "lng": 48.775},
+        "images": ["images/landmarks/seiyun/husn_al_falas1.jpg", "images/landmarks/seiyun/husn_al_falas2.jpg"]
+    },
+    {
+        "id": "tarim-city-of-mosques",
+        "name": "مدينة تريم",
+        "description": "مدينة تاريخية قريبة من سيئون، تُعرف بأنها \"مدينة الـ 365 مسجداً\" والعاصمة الروحية والثقافية لوادي حضرموت. [7] تشتهر بمساجدها التاريخية، ومكتباتها الغنية بالمخطوطات، وقصورها الفخمة.",
+        "categories": ["historical", "city", "religious", "cultural"],
+        "categoryNames": ["تاريخي", "مدينة", "ديني", "ثقافي"],
+        "coordinates": {"lat": 16.055, "lng": 48.998},
+        "images": ["images/landmarks/seiyun/tarim_city1.jpg", "images/landmarks/seiyun/tarim_city2.jpg"]
+    },
+    {
+        "id": "al-mihdhar-mosque-minaret",
+        "name": "مئذنة جامع المحضار (تريم)",
+        "description": "أطول مئذنة طينية في العالم، بارتفاع يبلغ حوالي 46 متراً. [8] تقع في مدينة تريم المجاورة، وتعتبر تحفة معمارية فريدة من نوعها، بناها الشاعر والعالم أبو بكر بن شهاب.",
+        "categories": ["religious", "architectural", "landmark", "islamic"],
+        "categoryNames": ["ديني", "معماري", "معلم", "إسلامي"],
+        "coordinates": {"lat": 16.056, "lng": 49.003},
+        "images": ["images/landmarks/seiyun/al_mihdhar_minaret1.jpg", "images/landmarks/seiyun/al_mihdhar_minaret2.jpg"]
+    },
+    {
+        "id": "seiyun-palm-groves",
+        "name": "واحات النخيل في سيئون",
+        "description": "تحيط بمدينة سيئون مساحات شاسعة من واحات النخيل الكثيفة التي تشكل منظراً طبيعياً خلاباً. [9] تعتبر هذه الواحات مصدر التمور ومكوناً أساسياً للمشهد الحضرمي، وتوفر أماكن هادئة للتنزه.",
+        "categories": ["nature", "oasis", "agriculture", "scenic"],
+        "categoryNames": ["طبيعي", "واحة", "زراعي", "مناظر خلابة"],
+        "coordinates": {"lat": 15.97, "lng": 48.78},
+        "images": ["images/landmarks/seiyun/seiyun_palms1.jpg", "images/landmarks/seiyun/seiyun_palms2.jpg"]
+    },
+    {
+        "id": "ainat-tombs",
+        "name": "مقابر وقباب عينات",
+        "description": "بلدة تاريخية تقع شرق تريم، وتشتهر بمقابرها التي تضم أضرحة وقباباً للعديد من العلماء والأولياء الصالحين. [10] تتميز القباب بتصاميمها المعمارية الجصية البيضاء، وتعتبر مزاراً دينياً هاما.",
+        "categories": ["religious", "historical", "cemetery", "architectural"],
+        "categoryNames": ["ديني", "تاريخي", "مقبرة", "معماري"],
+        "coordinates": {"lat": 16.05, "lng": 49.15},
+        "images": ["images/landmarks/seiyun/ainat_tombs1.jpg", "images/landmarks/seiyun/ainat_tombs2.jpg"]
+    }
+
+        ]
+    },
+
+    "shihr": {
+        "name": "الشحر",
+        "landmarks": [
+    {
+        "id": "ash-shihr-grand-mosque",
+        "name": "الجامع الكبير بالشحر",
+        "description": "يُعد أول مسجد بني في حضرموت في السنة العاشرة للهجرة. [4, 12] مر المسجد بالعديد من التجديدات والتوسعات عبر تاريخه الطويل، ويتميز بعمارته الإسلامية التقليدية، وكان مركزاً هاماً للعلم ونشر الدين. [4, 16]",
+        "categories": ["religious", "historical", "architectural"],
+        "categoryNames": ["ديني", "تاريخي", "معماري"],
+        "coordinates": {"lat": 14.754023, "lng": 49.605589},
+        "images": []
+    },
+    {
+        "id": "al-shihr-public-garden",
+        "name": "حديقة الشحر العامة",
+        "description": "حديقة عامة تقع داخل المدينة، وتعتبر متنفسًا للأحياء السكنية. [6] على الرغم من أنها قد تحتاج إلى مزيد من الاهتمام، إلا أنها توفر مساحة خضراء للسكان المحليين. [6]",
+        "categories": ["park", "neighborhood"],
+        "categoryNames": ["حديقة", "حي سكني"],
+        "coordinates": {},
+        "images": []
+    },
+        {
+        "id": "al-shihr-corniche",
+        "name": "كورنيش الشحر",
+        "description": "يمتد على طول الواجهة البحرية للمدينة، ويعتبر المتنفس الرئيسي والأكثر شعبية لسكان الشحر. [1, 2] يوفر الكورنيش مساحات مفتوحة للمشي والجلوس والاستمتاع بمنظر البحر، وتنتشر على طوله الاستراحات والمقاهي، ويشهد إقبالًا كبيرًا في فترات المساء. [1, 2]",
+        "categories": ["corniche", "waterfront", "recreational", "family"],
+        "categoryNames": ["كورنيش", "واجهة بحرية", "ترفيهي", "عائلي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-kud-al-aswad-park",
+        "name": "منتزه الكود الأسود",
+        "description": "منتزه يقع في منطقة الكود الأسود بمديرية الشحر، ويتميز بوجود مساحات خضراء وألعاب للأطفال. [3] يعتبر وجهة للعائلات الباحثة عن متنفس هادئ ومكان للعب الأطفال. [3]",
+        "categories": ["park", "family", "recreational"],
+        "categoryNames": ["منتزه", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-horah-beach",
+        "name": "شاطئ الحورة",
+        "description": "أحد الشواطئ الجميلة في الشحر، ويقع بالقرب من ميناء الشحر السمكي. [4] يعتبر مكانًا للاستجمام والنزهات الشاطئية، ويقصده السكان المحليون للاستمتاع بالبحر والسباحة. [4]",
+        "categories": ["beach", "recreational", "swimming"],
+        "categoryNames": ["شاطئ", "ترفيهي", "سباحة"],
+        "coordinates": {},
+        "images": []
+    },
+
+    {
+        "id": "al-aweyna-beach",
+        "name": "شاطئ العوينة",
+        "description": "شاطئ يقع شرق مدينة الشحر، ويتميز بهدوئه وجمال طبيعته. [7] يعتبر وجهة مفضلة للباحثين عن الاسترخاء والابتعاد عن الأماكن المزدحمة، وهو مناسب للنزهات العائلية الهادئة. [7]",
+        "categories": ["beach", "quiet", "family", "recreational"],
+        "categoryNames": ["شاطئ", "هادئ", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+
+    {
+        "id": "husn-bin-ayyash",
+        "name": "حصن بن عيّاش",
+        "description": "أحد أشهر المعالم الأثرية في الشحر، يقع وسط المدينة على تل مرتفع. [3, 10] شُيّد بين عامي 1868 و 1888م على الطراز الهندي التقليدي، ويتكون من عدة أدوار وسراديب كانت تستخدم للتخزين. [19, 24]",
+        "categories": ["historical", "fortress", "architectural"],
+        "categoryNames": ["تاريخي", "حصن", "معماري"],
+        "coordinates": {"lat": 14.758, "lng": 49.605},
+        "images": []
+    },
+    {
+        "id": "saddat-al-aydaroos",
+        "name": "سدة العيدروس",
+        "description": "تمثل البوابة الشمالية لسور مدينة الشحر القديم وتعتبر نموذجاً فريداً لبوابات المدن الإسلامية في اليمن. [14] سُميت بهذا الاسم لقربها من مسجد العيدروس، ويتكون مبناها من ثلاثة أدوار. [14]",
+        "categories": ["historical", "gate", "architectural"],
+        "categoryNames": ["تاريخي", "بوابة", "معماري"],
+        "coordinates": {"lat": 14.76, "lng": 49.606},
+        "images": []
+    },
+    {
+        "id": "ash-shihr-old-port",
+        "name": "ميناء الشحر القديم",
+        "description": "كان أحد أهم الموانئ التجارية على بحر العرب وبوابة حضرموت على المحيط الهندي لأكثر من ألف عام. [5, 8] اشتهر بتصدير اللبان والبخور، وكان محطة رئيسية للسفن التجارية المتجهة إلى الهند وشرق إفريقيا. [5]",
+        "categories": ["historical", "port", "trade"],
+        "categoryNames": ["تاريخي", "ميناء", "تجارة"],
+        "coordinates": {"lat": 14.75, "lng": 49.60},
+        "images": []
+    },
+    {
+        "id": "dar-nasser-fort",
+        "name": "حصن دار ناصر (قصر عبود)",
+        "description": "قصر أثري بناه الأمير ناصر بن ناجي بن بريك عام 1768م. [15] استُخدم في عهد السلطنة القعيطية كمقر لإدارة حاكم الشحر وضم دوائر حكومية مختلفة. [9, 15] للأسف، اندثرت معظم أجزائه اليوم. [15]",
+        "categories": ["historical", "palace", "ruins"],
+        "categoryNames": ["تاريخي", "قصر", "أطلال"],
+        "coordinates": {"lat": 14.759, "lng": 49.605},
+        "images": []
+    },
+    {
+        "id": "jabal-dabdab",
+        "name": "جبل ضبضب",
+        "description": "يقع شمال شرق الشحر، وتوجد على قمته بقايا آثار حصن يعود للفترة الإسلامية. [3, 20] لم يتبق من الحصن سوى بعض الأساسات وصهريج كبير لحفظ مياه الأمطار. [20]",
+        "categories": ["historical", "natural", "archaeological"],
+        "categoryNames": ["تاريخي", "طبيعي", "أثري"],
+        "coordinates": {"lat": 14.78, "lng": 49.63},
+        "images": []
+    },
+    {
+        "id": "al-aydaroos-mosque",
+        "name": "مسجد العيدروس",
+        "description": "أحد أقدم وأشهر المساجد في المنطقة، يعود تأسيسه للقرن العاشر الهجري (السادس عشر الميلادي). [7] ارتبط اسمه بالإمام عبدالله بن أبي بكر العيدروس، وكان مركزاً لنشر تعاليم التصوف ويتميز بطرازه المعماري البسيط. [7]",
+        "categories": ["religious", "historical", "architectural"],
+        "categoryNames": ["ديني", "تاريخي", "معماري"],
+        "coordinates": {"lat": 14.7605, "lng": 49.6063},
+        "images": []
+    },
+    {
+        "id": "therapeutic-baths",
+        "name": "الحمامات العلاجية",
+        "description": "تنتشر في مديرية الشحر مواقع للمياه الحارة الطبيعية مثل حمام صويبر ومعيان باحميد وعين محدث. [9, 20] يقصدها الناس على مدار العام للاستشفاء من بعض الأمراض، ولكنها لا تزال تُستغل بطرق تقليدية. [20]",
+        "categories": ["natural", "health", "tourism"],
+        "categoryNames": ["طبيعي", "صحي", "سياحة"],
+        "coordinates": {"lat": 14.85, "lng": 49.85},
+        "images": []
+    },
+    {
+        "id": "ash-shihr-city-wall",
+        "name": "سور مدينة الشحر",
+        "description": "كان يحيط بالمدينة من ثلاث جهات لحمايتها من الهجمات. [14] يعود تاريخ بناء آخر سور إلى عهد السلطنة القعيطية (1868-1888م)، وكانت تتخلله قلاع دفاعية ضخمة. [14]",
+        "categories": ["historical", "architectural", "defensive"],
+        "categoryNames": ["تاريخي", "معماري", "دفاعي"],
+        "coordinates": {"lat": 14.76, "lng": 49.60},
+        "images": []
+    },
+    {
+        "id": "tabalah-village",
+        "name": "قرية تبالة",
+        "description": "تقع شمال الشحر على بعد حوالي 6 كيلومترات. [9, 20] تشتهر بمعالمها التاريخية مثل قلعة ابن الشيخ علي وحصن تبالة (حصن القعيطي) الذي كان سكناً لنائب السلطان. [9]",
+        "categories": ["historical", "village", "fortress"],
+        "categoryNames": ["تاريخي", "قرية", "حصن"],
+        "coordinates": {"lat": 14.80, "lng": 49.58},
+        "images": []
+    }
+
+        ]
+    },
+    "abean": {
+        "name": "أبين",
+        "landmarks": [
+    {
+        "id": "abyan-delta",
+        "name": "دلتا أبين",
+        "description": "تعتبر من أخصب الأراضي الزراعية في اليمن وتشتهر بزراعة الفواكه والخضروات والقطن طويل التيلة. [1, 10] تمثل الدلتا منظراً طبيعياً خلاباً وتعتبر سلة غذاء رئيسية للمنطقة. [1]",
+        "categories": ["natural", "agriculture", "scenic"],
+        "categoryNames": ["طبيعي", "زراعة", "مناظر خلابة"],
+        "coordinates": {"lat": 13.1667, "lng": 45.3333},
+        "images": []
+    },
+    {
+        "id": "ahwar-coast",
+        "name": "ساحل أحور",
+        "description": "يمتد على بحر العرب ويتميز بشواطئه الرملية الجميلة ومياهه الصافية. [11] يعتبر مقصداً للصيادين ومركزاً لتجمع الطيور المهاجرة، مما يجعله مهماً من الناحية البيئية. [11]",
+        "categories": ["natural", "beach", "coastal"],
+        "categoryNames": ["طبيعي", "شاطئ", "ساحلي"],
+        "coordinates": {"lat": 13.05, "lng": 46.7},
+        "images": []
+    },
+        {
+        "id": "zinjibar-beach",
+        "name": "ساحل زنجبار (شاطئ المسحال)",
+        "description": "يعتبر الشريط الساحلي لمدينة زنجبار، عاصمة المحافظة، المتنفس الرئيسي والأكثر شعبية للسكان. [1, 2] يتميز الشاطئ برماله الناعمة وامتداده الواسع، ويقصده الزوار والعائلات للسباحة والنزهات والاستمتاع بمنظر البحر. [1, 2]",
+        "categories": ["beach", "recreational", "family", "swimming"],
+        "categoryNames": ["شاطئ", "ترفيهي", "عائلي", "سباحة"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "khanfar-city",
+        "name": "مدينة خنفر التاريخية",
+        "description": "إحدى المدن القديمة في أبين، وتضم بقايا قلعة تاريخية تُعرف بـ \"حصن خنفر\" الذي يقع على قمة جبل. [3, 9] كانت المدينة مركزاً مهماً في تاريخ المنطقة. [3]",
+        "categories": ["historical", "archaeological", "ruins"],
+        "categoryNames": ["تاريخي", "أثري", "أطلال"],
+        "coordinates": {"lat": 13.133, "lng": 45.283},
+        "images": []
+    },
+    {
+        "id": "al-hisn-fortress-ja'ar",
+        "name": "قلعة الحصن (جعار)",
+        "description": "قلعة تاريخية تقع في مدينة جعار، ثاني أكبر مدن المحافظة. [9] تمثل القلعة شاهداً على التاريخ العسكري والإداري للمنطقة عبر العصور المختلفة.",
+        "categories": ["historical", "fortress", "architectural"],
+        "categoryNames": ["تاريخي", "حصن", "معماري"],
+        "coordinates": {"lat": 13.11, "lng": 45.28},
+        "images": []
+    },
+    {
+        "id": "wadi-bana",
+        "name": "وادي بنا",
+        "description": "أحد أكبر وأهم الأودية في اليمن، ينبع من المرتفعات الوسطى ويصب في دلتا أبين. [1] يشكل الوادي مصدراً رئيسياً للمياه للزراعة في الدلتا، وتنتشر على ضفافه العديد من القرى والمزارع. [1]",
+        "categories": ["natural", "valley", "agriculture"],
+        "categoryNames": ["طبيعي", "وادي", "زراعة"],
+        "coordinates": {"lat": 13.25, "lng": 45.1},
+        "images": []
+    },
+        {
+        "id": "lawdar-parks",
+        "name": "متنفسات لودر الطبيعية",
+        "description": "تقع مديرية لودر في المنطقة الجبلية من أبين، وتتميز بأوديتها ومناظرها الطبيعية. [9] تعتبر الأودية والمناطق الخضراء في لودر متنفسات طبيعية غير رسمية يقصدها السكان للرحلات والنزهات الجبلية. [9]",
+        "categories": ["natural-area", "mountain", "recreational"],
+        "categoryNames": ["منطقة طبيعية", "جبلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+
+    {
+        "id": "qarn-al-kalasi",
+        "name": "قرن الكلاسي",
+        "description": "موقع أثري قديم يقع في مديرية مودية، ويعتقد أنه كان عاصمة مملكة أوسان القديمة. [2] يضم الموقع بقايا مبانٍ قديمة ونقوشاً أثرية تشير إلى الأهمية التاريخية للمكان. [2]",
+        "categories": ["historical", "archaeological", "ancient"],
+        "categoryNames": ["تاريخي", "أثري", "قديم"],
+        "coordinates": {"lat": 13.6, "lng": 46.2},
+        "images": []
+    },
+    {
+        "id": "shuqra-beach",
+        "name": "شاطئ شقرة",
+        "description": "مدينة ساحلية وميناء تاريخي مهم في محافظة أبين. [11] يتميز شاطئها بجماله الطبيعي وكان محطة تجارية رئيسية على الطريق الساحلي بين عدن وحضرموت.",
+        "categories": ["coastal", "beach", "historical"],
+        "categoryNames": ["ساحلي", "شاطئ", "تاريخي"],
+        "coordinates": {"lat": 13.36, "lng": 45.7},
+        "images": []
+    },
+    {
+        "id": "wadi-hassan",
+        "name": "وادي حسان",
+        "description": "وادي زراعي خصب آخر يمر عبر محافظة أبين ويصب في البحر. [1] يشتهر بزراعة النخيل والموز والحمضيات، ويعتبر من المناطق الزراعية الهامة في المحافظة.",
+        "categories": ["natural", "valley", "agriculture"],
+        "categoryNames": ["طبيعي", "وادي", "زراعة"],
+        "coordinates": {"lat": 13.1, "lng": 45.3},
+        "images": []
+    },
+    {
+        "id": "al-mahfad-reserve",
+        "name": "محمية المحفد",
+        "description": "منطقة جبلية وعرة تقع في مديرية المحفد، وتتميز بتنوعها البيولوجي الفريد. [11] كانت تعتبر موطناً للوعل النوبي وأنواع أخرى من الحيوانات البرية، وتمثل أهمية طبيعية كبيرة. [11]",
+        "categories": ["natural", "reserve", "wildlife"],
+        "categoryNames": ["طبيعي", "محمية", "حياة برية"],
+        "coordinates": {"lat": 13.9, "lng": 46.7},
+        "images": []
+    },
+    {
+        "id": "ja'ar-city",
+        "name": "مدينة جعار",
+        "description": "تعتبر المركز التجاري الرئيسي في دلتا أبين وثاني أكبر مدينة في المحافظة بعد زنجبار. [9] تشتهر بأسواقها النشطة وتاريخها الحديث المرتبط بالتنمية الزراعية في المنطقة.",
+        "categories": ["city", "market", "culture"],
+        "categoryNames": ["مدينة", "سوق", "ثقافي"],
+        "coordinates": {"lat": 13.1167, "lng": 45.2833},
+        "images": []
+    },
+
+        {
+        "id": "wadi-hassan-park",
+        "name": "منتزه وادي حسان الطبيعي",
+        "description": "وادي زراعي خصب يشتهر ببساتين النخيل والموز والحمضيات. [1] يعتبر الوادي منتزهاً طبيعياً يقصده السكان المحليون والزوار للنزهة والاستمتاع بالخضرة والمناظر الطبيعية الهادئة، خاصةً على ضفافه.",
+        "categories": ["natural", "valley", "park", "agriculture"],
+        "categoryNames": ["طبيعي", "وادي", "منتزه", "زراعة"],
+        "coordinates": {"lat": 13.1, "lng": 45.3},
+        "images": []
+    },
+    {
+        "id": "al-habilayn-park",
+        "name": "منتزه الحبيلين",
+        "description": "يقع في مديرية رصد، وهي منطقة جبلية تتميز بأجوائها المعتدلة وطبيعتها الخضراء. [4] يعتبر منتزه الحبيلين متنفساً طبيعياً رئيسياً في المنطقة، ويشتهر بأشجاره الكثيفة ومناظره الجبلية الساحرة.",
+        "categories": ["natural", "park", "mountain", "scenic"],
+        "categoryNames": ["طبيعي", "منتزه", "جبلي", "مناظر خلابة"],
+        "coordinates": {"lat": 13.6, "lng": 45.3},
+        "images": []
+    },
+    {
+        "id": "wadi-ahwar-seasonal-falls",
+        "name": "شلالات وادي أحور الموسمية",
+        "description": "وادي كبير يقع في المناطق الشرقية من أبين. [3] عند جريانه في مواسم الأمطار، يخلق مناظر طبيعية رائعة وشلالات مؤقتة على المنحدرات الصخرية، مما يجعله وجهة للمتنزهين ومحبي الطبيعة.",
+        "categories": ["natural", "valley", "waterfall", "seasonal"],
+        "categoryNames": ["طبيعي", "وادي", "شلال", "موسمي"],
+        "coordinates": {"lat": 13.5, "lng": 46.7},
+        "images": []
+    },
+    {
+        "id": "rasd-mountain-terraces",
+        "name": "مدرجات رصد الزراعية",
+        "description": "تعتبر المدرجات الزراعية في جبال رصد لوحة فنية طبيعية ومنتزهاً بحد ذاتها. [4] يمكن للزوار التجول بين هذه المدرجات التي تزرع فيها القهوة والحبوب، والاستمتاع بالإطلالات البانورامية والهواء النقي.",
+        "categories": ["scenic", "agriculture", "mountain", "natural"],
+        "categoryNames": ["مناظر خلابة", "زراعة", "جبلي", "طبيعي"],
+        "coordinates": {"lat": 13.55, "lng": 45.35},
+        "images": []
+    },
+    {
+        "id": "al-mahfad-reserve-views",
+        "name": "مطلات محمية المحفد",
+        "description": "منطقة جبلية وعرة تتميز بتنوعها البيولوجي. [3] توفر المرتفعات في المحفد إطلالات ومطلات طبيعية ساحرة على الوديان والمناطق المحيطة، وتعتبر وجهة مثالية لمحبي سياحة المغامرات والمناظر الطبيعية البرية.",
+        "categories": ["natural", "reserve", "scenic", "mountain"],
+        "categoryNames": ["طبيعي", "محمية", "مناظر خلابة", "جبلي"],
+        "coordinates": {"lat": 13.9, "lng": 46.7},
+        "images": []
+    },
+    {
+        "id": "wadi-al-wadih-green-areas",
+        "name": "مناطق وادي الوضيع الخضراء",
+        "description": "يقع في مديرية الوضيع، ويتميز بأراضيه الزراعية الخصبة التي تعتمد على المياه الجوفية والسيول. [3] تتحول أجزاء من الوادي إلى ما يشبه المنتزهات الطبيعية الخضراء بعد مواسم الأمطار.",
+        "categories": ["natural", "valley", "agriculture", "park"],
+        "categoryNames": ["طبيعي", "وادي", "زراعة", "منتزه"],
+        "coordinates": {"lat": 13.45, "lng": 45.9},
+        "images": []
+    },
+    {
+        "id": "sabah-mountain-views",
+        "name": "مطلات جبل سباح",
+        "description": "تقع مديرية سباح في منطقة مرتفعة، وتوفر جبالها إطلالات بانورامية على المناطق المحيطة. [4] تعتبر هذه المرتفعات بمثابة منتزهات طبيعية مفتوحة، وتتميز بأجوائها اللطيفة ومناظرها الطبيعية الجبلية.",
+        "categories": ["mountain", "scenic", "natural", "viewpoint"],
+        "categoryNames": ["جبلي", "مناظر خلابة", "طبيعي", "مطل"],
+        "coordinates": {"lat": 13.7, "lng": 45.5},
+        "images": []
+    },
+    {
+        "id": "khanfar-mountain-park",
+        "name": "منتزه جبل خنفر",
+        "description": "الجبل الذي يطل على مدينة جعار ودلتا أبين. [3] بالإضافة إلى أهميته التاريخية لوجود قلعة خنفر، يعتبر الجبل ومنحدراته متنفساً طبيعياً يوفر إطلالات رائعة على المساحات الخضراء الشاسعة للدلتا.",
+        "categories": ["natural", "park", "viewpoint", "historical"],
+        "categoryNames": ["طبيعي", "منتزه", "مطل", "تاريخي"],
+        "coordinates": {"lat": 13.133, "lng": 45.283},
+        "images": []
+    }
+        ]
+    },
+    "hajjah": {
+        "name": "حجة",
+        "landmarks": [
+    {
+        "id": "qalat-alqahira-hajjah",
+        "name": "قلعة القاهرة (حجة)",
+        "description": "من أبرز القلاع التاريخية في اليمن، تقع على قمة جبل وتطل على مدينة حجة. [1, 2] يعود تاريخها إلى القرن الحادي عشر الميلادي، وكانت حصناً استراتيجياً ومركزاً للحكم، وتتميز بعمارتها العسكرية الفريدة وإطلالاتها البانورامية. [1, 2]",
+        "categories": ["historical", "fortress", "architectural", "viewpoint"],
+        "categoryNames": ["تاريخي", "حصن", "معماري", "مطل"],
+        "coordinates": {"lat": 15.6897, "lng": 43.5975},
+        "images": []
+    },
+
+    {
+        "id": "shaharah-bridge-area",
+        "name": "منتزه جسر شهارة الطبيعي",
+        "description": "يقع في مديرية شهارة المجاورة لحجة (والتابعة إداريًا لمحافظة عمران)، ولكنه وجهة رئيسية لزوار حجة. [8] المنطقة المحيطة بالجسر المعلق الشهير تعتبر منتزهًا جبليًا فريدًا، وتوفر مناظر طبيعية مذهلة وتجربة سياحية لا تنسى. [8]",
+        "categories": ["bridge", "historical-site", "mountain", "tourism"],
+        "categoryNames": ["جسر", "موقع تاريخي", "جبل", "سياحة"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "hajjah-public-park",
+        "name": "حديقة حجة العامة",
+        "description": "الحديقة العامة المنظمة داخل مدينة حجة، والتي تمثل متنفسًا للعائلات والأطفال. [9] تضم الحديقة بعض الألعاب والمساحات الخضراء، وتوفر مكانًا للراحة والترفيه داخل المدينة. [9]",
+        "categories": ["park", "family", "recreational"],
+        "categoryNames": ["حديقة", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+
+    {
+        "id": "wadi-sharas-waterfalls",
+        "name": "شلالات وادي شرس",
+        "description": "يقع في مديرية شرس التي تتميز بطبيعتها الخضراء ومدرجاتها الزراعية. [3, 4] يعتبر الوادي موطناً لشلالات دائمة الجريان تنبع من أعالي الجبال، مما يجعله منتجعاً طبيعياً يقصده الزوار للاستجمام والتمتع بجمال الطبيعة. [3, 4]",
+        "categories": ["natural", "waterfall", "scenic", "valley"],
+        "categoryNames": ["طبيعي", "شلال", "مناظر خلابة", "وادي"],
+        "coordinates": {"lat": 15.83, "lng": 43.45},
+        "images": []
+    },
+    {
+        "id": "kawkaban-shibam",
+        "name": "مدينة كوكبان (حجة)",
+        "description": "مدينة تاريخية محصنة تقع على قمة جبل، وتختلف عن شبام كوكبان في المحويت. [2] تشتهر بأسوارها وحصونها ومنازلها الحجرية القديمة، وكانت مركزاً علمياً ودينياً مهماً عبر التاريخ. [2]",
+        "categories": ["historical", "city", "architectural", "fortified"],
+        "categoryNames": ["تاريخي", "مدينة", "معماري", "محصنة"],
+        "coordinates": {"lat": 15.51, "lng": 43.88},
+        "images": []
+    },
+    {
+        "id": "midi-island-and-coast",
+        "name": "ساحل وجزر ميدي",
+        "description": "تمثل الواجهة البحرية لمحافظة حجة على البحر الأحمر. [9] تشتهر بسواحلها الرملية وأشجار المانجروف، وتضم أرخبيلاً من الجزر التي تتميز بتنوعها البيولوجي والبحري، وتعتبر منطقة هامة لصيد الأسماك. [9]",
+        "categories": ["natural", "coastal", "island", "beach"],
+        "categoryNames": ["طبيعي", "ساحلي", "جزيرة", "شاطئ"],
+        "coordinates": {"lat": 16.31, "lng": 42.76},
+        "images": []
+    },
+    {
+        "id": "naatan-fortress",
+        "name": "حصن نعمان",
+        "description": "حصن تاريخي منيع يقع في مديرية المفتاح. [2] بني على قمة جبل شاهق، وكان له دور دفاعي كبير عبر العصور. يتميز الحصن بتصميمه الهندسي الذي يتلاءم مع التضاريس الصخرية المحيطة به. [2]",
+        "categories": ["historical", "fortress", "military", "architectural"],
+        "categoryNames": ["تاريخي", "حصن", "عسكري", "معماري"],
+        "coordinates": {"lat": 15.75, "lng": 43.5},
+        "images": []
+    },
+    {
+        "id": "al-jāhilī-fort",
+        "name": "حصن الجاهلي",
+        "description": "يقع في مديرية كشر، وهو حصن قديم يعود تاريخه إلى فترات ما قبل الإسلام. [2] يدلل على العمق التاريخي للمنطقة، ويحتوي على بقايا مبانٍ ونقوش أثرية تشير إلى الحضارات التي تعاقبت على المكان. [2]",
+        "categories": ["historical", "archaeological", "fortress", "ruins"],
+        "categoryNames": ["تاريخي", "أثري", "حصن", "أطلال"],
+        "coordinates": {"lat": 16.05, "lng": 43.5},
+        "images": []
+    },
+    {
+        "id": "maswar-fortress",
+        "name": "حصن مسور",
+        "description": "أحد الحصون التاريخية الهامة في مديرية مبين. [2] يتميز بموقعه الحصين على قمة جبلية، ويحتوي على عدد من المباني والمدافن الصخرية (خزانات مياه) التي تدل على براعة الهندسة اليمنية القديمة. [2]",
+        "categories": ["historical", "fortress", "architectural"],
+        "categoryNames": ["تاريخي", "حصن", "معماري"],
+        "coordinates": {"lat": 15.78, "lng": 43.63},
+        "images": []
+    },
+    {
+        "id": "wadi-laa'ah",
+        "name": "وادي لاعة",
+        "description": "من الأودية الخصبة والجميلة في حجة، يشتهر بمياهه الجارية ومزارعه الخضراء التي تنتج أنواعاً مختلفة من الفواكه والخضروات. [10] يعتبر الوادي متنفساً طبيعياً ومقصداً للرحلات والنزهات. [10]",
+        "categories": ["natural", "valley", "agriculture", "scenic"],
+        "categoryNames": ["طبيعي", "وادي", "زراعة", "مناظر خلابة"],
+        "coordinates": {"lat": 15.9, "lng": 43.3},
+        "images": []
+    },
+    {
+        "id": "shaharah-city",
+        "name": "مدينة شهارة",
+        "description": "مدينة تاريخية محصنة تقع على قمة جبل شاهق، وتشتهر بجسرها المعلق. [6] تتميز المدينة بمنازلها الحجرية التقليدية وأسوارها وأبوابها القديمة، وتعتبر مثالاً رائعاً للمدن الجبلية المحصنة في اليمن. [6]",
+        "categories": ["historical", "city", "mountain", "architectural"],
+        "categoryNames": ["تاريخي", "مدينة", "جبلي", "معماري"],
+        "coordinates": {"lat": 16.16, "lng": 43.7},
+        "images": []
+    },
+
+        {
+        "id": "wadi-mour-park",
+        "name": "منتزه وادي مور الطبيعي",
+        "description": "أحد أكبر الأودية في اليمن، ويمر جزء كبير منه عبر محافظة حجة. [1, 2] تتميز ضفافه بالخضرة الدائمة والمياه الجارية، مما يجعله أكبر منتزه طبيعي مفتوح في المنطقة، ومقصداً رئيسياً للسكان للسباحة والنزهات. [1, 2]",
+        "categories": ["natural", "valley", "park", "river"],
+        "categoryNames": ["طبيعي", "وادي", "منتزه", "نهر"],
+        "coordinates": {"lat": 15.8, "lng": 43.1},
+        "images": []
+    },
+    {
+        "id": "ayn-ali-waterfalls",
+        "name": "شلالات عين علي",
+        "description": "تقع في عزلة عين علي بمديرية مبين، وهي من أشهر الوجهات السياحية في حجة. [4, 5] تتميز بمياهها المتدفقة على مدار العام تقريباً، وتحيط بها مدرجات زراعية خضراء ومناظر طبيعية ساحرة، مما يجعلها منتجعاً طبيعياً متكاملاً. [4, 5]",
+        "categories": ["natural", "waterfall", "scenic", "park"],
+        "categoryNames": ["طبيعي", "شلال", "مناظر خلابة", "منتزه"],
+        "coordinates": {"lat": 15.85, "lng": 43.65},
+        "images": []
+    },
+    {
+        "id": "wadi-al-qour-park",
+        "name": "منتزه وادي القور",
+        "description": "يقع في مديرية كحلان عفار، ويشتهر بمياهه العذبة الجارية ومناظره الطبيعية الخلابة. [3] يعتبر الوادي متنفساً للسكان المحليين والزوار، حيث يوفر أماكن هادئة للنزهة والاستمتاع بجمال الطبيعة الريفية.",
+        "categories": ["natural", "valley", "park", "scenic"],
+        "categoryNames": ["طبيعي", "وادي", "منتزه", "مناظر خلابة"],
+        "coordinates": {"lat": 15.95, "lng": 43.6},
+        "images": []
+    },
+    {
+        "id": "al-maghrabah-waterfalls",
+        "name": "شلالات المغربة",
+        "description": "مجموعة من الشلالات الجميلة التي تقع في مديرية كشر. [3] تنحدر المياه من أعالي الجبال مكونةً شلالات تتدفق بين الصخور والمدرجات الزراعية، وتوفر منظراً بديعاً خاصة بعد مواسم الأمطار.",
+        "categories": ["natural", "waterfall", "scenic", "mountain"],
+        "categoryNames": ["طبيعي", "شلال", "مناظر خلابة", "جبلي"],
+        "coordinates": {"lat": 16.05, "lng": 43.5},
+        "images": []
+    },
+    {
+        "id": "wadi-nawhan-park",
+        "name": "منتزه وادي نشوان (نحان)",
+        "description": "وادي خصب يقع في مديرية أفلح الشام، ويتميز بمياهه الجارية وطبيعته الخضراء. [3] يعتبر الوادي وجهة مثالية للرحلات العائلية والاستمتاع بالأجواء الريفية الهادئة بعيداً عن ضوضاء المدن.",
+        "categories": ["natural", "valley", "park", "agriculture"],
+        "categoryNames": ["طبيعي", "وادي", "منتزه", "زراعة"],
+        "coordinates": {"lat": 16.1, "lng": 43.3},
+        "images": []
+    },
+    {
+        "id": "bani-al-awwam-terraces",
+        "name": "منتزه مدرجات بني العوام",
+        "description": "تشكل المدرجات الزراعية الخضراء التي تغطي جبال مديرية بني العوام منتزهاً طبيعياً مفتوحاً. [3] تشتهر المنطقة بزراعة البن والقات، وتوفر إطلالات بانورامية ومسارات للمشي بين المزارع.",
+        "categories": ["scenic", "agriculture", "mountain", "park"],
+        "categoryNames": ["مناظر خلابة", "زراعة", "جبلي", "منتزه"],
+        "coordinates": {"lat": 15.6, "lng": 43.6},
+        "images": []
+    },
+    {
+        "id": "wadi-sharas-upper-falls",
+        "name": "الشلالات العليا في وادي شرس",
+        "description": "بالإضافة إلى الشلالات الرئيسية، يضم وادي شرس في مناطقه العليا العديد من الشلالات الصغيرة والعيون المائية المتدفقة. [3, 4] هذه المناطق توفر أماكن أكثر هدوءاً وعزلة للزوار الباحثين عن الاسترخاء التام.",
+        "categories": ["natural", "waterfall", "scenic", "valley"],
+        "categoryNames": ["طبيعي", "شلال", "مناظر خلابة", "وادي"],
+        "coordinates": {"lat": 15.85, "lng": 43.48},
+        "images": []
+    },
+    {
+        "id": "al-ashmor-valleys",
+        "name": "منتزهات أودية الأشمور",
+        "description": "منطقة الأشمور في مديرية كحلان الشرف غنية بالأودية الصغيرة والمتنزهات الطبيعية. [3] تتميز هذه الأودية بخصوبتها ومياهها الجارية، وتعتبر أماكن مثالية للنزهات الخلوية والاستمتاع بجمال الطبيعة البكر.",
+        "categories": ["natural", "valley", "park", "scenic"],
+        "categoryNames": ["طبيعي", "وادي", "منتزه", "مناظر خلابة"],
+        "coordinates": {"lat": 15.9, "lng": 43.5},
+        "images": []
+    },
+    {
+        "id": "wadi-einas-park",
+        "name": "منتزه وادي عِناس",
+        "description": "يقع في مديرية المفتاح، وهو وادٍ جميل يتميز بمناظره الطبيعية الخضراء ومياهه التي تجري في مواسم الأمطار. [3] يوفر الوادي بيئة هادئة ومناسبة للرحلات والتخييم الخفيف.",
+        "categories": ["natural", "valley", "park", "seasonal"],
+        "categoryNames": ["طبيعي", "وادي", "منتزه", "موسمي"],
+        "coordinates": {"lat": 15.7, "lng": 43.55},
+        "images": []
+    },
+    {
+        "id": "shaharah-mountain-springs",
+        "name": "عيون ومنتزهات جبل شهارة",
+        "description": "إلى جانب الجسر والمدينة التاريخية، يشتهر جبل شهارة بوجود العديد من عيون الماء والمناطق الخضراء على سفوحه. [6] تعتبر هذه المناطق بمثابة منتزهات طبيعية صغيرة توفر إطلالات رائعة ومكاناً للراحة.",
+        "categories": ["natural", "mountain", "spring", "park"],
+        "categoryNames": ["طبيعي", "جبلي", "ينبوع", "منتزه"],
+        "coordinates": {"lat": 16.16, "lng": 43.7},
+        "images": []
+    },
+
+        {
+        "id": "sadd-al-abadilah",
+        "name": "سد الأباعلة",
+        "description": "يقع في مديرية كحلان الشرف، وهو سد حديث نسبياً تم بناؤه للاستفادة من مياه الأمطار في الري وتغذية المياه الجوفية. [1, 2] أصبحت بحيرة السد منظراً طبيعياً جميلاً يجذب الزوار للنزهة والاستمتاع بمنظر المياه المحاطة بالجبال.",
+        "categories": ["dam", "water", "scenic", "engineering"],
+        "categoryNames": ["سد", "مائي", "مناظر خلابة", "هندسي"],
+        "coordinates": {"lat": 15.93, "lng": 43.58},
+        "images": []
+    },
+    {
+        "id": "wadi-al-khams",
+        "name": "وادي الخمس",
+        "description": "أحد الأودية الهامة في مديرية حرض الحدودية. [3] يشتهر بأراضيه الزراعية الخصبة التي تعتمد على مياهه، ويعتبر شرياناً حيوياً للمنطقة، خاصة في زراعة الحبوب والأعلاف.",
+        "categories": ["valley", "water", "agriculture", "natural"],
+        "categoryNames": ["وادي", "مائي", "زراعة", "طبيعي"],
+        "coordinates": {"lat": 16.4, "lng": 43.0},
+        "images": []
+    },
+    {
+        "id": "wadi-haydan",
+        "name": "وادي حيران",
+        "description": "وادي رئيسي يقع في مديرية حيران، ويصب في وادي مور. [3] يلعب دوراً مهماً في دعم الزراعة في المنطقة، وتتحول ضفافه إلى مناطق خضراء جميلة بعد مواسم الأمطار، مما يجعله مكاناً مناسباً للرحلات الخلوية.",
+        "categories": ["valley", "water", "agriculture", "seasonal"],
+        "categoryNames": ["وادي", "مائي", "زراعة", "موسمي"],
+        "coordinates": {"lat": 16.2, "lng": 43.1},
+        "images": []
+    },
+    {
+        "id": "sadd-bani-qays",
+        "name": "سد بني قيس",
+        "description": "يقع في مديرية بني قيس الجبلية، وهو سد محلي يهدف إلى تجميع مياه السيول لاستخدامها في الزراعة. [4] يمثل السد وبحيرته الصغيرة منظراً جميلاً يضاف إلى الطبيعة الخلابة للمديرية.",
+        "categories": ["dam", "water", "agriculture", "mountain"],
+        "categoryNames": ["سد", "مائي", "زراعة", "جبلي"],
+        "coordinates": {"lat": 15.7, "lng": 43.3},
+        "images": []
+    },
+    {
+        "id": "wadi-al-asfal",
+        "name": "وادي الأسفل",
+        "description": "أحد روافد وادي مور، يمر في مديرية أفلح اليمن. [3] يشتهر بخصوبته ومياهه الجارية التي تدعم زراعة متنوعة، ويعتبر من الأودية الجميلة التي تتميز بمناظرها الطبيعية.",
+        "categories": ["valley", "water", "agriculture", "natural"],
+        "categoryNames": ["وادي", "مائي", "زراعة", "طبيعي"],
+        "coordinates": {"lat": 16.0, "lng": 43.4},
+        "images": []
+    },
+    {
+        "id": "ayn-al-hadab",
+        "name": "عين الهضاب",
+        "description": "عين مياه طبيعية (ينبوع) تقع في مديرية كحلان عفار. [5] تعتبر مصدراً مهماً للمياه للسكان المحليين وللأغراض الزراعية، وتتميز بمياهها العذبة والنقية.",
+        "categories": ["spring", "water", "natural", "source"],
+        "categoryNames": ["ينبوع", "مائي", "طبيعي", "مصدر"],
+        "coordinates": {"lat": 15.9, "lng": 43.65},
+        "images": []
+    },
+    {
+        "id": "wadi-sharis-dams",
+        "name": "السدود التحويلية في وادي شرس",
+        "description": "بالإضافة إلى شلالاته، يضم وادي شرس عدداً من السدود والحواجز المائية التقليدية والحديثة. [6] تهدف هذه السدود إلى تحويل المياه لري المدرجات الزراعية الخضراء التي تشتهر بها المديرية، وهي مثال على الهندسة المائية الريفية.",
+        "categories": ["dam", "water", "agriculture", "engineering"],
+        "categoryNames": ["سد", "مائي", "زراعة", "هندسي"],
+        "coordinates": {"lat": 15.83, "lng": 43.45},
+        "images": []
+    },
+    {
+        "id": "wadi-mustaba",
+        "name": "وادي مستباء",
+        "description": "وادي يقع في مديرية مستباء، ويتميز بأهميته الزراعية للمنطقة. [3] تنشط فيه الزراعة بشكل كبير بعد تدفق السيول الموسمية، مما يحوله إلى مساحات خضراء واسعة.",
+        "categories": ["valley", "water", "agriculture", "seasonal"],
+        "categoryNames": ["وادي", "مائي", "زراعة", "موسمي"],
+        "coordinates": {"lat": 16.0, "lng": 43.2},
+        "images": []
+    },
+    {
+        "id": "sadd-al-mahjarah",
+        "name": "سد المحجرة",
+        "description": "سد صغير يقع في مديرية مبين، تم بناؤه بمبادرات مجتمعية لحصاد مياه الأمطار. [4] على الرغم من صغر حجمه، إلا أنه يلعب دوراً حيوياً في توفير المياه للمزارع المحيطة ويشكل معلماً مائياً في المنطقة.",
+        "categories": ["dam", "water", "community", "agriculture"],
+        "categoryNames": ["سد", "مائي", "مجتمعي", "زراعة"],
+        "coordinates": {"lat": 15.78, "lng": 43.63},
+        "images": []
+    }
+
+        ]
+    },
+    "mahwit": {
+        "name": "المحويت",
+        "landmarks": [
+    {
+        "id": "shibam-kawkaban",
+        "name": "مدينة شبام كوكبان",
+        "description": "مدينة تاريخية فريدة تتكون من جزأين: شبام التي تقع أسفل الجبل، وكوكبان المدينة المحصنة على قمته. [1, 2] ترتبطان بطريق مشاة صخري متدرج، وتشتهر كوكبان بحصونها ومنازلها الشاهقة ومساجدها التاريخية، وتوفر إطلالات بانورامية لا مثيل لها. [1, 2]",
+        "categories": ["historical", "city", "mountain", "architectural"],
+        "categoryNames": ["تاريخي", "مدينة", "جبلي", "معماري"],
+        "coordinates": {"lat": 15.5136, "lng": 43.8819},
+        "images": []
+    },
+    {
+        "id": "al-mahweet-city",
+        "name": "مدينة المحويت",
+        "description": "عاصمة المحافظة، وهي مدينة معلقة على سفوح الجبال ومحاطة بالمدرجات الزراعية الخضراء. [4, 5] تتميز بمنازلها الحجرية التقليدية التي تبدو وكأنها جزء من الجبل، وأجوائها المعتدلة ومناظرها الطبيعية الساحرة. [4, 5]",
+        "categories": ["city", "scenic", "mountain", "architectural"],
+        "categoryNames": ["مدينة", "مناظر خلابة", "جبلي", "معماري"],
+        "coordinates": {"lat": 15.4700, "lng": 43.5400},
+        "images": []
+    },
+    {
+        "id": "husn-al-tawilah",
+        "name": "حصن الطويلة",
+        "description": "حصن تاريخي منيع يقع في مدينة الطويلة، مبني على قمة جبل صخري شاهق. [3, 6] يعتبر من أهم الحصون في اليمن، ويتميز بتصميمه الدفاعي الفريد الذي يندمج مع التكوين الصخري للجبل، ويحتوي على مساجد ومدافن مياه منحوتة في الصخر. [3, 6]",
+        "categories": ["historical", "fortress", "architectural", "military"],
+        "categoryNames": ["تاريخي", "حصن", "معماري", "عسكري"],
+        "coordinates": {"lat": 15.3969, "lng": 43.7658},
+        "images": []
+    },
+    {
+        "id": "al-mahweet-city-park",
+        "name": "حديقة المحويت العامة",
+        "description": "الحديقة العامة الرئيسية في مدينة المحويت، مركز المحافظة. [6] توفر متنفسًا منظمًا للعائلات والأطفال داخل المدينة، وتضم بعض المساحات الخضراء وألعابًا بسيطة. [6]",
+        "categories": ["park", "family", "recreational"],
+        "categoryNames": ["حديقة", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "wadi-saraa",
+        "name": "وادي سرع",
+        "description": "أحد الأودية الخصبة والجميلة في المحافظة، يقع بالقرب من مدينة المحويت. [7] يشتهر بمياهه الجارية وبساتين البن والموز، ويعتبر متنفساً طبيعياً يقصده الزوار للاستمتاع بالخضرة والأجواء الهادئة.",
+        "categories": ["natural", "valley", "agriculture", "scenic"],
+        "categoryNames": ["طبيعي", "وادي", "زراعة", "مناظر خلابة"],
+        "coordinates": {"lat": 15.45, "lng": 43.5},
+        "images": []
+    },
+    {
+        "id": "jabal-bilad-ghail",
+        "name": "جبل بلاد غيل",
+        "description": "منطقة جبلية تقع في مديرية حفاش، وتشتهر بمدرجاتها الزراعية الكثيفة التي تكسوها الخضرة معظم أيام السنة. [8] تعتبر المنطقة لوحة فنية طبيعية، وتوفر مناظر بانورامية ساحرة للوديان والجبال المحيطة.",
+        "categories": ["natural", "mountain", "scenic", "agriculture"],
+        "categoryNames": ["طبيعي", "جبلي", "مناظر خلابة", "زراعة"],
+        "coordinates": {"lat": 15.2, "lng": 43.5},
+        "images": []
+    },
+    {
+        "id": "al-qanaqir-fortress",
+        "name": "حصن القرانع",
+        "description": "حصن تاريخي آخر يقع في مدينة شبام كوكبان، ويعتبر جزءاً من تحصيناتها. [2] يتميز بعمارته الحجرية القوية وموقعه الاستراتيجي الذي يوفر إطلالة رائعة على المناطق المحيطة بمدينة شبام.",
+        "categories": ["historical", "fortress", "architectural", "viewpoint"],
+        "categoryNames": ["تاريخي", "حصن", "معماري", "مطل"],
+        "coordinates": {"lat": 15.51, "lng": 43.88},
+        "images": []
+    },
+    {
+        "id": "wadi-al-ahjer",
+        "name": "وادي الأهجر",
+        "description": "وادي ساحر يقع بالقرب من شبام كوكبان، ويشتهر بقرية الأهجر المعلقة على حافته. [9] يتميز الوادي بجسوره الحجرية القديمة ومياهه الجارية ومزارع البن، ويعتبر وجهة مثالية لمحبي المشي لمسافات طويلة (الهايكنج). [9]",
+        "categories": ["natural", "valley", "village", "hiking"],
+        "categoryNames": ["طبيعي", "وادي", "قرية", "هايكنج"],
+        "coordinates": {"lat": 15.45, "lng": 43.85},
+        "images": []
+    },
+    {
+        "id": "jabal-al-dila",
+        "name": "جبل الظل (جبل حفاش)",
+        "description": "أحد أعلى القمم الجبلية في المحافظة، ويقع في مديرية حفاش. [8] يشتهر بأجوائه الباردة والضباب الذي يلفه معظم الأوقات، وتغطيه مدرجات زراعية خضراء، مما يجعله وجهة فريدة لمحبي الطبيعة الجبلية.",
+        "categories": ["natural", "mountain", "scenic", "climate"],
+        "categoryNames": ["طبيعي", "جبلي", "مناظر خلابة", "مناخ"],
+        "coordinates": {"lat": 15.25, "lng": 43.55},
+        "images": []
+    },
+    {
+        "id": "al-tawilah-city",
+        "name": "مدينة الطويلة",
+        "description": "مدينة تاريخية تقع على طريق صنعاء - المحويت، وتشتهر بحصنها المنيع وسوقها التقليدي. [6] تتميز المدينة بمبانيها الحجرية القديمة ومساجدها التاريخية، وتعتبر مركزاً إدارياً وثقافياً مهماً في المحافظة. [6]",
+        "categories": ["historical", "city", "market", "architectural"],
+        "categoryNames": ["تاريخي", "مدينة", "سوق", "معماري"],
+        "coordinates": {"lat": 15.39, "lng": 43.76},
+        "images": []
+    },
+    {
+        "id": "bani-saad-terraces",
+        "name": "مدرجات بني سعد الزراعية",
+        "description": "تقع في مديرية بني سعد، وهي منطقة تشتهر بزراعة البن اليمني عالي الجودة. [10] تشكل المدرجات الزراعية التي تغطي سفوح الجبال لوحة فنية خضراء، وتعتبر مثالاً رائعاً على تكيف الإنسان مع البيئة الجبلية الصعبة.",
+        "categories": ["agriculture", "scenic", "mountain", "natural"],
+        "categoryNames": ["زراعة", "مناظر خلابة", "جبلي", "طبيعي"],
+        "coordinates": {"lat": 15.2, "lng": 43.7},
+        "images": []
+    },
+
+        {
+        "id": "wadi-hafash-falls",
+        "name": "شلالات وادي حفاش",
+        "description": "يقع في مديرية حفاش، وهي منطقة جبلية خضراء. بعد هطول الأمطار، تتشكل في الوادي شلالات موسمية جميلة تنحدر من بين المدرجات الزراعية، مما يخلق مناظر طبيعية خلابة.",
+        "categories": ["natural", "waterfall", "seasonal", "valley"],
+        "categoryNames": ["طبيعي", "شلال", "موسمي", "وادي"],
+        "coordinates": {"lat": 15.22, "lng": 43.53},
+        "images": []
+    },
+    {
+        "id": "al-ahjer-village-park",
+        "name": "منتزه قرية الأهجر",
+        "description": "تعتبر قرية الأهجر نفسها منتزهاً طبيعياً فريداً. تقع القرية على حافة وادٍ سحيق، وتوفر إطلالات مذهلة ومسارات للمشي (هايكنج) عبر الجسر الحجري القديم وصولاً إلى بساتين البن في قاع الوادي.",
+        "categories": ["park", "village", "scenic", "hiking"],
+        "categoryNames": ["منتزه", "قرية", "مناظر خلابة", "هايكنج"],
+        "coordinates": {"lat": 15.45, "lng": 43.85},
+        "images": []
+    },
+    {
+        "id": "wadi-al-ghuzayl-falls",
+        "name": "شلالات وادي الغُزيل",
+        "description": "أحد الأودية الفرعية في مديرية بني سعد، ويشتهر بمناظره الطبيعية الخلابة. تتكون فيه شلالات صغيرة وعيون مياه جارية، خاصة في مواسم الأمطار، مما يجعله وجهة مفضلة للنزهات.",
+        "categories": ["natural", "waterfall", "valley", "scenic"],
+        "categoryNames": ["طبيعي", "شلال", "وادي", "مناظر خلابة"],
+        "coordinates": {"lat": 15.25, "lng": 43.75},
+        "images": []
+    },
+    {
+        "id": "jabal-kawkaban-park",
+        "name": "منتزه جبل كوكبان",
+        "description": "المنطقة المحيطة بمدينة كوكبان التاريخية تعتبر منتزهاً طبيعياً. يمكن للزوار الاستمتاع بالمشي على الطريق الصخري القديم الذي يربط شبام بكوكبان، والتمتع بالإطلالات البانورامية على الوديان والمناطق المحيطة.",
+        "categories": ["park", "mountain", "viewpoint", "historical"],
+        "categoryNames": ["منتزه", "جبلي", "مطل", "تاريخي"],
+        "coordinates": {"lat": 15.5136, "lng": 43.8819},
+        "images": []
+    },
+    {
+        "id": "wadi-nawa-park",
+        "name": "منتزه وادي نوا",
+        "description": "يقع في مديرية الخبت، وهو وادٍ واسع يتميز بأراضيه الزراعية الخصبة. يعتبر الوادي متنفساً طبيعياً لسكان المنطقة، ويوفر مساحات خضراء واسعة مناسبة للرحلات العائلية والنزهات.",
+        "categories": ["natural", "park", "valley", "agriculture"],
+        "categoryNames": ["طبيعي", "منتزه", "وادي", "زراعة"],
+        "coordinates": {"lat": 15.4, "lng": 43.4},
+        "images": []
+    },
+    {
+        "id": "al-tawilah-mountain-views",
+        "name": "مطلات ومنتزهات الطويلة",
+        "description": "المنحدرات الجبلية المحيطة بمدينة الطويلة وحصنها التاريخي توفر إطلالات رائعة وتعتبر منتزهات طبيعية. يمكن للزوار الجلوس والاستمتاع بمشاهدة المدرجات الزراعية والقرى المتناثرة في الوديان.",
+        "categories": ["viewpoint", "park", "mountain", "scenic"],
+        "categoryNames": ["مطل", "منتزه", "جبلي", "مناظر خلابة"],
+        "coordinates": {"lat": 15.39, "lng": 43.76},
+        "images": []
+    },
+    {
+        "id": "wadi-al-khams-mahweet",
+        "name": "وادي الخمس (المحويت)",
+        "description": "يقع في مديرية ملحان، وهو وادٍ جبلي يتميز بانحداره الشديد وطبيعته البكر. تتشكل فيه شلالات موسمية رائعة أثناء وبعد هطول الأمطار، ويعتبر وجهة لمحبي المغامرات والطبيعة الصعبة.",
+        "categories": ["valley", "waterfall", "seasonal", "adventure"],
+        "categoryNames": ["وادي", "شلال", "موسمي", "مغامرة"],
+        "coordinates": {"lat": 15.3, "lng": 43.4},
+        "images": []
+    },
+    {
+        "id": "jabal-malhan-reserve",
+        "name": "منتزه محمية جبل ملحان",
+        "description": "جبل ملحان هو محمية طبيعية تتميز بتنوعها البيولوجي الفريد ونباتاتها النادرة. تعتبر المنطقة بأكملها منتزهاً طبيعياً مثالياً للمشي لمسافات طويلة ومراقبة الطيور والاستمتاع بالطبيعة البكر.",
+        "categories": ["natural", "reserve", "park", "hiking"],
+        "categoryNames": ["طبيعي", "محمية", "منتزه", "هايكنج"],
+        "coordinates": {"lat": 15.35, "lng": 43.45},
+        "images": []
+    },
+    {
+        "id": "wadi-laaah-mahweet",
+        "name": "وادي لاعة (المحويت)",
+        "description": "يمر جزء من وادي لاعة الشهير في محافظة المحويت، وتحديداً في مديرية بني سعد. يتميز هذا الجزء بمناظره الجبلية الخلابة ومياهه الجارية التي تشكل بركاً صغيرة مناسبة للسباحة.",
+        "categories": ["valley", "natural", "park", "water"],
+        "categoryNames": ["وادي", "طبيعي", "منتزه", "مائي"],
+        "coordinates": {"lat": 15.25, "lng": 43.8},
+        "images": []
+    },
+    {
+        "id": "al-khabt-green-plains",
+        "name": "منتزه سهول الخبت الخضراء",
+        "description": "تتميز مديرية الخبت بوجود بعض السهول والهضاب المتموجة التي تتحول إلى بساط أخضر بعد مواسم الأمطار. تعتبر هذه السهول منتزهات طبيعية مفتوحة ومكاناً مثالياً للرحلات والنزهات العائلية.",
+        "categories": ["natural", "park", "scenic", "plain"],
+        "categoryNames": ["طبيعي", "منتزه", "مناظر خلابة", "سهل"],
+        "coordinates": {"lat": 15.42, "lng": 43.45},
+        "images": []
+    }
+
+
+        ]
+  
+    },
+    "bayda": {
+        "name": "البيضاء",
+        "landmarks": [
+    {
+        "id": "amiriya-school-radaa",
+        "name": "المدرسة العامرية (رداع)",
+        "description": "تحفة معمارية إسلامية فريدة تقع في مدينة رداع. بناها السلطان عامر بن عبدالوهاب الطاهري عام 1504م. [1, 2] تتميز بقبابها المزخرفة وكتاباتها ونقوشها الجصية الملونة، وتعتبر من أهم المعالم الإسلامية في اليمن وكانت مركزاً علمياً هاماً. [1, 2]",
+        "categories": ["historical", "architectural", "islamic", "school"],
+        "categoryNames": ["تاريخي", "معماري", "إسلامي", "مدرسة"],
+        "coordinates": {"lat": 14.4147, "lng": 44.7731},
+        "images": []
+    },
+    {
+        "id": "bayda-castle",
+        "name": "قلعة البيضاء",
+        "description": "قلعة تاريخية تقع على تلة صخرية تطل على مدينة البيضاء، عاصمة المحافظة. [3, 4] كانت القلعة حصناً منيعاً ومركزاً للحكم عبر العصور، وتوفر إطلالة بانورامية على المدينة والمناطق المحيطة بها.",
+        "categories": ["historical", "fortress", "viewpoint", "architectural"],
+        "categoryNames": ["تاريخي", "حصن", "مطل", "معماري"],
+        "coordinates": {"lat": 13.975, "lng": 45.575},
+        "images": []
+    },
+    {
+        "id": "radaa-castle",
+        "name": "قلعة رداع",
+        "description": "قلعة تاريخية ضخمة تقع في مدينة رداع، وتعتبر من أقدم وأهم القلاع في المحافظة. [5] يعود تاريخها إلى فترة ما قبل الإسلام (الدولة الحميرية)، وشهدت العديد من الإضافات والتجديدات عبر العصور، وكانت مركزاً إدارياً وعسكرياً هاماً. [5]",
+        "categories": ["historical", "fortress", "ancient", "military"],
+        "categoryNames": ["تاريخي", "حصن", "قديم", "عسكري"],
+        "coordinates": {"lat": 14.4167, "lng": 44.7667},
+        "images": []
+    },
+    {
+        "id": "al-bayda-grand-park",
+        "name": "حديقة البيضاء الكبرى",
+        "description": "تعتبر الحديقة العامة الرئيسية في مدينة البيضاء، مركز المحافظة. [1, 2] تمثل المتنفس الأهم للعائلات داخل المدينة، وتضم مساحات خضراء وألعابًا للأطفال، وتشهد إقبالًا في الأعياد والمناسبات. [1, 2]",
+        "categories": ["park", "recreational", "family"],
+        "categoryNames": ["حديقة", "ترفيهي", "عائلي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "wadi-ahrar",
+        "name": "وادي أحرار",
+        "description": "أحد الأودية الخصبة والجميلة في مديرية السوادية. يشتهر بمياهه الجارية ومزارعه الخضراء، ويعتبر متنفساً طبيعياً للسكان والزوار، خاصة في مواسم الأمطار حيث تزداد خضرته وجماله.",
+        "categories": ["natural", "valley", "scenic", "agriculture"],
+        "categoryNames": ["طبيعي", "وادي", "مناظر خلابة", "زراعة"],
+        "coordinates": {"lat": 14.2, "lng": 45.1},
+        "images": []
+    },
+    {
+        "id": "sawadiyah-fortress",
+        "name": "حصن السوادية",
+        "description": "حصن تاريخي يقع في مديرية السوادية، ويتميز بموقعه الاستراتيجي على قمة جبل. [4] كان يستخدم كنقطة مراقبة وحماية للطرق التجارية القديمة، ويوفر إطلالات واسعة على المناطق المحيطة.",
+        "categories": ["historical", "fortress", "military", "viewpoint"],
+        "categoryNames": ["تاريخي", "حصن", "عسكري", "مطل"],
+        "coordinates": {"lat": 14.25, "lng": 45.15},
+        "images": []
+    },
+    {
+        "id": "jabal-sawad",
+        "name": "جبل السواد",
+        "description": "سلسلة جبلية بركانية تشتهر بصخورها السوداء التي أعطت المنطقة اسمها. [6] تعتبر المنطقة ذات أهمية جيولوجية وتاريخية، حيث توجد بها نقوش صخرية قديمة، وتوفر مناظر طبيعية فريدة ومختلفة.",
+        "categories": ["natural", "mountain", "geological", "historical"],
+        "categoryNames": ["طبيعي", "جبلي", "جيولوجي", "تاريخي"],
+        "coordinates": {"lat": 14.3, "lng": 45.2},
+        "images": []
+    },
+    {
+        "id": "mukayras-city",
+        "name": "مدينة مكيراس",
+        "description": "تقع على هضبة مرتفعة وتشتهر بأجوائها الباردة والمعتدلة صيفاً. [7] كانت مصيفاً شهيراً في الماضي، وتتميز بطبيعتها الجبلية الخلابة ومزارعها، خاصة زراعة اللوز. [7]",
+        "categories": ["city", "mountain", "climate", "scenic"],
+        "categoryNames": ["مدينة", "جبلي", "مناخ", "مناظر خلابة"],
+        "coordinates": {"lat": 13.95, "lng": 45.66},
+        "images": []
+    },
+    {
+        "id": "baghdad-village-ruins",
+        "name": "أطلال قرية بغداد",
+        "description": "موقع أثري يقع في مديرية الطفة، ويعتقد أنه يعود إلى فترة ما قبل الإسلام. [8] يضم الموقع بقايا مبانٍ قديمة ونقوشاً حميرية، مما يدل على الأهمية التاريخية للمنطقة.",
+        "categories": ["archaeological", "ruins", "historical", "ancient"],
+        "categoryNames": ["أثري", "أطلال", "تاريخي", "قديم"],
+        "coordinates": {"lat": 14.1, "lng": 45.3},
+        "images": []
+    },
+    {
+        "id": "radaa-old-city",
+        "name": "مدينة رداع القديمة",
+        "description": "إلى جانب القلعة والمدرسة العامرية، تتميز مدينة رداع القديمة بأسوارها ومنازلها المبنية من الطين (الياجور) والمزينة بالزخارف الجصية. [5] التجول في أزقتها الضيقة يعتبر رحلة عبر التاريخ.",
+        "categories": ["historical", "city", "architectural", "culture"],
+        "categoryNames": ["تاريخي", "مدينة", "معماري", "ثقافي"],
+        "coordinates": {"lat": 14.41, "lng": 44.77},
+        "images": []
+    },
+    {
+        "id": "jabal-arash",
+        "name": "جبل العرش",
+        "description": "أحد الجبال الشاهقة في المحافظة، يقع في مديرية العرش. [4] يشتهر بحصونه التاريخية المنتشرة على قممه، ويوفر إطلالات بانورامية على مساحات واسعة من محافظة البيضاء.",
+        "categories": ["mountain", "historical", "viewpoint", "natural"],
+        "categoryNames": ["جبلي", "تاريخي", "مطل", "طبيعي"],
+        "coordinates": {"lat": 14.2, "lng": 45.0},
+        "images": []
+    },
+
+        {
+        "id": "wadi-al-sabil-falls",
+        "name": "شلالات وادي السبيل",
+        "description": "يقع في مديرية الطفة، وهو من الأودية الجميلة التي تتشكل فيها شلالات موسمية رائعة بعد هطول الأمطار. [1] يعتبر الوادي ومحيطه متنفساً طبيعياً للسكان المحليين للاستمتاع بالمناظر الخضراء والمياه الجارية.",
+        "categories": ["natural", "waterfall", "seasonal", "valley"],
+        "categoryNames": ["طبيعي", "شلال", "موسمي", "وادي"],
+        "coordinates": {"lat": 14.12, "lng": 45.35},
+        "images": []
+    },
+    {
+        "id": "mukayras-highlands-park",
+        "name": "منتزه مرتفعات مكيراس",
+        "description": "تعتبر المنطقة الجبلية المحيطة بمدينة مكيراس منتزهاً طبيعياً بحد ذاتها. [2] تشتهر بأجوائها المعتدلة والباردة، ومزارع اللوز والفرسك (الخوخ)، وتوفر إطلالات بانورامية ومناطق هادئة للنزهات.",
+        "categories": ["park", "mountain", "scenic", "agriculture"],
+        "categoryNames": ["منتزه", "جبلي", "مناظر خلابة", "زراعة"],
+        "coordinates": {"lat": 13.95, "lng": 45.66},
+        "images": []
+    },
+    {
+        "id": "wadi-bayan-park",
+        "name": "منتزه وادي بيان",
+        "description": "أحد الأودية الهامة في المحافظة، يمر بالقرب من مدينة البيضاء. [3] يتميز الوادي بمساحاته الخضراء الواسعة التي تظهر بعد مواسم الأمطار، ويقصده الأهالي للرحلات الخلوية والاستمتاع بالطبيعة.",
+        "categories": ["natural", "park", "valley", "seasonal"],
+        "categoryNames": ["طبيعي", "منتزه", "وادي", "موسمي"],
+        "coordinates": {"lat": 14.0, "lng": 45.5},
+        "images": []
+    },
+    {
+        "id": "sharyah-waterfalls",
+        "name": "شلالات مديرية الشرية",
+        "description": "تتميز مديرية الشرية بطبيعتها الجبلية، وتتشكل في أوديتها العديد من الشلالات الموسمية الصغيرة بعد تدفق السيول. [4] توفر هذه الشلالات مناظر طبيعية جميلة وتجذب المتنزهين من المناطق المجاورة.",
+        "categories": ["natural", "waterfall", "seasonal", "mountain"],
+        "categoryNames": ["طبيعي", "شلال", "موسمي", "جبلي"],
+        "coordinates": {"lat": 14.3, "lng": 45.6},
+        "images": []
+    },
+    {
+        "id": "al-zaher-parklands",
+        "name": "منتزهات آل حميقان (الزاهر)",
+        "description": "تضم منطقة الزاهر (آل حميقان) العديد من الأودية والمناطق الخضراء التي تصلح كمنتزهات طبيعية. [5] تشتهر المنطقة بخصوبتها وتنوعها الزراعي، وتوفر بيئة ريفية هادئة ومناسبة للنزهات.",
+        "categories": ["park", "natural", "scenic", "agriculture"],
+        "categoryNames": ["منتزه", "طبيعي", "مناظر خلابة", "زراعة"],
+        "coordinates": {"lat": 13.85, "lng": 45.4},
+        "images": []
+    },
+    {
+        "id": "wadi-al-malajim-park",
+        "name": "منتزه وادي الملاجم",
+        "description": "وادي واسع يقع في مديرية الملاجم، ويشتهر بأراضيه الزراعية التي تعتمد على مياه السيول. [4] بعد الأمطار، يتحول الوادي إلى مساحات خضراء شاسعة، مما يجعله منتزهاً طبيعياً مفتوحاً.",
+        "categories": ["natural", "park", "valley", "seasonal"],
+        "categoryNames": ["طبيعي", "منتزه", "وادي", "موسمي"],
+        "coordinates": {"lat": 14.4, "lng": 45.3},
+        "images": []
+    },
+    {
+        "id": "al-arsh-mountain-springs",
+        "name": "عيون ومنتزهات جبل العرش",
+        "description": "بالإضافة إلى حصونه، يضم جبل العرش والمناطق المحيطة به عيون مياه طبيعية ومناطق رعوية خضراء. [6] تعتبر هذه المواقع بمثابة منتزهات طبيعية صغيرة توفر إطلالات رائعة ومكاناً للراحة.",
+        "categories": ["natural", "mountain", "spring", "park"],
+        "categoryNames": ["طبيعي", "جبلي", "ينبوع", "منتزه"],
+        "coordinates": {"lat": 14.2, "lng": 45.0},
+        "images": []
+    },
+    {
+        "id": "radman-al-awad-falls",
+        "name": "شلالات ردمان العواد الموسمية",
+        "description": "مديرية ردمان هي منطقة جبلية تاريخية، وتتشكل في أوديتها شلالات جميلة بعد هطول الأمطار. [4] تجذب هذه الشلالات المؤقتة السكان المحليين للاستمتاع بمنظر تدفق المياه في قلب الطبيعة الجبلية.",
+        "categories": ["waterfall", "seasonal", "mountain", "natural"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "طبيعي"],
+        "coordinates": {"lat": 14.35, "lng": 44.9},
+        "images": []
+    },
+    {
+        "id": "sabah-valley-park",
+        "name": "منتزه وادي صباح",
+        "description": "يقع في مديرية صباح، ويتميز بطبيعته الهادئة وأراضيه الزراعية. [4] يعتبر الوادي وجهة للنزهات العائلية، خاصة خلال مواسم الخصوبة والاعتدال في الطقس.",
+        "categories": ["park", "valley", "natural", "agriculture"],
+        "categoryNames": ["منتزه", "وادي", "طبيعي", "زراعة"],
+        "coordinates": {"lat": 13.9, "lng": 45.2},
+        "images": []
+    },
+    {
+        "id": "dhi-naim-green-areas",
+        "name": "مناطق ذي ناعم الخضراء",
+        "description": "تشتهر مديرية ذي ناعم بخصوبة أراضيها ووفرة مياهها نسبياً. [4] تنتشر في المديرية العديد من المناطق الخضراء والبساتين التي تشكل منتزهات طبيعية صغيرة يقصدها الناس للراحة والاستجمام.",
+        "categories": ["natural", "park", "agriculture", "scenic"],
+        "categoryNames": ["طبيعي", "منتزه", "زراعة", "مناظر خلابة"],
+        "coordinates": {"lat": 14.1, "lng": 45.6},
+        "images": []
+    },
+
+        {
+        "id": "wadi-hadekah-falls",
+        "name": "شلالات وادي حمرة (مديرية الصومعة)",
+        "description": "يقع في مديرية الصومعة، وهو وادٍ جبلي تنحدر فيه السيول مكونة شلالات جميلة على المنحدرات الصخرية. يعتبر منظراً طبيعياً جذاباً للسكان المحليين بعد الأمطار.",
+        "categories": ["waterfall", "seasonal", "valley", "natural"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "طبيعي"],
+        "coordinates": {"lat": 14.05, "lng": 45.75},
+        "images": []
+    },
+    {
+        "id": "al-qurayshiyah-upper-falls",
+        "name": "شلالات أعالي القريشية",
+        "description": "في المرتفعات الجبلية لمديرية القريشية، تتشكل العديد من الشلالات الصغيرة والمتوسطة التي تغذي وادي أحرار وغيره من الأودية. توفر هذه المناطق مناظر طبيعية بكر ومسارات للمغامرين.",
+        "categories": ["waterfall", "seasonal", "mountain", "adventure"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "مغامرة"],
+        "coordinates": {"lat": 14.25, "lng": 45.05},
+        "images": []
+    },
+    {
+        "id": "wadi-al-ghayl-falls-bayda",
+        "name": "شلالات وادي الغيل (البيضاء)",
+        "description": "يوجد أكثر من وادٍ بهذا الاسم، وأحدها في البيضاء بمديرية مكيراس. يتميز هذا الوادي بتدفق المياه فيه بعد الأمطار، مما يخلق شلالات صغيرة وبرك مائية مناسبة للاستجمام.",
+        "categories": ["waterfall", "seasonal", "valley", "scenic"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "مناظر خلابة"],
+        "coordinates": {"lat": 13.9, "lng": 45.7},
+        "images": []
+    },
+    {
+        "id": "maswarah-mountain-cascades",
+        "name": "شلالات جبال مسورة",
+        "description": "مديرية مسورة هي منطقة جبلية وعرة. تتسبب الأمطار الغزيرة في تدفق المياه بقوة عبر المنحدرات، مكونة سلسلة من الشلالات المتتالية (Cascades) التي توفر منظراً مهيباً.",
+        "categories": ["waterfall", "seasonal", "mountain", "natural"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "طبيعي"],
+        "coordinates": {"lat": 14.45, "lng": 45.0},
+        "images": []
+    },
+    {
+        "id": "wadi-thah-falls",
+        "name": "شلالات وادي ثاه",
+        "description": "أحد الأودية الهامة في مديرية ناطع. عند جريان السيول، تتشكل فيه شلالات قوية نظراً للطبيعة الصخرية للمنطقة، مما يجذب السكان لمشاهدة قوة الطبيعة.",
+        "categories": ["waterfall", "seasonal", "valley", "powerful"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "قوي"],
+        "coordinates": {"lat": 14.6, "lng": 45.4},
+        "images": []
+    },
+    {
+        "id": "as-sawmaah-rocky-falls",
+        "name": "شلالات الصومعة الصخرية",
+        "description": "تتميز مديرية الصومعة بتكويناتها الصخرية الفريدة. تنحت المياه المتدفقة طريقها عبر هذه الصخور لتشكل شلالات ذات طابع خاص، وتكون محاطة بالخضرة الموسمية.",
+        "categories": ["waterfall", "seasonal", "rocky", "scenic"],
+        "categoryNames": ["شلال", "موسمي", "صخري", "مناظر خلابة"],
+        "coordinates": {"lat": 14.0, "lng": 45.7},
+        "images": []
+    },
+    {
+        "id": "noman-valley-cascades",
+        "name": "شلالات وادي نعمان",
+        "description": "يقع في مديرية نعمان، وهو وادٍ واسع تتجمع فيه مياه السيول من مناطق مختلفة. تتشكل على أطرافه شلالات صغيرة عند التقاء الروافد به، مما يضيف لجماله الطبيعي.",
+        "categories": ["waterfall", "seasonal", "valley", "natural"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "طبيعي"],
+        "coordinates": {"lat": 14.5, "lng": 45.7},
+        "images": []
+    },
+    {
+        "id": "wadi-habun-falls",
+        "name": "شلالات وادي حبون",
+        "description": "يمر هذا الوادي في مديرية السوادية، ويشتهر بتدفقه القوي بعد الأمطار. تتكون فيه شلالات جميلة على طول مجراه، خاصة في المناطق التي يضيق فيها الوادي بين الجبال.",
+        "categories": ["waterfall", "seasonal", "valley", "scenic"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "مناظر خلابة"],
+        "coordinates": {"lat": 14.22, "lng": 45.18},
+        "images": []
+    },
+    {
+        "id": "al-malajim-mountain-falls",
+        "name": "شلالات جبال الملاجم",
+        "description": "المرتفعات الجبلية في مديرية الملاجم هي مصدر للعديد من السيول التي تغذي الأودية. تتشكل على هذه المرتفعات شلالات تنحدر بقوة نحو الأسفل، وتكون مشاهدتها تجربة فريدة.",
+        "categories": ["waterfall", "seasonal", "mountain", "powerful"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "قوي"],
+        "coordinates": {"lat": 14.42, "lng": 45.35},
+        "images": []
+    },
+    {
+        "id": "wadi-ar-rumh-falls",
+        "name": "شلالات وادي الرمح",
+        "description": "يقع في مديرية الطفة، ويتميز بوجود منحدرات صخرية حادة. عندما تتدفق مياه الأمطار، فإنها تسقط من هذه المنحدرات مكونة شلالات موسمية جميلة وجذابة.",
+        "categories": ["waterfall", "seasonal", "valley", "rocky"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "صخري"],
+        "coordinates": {"lat": 14.15, "lng": 45.4},
+        "images": []
+    }
+        ]
+    },
+    "amran": {
+        "name": "عمران",
+        "landmarks": [
+    {
+        "id": "thula-historic-city",
+        "name": "مدينة ثُلا التاريخية",
+        "description": "واحدة من أجمل وأكمل المدن التاريخية المحصنة في اليمن، وهي مدرجة على القائمة التمهيدية لليونسكو. [1, 2] تتميز بسورها الحجري الذي يحيط بها، ومنازلها البرجية الشاهقة المبنية من الحجر، وشوارعها المرصوفة، وحصنها المنيع (حصن الغراب) الذي يطل عليها. [1, 2]",
+        "categories": ["historical", "city", "unesco", "architectural"],
+        "categoryNames": ["تاريخي", "مدينة", "يونسكو", "معماري"],
+        "coordinates": {"lat": 15.5833, "lng": 43.8833},
+        "images": []
+    },
+    {
+        "id": "hababah-cistern",
+        "name": "معلم حَبابة وبركتها",
+        "description": "قرية تاريخية تشتهر ببركتها (سدها) الكبيرة التي يعود تاريخها إلى العصر الحميري. [3, 4] تعتبر البركة تحفة هندسية قديمة لا تزال تستخدم حتى اليوم، وتحيط بها منازل حجرية تقليدية جميلة، مما يخلق منظراً فريداً وجذاباً. [3, 4]",
+        "categories": ["historical", "engineering", "water", "village"],
+        "categoryNames": ["تاريخي", "هندسي", "مائي", "قرية"],
+        "coordinates": {"lat": 15.5333, "lng": 43.9333},
+        "images": []
+    },
+        {
+        "id": "amran-grand-park",
+        "name": "حديقة عمران الكبرى",
+        "description": "الحديقة العامة الرئيسية في مدينة عمران، مركز المحافظة. [6] تمثل المتنفس الرئيسي المنظم للعائلات داخل المدينة، وتضم مساحات خضراء وألعابًا للأطفال، وتشهد إقبالًا في المناسبات. [6]",
+        "categories": ["park", "family", "recreational"],
+        "categoryNames": ["حديقة", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+
+    {
+        "id": "naait-citadel",
+        "name": "حصن ناعط",
+        "description": "موقع أثري وتاريخي هام يقع على قمة جبل، ويعتبر من أقدم المواقع المحصنة في اليمن. [5] كان عاصمة لمملكة بكيل قديماً، ويضم بقايا أسوار وقصور ونقوش سبئية وحميرية، مما يجعله شاهداً على حضارات اليمن القديمة. [5]",
+        "categories": ["archaeological", "historical", "fortress", "ancient"],
+        "categoryNames": ["أثري", "تاريخي", "حصن", "قديم"],
+        "coordinates": {"lat": 15.65, "lng": 43.85},
+        "images": []
+    },
+    {
+        "id": "raydah-city",
+        "name": "مدينة ريدة",
+        "description": "مدينة تاريخية كانت مركزاً تجارياً هاماً على طريق القوافل القديم. [6] تشتهر بسوقها الأسبوعي التقليدي (سوق الأحد) الذي يعتبر من أقدم وأشهر الأسواق في المنطقة، وكانت مركزاً هاماً للجالية اليهودية في اليمن. [6]",
+        "categories": ["historical", "city", "market", "culture"],
+        "categoryNames": ["تاريخي", "مدينة", "سوق", "ثقافي"],
+        "coordinates": {"lat": 15.75, "lng": 43.9},
+        "images": []
+    },
+    {
+        "id": "amran-old-city",
+        "name": "مدينة عمران القديمة",
+        "description": "عاصمة المحافظة، وتتميز ببوابتها القديمة (باب اليمن) وأسوارها الطينية. [7] تشتهر بمنازلها المبنية من الطين (الزابور) والتي تتميز بطراز معماري فريد يختلف عن المدن الحجرية المجاورة مثل ثلا وشبام. [7]",
+        "categories": ["historical", "city", "architectural", "mudbrick"],
+        "categoryNames": ["تاريخي", "مدينة", "معماري", "طين"],
+        "coordinates": {"lat": 15.65, "lng": 43.95},
+        "images": []
+    },
+    {
+        "id": "masani-al-husha",
+        "name": "مصانع الحشا",
+        "description": "موقع أثري يقع في مديرية خمر، ويضم بقايا مدينة قديمة تعود إلى فترة ما قبل الإسلام. [8] يحتوي الموقع على أطلال مبانٍ ضخمة، نقوش، ومقابر صخرية، مما يدل على أنه كان مركزاً حضارياً مهماً.",
+        "categories": ["archaeological", "ruins", "historical", "ancient"],
+        "categoryNames": ["أثري", "أطلال", "تاريخي", "قديم"],
+        "coordinates": {"lat": 15.9, "lng": 43.9},
+        "images": []
+    },
+    {
+        "id": "jabal-dhu-ayban",
+        "name": "جبل ذو عيبان",
+        "description": "جبل شاهق يقع بالقرب من مدينة عمران، وتوجد على قمته بقايا حصن تاريخي. [9] يوفر الجبل إطلالات بانورامية رائعة على قاع البون الشاسع والمدن والقرى المحيطة به، ويعتبر وجهة لمحبي الطبيعة والمشي الجبلي.",
+        "categories": ["natural", "mountain", "viewpoint", "historical"],
+        "categoryNames": ["طبيعي", "جبلي", "مطل", "تاريخي"],
+        "coordinates": {"lat": 15.6, "lng": 44.0},
+        "images": []
+    },
+    {
+        "id": "al-janat-mosque",
+        "name": "مسجد الجنات (حبابة)",
+        "description": "مسجد تاريخي يقع في قرية حبابة، ويتميز بتصميمه المعماري البسيط والجميل. [4] يعتبر المسجد جزءاً من النسيج العمراني للقرية التاريخية، ويضيف إلى سحرها وأهميتها الثقافية والدينية.",
+        "categories": ["religious", "historical", "architectural", "mosque"],
+        "categoryNames": ["ديني", "تاريخي", "معماري", "مسجد"],
+        "coordinates": {"lat": 15.5333, "lng": 43.9333},
+        "images": []
+    },
+    {
+        "id": "huth-city",
+        "name": "مدينة حوث",
+        "description": "مدينة تاريخية وعلمية هامة تقع في شمال المحافظة. [10] كانت مركزاً بارزاً للزيدية، وتضم العديد من المساجد والمكتبات التاريخية، وتشتهر بعلمائها وكثرة هجرها العلمية عبر التاريخ. [10]",
+        "categories": ["historical", "city", "religious", "culture"],
+        "categoryNames": ["تاريخي", "مدينة", "ديني", "ثقافي"],
+        "coordinates": {"lat": 16.1833, "lng": 43.9667},
+        "images": []
+    },
+    {
+        "id": "qa-al-bawn",
+        "name": "قاع البون",
+        "description": "سهل زراعي واسع وخصب يمتد بين صنعاء وعمران. [9] يعتبر القاع منظراً طبيعياً فريداً، وتتناثر فيه القرى التاريخية والمواقع الأثرية، ويمثل سلة غذاء هامة للمنطقة.",
+        "categories": ["natural", "plain", "agriculture", "scenic"],
+        "categoryNames": ["طبيعي", "سهل", "زراعة", "مناظر خلابة"],
+        "coordinates": {"lat": 15.6, "lng": 43.95},
+        "images": []
+    },
+
+        {
+        "id": "wadi-dhaher-amran",
+        "name": "وادي ضهر (الجزء الشمالي)",
+        "description": "يمتد وادي ضهر الشهير من صنعاء شمالاً ليدخل أراضي محافظة عمران. [1] يتميز هذا الجزء بخصوبته وأراضيه الزراعية الواسعة التي تعتمد على مياهه، وتنتشر على ضفافه العديد من القرى والمزارع.",
+        "categories": ["valley", "water", "agriculture", "natural"],
+        "categoryNames": ["وادي", "مائي", "زراعة", "طبيعي"],
+        "coordinates": {"lat": 15.55, "lng": 44.05},
+        "images": []
+    },
+    {
+        "id": "sadd-al-maqranah",
+        "name": "سد المقرانة",
+        "description": "يقع في مديرية السودة، وهو سد حديث تم إنشاؤه لحصاد مياه الأمطار والسيول. [2] أصبحت بحيرة السد معلماً طبيعياً في المنطقة، حيث تساهم في دعم الزراعة وتغذية الآبار وتوفر منظراً جميلاً.",
+        "categories": ["dam", "water", "engineering", "scenic"],
+        "categoryNames": ["سد", "مائي", "هندسي", "مناظر خلابة"],
+        "coordinates": {"lat": 15.7, "lng": 43.75},
+        "images": []
+    },
+    {
+        "id": "wadi-al-jawf-upper",
+        "name": "منابع وادي الجوف (الخارد)",
+        "description": "تبدأ الروافد العليا لوادي الخارد، الذي يشكل لاحقاً وادي الجوف الكبير، من المرتفعات الشرقية لمحافظة عمران. [3] هذه المناطق تشهد تدفقاً للسيول بعد الأمطار، وتشكل مصدراً مائياً هاماً للمناطق الشرقية.",
+        "categories": ["valley", "water", "source", "seasonal"],
+        "categoryNames": ["وادي", "مائي", "منبع", "موسمي"],
+        "coordinates": {"lat": 15.8, "lng": 44.1},
+        "images": []
+    },
+    {
+        "id": "wadi-shuwaba",
+        "name": "وادي شوابة",
+        "description": "أحد الأودية الهامة في مديرية خمر، ويشتهر بأراضيه الزراعية الخصبة. [4] يعتمد المزارعون على مياه السيول التي تجري في هذا الوادي لزراعة الحبوب والخضروات، ويعتبر شرياناً حيوياً للمديرية.",
+        "categories": ["valley", "water", "agriculture", "seasonal"],
+        "categoryNames": ["وادي", "مائي", "زراعة", "موسمي"],
+        "coordinates": {"lat": 15.95, "lng": 43.95},
+        "images": []
+    },
+    {
+        "id": "sadd-raydah",
+        "name": "سد ريدة",
+        "description": "سد صغير يقع بالقرب من مدينة ريدة، تم بناؤه لتعزيز الموارد المائية في المنطقة. [5] يساهم السد في توفير المياه للزراعة المحيطة به، ويشكل بحيرة موسمية تضيف جمالاً للمنطقة.",
+        "categories": ["dam", "water", "agriculture", "local"],
+        "categoryNames": ["سد", "مائي", "زراعة", "محلي"],
+        "coordinates": {"lat": 15.75, "lng": 43.92},
+        "images": []
+    },
+    {
+        "id": "wadi-al-aqab",
+        "name": "وادي العقب",
+        "description": "يقع في مديرية السودة، وهو وادٍ جبلي يتميز بمناظره الطبيعية. [2] تجري فيه المياه بعد هطول الأمطار، وتنتشر على جانبيه بعض المزارع والقرى الصغيرة التي تعتمد عليه.",
+        "categories": ["valley", "water", "mountain", "scenic"],
+        "categoryNames": ["وادي", "مائي", "جبلي", "مناظر خلابة"],
+        "coordinates": {"lat": 15.75, "lng": 43.7},
+        "images": []
+    },
+    {
+        "id": "thula-cisterns",
+        "name": "مآجل وصهاريج ثلا",
+        "description": "بالإضافة إلى حصنها، تشتهر مدينة ثلا بنظامها المائي المتقن الذي يضم العديد من الصهاريج والمآجل (خزانات مياه) المنحوتة في الصخر. [6] هذه المنشآت القديمة تدل على براعة هندسية فائقة في حصاد وتخزين المياه.",
+        "categories": ["water", "historical", "engineering", "cistern"],
+        "categoryNames": ["مائي", "تاريخي", "هندسي", "صهريج"],
+        "coordinates": {"lat": 15.5833, "lng": 43.8833},
+        "images": []
+    },
+    {
+        "id": "wadi-dhi-bin",
+        "name": "وادي ذي بين",
+        "description": "وادي رئيسي يقع في مديرية حوث، ويعتبر من المناطق الزراعية الهامة في شمال المحافظة. [7] يعتمد عليه السكان في الزراعة وتوفير المياه، وتزداد أهميته خلال مواسم الأمطار.",
+        "categories": ["valley", "water", "agriculture", "natural"],
+        "categoryNames": ["وادي", "مائي", "زراعة", "طبيعي"],
+        "coordinates": {"lat": 16.1, "lng": 43.9},
+        "images": []
+    },
+    {
+        "id": "sadd-al-ashmor",
+        "name": "سد الأشمور",
+        "description": "يقع في منطقة الأشمور بمديرية عيال سريح، وهو سد محلي يخدم الأراضي الزراعية المحيطة به. [8] يمثل نموذجاً للسدود الصغيرة التي تلعب دوراً كبيراً في دعم المجتمعات الريفية.",
+        "categories": ["dam", "water", "community", "agriculture"],
+        "categoryNames": ["سد", "مائي", "مجتمعي", "زراعة"],
+        "coordinates": {"lat": 15.8, "lng": 43.8},
+        "images": []
+    },
+    {
+        "id": "wadi-khaywan",
+        "name": "وادي خيوان",
+        "description": "يقع في أقصى شمال شرق المحافظة، ويعتبر امتداداً للأودية القادمة من صعدة. [3] هو وادٍ ذو أهمية تاريخية وزراعية، وتتدفق فيه السيول بشكل كبير خلال مواسم الأمطار.",
+        "categories": ["valley", "water", "seasonal", "historical"],
+        "categoryNames": ["وادي", "مائي", "موسمي", "تاريخي"],
+        "coordinates": {"lat": 16.3, "lng": 44.1},
+        "images": []
+    },
+
+        {
+        "id": "thula-fortress-park",
+        "name": "منتزه حصن ثلا (حصن الغراب)",
+        "description": "المنطقة المحيطة بحصن ثلا والطريق الصاعد إليه تعتبر منتزهاً طبيعياً ومساراً رائعاً للمشي (هايكنج). [1] توفر المنطقة إطلالات بانورامية مذهلة على مدينة ثلا التاريخية وقاع البون، وهي مثالية للاستمتاع بغروب الشمس.",
+        "categories": ["park", "viewpoint", "hiking", "historical"],
+        "categoryNames": ["منتزه", "مطل", "هايكنج", "تاريخي"],
+        "coordinates": {"lat": 15.58, "lng": 43.87},
+        "images": []
+    },
+    {
+        "id": "wadi-maswar-falls",
+        "name": "شلالات وادي مسور الموسمية",
+        "description": "يقع في مديرية مسور الجبلية، وهو وادٍ تنحدر فيه السيول بقوة بعد الأمطار. تتشكل على طول مجراه شلالات صخرية جميلة، مما يجعله وجهة للمتنزهين من سكان المنطقة.",
+        "categories": ["waterfall", "seasonal", "valley", "natural"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "طبيعي"],
+        "coordinates": {"lat": 15.5, "lng": 43.75},
+        "images": []
+    },
+    {
+        "id": "jabal-dhu-ayban-park",
+        "name": "منتزه جبل ذو عيبان",
+        "description": "سفوح جبل ذو عيبان والمناطق المحيطة به تعتبر منتزهاً طبيعياً مفتوحاً. [2] يقصدها الأهالي للنزهات الخلوية والاستمتاع بالهواء النقي والمناظر الطبيعية الواسعة للسهول والقرى المجاورة.",
+        "categories": ["park", "natural", "mountain", "scenic"],
+        "categoryNames": ["منتزه", "طبيعي", "جبلي", "مناظر خلابة"],
+        "coordinates": {"lat": 15.6, "lng": 44.0},
+        "images": []
+    },
+    {
+        "id": "al-sudah-mountain-cascades",
+        "name": "شلالات جبال السودة",
+        "description": "مديرية السودة هي منطقة مرتفعة تتلقى كميات جيدة من الأمطار. تتكون على منحدراتها الجبلية شلالات متتالية (Cascades) أثناء تدفق السيول، مما يخلق مناظر طبيعية رائعة.",
+        "categories": ["waterfall", "seasonal", "mountain", "scenic"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "مناظر خلابة"],
+        "coordinates": {"lat": 15.72, "lng": 43.7},
+        "images": []
+    },
+
+    {
+        "id": "iyyal-surayh-highlands-park",
+        "name": "منتزه مرتفعات عيال سريح",
+        "description": "تتميز مديرية عيال سريح بمرتفعاتها الجبلية ومناظرها الطبيعية. [4] توفر هذه المرتفعات أماكن هادئة ومطلات طبيعية تصلح للنزهات والتخييم الخفيف والاستمتاع بالهدوء والسكينة.",
+        "categories": ["park", "mountain", "viewpoint", "natural"],
+        "categoryNames": ["منتزه", "جبلي", "مطل", "طبيعي"],
+        "coordinates": {"lat": 15.75, "lng": 43.85},
+        "images": []
+    },
+    {
+        "id": "wadi-al-kharid-headwaters-falls",
+        "name": "شلالات منابع وادي الخارد",
+        "description": "في الروافد العليا لوادي الخارد شرق عمران، تتسبب السيول القادمة من الجبال في تكوين شلالات موسمية قوية. [5] تعتبر هذه المناطق وجهة للمغامرين لمشاهدة قوة الطبيعة.",
+        "categories": ["waterfall", "seasonal", "valley", "powerful"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "قوي"],
+        "coordinates": {"lat": 15.8, "lng": 44.15},
+        "images": []
+    },
+    {
+        "id": "khamir-countryside-park",
+        "name": "منتزه أرياف خمر",
+        "description": "الأراضي الزراعية والريف المحيط بمدينة خمر يعتبر منتزهاً طبيعياً. [6] تشتهر المنطقة بزراعة العنب والحبوب، وتوفر بيئة ريفية جميلة وهادئة مناسبة للرحلات العائلية.",
+        "categories": ["park", "countryside", "agriculture", "scenic"],
+        "categoryNames": ["منتزه", "ريف", "زراعة", "مناظر خلابة"],
+        "coordinates": {"lat": 15.9, "lng": 43.9},
+        "images": []
+    },
+    {
+        "id": "jabal-yazid-falls",
+        "name": "شلالات جبل يزيد الموسمية",
+        "description": "المرتفعات في مديرية جبل يزيد هي مصدر للعديد من السيول. تتشكل على هذه المرتفعات شلالات تنحدر نحو الأودية المحيطة، وتكون مشاهدتها ممتعة بعد الأمطار الغزيرة.",
+        "categories": ["waterfall", "seasonal", "mountain", "natural"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "طبيعي"],
+        "coordinates": {"lat": 15.65, "lng": 44.1},
+        "images": []
+    },
+    {
+        "id": "hababah-village-park",
+        "name": "منتزه قرية حبابة",
+        "description": "المنطقة المحيطة ببركة حبابة والقرية التاريخية تعتبر منتزهاً بحد ذاتها. [7] يمكن للزوار الجلوس حول البركة والاستمتاع بمنظر انعكاس المباني التاريخية على سطح الماء في جو هادئ وساحر.",
+        "categories": ["park", "historical", "scenic", "water"],
+        "categoryNames": ["منتزه", "تاريخي", "مناظر خلابة", "مائي"],
+        "coordinates": {"lat": 15.5333, "lng": 43.9333},
+        "images": []
+    }
+
+
+        ]
+    },
+    "dhale": {
+        "name": "الضالع",
+        "landmarks": [
+    {
+        "id": "jabal-jihaf",
+        "name": "جبل جحاف",
+        "description": "أحد أشهر وأعلى الجبال في الضالع، وهو عبارة عن سلسلة جبلية واسعة تضم العديد من القرى والحصون. [1, 2] يشتهر بزراعة البن عالي الجودة، ومدرجاته الزراعية الخضراء، وأجوائه المعتدلة، ويعتبر محمية طبيعية وسياحية متكاملة.",
+        "categories": ["natural", "mountain", "scenic", "agriculture"],
+        "categoryNames": ["طبيعي", "جبلي", "مناظر خلابة", "زراعة"],
+        "coordinates": {"lat": 13.75, "lng": 44.7},
+        "images": []
+    },
+    {
+        "id": "dar-al-amir-qalat-al-dhale",
+        "name": "دار الأمير (قلعة الضالع)",
+        "description": "كانت القصر ومقر الحكم لأمراء إمارة الضالع. [3, 4] تقع القلعة على تلة تطل على مدينة الضالع، وتعتبر شاهداً على التاريخ السياسي والإداري للمنطقة، وتتميز بطابعها المعماري الدفاعي.",
+        "categories": ["historical", "fortress", "palace", "architectural"],
+        "categoryNames": ["تاريخي", "حصن", "قصر", "معماري"],
+        "coordinates": {"lat": 13.696, "lng": 44.729},
+        "images": []
+    },
+    {
+        "id": "damt-hot-springs",
+        "name": "حمامات دمت المعدنية",
+        "description": "مدينة دمت هي أشهر وجهة للسياحة العلاجية في اليمن. [5, 6] تضم المدينة العديد من الينابيع الكبريتية الحارة التي يقصدها الزوار من كل مكان للاستشفاء من أمراض المفاصل والجلد، وتتميز بتدفق مياهها الحارة التي تشكل شلالات صغيرة.",
+        "categories": ["health", "tourism", "natural", "spring"],
+        "categoryNames": ["صحي", "سياحة", "طبيعي", "ينبوع"],
+        "coordinates": {"lat": 14.07, "lng": 44.68},
+        "images": []
+    },
+        {
+        "id": "al-dhale-public-park",
+        "name": "حديقة الضالع العامة",
+        "description": "الحديقة العامة الرئيسية في مدينة الضالع، مركز المحافظة. [6] تمثل متنفسًا منظمًا للعائلات والأطفال داخل المدينة، وتضم بعض المساحات الخضراء والألعاب، وتشهد إقبالًا في المناسبات. [6]",
+        "categories": ["park", "family", "recreational"],
+        "categoryNames": ["حديقة", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "juban-historic-city",
+        "name": "مدينة جبن التاريخية",
+        "description": "مدينة تاريخية قديمة كانت عاصمة للدولة الطاهرية في فترة من الفترات. [7, 8] تشتهر بقلعتها التاريخية (حصن قرين) ومساجدها ومدارسها القديمة، وتعتبر مركزاً ثقافياً ودينياً هاماً في المحافظة.",
+        "categories": ["historical", "city", "fortress", "culture"],
+        "categoryNames": ["تاريخي", "مدينة", "حصن", "ثقافي"],
+        "coordinates": {"lat": 13.93, "lng": 44.88},
+        "images": []
+    },
+    {
+        "id": "khawlah-fortress",
+        "name": "حصن خولة",
+        "description": "حصن تاريخي منيع يقع في مديرية الشعيب، مبني على قمة جبلية شاهقة. [9] يتميز الحصن بموقعه الاستراتيجي الذي يسيطر على المناطق المحيطة، ويعكس تاريخ المنطقة العسكري والدفاعي.",
+        "categories": ["historical", "fortress", "military", "mountain"],
+        "categoryNames": ["تاريخي", "حصن", "عسكري", "جبلي"],
+        "coordinates": {"lat": 13.8, "lng": 44.9},
+        "images": []
+    },
+    {
+        "id": "wadi-bana-dhale",
+        "name": "وادي بنا (الضالع)",
+        "description": "يمر الجزء الأعلى من وادي بنا الشهير عبر محافظة الضالع. [10] يتميز هذا الجزء من الوادي بمناظره الطبيعية الجبلية الخلابة ومياهه الجارية التي تشكل مصدراً رئيسياً للزراعة في المناطق التي يمر بها.",
+        "categories": ["natural", "valley", "water", "scenic"],
+        "categoryNames": ["طبيعي", "وادي", "مائي", "مناظر خلابة"],
+        "coordinates": {"lat": 13.9, "lng": 44.75},
+        "images": []
+    },
+    {
+        "id": "al-hussein-city",
+        "name": "مدينة الحصين",
+        "description": "عاصمة مديرية الحصين، وهي مدينة جبلية تتميز بقراها ومنازلها الحجرية المتناثرة على السفوح. [4] تشتهر المنطقة بطبيعتها الزراعية ووديانها الخصبة، وتعتبر نموذجاً للمستوطنات الجبلية في الضالع.",
+        "categories": ["city", "mountain", "village", "architectural"],
+        "categoryNames": ["مدينة", "جبلي", "قرية", "معماري"],
+        "coordinates": {"lat": 13.65, "lng": 44.8},
+        "images": []
+    },
+    {
+        "id": "qutabah-city",
+        "name": "مدينة قعطبة",
+        "description": "مدينة حدودية وتجارية هامة، تقع على الطريق الرئيسي الذي يربط جنوب اليمن بشماله. [4] تشتهر بسوقها النشط وتاريخها كمركز تجاري ونقطة التقاء بين مناطق مختلفة.",
+        "categories": ["city", "market", "historical", "trade"],
+        "categoryNames": ["مدينة", "سوق", "تاريخي", "تجارة"],
+        "coordinates": {"lat": 13.88, "lng": 44.68},
+        "images": []
+    },
+    {
+        "id": "al-shuaib-terraces",
+        "name": "مدرجات الشعيب الزراعية",
+        "description": "تغطي المدرجات الزراعية سفوح الجبال في مديرية الشعيب، مكونة لوحة فنية خضراء. [9] تزرع في هذه المدرجات الحبوب والبن، وهي شاهد على قدرة الإنسان على تطويع البيئة الجبلية القاسية للزراعة.",
+        "categories": ["agriculture", "scenic", "mountain", "natural"],
+        "categoryNames": ["زراعة", "مناظر خلابة", "جبلي", "طبيعي"],
+        "coordinates": {"lat": 13.85, "lng": 44.85},
+        "images": []
+    },
+    {
+        "id": "juban-fortress-qarin",
+        "name": "حصن قرين (جبن)",
+        "description": "الحصن التاريخي الذي يطل على مدينة جبن. [7, 8] كان مركز السلطة والقيادة في المدينة، ويتميز ببنائه الحجري القوي وموقعه المسيطر، ويحتوي على بقايا مبانٍ ومرافق دفاعية.",
+        "categories": ["historical", "fortress", "viewpoint", "military"],
+        "categoryNames": ["تاريخي", "حصن", "مطل", "عسكري"],
+        "coordinates": {"lat": 13.93, "lng": 44.88},
+        "images": []
+    },
+
+        {
+        "id": "damt-travertine-falls",
+        "name": "شلالات دمت الكلسية",
+        "description": "بالإضافة إلى ينابيعها الحارة، تتميز دمت بظاهرة فريدة حيث تترسب المعادن من المياه الحارة لتشكل مدرجات وشلالات كلسية (Travertine) متجمدة. [1] توفر هذه التكوينات البيضاء منظراً طبيعياً فريداً يشبه شلالات الثلج.",
+        "categories": ["natural", "waterfall", "geological", "scenic"],
+        "categoryNames": ["طبيعي", "شلال", "جيولوجي", "مناظر خلابة"],
+        "coordinates": {"lat": 14.07, "lng": 44.68},
+        "images": []
+    },
+    {
+        "id": "wadi-al-shuaib-park",
+        "name": "منتزه وادي الشعيب",
+        "description": "أحد الأودية الرئيسية في مديرية الشعيب، ويتميز بمناظره الطبيعية الخلابة ومياهه الجارية بعد الأمطار. [2] يعتبر الوادي والمناطق الخضراء المحيطة به منتزهاً طبيعياً يقصده الأهالي للنزهة والاستجمام.",
+        "categories": ["park", "natural", "valley", "scenic"],
+        "categoryNames": ["منتزه", "طبيعي", "وادي", "مناظر خلابة"],
+        "coordinates": {"lat": 13.85, "lng": 44.85},
+        "images": []
+    },
+    {
+        "id": "jihaf-mountain-springs",
+        "name": "عيون ومنتزهات جبل جحاف",
+        "description": "يضم جبل جحاف الشاسع العديد من عيون المياه الطبيعية (الينابيع) والمناطق الخضراء التي لم تذكر. [3] تعتبر هذه المواقع بمثابة منتزهات طبيعية صغيرة توفر إطلالات رائعة ومكاناً هادئاً للراحة بين مزارع البن.",
+        "categories": ["natural", "park", "spring", "mountain"],
+        "categoryNames": ["طبيعي", "منتزه", "ينبوع", "جبلي"],
+        "coordinates": {"lat": 13.75, "lng": 44.7},
+        "images": []
+    },
+    {
+        "id": "wadi-nakhlah-falls",
+        "name": "شلالات وادي نخلة",
+        "description": "يقع في مديرية الحشاء، وهو وادٍ جبلي تنحدر فيه السيول بقوة بعد الأمطار مكونة شلالات موسمية جميلة. [4] يشتهر الوادي بطبيعته البكر ومناظره الصخرية التي يتدفق من بينها الماء.",
+        "categories": ["waterfall", "seasonal", "valley", "natural"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "طبيعي"],
+        "coordinates": {"lat": 13.8, "lng": 44.5},
+        "images": []
+    },
+    {
+        "id": "al-azariq-highlands-park",
+        "name": "منتزه مرتفعات الأزارق",
+        "description": "تتميز مديرية الأزارق بمرتفعاتها الجبلية ومناظرها الطبيعية. [5] توفر هذه المرتفعات أماكن هادئة ومطلات طبيعية تصلح للنزهات والتخييم الخفيف، والاستمتاع بالهواء النقي والهدوء.",
+        "categories": ["park", "mountain", "viewpoint", "natural"],
+        "categoryNames": ["منتزه", "جبلي", "مطل", "طبيعي"],
+        "coordinates": {"lat": 13.5, "lng": 44.6},
+        "images": []
+    },
+    {
+        "id": "wadi-al-habil-falls",
+        "name": "شلالات وادي الحبيل (جبن)",
+        "description": "أحد الأودية الهامة في مديرية جبن، وتتشكل فيه شلالات موسمية جميلة بعد تدفق السيول من المرتفعات المحيطة. [6] يعتبر الوادي ومحيطه متنفساً طبيعياً للسكان المحليين.",
+        "categories": ["waterfall", "seasonal", "valley", "scenic"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "مناظر خلابة"],
+        "coordinates": {"lat": 13.9, "lng": 44.9},
+        "images": []
+    },
+    {
+        "id": "al-dhale-city-view-park",
+        "name": "منتزه مطل مدينة الضالع",
+        "description": "التلال والمرتفعات المحيطة بمدينة الضالع، خاصة تلك القريبة من دار الأمير، تعتبر منتزهات طبيعية. [7] توفر هذه المواقع إطلالات بانورامية على المدينة والوديان المجاورة، وهي مكان مفضل للسكان المحليين.",
+        "categories": ["park", "viewpoint", "city", "scenic"],
+        "categoryNames": ["منتزه", "مطل", "مدينة", "مناظر خلابة"],
+        "coordinates": {"lat": 13.7, "lng": 44.73},
+        "images": []
+    },
+    {
+        "id": "al-hasha-mountain-cascades",
+        "name": "شلالات جبال الحشاء",
+        "description": "مديرية الحشاء هي منطقة جبلية وعرة. تتسبب الأمطار الغزيرة في تدفق المياه بقوة عبر المنحدرات، مكونة سلسلة من الشلالات المتتالية (Cascades) التي توفر منظراً طبيعياً قوياً وجذاباً.",
+        "categories": ["waterfall", "seasonal", "mountain", "powerful"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "قوي"],
+        "coordinates": {"lat": 13.85, "lng": 44.55},
+        "images": []
+    },
+    {
+        "id": "wadi-yaram-park",
+        "name": "منتزه وادي يرام",
+        "description": "وادي خصب يقع بين مديريتي قعطبة والحشاء. [4] بعد مواسم الأمطار، يتحول الوادي إلى مساحات خضراء شاسعة، مما يجعله منتزهاً طبيعياً مفتوحاً ومكاناً مثالياً للرحلات.",
+        "categories": ["park", "natural", "valley", "seasonal"],
+        "categoryNames": ["منتزه", "طبيعي", "وادي", "موسمي"],
+        "coordinates": {"lat": 13.9, "lng": 44.6},
+        "images": []
+    }   
+        ]
+    },
+    "aljawf": {
+        "name": "الجوف",
+        "landmarks": [
+    {
+        "id": "baraqish-ancient-city",
+        "name": "مدينة براقش (يثل القديمة)",
+        "description": "أشهر وأهم مدينة أثرية في الجوف، كانت عاصمة مملكة معين الدينية. [1, 2] تتميز بسورها العظيم وأبراجها الـ 57 التي لا تزال قائمة، وتضم بداخلها بقايا معابد وقصور ومنازل، وتعتبر من أكمل المدن الأثرية في شبه الجزيرة العربية. [1, 2]",
+        "categories": ["archaeological", "historical", "ancient", "city"],
+        "categoryNames": ["أثري", "تاريخي", "قديم", "مدينة"],
+        "coordinates": {"lat": 15.8333, "lng": 44.8},
+        "images": []
+    },
+    {
+        "id": "qarnawu-ancient-city",
+        "name": "قرناو (معين القديمة)",
+        "description": "العاصمة السياسية لمملكة معين، وتقع بالقرب من مدينة الحزم. [3, 4] على الرغم من أن الكثير منها مدفون تحت الرمال، إلا أن أطلالها لا تزال شاهدة على عظمتها، وقد عُثر فيها على العديد من النقوش والتماثيل الهامة. [3, 4]",
+        "categories": ["archaeological", "ruins", "historical", "capital"],
+        "categoryNames": ["أثري", "أطلال", "تاريخي", "عاصمة"],
+        "coordinates": {"lat": 16.0, "lng": 44.8167},
+        "images": []
+    },
+    {
+        "id": "al-sawda-ancient-city",
+        "name": "السوداء (نشن القديمة)",
+        "description": "مدينة أثرية هامة كانت إحدى مدن مملكة معين. [5, 6] تشتهر بمعبدها \"بنات عاد\" الذي لا تزال بعض أعمدته قائمة، وعُثر فيها على نقوش هامة تحكي عن تاريخ المدينة وقوانينها.",
+        "categories": ["archaeological", "historical", "ruins", "temple"],
+        "categoryNames": ["أثري", "تاريخي", "أطلال", "معبد"],
+        "coordinates": {"lat": 15.9167, "lng": 44.75},
+        "images": []
+    },
+    {
+        "id": "al-bayda-ancient-city",
+        "name": "البيضاء (نشق القديمة)",
+        "description": "مدينة معينية قديمة تقع إلى الجنوب الغربي من السوداء. [5, 7] كانت مدينة محصنة ومحطة هامة على طريق البخور، وتضم أطلال معابد ومبانٍ تدل على أهميتها التجارية والدينية.",
+        "categories": ["archaeological", "historical", "ruins", "trade"],
+        "categoryNames": ["أثري", "تاريخي", "أطلال", "تجارة"],
+        "coordinates": {"lat": 15.9, "lng": 44.73},
+        "images": []
+    },
+        {
+        "id": "al-hazm-public-park",
+        "name": "حديقة الحزم العامة",
+        "description": "الحديقة العامة الرئيسية في مدينة الحزم، عاصمة المحافظة. [5] تمثل متنفسًا منظمًا للعائلات والأطفال داخل المدينة، وتضم بعض المساحات الخضراء والألعاب، وتعتبر مكانًا للراحة والترفيه. [5]",
+        "categories": ["park", "family", "recreational"],
+        "categoryNames": ["حديقة", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-hazm-castle",
+        "name": "قصر الحزم",
+        "description": "يقع في مدينة الحزم، عاصمة المحافظة. [8] هو قصر تاريخي يعود إلى فترة الإمامة، وكان يستخدم كمركز للحكم والإدارة في المنطقة. يتميز بطابعه المعماري الطيني التقليدي.",
+        "categories": ["historical", "palace", "architectural", "mudbrick"],
+        "categoryNames": ["تاريخي", "قصر", "معماري", "طين"],
+        "coordinates": {"lat": 15.96, "lng": 44.78},
+        "images": []
+    },
+    {
+        "id": "kharibat-al-ali",
+        "name": "خربة آل علي (هرم القديمة)",
+        "description": "موقع أثري يقع شرق مدينة الحزم، ويعتقد أنه مدينة \"هرم\" التي ورد ذكرها في النقوش. [9] يضم الموقع بقايا مستوطنة قديمة وتل أثري كبير يحتاج إلى المزيد من التنقيبات للكشف عن أسراره.",
+        "categories": ["archaeological", "ruins", "historical", "ancient"],
+        "categoryNames": ["أثري", "أطلال", "تاريخي", "قديم"],
+        "coordinates": {"lat": 15.98, "lng": 44.9},
+        "images": []
+    },
+    {
+        "id": "wadi-al-jawf",
+        "name": "وادي الجوف (وادي الخارد)",
+        "description": "الوادي الكبير الذي أعطى المحافظة اسمها. [10] هو شريان الحياة في المنطقة منذ العصور القديمة، وعلى ضفافه قامت الحضارات والممالك اليمنية. يعتبر منظراً طبيعياً فريداً يجمع بين الزراعة والصحراء.",
+        "categories": ["natural", "valley", "historical", "agriculture"],
+        "categoryNames": ["طبيعي", "وادي", "تاريخي", "زراعة"],
+        "coordinates": {"lat": 15.8, "lng": 45.0},
+        "images": []
+    },
+    {
+        "id": "maraziq-mountains",
+        "name": "جبال المرازيق",
+        "description": "سلسلة جبلية تقع في مديرية خب والشعف، وتتميز بتكويناتها الصخرية الفريدة والنقوش والرسوم الصخرية القديمة التي تركها الإنسان القديم، وتعتبر سجلاً لتاريخ المنطقة.",
+        "categories": ["natural", "mountain", "archaeological", "rock_art"],
+        "categoryNames": ["طبيعي", "جبلي", "أثري", "فن صخري"],
+        "coordinates": {"lat": 16.3, "lng": 45.5},
+        "images": []
+    },
+    {
+        "id": "al-matammah-city",
+        "name": "مدينة المتون (كمنهو القديمة)",
+        "description": "مدينة أثرية هامة كانت تعرف باسم \"كمنهو\" في النقوش القديمة. [5] كانت مركزاً لقبيلة \"كمنة\" القوية، وتضم أطلالاً لمعابد ومبانٍ ضخمة تدل على مكانتها في مملكة معين.",
+        "categories": ["archaeological", "historical", "ruins", "ancient"],
+        "categoryNames": ["أثري", "تاريخي", "أطلال", "قديم"],
+        "coordinates": {"lat": 15.88, "lng": 44.6},
+        "images": []
+    },
+
+        {
+        "id": "al-hazm-grand-mosque",
+        "name": "جامع الحزم الكبير",
+        "description": "المسجد الرئيسي في مدينة الحزم، عاصمة المحافظة. يعتبر المركز الديني للمدينة وتقام فيه الصلوات والفعاليات الدينية الرئيسية. يتميز بتصميمه الحديث نسبياً الذي يخدم سكان المدينة المتزايدين.",
+        "categories": ["religious", "mosque", "city_center", "architectural"],
+        "categoryNames": ["ديني", "مسجد", "مركز المدينة", "معماري"],
+        "coordinates": {"lat": 15.965, "lng": 44.785},
+        "images": []
+    },
+
+    {
+        "id": "wadi-al-khard-banks-park",
+        "name": "منتزه ضفاف وادي الخارد (الحزم)",
+        "description": "يمر وادي الخارد (وادي الجوف) بالقرب من مدينة الحزم. تعتبر ضفافه، خاصة بعد مواسم الأمطار وعندما تخضر، منتزهاً طبيعياً مفتوحاً يقصده سكان المدينة للنزهة والاستمتاع بمنظر المياه والزراعة.",
+        "categories": ["park", "natural", "valley", "recreation"],
+        "categoryNames": ["منتزه", "طبيعي", "وادي", "استجمام"],
+        "coordinates": {"lat": 15.95, "lng": 44.8},
+        "images": []
+    },
+    {
+        "id": "qarnawu-nearby-ruins",
+        "name": "أطلال قرناو القريبة",
+        "description": "تقع أطلال مدينة قرناو، عاصمة مملكة معين، على بعد مسافة قصيرة جداً من الحزم. يمكن اعتبار زيارتها نزهة تاريخية وثقافية تنطلق من المدينة، حيث يمكن مشاهدة بقايا المدينة القديمة المدفونة تحت الرمال.",
+        "categories": ["archaeological", "ruins", "historical", "nearby"],
+        "categoryNames": ["أثري", "أطلال", "تاريخي", "قريب"],
+        "coordinates": {"lat": 16.0, "lng": 44.8167},
+        "images": []
+    },
+
+    {
+        "id": "kharibat-al-ali-viewpoint",
+        "name": "مطل خربة آل علي",
+        "description": "الموقع الأثري لخربة آل علي (مدينة هرم) يقع على تل مرتفع شرق الحزم. يوفر هذا التل إطلالة بانورامية (منتزه مطل) على وادي الجوف ومدينة الحزم، وهو مكان مثالي لمشاهدة المنطقة من الأعلى.",
+        "categories": ["viewpoint", "park", "archaeological", "scenic"],
+        "categoryNames": ["مطل", "منتزه", "أثري", "مناظر خلابة"],
+        "coordinates": {"lat": 15.98, "lng": 44.9},
+        "images": []
+    },
+
+    {
+        "id": "al-hazm-farms-parkland",
+        "name": "منتزه مزارع الحزم",
+        "description": "المزارع المحيطة بمدينة الحزم، والتي تروى من مياه وادي الجوف، تشكل حزاماً أخضر حول المدينة. تعتبر هذه المزارع بمثابة منتزهات ريفية يمكن للزوار التجول بالقرب منها والاستمتاع بالمنظر الزراعي.",
+        "categories": ["park", "agriculture", "natural", "countryside"],
+        "categoryNames": ["منتزه", "زراعة", "طبيعي", "ريف"],
+        "coordinates": {"lat": 15.95, "lng": 44.77},
+        "images": []
+    },
+    
+    {
+        "id": "al-hazm-old-quarter",
+        "name": "حي الحزم القديم",
+        "description": "بالإضافة إلى القصر، يوجد في الحزم حي قديم يضم بقايا المنازل الطينية التقليدية. التجول في هذا الجزء من المدينة يعطي فكرة عن شكل الحياة قبل التوسع الحديث، ويعتبر معلماً عمرانياً.",
+        "categories": ["historical", "architectural", "mudbrick", "neighborhood"],
+        "categoryNames": ["تاريخي", "معماري", "طين", "حي"],
+        "coordinates": {"lat": 15.96, "lng": 44.78},
+        "images": []
+    },
+    {
+        "id": "dunes-near-al-hazm",
+        "name": "منتزه الكثبان الرملية القريبة",
+        "description": "تبدأ الكثبان الرملية بالظهور على بعد مسافة ليست بالبعيدة عن شرق وشمال الحزم. تعتبر هذه المناطق بداية الصحراء منتزهات طبيعية فريدة للتنزه بالسيارات (التطعيس) والاستمتاع بجمال الصحراء.",
+        "categories": ["natural", "park", "desert", "adventure"],
+        "categoryNames": ["طبيعي", "منتزه", "صحراء", "مغامرة"],
+        "coordinates": {"lat": 16.05, "lng": 44.85},
+        "images": []
+    }
+        ]
+    },
+    "lahij": {
+        "name": "لحج",
+        "landmarks": [
+    {
+        "id": "dar-al-aroosa",
+        "name": "دار العرائس (قصر السلطان)",
+        "description": "أشهر معلم في مدينة الحوطة، كان القصر الصيفي لسلاطين لحج. [1, 2] يتميز بطرازه المعماري الفريد الذي يمزج بين الطابعين الهندي والعربي، وكان مركزاً للحياة السياسية والثقافية والفنية في السلطنة العبدلية. [1, 2]",
+        "categories": ["historical", "palace", "architectural", "culture"],
+        "categoryNames": ["تاريخي", "قصر", "معماري", "ثقافي"],
+        "coordinates": {"lat": 13.058, "lng": 44.885},
+        "images": []
+    },
+    {
+        "id": "al-hawtah-grand-mosque",
+        "name": "مسجد الدولة (جامع الحوطة الكبير)",
+        "description": "أقدم وأكبر مسجد في الحوطة، عاصمة المحافظة. [3, 4] بناه السلطان فضل بن علي العبدلي، ويتميز بمنارته الشاهقة وتصميمه الإسلامي التقليدي، ويعتبر المركز الديني الرئيسي في المدينة.",
+        "categories": ["religious", "historical", "mosque", "architectural"],
+        "categoryNames": ["ديني", "تاريخي", "مسجد", "معماري"],
+        "coordinates": {"lat": 13.055, "lng": 44.886},
+        "images": []
+    },
+    {
+        "id": "wadi-tuban",
+        "name": "وادي تبن",
+        "description": "هو شريان الحياة لمحافظة لحج وأحد أكبر أودية اليمن. [5, 6] يشتهر بخصوبته الأسطورية التي منحت لحج لقب \"الخضيرة\"، وتنتشر على ضفافه بساتين الفواكه والخضروات والمزارع الشاسعة، ويعتبر منظراً طبيعياً خلاباً.",
+        "categories": ["natural", "valley", "agriculture", "scenic"],
+        "categoryNames": ["طبيعي", "وادي", "زراعة", "مناظر خلابة"],
+        "coordinates": {"lat": 13.1, "lng": 44.8},
+        "images": []
+    },
+    {
+        "id": "karish-hot-springs",
+        "name": "حمامات كرش (الحميمي)",
+        "description": "مجموعة من الينابيع الكبريتية الحارة تقع في منطقة كرش الحدودية. [7] يقصدها الناس من مختلف المناطق للاستشفاء والعلاج الطبيعي من الأمراض الجلدية والروماتيزم، وتعتبر من أشهر مواقع السياحة العلاجية في المنطقة.",
+        "categories": ["health", "tourism", "natural", "spring"],
+        "categoryNames": ["صحي", "سياحة", "طبيعي", "ينبوع"],
+        "coordinates": {"lat": 13.45, "lng": 44.7},
+        "images": []
+    },
+    {
+        "id": "jabal-harir",
+        "name": "جبل حرير",
+        "description": "جبل شاهق يقع في مديرية يافع، ويتميز بمدرجاته الزراعية الخضراء التي تزرع فيها أجود أنواع البن اليافعي. [8] يوفر الجبل إطلالات بانورامية ساحرة ويعتبر مثالاً رائعاً على الزراعة الجبلية في اليمن.",
+        "categories": ["mountain", "scenic", "agriculture", "natural"],
+        "categoryNames": ["جبلي", "مناظر خلابة", "زراعة", "طبيعي"],
+        "coordinates": {"lat": 13.8, "lng": 45.2},
+        "images": []
+    },
+    {
+        "id": "ras-al-arah-beach",
+        "name": "ساحل رأس العارة",
+        "description": "شريط ساحلي جميل يقع على مضيق باب المندب في مديرية المضاربة ورأس العارة. [9] يتميز بشواطئه الرملية البيضاء ومياهه الصافية، ويعتبر وجهة للصيد والاستجمام ومراقبة حركة السفن.",
+        "categories": ["beach", "coastal", "natural", "scenic"],
+        "categoryNames": ["شاطئ", "ساحلي", "طبيعي", "مناظر خلابة"],
+        "coordinates": {"lat": 12.65, "lng": 44.0},
+        "images": []
+    },
+    {
+        "id": "al-habilayn-park",
+        "name": "حديقة الحبيلين",
+        "description": "حديقة عامة تقع في مدينة الحبيلين، إحدى المدن الرئيسية في مديرية ردفان. [6] تمثل متنفسًا منظمًا للعائلات والأطفال في المنطقة، وتضم بعض المساحات الخضراء والألعاب. [6]",
+        "categories": ["park", "family", "recreational"],
+        "categoryNames": ["حديقة", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "al-habilayn-city",
+        "name": "مدينة الحبيلين",
+        "description": "عاصمة مديرية ردفان، وهي مدينة ذات أهمية تاريخية وعسكرية. [10] كانت مركزاً رئيسياً خلال ثورة 14 أكتوبر ضد الاستعمار البريطاني، وتتميز بموقعها الاستراتيجي في منطقة جبلية.",
+        "categories": ["city", "historical", "military", "mountain"],
+        "categoryNames": ["مدينة", "تاريخي", "عسكري", "جبلي"],
+        "coordinates": {"lat": 13.5, "lng": 44.9},
+        "images": []
+    },
+    {
+        "id": "wadi-maadin",
+        "name": "وادي معادن",
+        "description": "أحد الأودية الهامة في مديرية حالمين، ويشتهر بخصوبته ومياهه الجارية. [6] يعتبر الوادي متنفساً طبيعياً للسكان، وتنتشر فيه الزراعة، خاصة زراعة الحبوب والخضروات.",
+        "categories": ["valley", "natural", "agriculture", "water"],
+        "categoryNames": ["وادي", "طبيعي", "زراعة", "مائي"],
+        "coordinates": {"lat": 13.6, "lng": 45.0},
+        "images": []
+    },
+    {
+        "id": "al-hawtah-gardens",
+        "name": "بساتين الحوطة (الحسيني)",
+        "description": "المنطقة الزراعية المحيطة بمدينة الحوطة، والمعروفة ببساتين الحسيني. [5] تشتهر بزراعة المانجو والموز والنخيل، وتعتبر رئة خضراء ومنطقة استجمام ونزهة للسكان، وتعكس تاريخ لحج الزراعي العريق.",
+        "categories": ["agriculture", "scenic", "natural", "park"],
+        "categoryNames": ["زراعة", "مناظر خلابة", "طبيعي", "منتزه"],
+        "coordinates": {"lat": 13.06, "lng": 44.87},
+        "images": []
+    },
+    {
+        "id": "jabal-al-arr",
+        "name": "جبل العر (يافع)",
+        "description": "أحد أعلى الجبال في يافع، ويشتهر بحصونه التاريخية وقراه المعلقة على سفوحه. [8] المنطقة غنية بالتاريخ وتعتبر مركزاً لقبائل يافع، وتوفر مناظر طبيعية جبلية وعرة وخلابة.",
+        "categories": ["mountain", "historical", "fortress", "village"],
+        "categoryNames": ["جبلي", "تاريخي", "حصن", "قرية"],
+        "coordinates": {"lat": 13.75, "lng": 45.3},
+        "images": []
+    },
+
+        {
+        "id": "wadi-saghir-lahj",
+        "name": "وادي صغير (لحج)",
+        "description": "أحد الروافد الهامة لوادي تبن، ويمر بالقرب من مدينة الحوطة. [1] يلعب دوراً حيوياً في ري الأراضي الزراعية المحيطة بالمدينة، وتنتشر على ضفافه العديد من المزارع والبساتين.",
+        "categories": ["valley", "water", "agriculture", "natural"],
+        "categoryNames": ["وادي", "مائي", "زراعة", "طبيعي"],
+        "coordinates": {"lat": 13.1, "lng": 44.85},
+        "images": []
+    },
+    {
+        "id": "sadd-wadi-tuban",
+        "name": "سد وادي تبن (التحويلي)",
+        "description": "سد تحويلي رئيسي يقع على مجرى وادي تبن. [2] وظيفته الأساسية هي تنظيم وتوزيع مياه السيول عبر شبكة من القنوات لري دلتا تبن الشاسعة، ويعتبر من أهم المنشآت المائية في المحافظة.",
+        "categories": ["dam", "water", "engineering", "agriculture"],
+        "categoryNames": ["سد", "مائي", "هندسي", "زراعة"],
+        "coordinates": {"lat": 13.2, "lng": 44.75},
+        "images": []
+    },
+    {
+        "id": "wadi-al-maflahi",
+        "name": "وادي المفلحي",
+        "description": "وادي رئيسي يقع في مديرية المفلحي في يافع. [3] يشتهر الوادي بخصوبته وزراعة البن اليافعي الفاخر، وتجري فيه المياه بعد هطول الأمطار على المرتفعات الجبلية.",
+        "categories": ["valley", "water", "agriculture", "mountain"],
+        "categoryNames": ["وادي", "مائي", "زراعة", "جبلي"],
+        "coordinates": {"lat": 13.7, "lng": 45.1},
+        "images": []
+    },
+    {
+        "id": "wadi-radfan",
+        "name": "وادي ردفان",
+        "description": "وادي هام يقع في منطقة ردفان الجبلية. [4] لعب الوادي دوراً استراتيجياً خلال فترة الثورة، وتتميز ضفافه بالخضرة الموسمية، ويعتبر مصدراً للمياه للمناطق المحيطة.",
+        "categories": ["valley", "water", "historical", "seasonal"],
+        "categoryNames": ["وادي", "مائي", "تاريخي", "موسمي"],
+        "coordinates": {"lat": 13.45, "lng": 44.85},
+        "images": []
+    },
+    {
+        "id": "sadd-al-habilayn",
+        "name": "سد الحبيلين",
+        "description": "سد صغير يقع بالقرب من مدينة الحبيلين في ردفان. [5] تم بناؤه لحصاد مياه الأمطار وتوفير مصدر مياه إضافي للسكان والزراعة في هذه المنطقة الجبلية.",
+        "categories": ["dam", "water", "local", "mountain"],
+        "categoryNames": ["سد", "مائي", "محلي", "جبلي"],
+        "coordinates": {"lat": 13.5, "lng": 44.9},
+        "images": []
+    },
+    {
+        "id": "wadi-al-mudhariba",
+        "name": "وادي المضاربة",
+        "description": "وادي ساحلي يقع في مديرية المضاربة ورأس العارة ويصب في البحر الأحمر. [6] تجري فيه السيول القادمة من المرتفعات الغربية، وتعتمد عليه الزراعة المحدودة في تلك المنطقة الساحلية.",
+        "categories": ["valley", "water", "coastal", "seasonal"],
+        "categoryNames": ["وادي", "مائي", "ساحلي", "موسمي"],
+        "coordinates": {"lat": 12.7, "lng": 44.1},
+        "images": []
+    },
+    {
+        "id": "wadi-yahr",
+        "name": "وادي يهر",
+        "description": "أحد الأودية الهامة في منطقة يافع، ويشتهر بمناظره الطبيعية الجبلية الخلابة. [3] تنتشر على ضفافه القرى والمدرجات الزراعية التي تزرع فيها مختلف المحاصيل وأشجار البن.",
+        "categories": ["valley", "water", "scenic", "agriculture"],
+        "categoryNames": ["وادي", "مائي", "مناظر خلابة", "زراعة"],
+        "coordinates": {"lat": 13.65, "lng": 45.2},
+        "images": []
+    },
+    {
+        "id": "sadd-al-thumair",
+        "name": "سد الثمير",
+        "description": "سد ترابي يقع في منطقة كرش، ويهدف إلى حجز مياه السيول للاستفادة منها في الزراعة وتغذية المياه الجوفية. [7] يعتبر من المشاريع المائية الهامة في المناطق الحدودية للمحافظة.",
+        "categories": ["dam", "water", "agriculture", "community"],
+        "categoryNames": ["سد", "مائي", "زراعة", "مجتمعي"],
+        "coordinates": {"lat": 13.4, "lng": 44.75},
+        "images": []
+    },
+    {
+        "id": "wadi-halmin",
+        "name": "وادي حالمين",
+        "description": "الوادي الرئيسي في مديرية حالمين، ويتميز بمروره عبر منطقة جبلية ذات طبيعة جميلة. [8] يعتمد عليه السكان بشكل كبير في الزراعة وتوفير المياه، وتزداد أهميته خلال مواسم الأمطار.",
+        "categories": ["valley", "water", "mountain", "natural"],
+        "categoryNames": ["وادي", "مائي", "جبلي", "طبيعي"],
+        "coordinates": {"lat": 13.65, "lng": 45.05},
+        "images": []
+    },
+    {
+        "id": "wadi-al-qaha",
+        "name": "وادي القاحة",
+        "description": "وادي يقع في مديرية طور الباحة، وهي منطقة انتقالية بين السهل الساحلي والمرتفعات. [9] تجري فيه السيول الموسمية، وتعتمد عليه الزراعة والرعي في المديرية.",
+        "categories": ["valley", "water", "seasonal", "agriculture"],
+        "categoryNames": ["وادي", "مائي", "موسمي", "زراعة"],
+        "coordinates": {"lat": 13.2, "lng": 44.5},
+        "images": []
+    },
+
+        {
+        "id": "wadi-tuban-delta-park",
+        "name": "منتزه دلتا وادي تبن",
+        "description": "تعتبر دلتا وادي تبن الشاسعة، ببساتينها ومزارعها وقنواتها المائية، أكبر منتزه طبيعي مفتوح في المحافظة. [1] يقصدها السكان للنزهات الخلوية (الكشتات) بين المزارع والاستمتاع بالخضرة والهدوء.",
+        "categories": ["park", "natural", "agriculture", "scenic"],
+        "categoryNames": ["منتزه", "طبيعي", "زراعة", "مناظر خلابة"],
+        "coordinates": {"lat": 13.0, "lng": 44.8},
+        "images": []
+    },
+    {
+        "id": "yafea-mountain-falls",
+        "name": "شلالات جبال يافع الموسمية",
+        "description": "المرتفعات الشاهقة في يافع (مثل جبل ثمر، جبل العر) هي مصدر للعديد من السيول. بعد الأمطار الغزيرة، تتشكل على هذه المرتفعات شلالات رائعة تنحدر بقوة نحو الوديان، وتوفر مناظر مهيبة.",
+        "categories": ["waterfall", "seasonal", "mountain", "powerful"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "قوي"],
+        "coordinates": {"lat": 13.78, "lng": 45.25},
+        "images": []
+    },
+    {
+        "id": "radfan-highlands-park",
+        "name": "منتزه مرتفعات ردفان",
+        "description": "المنطقة الجبلية المحيطة بمدينة الحبيلين في ردفان تعتبر منتزهاً طبيعياً. [2] توفر هذه المرتفعات إطلالات بانورامية ومسارات للمشي بين القرى الجبلية، وهي مثالية للاستمتاع بالطبيعة الجبلية.",
+        "categories": ["park", "mountain", "viewpoint", "hiking"],
+        "categoryNames": ["منتزه", "جبلي", "مطل", "هايكنج"],
+        "coordinates": {"lat": 13.5, "lng": 44.9},
+        "images": []
+    },
+    {
+        "id": "wadi-halmin-cascades",
+        "name": "شلالات وادي حالمين",
+        "description": "في الأجزاء العلوية والمنحدرة من وادي حالمين، تتكون شلالات موسمية جميلة عند تدفق مياه الأمطار. [3] تجذب هذه الشلالات المؤقتة السكان المحليين للاستمتاع بمنظر المياه المتدفقة بين الصخور.",
+        "categories": ["waterfall", "seasonal", "valley", "natural"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "طبيعي"],
+        "coordinates": {"lat": 13.68, "lng": 45.08},
+        "images": []
+    },
+    {
+        "id": "al-husayni-gardens-park",
+        "name": "منتزه بساتين الحسيني",
+        "description": "تعتبر منطقة بساتين الحسيني الشهيرة بزراعة المانجو والموز، منتزهاً زراعياً فريداً. [1] يمكن للزوار التجول في الممرات بين البساتين والاستمتاع بظلال الأشجار ورائحة الفواكه.",
+        "categories": ["park", "agriculture", "natural", "recreation"],
+        "categoryNames": ["منتزه", "زراعة", "طبيعي", "استجمام"],
+        "coordinates": {"lat": 13.06, "lng": 44.87},
+        "images": []
+    },
+    {
+        "id": "jabal-harir-viewpoint-park",
+        "name": "منتزه مطل جبل حرير",
+        "description": "قمة جبل حرير والمناطق المحيطة بها توفر إطلالات بانورامية لا مثيل لها على المدرجات الزراعية والوديان السحيقة. [4] تعتبر هذه المطلات بمثابة منتزهات طبيعية للاستمتاع بجمال الطبيعة اليافعية.",
+        "categories": ["viewpoint", "park", "mountain", "scenic"],
+        "categoryNames": ["مطل", "منتزه", "جبلي", "مناظر خلابة"],
+        "coordinates": {"lat": 13.8, "lng": 45.2},
+        "images": []
+    },
+    {
+        "id": "wadi-al-maflahi-falls",
+        "name": "شلالات وادي المفلحي الموسمية",
+        "description": "يتميز وادي المفلحي في يافع بانحداراته في بعض المناطق. بعد الأمطار، تتشكل فيه شلالات صغيرة وجداول مياه جارية بين مزارع البن، مما يضيف إلى جماله وسحره.",
+        "categories": ["waterfall", "seasonal", "valley", "agriculture"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "زراعة"],
+        "coordinates": {"lat": 13.72, "lng": 45.15},
+        "images": []
+    },
+    {
+        "id": "tur-al-baha-highlands-park",
+        "name": "منتزه مرتفعات طور الباحة",
+        "description": "المرتفعات الجبلية في مديرية طور الباحة، والتي تطل على المناطق الساحلية، توفر أجواءً ألطف ومناظر طبيعية جميلة. [5] تعتبر هذه المناطق متنفساً طبيعياً ومنتزهاً لسكان المديرية.",
+        "categories": ["park", "mountain", "natural", "viewpoint"],
+        "categoryNames": ["منتزه", "جبلي", "طبيعي", "مطل"],
+        "coordinates": {"lat": 13.25, "lng": 44.55},
+        "images": []
+    },
+    {
+        "id": "wadi-akhdar-park",
+        "name": "منتزه الوادي الأخضر",
+        "description": "اسم يطلق على العديد من المناطق الخصبة في لحج، خاصة أجزاء من وادي تبن وروافده التي تتميز بخضرتها الدائمة. [1] هذه المناطق تعتبر منتزهات طبيعية مفضلة للنزهات العائلية.",
+        "categories": ["park", "natural", "greenery", "valley"],
+        "categoryNames": ["منتزه", "طبيعي", "خضرة", "وادي"],
+        "coordinates": {"lat": 13.15, "lng": 44.8},
+        "images": []
+    },
+    {
+        "id": "al-qabaytah-mountain-falls",
+        "name": "شلالات جبال القبيطة",
+        "description": "مديرية القبيطة هي منطقة جبلية وعرة. تتسبب الأمطار الغزيرة في تدفق السيول من منحدراتها، مكونة شلالات موسمية قوية توفر منظراً طبيعياً جذاباً ومؤقتاً.",
+        "categories": ["waterfall", "seasonal", "mountain", "powerful"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "قوي"],
+        "coordinates": {"lat": 13.4, "lng": 44.6},
+        "images": []
+    },
+        {
+        "id": "shaybah-waterfall",
+        "name": "شلال شيبة",
+        "description": "يُعتبر من أشهر وأجمل الشلالات الموسمية في القبيطة. ينحدر من مرتفعات عالية في منطقة \"شيبة\"، ويتميز بقوة تدفقه وجمال منظره وهو يشق طريقه بين الصخور. يجذب الكثير من الزوار من داخل المديرية وخارجها لمشاهدته.",
+        "categories": ["waterfall", "seasonal", "scenic", "powerful"],
+        "categoryNames": ["شلال", "موسمي", "مناظر خلابة", "قوي"],
+        "coordinates": {"lat": 13.42, "lng": 44.62},
+        "images": []
+    },
+    {
+        "id": "ath-thujah-waterfall",
+        "name": "شلال الثجة",
+        "description": "شلال موسمي آخر يقع في منطقة الثجة. يتميز بمروره عبر منطقة صخرية ذات طبيعة وعرة، مما يمنحه منظراً فريداً. يعتبر وجهة للمغامرين ومحبي الطبيعة البكر.",
+        "categories": ["waterfall", "seasonal", "natural", "rocky"],
+        "categoryNames": ["شلال", "موسمي", "طبيعي", "صخري"],
+        "coordinates": {"lat": 13.45, "lng": 44.65},
+        "images": []
+    },
+    {
+        "id": "wadi-akhdan-cascades",
+        "name": "شلالات وادي أخدن",
+        "description": "وادي أخدن هو أحد الأودية الرئيسية في القبيطة. عند تدفق السيول فيه، تتشكل على طول مجراه سلسلة من الشلالات المتتالية (Cascades) والبرك المائية، مما يجعله وجهة للسباحة والاستجمام.",
+        "categories": ["waterfall", "seasonal", "valley", "recreation"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "استجمام"],
+        "coordinates": {"lat": 13.40, "lng": 44.58},
+        "images": []
+    },
+    {
+        "id": "jabal-jalas-falls",
+        "name": "شلالات جبل جالس",
+        "description": "جبل جالس هو أحد أعلى القمم في المنطقة. تنحدر من سفوحه العديد من الشلالات الموسمية القوية بعد الأمطار مباشرة، وتوفر هذه الشلالات مناظر بانورامية مهيبة يمكن رؤيتها من مسافات بعيدة.",
+        "categories": ["waterfall", "seasonal", "mountain", "viewpoint"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "مطل"],
+        "coordinates": {"lat": 13.48, "lng": 44.60},
+        "images": []
+    },
+    {
+        "id": "al-hadab-waterfall",
+        "name": "شلال الهَدَب",
+        "description": "يقع في منطقة الهَدَب، وهو شلال موسمي ينحدر من منطقة مرتفعة، ويشتهر بين السكان المحليين كوجهة للنزهة ومشاهدة تدفق المياه في قلب الطبيعة الجبلية القاسية.",
+        "categories": ["waterfall", "seasonal", "local", "natural"],
+        "categoryNames": ["شلال", "موسمي", "محلي", "طبيعي"],
+        "coordinates": {"lat": 13.38, "lng": 44.63},
+        "images": []
+    },
+        {
+        "id": "jabal-jalas-park",
+        "name": "منتزه جبل جالس",
+        "description": "يعتبر جبل جالس والمناطق المحيطة به أكبر منتزه طبيعي في القبيطة. يوفر إطلالات بانورامية تمتد لمسافات شاسعة، ويعتبر مكاناً مثالياً للمشي الجبلي (الهايكنج) والتخييم والاستمتاع بالهواء النقي والهدوء.",
+        "categories": ["park", "mountain", "viewpoint", "hiking"],
+        "categoryNames": ["منتزه", "جبلي", "مطل", "هايكنج"],
+        "coordinates": {"lat": 13.48, "lng": 44.60},
+        "images": []
+    },
+    {
+        "id": "al-ashmus-highlands-park",
+        "name": "منتزه مرتفعات الأشموس",
+        "description": "منطقة الأشموس هي منطقة مرتفعة تتميز بمناظرها الطبيعية الخلابة وقراها المتناثرة. تعتبر المنطقة بأكملها منتزهاً طبيعياً مفتوحاً، وتوفر أجواءً ألطف من المناطق المنخفضة.",
+        "categories": ["park", "mountain", "scenic", "village"],
+        "categoryNames": ["منتزه", "جبلي", "مناظر خلابة", "قرية"],
+        "coordinates": {"lat": 13.46, "lng": 44.55},
+        "images": []
+    },
+    {
+        "id": "wadi-akhdan-green-areas",
+        "name": "منتزه مناطق وادي أخدن الخضراء",
+        "description": "بعد مواسم الأمطار، تتحول ضفاف وادي أخدن وبعض أجزائه إلى مناطق خضراء. يقصدها السكان المحليون للنزهات العائلية (الكشتات) والاستمتاع بالخضرة المؤقتة التي تكسر حدة الطبيعة الصخرية.",
+        "categories": ["park", "natural", "valley", "seasonal"],
+        "categoryNames": ["منتزه", "طبيعي", "وادي", "موسمي"],
+        "coordinates": {"lat": 13.40, "lng": 44.58},
+        "images": []
+    },
+    {
+        "id": "al-karb-viewpoint",
+        "name": "مطل الكَرَب",
+        "description": "منطقة الكَرَب هي نقطة مرتفعة ومطل طبيعي شهير في القبيطة. توفر إطلالة رائعة على الوديان والطرق المتعرجة في الأسفل، وهي مكان مفضل للتوقف والاستمتاع بالمنظر، خاصة عند غروب الشمس.",
+        "categories": ["viewpoint", "park", "scenic", "natural"],
+        "categoryNames": ["مطل", "منتزه", "مناظر خلابة", "طبيعي"],
+        "coordinates": {"lat": 13.43, "lng": 44.59},
+        "images": []
+    },
+    {
+        "id": "al-maqatirah-border-park",
+        "name": "منتزه حدود المقاطرة",
+        "description": "المناطق الحدودية بين القبيطة ومديرية المقاطرة (تعز) هي مناطق جبلية ذات طبيعة جميلة. تعتبر هذه المناطق منتزهات طبيعية مشتركة بين سكان المديريتين، وتتميز بمساراتها الجبلية ومناظرها الوعرة.",
+        "categories": ["park", "mountain", "natural", "border"],
+        "categoryNames": ["منتزه", "جبلي", "طبيعي", "حدودي"],
+        "coordinates": {"lat": 13.50, "lng": 44.50},
+        "images": []
+    }
+
+        ]
+    },
+    "shabwah": {
+        "name": "شبوة",
+        "landmarks": [
+            {
+                "id": "shabwah-castle",
+                "name": "قلعة شبوة",
+                "description": "قلعة تاريخية تقع في محافظة شبوة، تتميز بموقعها الاستراتيجي وعمارتها الدفاعية المميزة. تعتبر من أهم المعالم التاريخية في المنطقة.",
+                "categories": ["historical", "architectural", "military"],
+                "categoryNames": ["تاريخي", "معماري", "عسكري"],
+                "coordinates": {"lat": 14.5300, "lng": 47.0000},
+                "images": ["images/landmarks/shabwah/shabwah_castle1.jpg", "images/landmarks/shabwah/shabwah_castle2.jpg"]
+            },
+                {
+        "id": "shabwa-ancient-city",
+        "name": "شبوة القديمة",
+        "description": "العاصمة الأثرية لمملكة حضرموت القديمة، وهي أهم موقع أثري في المحافظة. [1, 2] تقع على حافة صحراء رملة السبعتين، وكانت مركزاً رئيسياً لتجارة اللبان والبخور. تضم أطلال معابد وقصور ونقوشاً تدل على عظمتها الغابرة. [1, 2]",
+        "categories": ["archaeological", "historical", "ancient", "capital"],
+        "categoryNames": ["أثري", "تاريخي", "قديم", "عاصمة"],
+        "coordinates": {"lat": 15.3667, "lng": 47.0167},
+        "images": []
+    },
+    {
+        "id": "qana-port",
+        "name": "ميناء قنا الأثري (بير علي)",
+        "description": "أهم ميناء قديم على ساحل بحر العرب، كان البوابة البحرية لمملكة حضرموت ومنطلق قوافل اللبان. [3, 4] يقع في منطقة بير علي، وتوجد به أطلال ومخازن قديمة، ويتميز بلسانه البركاني (حصن الغراب) الذي كان يحميه.",
+        "categories": ["archaeological", "historical", "port", "coastal"],
+        "categoryNames": ["أثري", "تاريخي", "ميناء", "ساحلي"],
+        "coordinates": {"lat": 14.0167, "lng": 48.3333},
+        "images": []
+    },
+    {
+        "id": "bir-ali-beach",
+        "name": "ساحل بير علي",
+        "description": "أحد أجمل السواحل في اليمن، يقع بالقرب من ميناء قنا الأثري. [4, 5] يتميز بشواطئه الرملية البيضاء ومياهه الفيروزية الصافية وتكويناته البركانية السوداء، مما يخلق تبايناً لونياً فريداً وجذاباً.",
+        "categories": ["natural", "beach", "scenic", "coastal"],
+        "categoryNames": ["طبيعي", "شاطئ", "مناظر خلابة", "ساحلي"],
+        "coordinates": {"lat": 14.01, "lng": 48.33},
+        "images": []
+    },
+    {
+        "id": "wadi-mayfaah",
+        "name": "وادي ميفعة",
+        "description": "من أكبر وأخصب الأودية في شبوة، ويمتد من المرتفعات حتى يصب في بحر العرب. [6] يشتهر بزراعة النخيل والحبوب، وتنتشر على ضفافه العديد من القرى التاريخية والمواقع الأثرية.",
+        "categories": ["natural", "valley", "agriculture", "historical"],
+        "categoryNames": ["طبيعي", "وادي", "زراعة", "تاريخي"],
+        "coordinates": {"lat": 14.2, "lng": 47.7},
+        "images": []
+    },
+    {
+        "id": "ataq-public-park",
+        "name": "حديقة عتق العامة",
+        "description": "الحديقة العامة الرئيسية في مدينة عتق، عاصمة المحافظة. [5] تمثل متنفسًا منظمًا للعائلات والأطفال داخل المدينة، وتضم مساحات خضراء وألعابًا ومناطق للجلوس، وتشهد إقبالًا في المناسبات. [5]",
+        "categories": ["park", "family", "recreational"],
+        "categoryNames": ["حديقة", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "habban-historic-city",
+        "name": "مدينة حبان التاريخية",
+        "description": "مدينة تاريخية كانت عاصمة لسلطنة الواحدي. [7, 8] تتميز بمنازلها الطينية الشاهقة ذات الطراز المعماري الفريد، والتي تشبه ناطحات السحاب الطينية، وتعتبر مثالاً رائعاً للعمارة الشبوانية.",
+        "categories": ["historical", "city", "architectural", "mudbrick"],
+        "categoryNames": ["تاريخي", "مدينة", "معماري", "طين"],
+        "coordinates": {"lat": 14.35, "lng": 47.06},
+        "images": []
+    },
+    {
+        "id": "ramlat-as-sabateen-desert",
+        "name": "صحراء رملة السبعتين",
+        "description": "صحراء رملية شاسعة تمتد بين محافظات شبوة ومأرب والجوف. [9] توفر مناظر طبيعية صحراوية خلابة من الكثبان الرملية الذهبية، وتعتبر وجهة مثالية لسياحة المغامرات والتخييم.",
+        "categories": ["natural", "desert", "adventure", "scenic"],
+        "categoryNames": ["طبيعي", "صحراء", "مغامرة", "مناظر خلابة"],
+        "coordinates": {"lat": 15.5, "lng": 46.5},
+        "images": []
+    },
+    {
+        "id": "azzan-city",
+        "name": "مدينة عزان",
+        "description": "مدينة تاريخية وتجارية هامة تقع في وادي ميفعة. [6] تشتهر أيضاً بمبانيها الطينية العالية والجميلة، وكانت مركزاً تجارياً نشطاً يربط الساحل بالداخل.",
+        "categories": ["historical", "city", "market", "architectural"],
+        "categoryNames": ["تاريخي", "مدينة", "سوق", "معماري"],
+        "coordinates": {"lat": 14.21, "lng": 47.36},
+        "images": []
+    },
+    {
+        "id": "balhaf-coast",
+        "name": "ساحل بلحاف",
+        "description": "شريط ساحلي يشتهر بكونه موقعاً لمشروع الغاز الطبيعي المسال، ولكنه يضم أيضاً شواطئ جميلة. [5] يتميز الساحل بوجود فوهة بركانية خامدة تشكل بحيرة صغيرة (بحيرة شوران)، مما يضيف تنوعاً جيولوجياً للمنطقة.",
+        "categories": ["coastal", "industrial", "natural", "geological"],
+        "categoryNames": ["ساحلي", "صناعي", "طبيعي", "جيولوجي"],
+        "coordinates": {"lat": 13.98, "lng": 48.18},
+        "images": []
+    },
+    {
+        "id": "wadi-jardan",
+        "name": "وادي جردان",
+        "description": "أحد الأودية الرئيسية في شبوة، ويشتهر بخصوبته وأهميته الزراعية. [10] تنتشر فيه زراعة النخيل بشكل واسع، وتوجد به العديد من القرى والمستوطنات التي تعتمد على مياهه.",
+        "categories": ["natural", "valley", "agriculture", "water"],
+        "categoryNames": ["طبيعي", "وادي", "زراعة", "مائي"],
+        "coordinates": {"lat": 15.0, "lng": 47.3},
+        "images": []
+    },
+    {
+        "id": "mathaf-ataq",
+        "name": "متحف عتق",
+        "description": "المتحف الرئيسي في المحافظة، يقع في العاصمة عتق. [11] يضم المتحف مجموعة هامة من القطع الأثرية التي عُثر عليها في مواقع شبوة المختلفة، مثل شبوة القديمة وقنا، ويعرض تاريخ المحافظة العريق.",
+        "categories": ["museum", "historical", "archaeological", "culture"],
+        "categoryNames": ["متحف", "تاريخي", "أثري", "ثقافي"],
+        "coordinates": {"lat": 14.53, "lng": 46.83},
+        "images": []
+    },
+
+        {
+        "id": "shuran-crater-lake-park",
+        "name": "منتزه بحيرة شوران البركانية",
+        "description": "تقع بالقرب من بلحاف، وهي بحيرة مالحة تشكلت في فوهة بركان خامد. [1] تعتبر البحيرة ومنطقة الشاطئ المحيطة بها منتزهاً جيولوجياً وطبيعياً فريداً، ومكاناً مثالياً للاستجمام والسباحة والتمتع بالمنظر غير المألوف.",
+        "categories": ["park", "natural", "geological", "lake"],
+        "categoryNames": ["منتزه", "طبيعي", "جيولوجي", "بحيرة"],
+        "coordinates": {"lat": 13.99, "lng": 48.28},
+        "images": []
+    },
+    {
+        "id": "wadi-habban-falls",
+        "name": "شلالات وادي حبان الموسمية",
+        "description": "في الأجزاء العليا من وادي حبان، وقبل وصوله إلى السهول، يمر الوادي عبر مناطق مرتفعة. بعد الأمطار، تتشكل فيه شلالات وجداول مياه جارية، مما يجذب السكان المحليين للنزهة.",
+        "categories": ["waterfall", "seasonal", "valley", "natural"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "طبيعي"],
+        "coordinates": {"lat": 14.4, "lng": 47.1},
+        "images": []
+    },
+    {
+        "id": "hawra-beach-park",
+        "name": "منتزه شاطئ حورة",
+        "description": "شاطئ رملي جميل يقع غرب بير علي. يعتبر أقل شهرة وازدحاماً، مما يجعله منتزهاً ساحلياً هادئاً ومثالياً للاسترخاء والسباحة والاستمتاع بجمال بحر العرب.",
+        "categories": ["park", "beach", "natural", "coastal"],
+        "categoryNames": ["منتزه", "شاطئ", "طبيعي", "ساحلي"],
+        "coordinates": {"lat": 14.05, "lng": 48.1},
+        "images": []
+    },
+    {
+        "id": "al-saeed-mountain-cascades",
+        "name": "شلالات جبال الصعيد",
+        "description": "مديرية الصعيد هي منطقة جبلية تقع في غرب شبوة. تتسبب الأمطار الموسمية في تدفق المياه بقوة عبر المنحدرات، مكونة سلسلة من الشلالات المتتالية (Cascades) التي توفر منظراً طبيعياً جذاباً.",
+        "categories": ["waterfall", "seasonal", "mountain", "scenic"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "مناظر خلابة"],
+        "coordinates": {"lat": 14.45, "lng": 46.7},
+        "images": []
+    },
+    {
+        "id": "wadi-mayfaah-banks-park",
+        "name": "منتزه ضفاف وادي ميفعة",
+        "description": "تعتبر ضفاف وادي ميفعة الخصبة، خاصة الأجزاء التي تنتشر فيها بساتين النخيل الكثيفة، بمثابة منتزهات طبيعية طويلة. يقصدها السكان المحليون للراحة في ظلال النخيل والاستمتاع بجو الوادي.",
+        "categories": ["park", "natural", "valley", "agriculture"],
+        "categoryNames": ["منتزه", "طبيعي", "وادي", "زراعة"],
+        "coordinates": {"lat": 14.2, "lng": 47.7},
+        "images": []
+    },
+    {
+        "id": "armaa-highlands-park",
+        "name": "منتزه مرتفعات عرمة",
+        "description": "مديرية عرمة هي هضبة مرتفعة تتميز بطبيعتها الصخرية. توفر المنطقة إطلالات واسعة ومناطق هادئة تصلح للتخييم والمشي والاستمتاع بالطبيعة شبه الصحراوية.",
+        "categories": ["park", "mountain", "viewpoint", "natural"],
+        "categoryNames": ["منتزه", "جبلي", "مطل", "طبيعي"],
+        "coordinates": {"lat": 15.1, "lng": 47.8},
+        "images": []
+    },
+    {
+        "id": "wadi-amaqin-falls",
+        "name": "شلالات وادي عمقين الموسمية",
+        "description": "وادي عمقين هو أحد الأودية الهامة في مديرية الروضة. في منابعه العليا، تتشكل شلالات موسمية جميلة بعد تدفق السيول من المرتفعات، وتكون وجهة للنزهات.",
+        "categories": ["waterfall", "seasonal", "valley", "local"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "محلي"],
+        "coordinates": {"lat": 14.5, "lng": 47.4},
+        "images": []
+    },
+    {
+        "id": "al-kawr-mountain-park",
+        "name": "منتزه جبل الكور",
+        "description": "جبل الكور هو سلسلة جبلية ضخمة تفصل بين شبوة وأبين والبيضاء. الأجزاء التابعة لشبوة تتميز بوعورتها وجمالها الطبيعي، وتعتبر منتزهاً مثالياً للمغامرين ومحبي الطبيعة البكر.",
+        "categories": ["park", "mountain", "adventure", "natural"],
+        "categoryNames": ["منتزه", "جبلي", "مغامرة", "طبيعي"],
+        "coordinates": {"lat": 14.1, "lng": 46.5},
+        "images": []
+    },
+    {
+        "id": "wadi-jardan-oasis-park",
+        "name": "منتزه واحات وادي جردان",
+        "description": "تنتشر في وادي جردان واحات كثيفة من أشجار النخيل. تعتبر هذه الواحات بمثابة منتزهات طبيعية خضراء في قلب المناطق الجافة، وتوفر أماكن ظليلة ومناسبة للراحة والاستجمام.",
+        "categories": ["park", "natural", "oasis", "agriculture"],
+        "categoryNames": ["منتزه", "طبيعي", "واحة", "زراعة"],
+        "coordinates": {"lat": 15.0, "lng": 47.3},
+        "images": []
+    },
+    {
+        "id": "hisn-al-ghurab-park",
+        "name": "منتزه حصن الغراب",
+        "description": "اللسان البركاني الذي يقع عليه حصن الغراب الأثري في بير علي، يعتبر منتزهاً بحد ذاته. يوفر مساراً للمشي (هايكنج) إلى القمة، مع إطلالات بانورامية مذهلة على الساحل والميناء القديم.",
+        "categories": ["park", "viewpoint", "hiking", "historical"],
+        "categoryNames": ["منتزه", "مطل", "هايكنج", "تاريخي"],
+        "coordinates": {"lat": 14.0167, "lng": 48.3333},
+        "images": []
+    }
+        ]
+    },
+        "mahrah": {
+        "name": "المهرة",
+        "landmarks": [
+    {
+        "id": "hawf-forest-reserve",
+        "name": "محمية حوف الطبيعية",
+        "description": "أهم وأشهر معلم في المهرة، وهي أكبر غابة موسمية في شبه الجزيرة العربية. [1, 2] خلال موسم الخريف (من يونيو إلى سبتمبر)، تتحول جبالها إلى بساط أخضر كثيف يغطيه الضباب، وتتدفق فيها الشلالات، مما يخلق منظراً استوائياً فريداً. وهي مدرجة ضمن مواقع التراث العالمي لليونسكو. [1, 2]",
+        "categories": ["natural", "reserve", "forest", "scenic"],
+        "categoryNames": ["طبيعي", "محمية", "غابة", "مناظر خلابة"],
+        "coordinates": {"lat": 16.65, "lng": 53.05},
+        "images": []
+    },
+    {
+        "id": "qishn-sultan-palace",
+        "name": "قصر السلطان في قشن",
+        "description": "كان المقر التاريخي لسلاطين المهرة وسقطرى. [3, 4] يقع في مدينة قشن التاريخية، ويعتبر شاهداً على التاريخ السياسي للمنطقة، ويتميز بطابعه المعماري الفريد الذي يعكس تاريخ السلطنة.",
+        "categories": ["historical", "palace", "architectural", "culture"],
+        "categoryNames": ["تاريخي", "قصر", "معماري", "ثقافي"],
+        "coordinates": {"lat": 15.42, "lng": 51.68},
+        "images": []
+    },
+    {
+        "id": "nishtun-port",
+        "name": "ميناء نشطون",
+        "description": "الميناء البحري الرئيسي لمحافظة المهرة وبوابتها التجارية على بحر العرب. [5] يتميز الميناء بموقعه الطبيعي المحمي، ويعتبر مركزاً حيوياً للاقتصاد المحلي ونشاط الصيد، وتحيط به شواطئ جميلة.",
+        "categories": ["port", "economic", "coastal", "scenic"],
+        "categoryNames": ["ميناء", "اقتصادي", "ساحلي", "مناظر خلابة"],
+        "coordinates": {"lat": 16.25, "lng": 52.4},
+        "images": []
+    },
+    {
+        "id": "al-ghaydah-city",
+        "name": "مدينة الغيضة",
+        "description": "عاصمة محافظة المهرة ومركزها الإداري والتجاري الحديث. [6] تتميز بسوقها المركزي الذي يعرض المنتجات المحلية، وتعتبر نقطة انطلاق لاستكشاف بقية معالم المحافظة الساحرة.",
+        "categories": ["city", "capital", "market", "culture"],
+        "categoryNames": ["مدينة", "عاصمة", "سوق", "ثقافي"],
+        "coordinates": {"lat": 16.208, "lng": 52.176},
+        "images": []
+    },
+        {
+        "id": "al-ghaydah-public-park",
+        "name": "حديقة الغيضة العامة",
+        "description": "حديقة عامة تقع داخل مدينة الغيضة، وتوفر متنفسًا إضافيًا للعائلات. [9] تضم الحديقة بعض الألعاب للأطفال ومساحات للجلوس، وتساهم في توفير أماكن ترفيهية منظمة داخل العاصمة. [9]",
+        "categories": ["park", "family", "recreational"],
+        "categoryNames": ["حديقة", "عائلي", "ترفيهي"],
+        "coordinates": {},
+        "images": []
+    },
+    {
+        "id": "ras-fartak",
+        "name": "رأس فرتك (حصن فرتك)",
+        "description": "رأس صخري شاهق يبرز في بحر العرب، ويعتبر من أهم المعالم الجغرافية على الساحل اليمني. [7] توجد على قمته بقايا حصن قديم، ويوفر إطلالات بانورامية مذهلة على الساحل والمحيط.",
+        "categories": ["natural", "viewpoint", "historical", "coastal"],
+        "categoryNames": ["طبيعي", "مطل", "تاريخي", "ساحلي"],
+        "coordinates": {"lat": 15.6, "lng": 52.2},
+        "images": []
+    },
+    {
+        "id": "wadi-al-masilah",
+        "name": "وادي المسيلة",
+        "description": "أحد أطول الأودية في اليمن، ويمتد الجزء الشرقي منه في محافظة المهرة. [8] يتميز الوادي بواحات النخيل والقرى المتناثرة على ضفافه، ويعتبر شريان حياة للمناطق الداخلية.",
+        "categories": ["natural", "valley", "agriculture", "oasis"],
+        "categoryNames": ["طبيعي", "وادي", "زراعة", "واحة"],
+        "coordinates": {"lat": 15.8, "lng": 51.8},
+        "images": []
+    },
+    {
+        "id": "damqut-village",
+        "name": "قرية دمقوت",
+        "description": "قرية ساحلية تقع على الحدود مع سلطنة عمان، وتعتبر آخر نقطة مأهولة في شرق اليمن. [9] تشتهر بشاطئها الجميل ومينائها الصغير، وتعتبر مثالاً للقرى المهرية الساحلية الهادئة.",
+        "categories": ["village", "coastal", "border", "natural"],
+        "categoryNames": ["قرية", "ساحلي", "حدودي", "طبيعي"],
+        "coordinates": {"lat": 16.58, "lng": 53.1},
+        "images": []
+    },
+    {
+        "id": "huswain-fortress",
+        "name": "حصن حصوين",
+        "description": "حصن تاريخي يقع في مديرية حصوين، مبني على تلة مرتفعة تطل على الساحل. [10] كان يستخدم للمراقبة والدفاع، ويعكس الأهمية الاستراتيجية للمنطقة الساحلية في المهرة.",
+        "categories": ["historical", "fortress", "military", "viewpoint"],
+        "categoryNames": ["تاريخي", "حصن", "عسكري", "مطل"],
+        "coordinates": {"lat": 15.9, "lng": 52.1},
+        "images": []
+    },
+    {
+        "id": "frankincense-trail",
+        "name": "مواقع طريق اللبان",
+        "description": "تنتشر في المهرة العديد من المواقع الأثرية والأشجار التي كانت جزءاً من طريق اللبان التاريخي. [11] تعتبر المحافظة الموطن الأصلي لأجود أنواع أشجار اللبان، وزيارة هذه المناطق هي رحلة في عبق التاريخ.",
+        "categories": ["historical", "archaeological", "trade", "natural"],
+        "categoryNames": ["تاريخي", "أثري", "تجارة", "طبيعي"],
+        "coordinates": {"lat": 16.7, "lng": 52.8},
+        "images": []
+    },
+    {
+        "id": "empty-quarter-edge-mahrah",
+        "name": "أطراف الربع الخالي (المهرة)",
+        "description": "تشكل صحراء الربع الخالي الجزء الشمالي الشاسع من المحافظة. [12] توفر هذه المنطقة مناظر طبيعية صحراوية بكر وكثباناً رملية هائلة، وهي وجهة مثالية لعشاق المغامرات الصحراوية والهدوء المطلق.",
+        "categories": ["natural", "desert", "adventure", "scenic"],
+        "categoryNames": ["طبيعي", "صحراء", "مغامرة", "مناظر خلابة"],
+        "coordinates": {"lat": 17.5, "lng": 51.5},
+        "images": []
+    },
+
+        {
+        "id": "hawf-grand-waterfall",
+        "name": "شلال حوف الكبير",
+        "description": "أحد أكبر وأشهر الشلالات الموسمية في محمية حوف. [1] يتكون بعد هطول الأمطار الغزيرة في موسم الخريف، وينحدر من ارتفاع شاهق وسط الغابات الكثيفة، مما يخلق منظراً طبيعياً استوائياً يأسر الألباب ويجذب الزوار.",
+        "categories": ["waterfall", "seasonal", "scenic", "forest"],
+        "categoryNames": ["شلال", "موسمي", "مناظر خلابة", "غابة"],
+        "coordinates": {"lat": 16.64, "lng": 53.05},
+        "images": []
+    },
+    {
+        "id": "wadi-al-jiza-falls",
+        "name": "شلالات وادي الجزع",
+        "description": "وادي الجزع هو أحد الأودية الرئيسية داخل محمية حوف. [2] خلال موسم الخريف، يمتلئ الوادي بالمياه وتتشكل على طول مجراه سلسلة من الشلالات الصغيرة والمتوسطة والبرك المائية، مما يجعله وجهة مثالية للمشي والاستمتاع بالطبيعة.",
+        "categories": ["waterfall", "seasonal", "valley", "hiking"],
+        "categoryNames": ["شلال", "موسمي", "وادي", "هايكنج"],
+        "coordinates": {"lat": 16.66, "lng": 53.03},
+        "images": []
+    },
+    {
+        "id": "ayn-al-barak-falls",
+        "name": "شلالات عين البراك",
+        "description": "منطقة في محمية حوف تشتهر بعيونها المائية التي يزداد تدفقها في موسم الخريف. [3] تتسبب غزارة المياه في تكوين شلالات جميلة تنحدر على الصخور المغطاة بالخضرة، وتعتبر من المناظر المميزة في المحمية.",
+        "categories": ["waterfall", "seasonal", "spring", "natural"],
+        "categoryNames": ["شلال", "موسمي", "ينبوع", "طبيعي"],
+        "coordinates": {"lat": 16.63, "lng": 53.06},
+        "images": []
+    },
+    {
+        "id": "manarat-falls",
+        "name": "شلالات منعر",
+        "description": "تقع في منطقة منعر الجبلية داخل محمية حوف. [4] تتميز هذه الشلالات الموسمية بمرورها عبر تضاريس وعرة، مما يخلق تدفقات مائية قوية ومناظر طبيعية بكر تجذب محبي المغامرة.",
+        "categories": ["waterfall", "seasonal", "mountain", "adventure"],
+        "categoryNames": ["شلال", "موسمي", "جبلي", "مغامرة"],
+        "coordinates": {"lat": 16.67, "lng": 53.0},
+        "images": []
+    },
+
+        {
+        "id": "al-ghaydah-beach",
+        "name": "شاطئ الغيضة",
+        "description": "الشاطئ الممتد على طول الواجهة البحرية لمدينة الغيضة، عاصمة المحافظة. [5] يعتبر المتنفس الرئيسي لسكان المدينة، ويتميز برماله الناعمة وأمواجه الهادئة، وهو مكان مثالي للنزهات العائلية وممارسة الرياضات الشاطئية.",
+        "categories": ["beach", "city", "recreation", "coastal"],
+        "categoryNames": ["شاطئ", "مدينة", "استجمام", "ساحلي"],
+        "coordinates": {"lat": 16.18, "lng": 52.18},
+        "images": []
+    },
+    {
+        "id": "qishn-beach",
+        "name": "شاطئ قشن",
+        "description": "الشاطئ المحاذي لمدينة قشن التاريخية. [6] يجمع هذا الشاطئ بين جمال الطبيعة الساحلية وعبق التاريخ المتمثل في قصر السلطان القريب. يتميز بهدوئه ورماله الذهبية الممتدة.",
+        "categories": ["beach", "historical", "scenic", "natural"],
+        "categoryNames": ["شاطئ", "تاريخي", "مناظر خلابة", "طبيعي"],
+        "coordinates": {"lat": 15.41, "lng": 51.68},
+        "images": []
+    },
+    {
+        "id": "haswayn-beach",
+        "name": "شاطئ حصوين",
+        "description": "شاطئ طويل وبكر يقع في مديرية حصوين. [7] يشتهر بنقائه الشديد وبعده عن التجمعات السكانية الكبيرة، مما يجعله وجهة مثالية للباحثين عن الهدوء والاسترخاء والاستمتاع بالطبيعة الساحلية في أنقى صورها.",
+        "categories": ["beach", "natural", "pristine", "quiet"],
+        "categoryNames": ["شاطئ", "طبيعي", "بكر", "هادئ"],
+        "coordinates": {"lat": 15.88, "lng": 52.1},
+        "images": []
+    },
+    {
+        "id": "fartak-cape-beaches",
+        "name": "شواطئ رأس فرتك",
+        "description": "الخلجان والشواطئ الصغيرة المتناثرة حول قاعدة رأس فرتك الصخري. [8] توفر هذه الشواطئ المحمية أماكن رائعة للسباحة والغوص، مع منظر مهيب للرأس الشاهق الذي يطل عليها.",
+        "categories": ["beach", "scenic", "bay", "natural"],
+        "categoryNames": ["شاطئ", "مناظر خلابة", "خليج", "طبيعي"],
+        "coordinates": {"lat": 15.6, "lng": 52.2},
+        "images": []
+    },
+    {
+        "id": "damqut-beach",
+        "name": "شاطئ دمقوت",
+        "description": "يقع في أقصى شرق اليمن على الحدود مع عمان. [9] يتميز هذا الشاطئ بكونه نقطة التقاء الجبال بالبحر، ويوفر منظراً طبيعياً دراماتيكياً، ويعتبر وجهة للصيادين ومحبي الأماكن الحدودية الفريدة.",
+        "categories": ["beach", "border", "scenic", "fishing"],
+        "categoryNames": ["شاطئ", "حدودي", "مناظر خلابة", "صيد"],
+        "coordinates": {"lat": 16.58, "lng": 53.1},
+        "images": []
+    },
+    {
+        "id": "khalfut-beach",
+        "name": "شاطئ خلفوت",
+        "description": "شاطئ جميل يقع بالقرب من منطقة نشطون. [10] يشتهر برماله البيضاء ومياهه الصافية، ويعتبر مكاناً مفضلاً لدى السكان المحليين للنزهات ورحلات الصيد والاستمتاع بجمال الساحل المهري.",
+        "categories": ["beach", "local", "natural", "recreation"],
+        "categoryNames": ["شاطئ", "محلي", "طبيعي", "استجمام"],
+        "coordinates": {"lat": 16.3, "lng": 52.5},
+        "images": []
+    },
+
+        {
+        "id": "wadi-shaghit-park",
+        "name": "منتزه وادي شغيظ",
+        "description": "أحد الأودية القريبة من مدينة الغيضة، ويعتبر المتنفس البري الرئيسي لسكان العاصمة. [1] بعد هطول الأمطار، تجري فيه المياه وتخضر ضفافه، فيقصده الناس بكثرة للنزهات العائلية والرحلات الخلوية (الكشتات) والطبخ في الهواء الطلق.",
+        "categories": ["park", "natural", "valley", "recreation"],
+        "categoryNames": ["منتزه", "طبيعي", "وادي", "استجمام"],
+        "coordinates": {"lat": 16.25, "lng": 52.15},
+        "images": []
+    },
+    {
+        "id": "al-ghaydah-corniche",
+        "name": "كورنيش الغيضة",
+        "description": "الواجهة البحرية المجهزة على طول شاطئ الغيضة. [2] يعتبر هذا الكورنيش المنتزه الرسمي والأكثر شعبية داخل المدينة، حيث تتجمع العائلات والأصدقاء في المساء، وتوجد به أماكن للجلوس وأكشاك صغيرة، وهو مكان مثالي للمشي والاستمتاع بنسيم البحر.",
+        "categories": ["park", "corniche", "city", "recreation"],
+        "categoryNames": ["منتزه", "كورنيش", "مدينة", "استجمام"],
+        "coordinates": {"lat": 16.18, "lng": 52.18},
+        "images": []
+    },
+    {
+        "id": "hawf-fog-viewpoints",
+        "name": "منتزهات مطلات الضباب في حوف",
+        "description": "خلال موسم الخريف، تتحول الطرق الجبلية المتعرجة في محمية حوف إلى منتزهات بحد ذاتها. [3] يتوقف الناس بسياراتهم عند المطلات الرئيسية للاستمتاع بمنظر الضباب وهو يغطي كل شيء بالأسفل، في مشهد ساحر وفريد من نوعه.",
+        "categories": ["park", "viewpoint", "scenic", "natural"],
+        "categoryNames": ["منتزه", "مطل", "مناظر خلابة", "طبيعي"],
+        "coordinates": {"lat": 16.65, "lng": 53.0},
+        "images": []
+    },
+    {
+        "id": "wadi-al-masilah-oases",
+        "name": "منتزه واحات وادي المسيلة",
+        "description": "تعتبر واحات النخيل الكثيفة في وادي المسيلة منتزهات طبيعية شهيرة لسكان المناطق الداخلية. [4] توفر هذه الواحات الظل والبرودة والجمال، وتعتبر مكاناً مثالياً للراحة والاستجمام بعيداً عن حرارة الشمس.",
+        "categories": ["park", "natural", "oasis", "agriculture"],
+        "categoryNames": ["منتزه", "طبيعي", "واحة", "زراعة"],
+        "coordinates": {"lat": 15.8, "lng": 51.8},
+        "images": []
+    },
+    {
+        "id": "nishtun-port-viewpoint",
+        "name": "منتزه مطل ميناء نشطون",
+        "description": "التلال والمرتفعات المحيطة بميناء نشطون توفر إطلالة بانورامية رائعة على الميناء وحركة السفن والساحل الممتد. [5] يقصد الناس هذه المنطقة كمنتزه للاستمتاع بالمنظر الفريد الذي يجمع بين الطبيعة والنشاط البشري.",
+        "categories": ["park", "viewpoint", "port", "scenic"],
+        "categoryNames": ["منتزه", "مطل", "ميناء", "مناظر خلابة"],
+        "coordinates": {"lat": 16.25, "lng": 52.4},
+        "images": []
+    },
+    {
+        "id": "al-faydami-hot-springs-area",
+        "name": "منتزه منطقة عيون الفيدمي الحارة",
+        "description": "تقع في مديرية المسيلة، وهي منطقة تشتهر بوجود عيون مياه كبريتية حارة. [6] المنطقة المحيطة بالعيون تعتبر منتزهاً طبيعياً وعلاجياً، يقصده الناس للاستشفاء والاستمتاع بالطبيعة الفريدة للموقع.",
+        "categories": ["park", "health", "spring", "natural"],
+        "categoryNames": ["منتزه", "صحي", "ينبوع", "طبيعي"],
+        "coordinates": {"lat": 15.7, "lng": 51.5},
+        "images": []
+    },
+    {
+        "id": "qishn-countryside-park",
+        "name": "منتزه أرياف قشن",
+        "description": "المناطق الريفية والمزارع الصغيرة المحيطة بمدينة قشن التاريخية تعتبر منتزهات طبيعية للسكان. [7] توفر هذه الأرياف بيئة هادئة ومناظر جميلة تجمع بين أشجار النخيل والبحر في الأفق.",
+        "categories": ["park", "countryside", "agriculture", "historical"],
+        "categoryNames": ["منتزه", "ريف", "زراعة", "تاريخي"],
+        "coordinates": {"lat": 15.45, "lng": 51.7},
+        "images": []
+    },
+    {
+        "id": "sayhut-mangrove-area",
+        "name": "منتزه منطقة أشجار القرم (سيحوت)",
+        "description": "توجد بالقرب من مدينة سيحوت الساحلية مناطق تنمو فيها أشجار القرم (المانغروف). [8] تعتبر هذه النظم البيئية الفريدة منتزهات طبيعية هامة، وهي وجهة لمراقبة الطيور والتعرف على التنوع البيولوجي البحري.",
+        "categories": ["park", "natural", "ecosystem", "birds"],
+        "categoryNames": ["منتزه", "طبيعي", "نظام بيئي", "طيور"],
+        "coordinates": {"lat": 15.2, "lng": 51.25},
+        "images": []
+    },
+    {
+        "id": "shihin-border-market-area",
+        "name": "منتزه منطقة سوق شحن الحدودي",
+        "description": "منفذ شحن الحدودي مع سلطنة عمان ليس مجرد نقطة عبور، بل هو منطقة حيوية. [9] المنطقة المحيطة بالمنفذ والسوق الملحق به تعتبر منتزهاً اجتماعياً وتجارياً فريداً، حيث يختلط الناس من البلدين، مما يخلق جواً ثقافياً مميزاً.",
+        "categories": ["park", "market", "border", "culture"],
+        "categoryNames": ["منتزه", "سوق", "حدودي", "ثقافي"],
+        "coordinates": {"lat": 17.17, "lng": 52.45},
+        "images": []
+    },
+    {
+        "id": "wadi-arakh-park",
+        "name": "منتزه وادي أرخ",
+        "description": "أحد الأودية الصحراوية في شمال المهرة. بعد الأمطار النادرة، يتحول إلى منتزه طبيعي يقصده سكان البادية والمناطق المجاورة. [10] يتميز باتساعه وهدوئه الشديد، وهو مكان مثالي لتجربة جمال الصحراء.",
+        "categories": ["park", "natural", "desert", "valley"],
+        "categoryNames": ["منتزه", "طبيعي", "صحراء", "وادي"],
+        "coordinates": {"lat": 16.8, "lng": 51.9},
+        "images": []
+    }
+        ]
+    },
+        "hadibo": {
+        "name": "حديبو",
+        "landmarks": [
+            {
+                "id": "shabwah-castle",
+                "name": "قلعة شبوة",
+                "description": "قلعة تاريخية تقع في محافظة شبوة، تتميز بموقعها الاستراتيجي وعمارتها الدفاعية المميزة. تعتبر من أهم المعالم التاريخية في المنطقة.",
+                "categories": ["historical", "architectural", "military"],
+                "categoryNames": ["تاريخي", "معماري", "عسكري"],
+                "coordinates": {"lat": 14.5300, "lng": 47.0000},
+                "images": ["images/landmarks/shabwah/shabwah_castle1.jpg", "images/landmarks/shabwah/shabwah_castle2.jpg"]
+            }
+        ]
+    },
+        "shabwa": {
+        "name": "شبوة",
+        "landmarks": [
+            {
+                "id": "shabwah-castle",
+                "name": "قلعة شبوة",
+                "description": "قلعة تاريخية تقع في محافظة شبوة، تتميز بموقعها الاستراتيجي وعمارتها الدفاعية المميزة. تعتبر من أهم المعالم التاريخية في المنطقة.",
+                "categories": ["historical", "architectural", "military"],
+                "categoryNames": ["تاريخي", "معماري", "عسكري"],
+                "coordinates": {"lat": 14.5300, "lng": 47.0000},
+                "images": ["images/landmarks/shabwah/shabwah_castle1.jpg", "images/landmarks/shabwah/shabwah_castle2.jpg"]
+            }
+        ]
+    },
+
+};
+
+// Inject Custom Landmarks added by Admin in the Dashboard
+try {
+    let customLandmarks = JSON.parse(localStorage.getItem('pt_custom_landmarks') || '[]');
+    customLandmarks.forEach(cl => {
+        if(window.updatedLandmarksData && window.updatedLandmarksData[cl.city_id]) {
+            window.updatedLandmarksData[cl.city_id].landmarks.push(cl.landmark);
+        }
+    });
+} catch(e) {
+    console.error("Error loading custom landmarks from localstorage", e);
+}

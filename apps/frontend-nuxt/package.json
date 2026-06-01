@@ -1,0 +1,22 @@
+{
+  "name": "yemen-tourism-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "test:contracts": "node --test tests/contracts/*.test.mjs"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.11.2",
+    "apexcharts": "^5.10.4",
+    "nuxt": "^3.20.0",
+    "vue3-apexcharts": "^1.11.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.4.17"
+  }
+}

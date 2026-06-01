@@ -1,0 +1,61 @@
+# Environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.production.example
+!**/.env.sqlite.local.example
+
+# Dependencies
+**/node_modules/
+**/vendor/
+
+# Nuxt / frontend build output
+apps/frontend-nuxt/.nuxt/
+apps/frontend-nuxt/.output/
+apps/frontend-nuxt/dist/
+apps/frontend-nuxt/.nuxt-dev.log
+apps/frontend-nuxt/.vercel/
+apps/frontend-nuxt/.netlify/
+
+# Laravel / backend runtime output
+apps/backend-laravel/public/build/
+apps/backend-laravel/public/hot
+apps/backend-laravel/public/storage/
+apps/backend-laravel/storage/*.key
+apps/backend-laravel/storage/logs/*
+!apps/backend-laravel/storage/logs/.gitignore
+apps/backend-laravel/storage/framework/cache/data/*
+!apps/backend-laravel/storage/framework/cache/data/.gitignore
+apps/backend-laravel/storage/framework/sessions/*
+!apps/backend-laravel/storage/framework/sessions/.gitignore
+apps/backend-laravel/storage/framework/testing/*
+!apps/backend-laravel/storage/framework/testing/.gitignore
+apps/backend-laravel/storage/framework/views/*
+!apps/backend-laravel/storage/framework/views/.gitignore
+apps/backend-laravel/bootstrap/cache/*
+!apps/backend-laravel/bootstrap/cache/.gitignore
+
+# Test and tooling caches
+**/.phpunit.result.cache
+**/.phpunit.cache/
+**/coverage/
+**/.nyc_output/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local bundled services/tools
+tools/
+apps/backend-laravel-blueprint/
+
+# Editors and OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+.fleet/
+.zed/
+docs/
