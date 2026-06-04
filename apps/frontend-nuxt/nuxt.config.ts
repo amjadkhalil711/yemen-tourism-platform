@@ -24,7 +24,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       siteUrl: "http://localhost:3000",
-apiBase: process.env.NUXT_PUBLIC_API_BASE || "http://localhost:8000/api/v1",      apiTimeoutMs: 15000,
+      apiBase: "http://localhost:8000/api/v1",
+      apiTimeoutMs: 15000,
       apiRetryEnabled: true,
       apiRetryMaxAttempts: 3,
       apiRetryBaseDelayMs: 250,
