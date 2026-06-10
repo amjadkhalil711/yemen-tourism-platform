@@ -51,7 +51,7 @@
             <span v-if="city.badge" class="city-badge">{{ city.badge }}</span>
             <h3>{{ city.name }}</h3>
             <p>{{ city.description }}</p>
-            <NuxtLink :to="`/cities/${city.slug}`" class="btn-small">{{ t('discoverMore') }}</NuxtLink>
+            <NuxtLink :to="`/cities?view=${city.slug}`" class="btn-small">{{ t('discoverMore') }}</NuxtLink>
           </div>
         </div>
       </div>

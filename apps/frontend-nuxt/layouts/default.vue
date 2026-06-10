@@ -142,7 +142,7 @@
 
     <!-- Sidebar Toggle Button -->
     <div class="sidebar-toggle" id="sidebar-toggle" @click="toggleSidebar">
-      <i class="fas fa-bars" />
+      <i class="fas" :class="isSidebarOpen ? 'fa-times' : 'fa-bars'" />
     </div>
 
     <!-- Main Content -->
@@ -152,7 +152,7 @@
       <!-- Footer -->
       <footer>
         <div class="container">
-          <p>{{ t('allRightsReserved') }} &copy; 2025 - {{ t('siteName') }}</p>
+          <p>{{ t('allRightsReserved') }} &copy; 2026 - {{ t('siteName') }}</p>
         </div>
       </footer>
     </main>

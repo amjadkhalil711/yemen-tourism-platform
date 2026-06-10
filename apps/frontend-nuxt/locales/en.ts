@@ -62,8 +62,8 @@ const enLocale = {
   // ===== Featured Cities =====
   featuredCities: {
     sanaa: { name: 'Sanaa', description: 'The historic capital of Yemen and a UNESCO World Heritage city known for its unique architecture and traditional markets.' },
-    taiz: { name: 'Taiz', description: 'Yemen\'s cultural capital and home to the historic Al-Qahira Castle, featuring a charming mountainous setting and rich heritage.', badge: 'New' },
-    ibb: { name: 'Ibb', description: 'The Green City and Pearl of Yemen, famous for its stunning natural scenery, agricultural terraces, and waterfalls.', badge: 'New' },
+    taiz: { name: 'Taiz', description: 'Yemen\'s cultural capital and home to the historic Al-Qahira Castle, featuring a charming mountainous setting and rich heritage.' },
+    ibb: { name: 'Ibb', description: 'The Green City and Pearl of Yemen, famous for its stunning natural scenery, agricultural terraces, and waterfalls.' },
     shibam: { name: 'Shibam', description: 'The city of mud-brick skyscrapers and the Manhattan of the Desert, one of the oldest cities in the world.' },
     socotra: { name: 'Socotra', description: 'The island of legends and unique nature, home to plant and animal species found nowhere else on Earth.' },
     aden: { name: 'Aden', description: 'The city of historic ports and beautiful beaches, Yemen\'s maritime gateway and economic capital.' },
@@ -183,7 +183,6 @@ const enLocale = {
       'Classification of landmarks into tourist, archaeological, and natural categories for easy search',
       'High-quality photos of tourist landmarks',
       'Interactive maps showing landmark locations and directions',
-      'Information about tour guides in each area',
       'Easy-to-use interface and attractive design',
     ],
     yemenImportance: 'The Importance of Tourism in Yemen',
@@ -196,7 +195,7 @@ const enLocale = {
     ],
     yemenImportanceOutro: 'Through our website, we strive to raise awareness of these assets and facilitate access to related information.',
     ctaTitle: 'Explore the Beauty of Yemen With Us',
-    ctaDesc: 'Start your journey now and discover the cities and tourist landmarks',
+    ctaDesc: '.',
   },
 
   // ===== Contact Page =====
@@ -220,8 +219,8 @@ const enLocale = {
     errorMessage: 'An error occurred while sending. Please try again.',
     sending: 'Sending...',
     sendButton: 'Send Message',
-    ourLocation: 'Our Location',
-    mapLoading: 'Map will load here',
+    ourLocation: '. ',
+    mapLoading: '.',
   },
 
   // ===== Admin Login =====
@@ -340,7 +339,7 @@ const enLocale = {
     months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
   },
   faq: {
-    title: 'Frequently Asked Questions about Yemen Tourism',
+    title: '~',
     subtitle: 'Everything you need to know about visiting Yemen and its unique landmarks',
     items: [
       {

@@ -18,7 +18,7 @@
         <!-- AEO / GEO Direct Answer Box -->
         <div class="aeo-answer-box reveal">
           <div class="aeo-badge">
-            <i class="fas fa-bolt" /> <span>{{ dir === 'rtl' ? 'إجابة سريعة للذكاء الاصطناعي والزوار' : 'Quick Answer for AI & Visitors' }}</span>
+            <i class="fas fa-bolt" /> <span>{{ dir === 'rtl' ? '' : '' }}</span>
           </div>
           <p class="aeo-lead">
             {{ dir === 'rtl'

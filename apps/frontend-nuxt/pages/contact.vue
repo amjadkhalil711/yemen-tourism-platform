@@ -44,13 +44,7 @@
             </div>
           </div>
 
-          <div class="info-card reveal reveal-delay-4">
-            <div class="info-icon"><i class="fas fa-clock" /></div>
-            <div class="info-details">
-              <h3>{{ t('contactPage.workingHours') }}</h3>
-              <p>{{ t('contactPage.workingHoursValue') }}</p>
-            </div>
-          </div>
+
         </div>
 
         <!-- Contact Form -->
@@ -94,18 +88,7 @@
       </div>
     </section>
 
-    <!-- Map Placeholder Section -->
-    <section class="map-section">
-      <div class="container">
-        <h2 class="reveal">{{ t('contactPage.ourLocation') }}</h2>
-        <div class="map-container reveal reveal-delay-1">
-          <div class="map-placeholder">
-            <i class="fas fa-map-marked-alt" />
-            <p>{{ t('contactPage.mapLoading') }}</p>
-          </div>
-        </div>
-      </div>
-    </section>
+   
   </div>
 </template>
 

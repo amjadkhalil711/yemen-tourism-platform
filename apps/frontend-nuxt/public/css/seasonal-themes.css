@@ -453,7 +453,7 @@ body[class*="season-"] .dashboard-hero-main h3,
 body[class*="season-"] .hero-note-card h4,
 body[class*="season-"] .login-copy-panel h1,
 body[class*="season-"] .login-header h2 {
-    color: var(--season-text) !important;
+    color: #f5f3ec;
     font-family: 'Tajawal', 'Cairo', sans-serif;
     font-weight: 800;
     letter-spacing: 0;
@@ -810,4 +810,21 @@ body.season-summer .season-cloud-bank {
     body[class*="season-"] .season-theme-check {
         display: none;
     }
+}
+
+
+/* Contact page: contact info box same gray style as form */
+body.legacy-light .contact-info,
+body[class*="season-"] .contact-info {
+    background: linear-gradient(
+        165deg,
+        rgba(82,82,82,.72) 0%,
+        rgba(55,55,55,.78) 48%,
+        rgba(38,38,38,.84) 100%
+    ) !important;
+    border: 1px solid rgba(245,222,154,.42) !important;
+    border-radius: 28px !important;
+    box-shadow: 0 22px 44px rgba(0,0,0,.30) !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
 }
