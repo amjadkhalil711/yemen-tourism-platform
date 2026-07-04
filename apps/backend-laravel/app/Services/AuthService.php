@@ -3,11 +3,17 @@
 namespace App\Services;
 
 use App\Models\User;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Str;
 
 class AuthService
 {
+    /**
+     * Viewer accounts do not authenticate with passwords. Reusing an unknown
+     * bcrypt hash avoids doing an expensive Hash::make call on every map unlock.
+     */
+    private const VISITOR_PASSWORD_HASH = '$2y$12$RhrcmSmSyFi9k3ygsNGmQeeEePBHb1I.GytrNkJ.baa7ZqpMk4rL2';
+
     /**
      * @return array<int, string>
      */
@@ -40,9 +46,30 @@ class AuthService
      */
     public function abilitiesForUser(User $user): array
     {
-        return $user->role === 'admin'
-            ? $this->adminTokenAbilities()
-            : $this->visitorTokenAbilities();
+        if ($user->role === 'admin') {
+            return $this->adminTokenAbilities();
+        }
+
+        if (str_starts_with((string) $user->role, 'admin_')) {
+            if ($user->role === 'admin_visitors' || $user->role === 'admin_report') {
+                return [
+                    'session:read',
+                    'session:write',
+                    'stats:read',
+                    'map:view:track',
+                ];
+            }
+            return [
+                'session:read',
+                'session:write',
+                'stats:read',
+                'content:read',
+                'content:write',
+                'map:view:track',
+            ];
+        }
+
+        return $this->visitorTokenAbilities();
     }
 
     public function attemptLogin(string $login, string $email, string $password): ?User
@@ -78,12 +105,18 @@ class AuthService
             $user->name = $name;
             $user->save();
         } else {
-            $user = User::query()->create([
+            $now = now();
+            $userId = DB::table('users')->insertGetId([
                 'name' => $name,
                 'email' => $email,
-                'password' => Hash::make(Str::random(40)),
+                'password' => self::VISITOR_PASSWORD_HASH,
                 'role' => 'viewer',
+                'created_at' => $now,
+                'updated_at' => $now,
             ]);
+
+            /** @var User $user */
+            $user = User::query()->findOrFail($userId);
         }
 
         return [

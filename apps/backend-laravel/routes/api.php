@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\V1\AdminUserController;
 use App\Http\Controllers\Api\V1\AuthController;
 use App\Http\Controllers\Api\V1\ChatbotController;
 use App\Http\Controllers\Api\V1\CityController;
@@ -35,16 +36,24 @@ Route::prefix('v1')->middleware(SetApiSecurityHeaders::class)->group(function ()
 
         Route::middleware(['can:manage-content', 'throttle:admin-write'])->group(function (): void {
             Route::get('stats/overview', [StatsController::class, 'overview'])->middleware('abilities:stats:read');
-            Route::get('admin/landmarks', [LandmarkController::class, 'adminIndex'])->middleware('abilities:content:read');
+            Route::get('admin/landmarks', [LandmarkController::class, 'adminIndex'])->middleware(['abilities:content:read', 'can:manage-landmarks']);
+            Route::get('contact-messages', [ContactController::class, 'index'])->middleware(['abilities:content:read', 'can:manage-messages']);
+
+            // Admin User Management
+            Route::get('admin/users', [AdminUserController::class, 'index'])->middleware('can:manage-admins');
+            Route::post('admin/users', [AdminUserController::class, 'store'])->middleware('can:manage-admins');
+            Route::delete('admin/users/{user}', [AdminUserController::class, 'destroy'])->middleware('can:manage-admins');
 
             Route::middleware(['abilities:content:write', AuditAdminWriteAction::class])->group(function (): void {
-                Route::post('cities', [CityController::class, 'store']);
-                Route::put('cities/{city:slug}', [CityController::class, 'update']);
-                Route::delete('cities/{city:slug}', [CityController::class, 'destroy']);
+                Route::post('cities', [CityController::class, 'store'])->middleware('can:manage-cities');
+                Route::put('cities/{city:slug}', [CityController::class, 'update'])->middleware('can:manage-cities');
+                Route::delete('cities/{city:slug}', [CityController::class, 'destroy'])->middleware('can:manage-cities');
 
-                Route::post('landmarks', [LandmarkController::class, 'store']);
-                Route::put('landmarks/{landmark}', [LandmarkController::class, 'update']);
-                Route::delete('landmarks/{landmark}', [LandmarkController::class, 'destroy']);
+                Route::post('landmarks', [LandmarkController::class, 'store'])->middleware('can:manage-landmarks');
+                Route::put('landmarks/{landmark}', [LandmarkController::class, 'update'])->middleware('can:manage-landmarks');
+                Route::delete('landmarks/{landmark}', [LandmarkController::class, 'destroy'])->middleware('can:manage-landmarks');
+
+                Route::delete('contact-messages/{contactMessage}', [ContactController::class, 'destroy'])->middleware('can:manage-messages');
             });
         });
     });

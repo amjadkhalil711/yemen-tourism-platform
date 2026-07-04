@@ -144,7 +144,7 @@ const ensureExistingAdminSession = async () => {
 
   try {
     await auth.fetchMe();
-    if (auth.user?.role === "admin") {
+    if (auth.user?.role && auth.user.role.startsWith("admin")) {
       await navigateTo(redirectTarget.value);
       return;
     }
@@ -173,7 +173,7 @@ const submitLogin = async () => {
 
   try {
     const user = await auth.login(form.identifier, form.password);
-    if (user.role !== "admin") {
+    if (!user || !user.role || !user.role.startsWith("admin")) {
       await auth.logout();
       errorMessage.value = t('adminLoginPage.noAdminAccess');
       notifyError(errorMessage.value);

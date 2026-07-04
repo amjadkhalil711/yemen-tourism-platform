@@ -178,10 +178,29 @@ const navItemsRaw = [
   { path: '/admin/landmarks', labelKey: 'adminLayout.manageLandmarks', icon: 'fa-map-marked-alt', activeBg: 'bg-emerald-500/20 text-emerald-400' },
   { path: '/admin/visitors', labelKey: 'adminLayout.mapVisitors', icon: 'fa-users', activeBg: 'bg-indigo-500/20 text-indigo-400' },
   { path: '/admin/report', labelKey: 'adminLayout.report', icon: 'fa-file-alt', activeBg: 'bg-purple-500/20 text-purple-400' },
+  { path: '/admin/messages', labelKey: 'adminLayout.contactMessages', icon: 'fa-envelope', activeBg: 'bg-rose-500/20 text-rose-400' },
+  { path: '/admin/admins', labelKey: 'adminLayout.manageAdmins', icon: 'fa-user-shield', activeBg: 'bg-cyan-500/20 text-cyan-400' },
 ];
 
+const allowedNavItems = computed(() => {
+  const role = auth.user?.role;
+  if (role === 'admin') {
+    return navItemsRaw;
+  }
+  
+  return navItemsRaw.filter(item => {
+    if (item.path === '/admin/dashboard') return true;
+    if (role === 'admin_cities' && item.path === '/admin/cities') return true;
+    if (role === 'admin_landmarks' && item.path === '/admin/landmarks') return true;
+    if (role === 'admin_visitors' && item.path === '/admin/visitors') return true;
+    if (role === 'admin_report' && item.path === '/admin/report') return true;
+    if (role === 'admin_messages' && item.path === '/admin/messages') return true;
+    return false;
+  });
+});
+
 const localizedNavItems = computed(() =>
-  navItemsRaw.map(item => ({
+  allowedNavItems.value.map(item => ({
     ...item,
     label: t(item.labelKey)
   }))

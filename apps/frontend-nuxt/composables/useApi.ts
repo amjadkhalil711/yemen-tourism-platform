@@ -108,6 +108,16 @@ const invalidateResponseCacheForMutation = (path: string) => {
     return;
   }
 
+  if (normalizedPath.startsWith("/contact-messages")) {
+    clearResponseCacheByMatch((cacheKey) => cacheKey.includes(":GET:/contact-messages"));
+    return;
+  }
+
+  if (normalizedPath.startsWith("/admin/users")) {
+    clearResponseCacheByMatch((cacheKey) => cacheKey.includes(":GET:/admin/users"));
+    return;
+  }
+
   if (/^\/landmarks\/[^/]+\/views$/.test(normalizedPath)) {
     clearResponseCacheByMatch((cacheKey) => cacheKey.includes(":GET:/stats/overview:"));
     return;
@@ -275,6 +285,16 @@ export const useApi = () => {
       request<{ message: string }>(`/landmarks/${encodePathSegment(id)}/views`, { method: "POST" }),
     submitContact: (payload: { name: string; email: string; phone?: string | null; subject: string; message: string }) =>
       request<{ data: { accepted: boolean }; message: string }>("/contact", { method: "POST", body: payload }),
+    listContactMessages: (query: Record<string, string | number> = {}, options: ReadRequestOptions = {}) =>
+      request<ApiPaginated<ApiContactMessage>>("/contact-messages", { query, dedupe: true, ...options }),
+    deleteContactMessage: (id: number | string) =>
+      request<void>(`/contact-messages/${encodePathSegment(id)}`, { method: "DELETE" }),
+    listAdmins: (options: ReadRequestOptions = {}) =>
+      request<{ data: ApiUser[] }>("/admin/users", { dedupe: true, ...options }),
+    createAdmin: (payload: Partial<ApiUser> & { password?: string }) =>
+      request<{ data: ApiUser }>("/admin/users", { method: "POST", body: payload }),
+    deleteAdmin: (id: number | string) =>
+      request<void>(`/admin/users/${encodePathSegment(id)}`, { method: "DELETE" }),
     statsOverview: (options: ReadRequestOptions = {}) =>
       request<{ data: ApiStatsOverview }>("/stats/overview", { dedupe: true, ...options })
   };

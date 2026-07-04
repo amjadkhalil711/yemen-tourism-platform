@@ -32,6 +32,30 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Gate::define('manage-content', function (User $user): bool {
+            return str_starts_with((string) $user->role, 'admin');
+        });
+
+        Gate::define('manage-cities', function (User $user): bool {
+            return in_array($user->role, ['admin', 'admin_cities']);
+        });
+
+        Gate::define('manage-landmarks', function (User $user): bool {
+            return in_array($user->role, ['admin', 'admin_landmarks']);
+        });
+
+        Gate::define('view-visitors', function (User $user): bool {
+            return in_array($user->role, ['admin', 'admin_visitors']);
+        });
+
+        Gate::define('view-reports', function (User $user): bool {
+            return in_array($user->role, ['admin', 'admin_report']);
+        });
+
+        Gate::define('manage-messages', function (User $user): bool {
+            return in_array($user->role, ['admin', 'admin_messages']);
+        });
+
+        Gate::define('manage-admins', function (User $user): bool {
             return $user->role === 'admin';
         });
 

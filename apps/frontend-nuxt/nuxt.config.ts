@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       siteUrl: "http://localhost:3000",
-      apiBase: "http://localhost:8000/api/v1",
+      apiBase: "http://127.0.0.1:8000/api/v1",
       apiTimeoutMs: 15000,
       apiRetryEnabled: true,
       apiRetryMaxAttempts: 3,

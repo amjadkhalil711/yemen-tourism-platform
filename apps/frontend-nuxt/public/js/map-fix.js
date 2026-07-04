@@ -48,7 +48,9 @@ function initGoogleMapsButtons() {
                 console.log(`فتح خرائط جوجل للمعلم: ${name} في الإحداثيات: ${lat}, ${lng}`);
 
                 if (landmarkId && window.PT_API_BASE !== false) {
-                    const API_BASE = (window.PT_API_BASE || localStorage.getItem('pt_api_base') || 'http://localhost:8000/api/v1').replace(/\/+$/, '');
+                    const API_BASE = String(window.PT_API_BASE || localStorage.getItem('pt_api_base') || 'http://127.0.0.1:8000/api/v1')
+                        .replace('http://localhost:8000', 'http://127.0.0.1:8000')
+                        .replace(/\/+$/, '');
                     fetch(`${API_BASE}/landmarks/${landmarkId}/views`, {
                         method: 'POST',
                         headers: { 'Accept': 'application/json' }

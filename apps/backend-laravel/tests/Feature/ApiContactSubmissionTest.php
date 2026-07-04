@@ -30,6 +30,14 @@ class ApiContactSubmissionTest extends TestCase
                 'data' => ['accepted'],
                 'request_id',
             ]);
+
+        $this->assertDatabaseHas('contact_messages', [
+            'name' => 'Visitor Name',
+            'email' => 'visitor@example.com',
+            'phone' => '+967734864275',
+            'subject' => 'Partnership inquiry',
+            'message' => 'I would like to discuss tourism platform collaboration.',
+        ]);
     }
 
     public function test_contact_submission_requires_valid_payload(): void

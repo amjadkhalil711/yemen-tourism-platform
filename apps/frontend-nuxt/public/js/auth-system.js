@@ -14,7 +14,10 @@ window.initAuthSystem = function() {
         REGISTER_ERR: '\u0641\u0634\u0644 \u0627\u0644\u062a\u0633\u062c\u064a\u0644. \u062a\u0623\u0643\u062f \u0645\u0646 \u0627\u0644\u0628\u064a\u0627\u0646\u0627\u062a \u0623\u0648 \u062d\u0627\u0648\u0644 \u0644\u0627\u062d\u0642\u064b\u0627.'
     };
 
-    const API_BASE = (window.PT_API_BASE || localStorage.getItem('pt_api_base') || 'http://localhost:8000/api/v1').replace(/\/+$/, '');
+    const normalizeApiBase = (value) => String(value || 'http://127.0.0.1:8000/api/v1')
+        .replace('http://localhost:8000', 'http://127.0.0.1:8000')
+        .replace(/\/+$/, '');
+    const API_BASE = normalizeApiBase(window.PT_API_BASE || localStorage.getItem('pt_api_base'));
     let isUserAuthenticated = localStorage.getItem('pt_user_auth') === 'true';
     let pendingMapElement = null;
 
@@ -98,8 +101,14 @@ window.initAuthSystem = function() {
         if (pendingMapElement) {
             const toClick = pendingMapElement;
             pendingMapElement = null;
-            setTimeout(() => toClick.click(), 300);
+            requestAnimationFrame(() => toClick.click());
         }
+    }
+
+    function syncServerSession(payload, name, email) {
+        persistUserSession(payload, name, email);
+        updateSidebarAuth();
+        saveUserForAdminPanel(name, email);
     }
 
     window.updateSidebarAuth = function() {
@@ -189,25 +198,14 @@ window.initAuthSystem = function() {
             const email = document.getElementById('auth-email')?.value?.trim();
             if (!name || !email) return;
 
-            const userAuthForm = e.target;
-            const submitBtn = userAuthForm.querySelector('button[type="submit"]');
-            if (submitBtn) submitBtn.disabled = true;
+            completeLoginFlow(name, email, null);
+            if(window.showToast) window.showToast(AR.REGISTER_OK, 'success');
 
-            try {
-                const payload = await loginUserViaApi(name, email);
-                completeLoginFlow(name, email, payload);
-                if(window.showToast) window.showToast(AR.REGISTER_OK, 'success');
-            } catch (error) {
-                const isOffline = !navigator.onLine || !error?.isApiError;
-                if (isOffline) {
-                    completeLoginFlow(name, email, null);
+            loginUserViaApi(name, email)
+                .then((payload) => syncServerSession(payload, name, email))
+                .catch(() => {
                     if(window.showToast) window.showToast(AR.REGISTER_FALLBACK, 'error');
-                } else {
-                    if(window.showToast) window.showToast(error.message || AR.REGISTER_ERR, 'error');
-                }
-            } finally {
-                if (submitBtn) submitBtn.disabled = false;
-            }
+                });
         }
     });
 
